@@ -1,12 +1,17 @@
 ---
 Demo:
-    title: 'Pengaturan pengguna Azure Active Directory'
-    module: 'Modul 2 Pelajaran 1: Menjelaskan kemampuan Microsoft Identity dan solusi manajemen akses: Menjelajahi jenis layanan dan identitas Microsoft Azure AD'
+  title: Pengaturan pengguna Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 755c16992ea1b9a626850507dbebf270dbe7c0de
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893945"
 ---
+# <a name="demo-azure-active-directory-user-settings"></a>Demo: Pengaturan pengguna Azure Active Directory
 
-# Demo: Pengaturan pengguna Azure Active Directory
-
-### Skenario demo
+### <a name="demo-scenario"></a>Skenario demo
 
 Dalam demo ini, Anda akan mengakses Azure Active Directory dan mempelajari berbagai pengaturan bagi pengguna yang ada.
 
@@ -36,10 +41,10 @@ Dalam demo ini, Anda akan mengakses Azure Active Directory dan mempelajari berba
 
 1. Dari panel navigasi kiri, pilih **Sign-ins**.  Di sini, Anda dapat melihat aktivitas masuk pengguna ini.  Anda mungkin tidak melihat apa pun untuk pengguna ini, karena dia belum masuk.
 
-1. Pilih **X** di pojok kanan atas halaman. Ini mengembalikan Anda ke daftar pengguna.  Sebelum menutup daftar pengguna, Anda dapat menyoroti bahwa MFA ditampilkan di bagian atas halaman.  Pilih **Multi-Factor Authentication**.  Ini membuka jendela browser baru.  Di sini, Anda dapat memilih MFA secara massal untuk pengguna.  Ini adalah salah satu cara agar Anda dapat mengaktifkan MFA untuk pengguna.  Sebenarnya, kami akan menunjukkan lebih banyak tentang MFA dalam konteks Akses bersyarat yang menyediakan kontrol MFA yang lebih terperinci.  Tutup tab browser untuk Autentikasi multifaktor.
+1. Pilih **X** di pojok kanan atas halaman. Ini mengembalikan Anda ke daftar pengguna.  Sebelum menutup daftar pengguna, Anda dapat menyoroti bahwa MFA ditampilkan di bagian atas halaman.  Pilih **autentikasi multifaktor**.  Ini akan membuka jendela browser baru.  Di sini, Anda dapat memilih MFA secara massal untuk pengguna.  Ini adalah salah satu cara agar Anda dapat mengaktifkan MFA untuk pengguna.  Sebenarnya, kami akan menunjukkan lebih banyak tentang MFA dalam konteks Akses bersyarat yang menyediakan kontrol MFA yang lebih terperinci.  Tutup tab browser untuk Autentikasi multifaktor.
 
 1. Pilih **X** di pojok kanan atas halaman. Ini mengembalikan Anda ke halaman utama untuk penyewa Contoso.
 
-### Tinjauan
+### <a name="review"></a>Tinjau
 
 Dalam demo ini, Anda telah menelusuri panduan pengaturan pengguna yang ada termasuk grup tempat pengguna dapat ditetapkan, ketersediaan peran, dan penetapan lisensi pengguna.
