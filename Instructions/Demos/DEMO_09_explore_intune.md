@@ -1,19 +1,23 @@
 ---
 Demo:
-    title: 'Microsoft Intune'
-    module: 'Modul 3 Pelajaran 6: Menjelaskan kemampuan solusi keamanan Microsoft: Menjelaskan keamanan titik akhir dengan Microsoft Intune'
+  title: Microsoft Intune
+  module: 'Module 3 Lesson 6: Describe the capabilities of Microsoft security solutions: Describe endpoint security with Microsoft Intune'
+ms.openlocfilehash: c60c8a5ba3b30213b4055389fa79a379e69d99a7
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894084"
 ---
+# <a name="demo-microsoft-intune"></a>Demo: Microsoft Intune
 
+### <a name="demo-scenario"></a>Skenario demo
 
-# Demo: Microsoft Intune
-
-### Skenario demo
-
-Dalam demo ini, Anda akan mempelajari Microsoft Intune di Microsoft Endpoint Manager. Catatan: untuk penyewa yang disediakan ALH, tidak ada titik akhir atau perangkat yang dikonfigurasi sebelumnya, jadi panduan ini tidak akan menampilkan informasi titik akhir yang sebenarnya. Panduan ini hanya berfungsi untuk memandu pelajar tentang informasi yang akan tersedia dan tempat menemukan informasi tersebut.  Untuk panduan lebih selengkapnya, lihat video (<https://www.microsoft.com/id-id/videoplayer/embed/RE4LTIu>) di konten Learn terkait.
+Dalam demo ini, Anda akan mempelajari Microsoft Intune di Microsoft Endpoint Manager. Catatan: untuk penyewa yang disediakan ALH, tidak ada titik akhir atau perangkat yang dikonfigurasi sebelumnya, jadi panduan ini tidak akan menampilkan informasi titik akhir yang sebenarnya. Panduan ini hanya berfungsi untuk memandu pelajar tentang informasi yang akan tersedia dan tempat menemukan informasi tersebut.  Untuk panduan lebih detail, lihat video (<https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu>) di konten Learn terkait.
 
 
 
-#### Demo: Menjelajahi Microsoft Intune di Microsoft Endpoint Manager
+#### <a name="demo-explore-microsoft-intune-in-microsoft-endpoint-manager"></a>Demo: Menjelajahi Microsoft Intune di Microsoft Endpoint Manager
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.  Anda seharusnya sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin Anda.
 
@@ -24,12 +28,12 @@ Dalam demo ini, Anda akan mempelajari Microsoft Intune di Microsoft Endpoint Man
 1. Dari panel navigasi sebelah kiri, pilih **Dashboard** untuk menampilkan detail keseluruhan perangkat dan aplikasi klien di penyewa Intune Anda.
 
 1. Dari panel navigasi sebelah kiri, pilih **Devices** untuk menampilkan detail perangkat yang terdaftar di penyewa Intune Anda. Panel Devices - Overview memiliki beberapa tab yang memungkinkan Anda melihat ringkasan status dan peringatan berikut:
-    1. **Enrollment status** - Meninjau detail perangkat yang terdaftar di Intune berdasarkan platform dan kegagalan pendaftaran.
+    1. **Status pendaftaran** - Tinjau detail tentang perangkat terdaftar dengan Intune menurut platform dan kegagalan pendaftaran.
     
-    1. **Enrollment alerts** - Menemukan detail selengkapnya tentang perangkat yang belum ditetapkan berdasarkan platform.
-    1. **Compliance status** - Meninjau status kepatuhan berdasarkan perangkat, kebijakan, setelan, ancaman, dan perlindungan. Selain itu, panel ini menyediakan daftar perangkat tanpa kebijakan kepatuhan.
-    1. **Configuration status** - Meninjau status konfigurasi profil perangkat, serta penyebaran profil., dan
-    1. **Software update status** - Melihat status penyebaran secara visual untuk semua perangkat dan pengguna.
+    1. **Peringatan pendaftaran** - Temukan detail selengkapnya tentang perangkat yang belum ditetapkan berdasarkan platform.
+    1. **Status kepatuhan** - Tinjau status kepatuhan berdasarkan perangkat, kebijakan, pengaturan, ancaman, dan perlindungan. Selain itu, panel ini menyediakan daftar perangkat tanpa kebijakan kepatuhan.
+    1. **Status konfigurasi** - Tinjau status konfigurasi profil perangkat, serta penyebaran profil., dan
+    1. **Status pembaruan perangkat lunak** - Lihat kontrol status penyebaran untuk semua perangkat dan untuk semua pengguna.
 
 1. Dari panel Devices - Overview, pilih **Conditional Access** untuk menampilkan detail kebijakan akses.
 
@@ -38,8 +42,8 @@ Dalam demo ini, Anda akan mempelajari Microsoft Intune di Microsoft Endpoint Man
 1. Dari panel navigasi sebelah kiri, pilih **Devices**, lalu **All devices** untuk menampilkan detail perangkat yang terdaftar sebagai penyewa Intune Anda.  Meskipun tidak ada perangkat yang terdaftar, tabel ini akan menampilkan detail penting tentang kepatuhan, versi OS, dan tanggal check-in terakhir.
 
 1. Dari panel navigasi, pilih **Apps** untuk menampilkan ringkasan status aplikasi. Ada dua tab yang memungkinkan Anda melihat ringkasan status berikut:
-    1. **Installation status** - Melihat kegagalan penginstalan teratas menurut perangkat, serta aplikasi dengan kegagalan penginstalan.
-    1. **App protection policy status** - Menemukan detail pengguna yang ditetapkan ke kebijakan perlindungan aplikasi, serta pengguna yang ditandai.
+    1. **Status penginstalan** - Lihat kegagalan penginstalan teratas berdasarkan perangkat, serta aplikasi dengan kegagalan penginstalan.
+    1. **Status kebijakan perlindungan aplikasi** - Temukan detail tentang pengguna yang ditetapkan ke kebijakan perlindungan aplikasi, serta pengguna yang ditandai bendera.
 
 1. Dari panel Apps - Overview, pilih **All apps** untuk melihat daftar aplikasi yang telah ditambahkan ke Intune.
 
@@ -51,6 +55,6 @@ Dalam demo ini, Anda akan mempelajari Microsoft Intune di Microsoft Endpoint Man
 
 1. Dari panel navigasi sebelah kiri, pilih **MTroubleshooting + support**, lalu **Troubleshoot** untuk memeriksa detail status pada pengguna tertentu.
 
-#### Tinjauan
+#### <a name="review"></a>Tinjau
 
 Dalam demo ini Anda menjelajahi Microsoft Intune di Microsoft Endpoint Manager.

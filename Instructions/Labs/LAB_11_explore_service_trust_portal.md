@@ -1,25 +1,30 @@
 ---
 lab:
-    title: 'Menjelajahi Service Trust Portal'
-    module: 'Modul 4 Pelajaran 1: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan kemampuan manajemen kepatuhan di Microsoft'
+  title: Menjelajahi Service Trust Portal
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 11c5c8116200c89ae00e9df34f3c7a0d0da1cd54
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893920"
 ---
+# <a name="lab-explore-the-service-trust-portal"></a>Lab: Menjelajahi Service Trust Portal
 
-# Lab: Menjelajahi Service Trust Portal
-
-## Skenario lab
+## <a name="lab-scenario"></a>Skenario lab
 
 Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Trust Portal. Anda juga akan mengunjungi Pusat Kepercayaan dan membuka enam prinsip privasi utama.
 
 **Perkiraan Waktu**: 10-15 menit
 
 
-#### Tugas 1: Dalam tugas ini Anda akan mempelajari Service Trust Portal dan berbagai jenis konten yang tersedia, Anda akan mempelajari cara mengakses laporan, dan cara menyimpan laporan ke pustaka. 
+#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Tugas 1: Dalam tugas ini Anda akan mempelajari Service Trust Portal dan berbagai jenis konten yang tersedia, Anda akan mempelajari cara mengakses laporan, dan cara menyimpan laporan ke pustaka. 
 
 1. Buka Microsoft Edge.
 
-1. Di bilah alamat, masukkan **https://aka.ms/STP**.  Hal ini akan mengarahkan Anda ke halaman arahan untuk Service Trust Portal. Service Trust Portal berisi detail tentang penerapan kontrol dan proses Microsoft yang melindungi layanan cloud kami serta data pelanggan di dalamnya. 
+1. Di bilah alamat, masukkan **https://aka.ms/STP** .  Hal ini akan mengarahkan Anda ke halaman arahan untuk Service Trust Portal. Service Trust Portal berisi detail tentang penerapan kontrol dan proses Microsoft yang melindungi layanan cloud kami serta data pelanggan di dalamnya. 
 
-1. Untuk mengakses beberapa sumber daya di Service Trust Portal, Anda harus masuk sebagai pengguna yang diautentikasi dengan akun layanan cloud Microsoft Anda dan meninjau serta menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan. Di sudut kanan atas halaman arahan untuk Service Trust Portal, Anda akan melihat opsi untuk Masuk.  **Sign in**, menggunakan kredensial admin Anda dan, jika diminta, pilih **Agree** untuk menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan.
+1. Untuk mengakses beberapa sumber daya di Service Trust Portal, Anda harus masuk sebagai pengguna yang diautentikasi dengan akun layanan cloud Microsoft Anda dan meninjau serta menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan. Di sudut kanan atas halaman arahan untuk Portal Kepercayaan Layanan, Anda akan melihat opsi untuk Masuk.  **Masuk**, menggunakan kredensial administrator Anda dan, jika diminta, pilih **Setuju** untuk menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan.
 
 1. Gulir ke bawah pada halaman dan perhatikan tautan ke Laporan audit, Dokumen & Sumber Daya, dan lainnya.  Pilih **View all Audit Reports**.
 
@@ -29,7 +34,7 @@ Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Tr
 
 1. Anda akan melihat daftar panjang laporan ISO yang tersedia, sehingga Anda memiliki opsi untuk memfilter berdasarkan rentang tanggal serta Jenis Dokumen, Layanan Cloud, dan Industri.  Dalam hal ini, Anda mencari laporan ISO yang tersedia untuk Azure DevOps.  Pilih Layanan Cloud dan dari menu tarik-turun, pilih Azure DevOps (atau VSTS).  Hasilnya adalah dua dokumen.
 
-1. Anda memiliki opsi untuk mengunduh atau Simpan ke semua Pustaka atau dokumen individu.  Dalam hal ini, Anda hanya ingin menyimpan dokumen pertama.  Pilih **ellipses (…)**, lalu pilih **Save to Library**.  Anda akan diminta untuk berlangganan dokumen, pilih **Confirm**.
+1. Anda memiliki opsi untuk mengunduh atau Simpan ke semua Pustaka atau dokumen individu.  Dalam hal ini, Anda hanya ingin menyimpan dokumen pertama.  Pilih **ellipses (…)** , lalu pilih **Save to Library**.  Anda akan diminta untuk berlangganan dokumen, pilih **Confirm**.
 
 1. Jendela pop-up mungkin muncul dengan opsi menerima pemberitahuan email saat dokumen yang disimpan ke pustaka Anda diperbarui.  Dalam hal ini, Anda tidak perlu menerima pemberitahuan pembaruan apa pun, jadi biarkan default dan pilih **Save**.  Dokumen masih disimpan ke pustaka Anda.
 
@@ -41,7 +46,7 @@ Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Tr
 
 1. Anda dapat memilih dari kategori yang berbeda.  Termasuk Laporan Penilaian GRC, Panduan Kepatuhan, dan banyak lagi.  Seperti tugas sebelumnya, Anda dapat memfilter daftar dokumen yang ditampilkan dan dapat memilih dokumen untuk diunduh atau disimpan ke pustaka.
 
-#### Tugas 2: Dalam tugas ini Anda akan mengunjungi Pusat Kepercayaan dan membuka enam prinsip privasi utama Microsoft.
+#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Tugas 2: Dalam tugas ini Anda akan mengunjungi Pusat Kepercayaan dan membuka enam prinsip privasi utama Microsoft.
 
 1. Dari bagian atas halaman Portal Kepercayaan Layanan, pilih **Trust Center**, lalu pilih **Home**. Hal ini akan membuka tab browser baru yang mengarahkan Anda ke Pusat Kepercayaan tempat Anda dapat menemukan informasi selengkapnya tentang keamanan, kepatuhan, dan privasi di Microsoft Cloud.
 
@@ -55,6 +60,6 @@ Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Tr
 
 1. Tutup jendela browser untuk keluar dari Service Trust Portal dan Pusat Kepercayaan.
 
-#### Tinjauan
+#### <a name="review"></a>Tinjau
 
 Dalam lab ini, Anda telah mempelajari beberapa opsi yang tersedia di Service Trust Portal, cara mengakses laporan, dan cara menggunakan Pustaka Saya guna menyimpan dokumen untuk ditinjau nantinya.  Selain itu, Anda juga telah mengunjungi Pusat Kepercayaan untuk mengakses dan meninjau prinsip Privasi Microsoft.

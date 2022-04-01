@@ -1,16 +1,21 @@
 ---
 Demo:
-    title: 'Pengaturan ulang kata sandi mandiri Azure Active Directory'
-    module: 'Modul 2 Pelajaran 2: Menjelaskan kemampuan Microsoft Identity dan solusi manajemen akses: Menjelaskan metode autentikasi lain dari Microsoft Azure AD'
+  title: Pengaturan ulang kata sandi mandiri Azure Active Directory
+  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
+ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894148"
 ---
+# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demo: Pengaturan ulang kata sandi mandiri Azure Active Directory (SSPR)
 
-# Demo: Pengaturan ulang kata sandi mandiri Azure Active Directory (SSPR)
-
-### Skenario demo
+### <a name="demo-scenario"></a>Skenario demo
 
 Dalam demo ini, Anda akan mempelajari berbagai pengaturan yang terkait dengan pengaktifan pengaturan ulang kata sandi mandiri.
 
-1. Buka tab Contoso – Microsoft Azure yang terbuka di browser Anda. Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan pilih Azure Active Directory. Anda harus masuk sebagai admin di portal Microsoft Azure, jika tidak, masuk kembali.
+1. Buka tab Contoso – Microsoft Azure yang terbuka di browser Anda. Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan pilih Azure Active Directory. Anda harus masuk sebagai admin di portal Microsoft Azure. Jika tidak, masuk kembali.
 
 1. Dari panel navigasi kiri, pilih Atur ulang kata sandi.
 
@@ -29,13 +34,13 @@ Dalam demo ini, Anda akan mempelajari berbagai pengaturan yang terkait dengan pe
 
 1. Dari panel navigasi kiri Atur ulang kata sandi, pilih Notifikasi.  Jelaskan dua pengaturan tersebut – arahkan mouse ke ikon informasi untuk melihat deskripsi.
 
-1. Perhatikan bagaimana Panel navigasi atur ulang kata sandi juga menyertakan opsi untuk melihat log audit dan Penggunaan & wawasan.
+1. Perhatikan bagaimana panel navigasi pengaturan ulang kata sandi juga menyertakan opsi untuk melihat log audit serta Penggunaan & wawasan.
 
 1. Pilih X di sudut kanan atas halaman. Ini mengembalikan Anda ke halaman utama untuk penyewa Contoso.
 
 1. Biarkan halaman browser ini terbuka untuk demo berikutnya.
 
-#### Tinjauan
+#### <a name="review"></a>Tinjau
 
 Dalam demo ini, Anda menunjukkan pengaturan yang terkait dengan pengaturan ulang kata sandi mandiri. 
 

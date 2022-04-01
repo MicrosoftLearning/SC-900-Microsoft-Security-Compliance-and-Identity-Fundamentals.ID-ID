@@ -1,27 +1,31 @@
 ---
 lab:
-    title: 'Mempelajari pusat kepatuhan Microsoft 365 & Pengelola Kepatuhan'
-    module: 'Modul 4 Pelajaran 1: Menjelaskan kemampuan solusi kepatuhan Microsoft: Menjelaskan kemampuan manajemen kepatuhan di Microsoft'
+  title: Mempelajari pusat kepatuhan & Pengelola Kepatuhan Microsoft 365
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 0d3a68b8f67bf6b00dcda10d301ece99dfc0b686
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893925"
 ---
+# <a name="lab-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Lab: Mempelajari pusat kepatuhan & Pengelola Kepatuhan Microsoft 365
 
-
-# Lab: Mempelajari pusat kepatuhan Microsoft 365 & Pengelola Kepatuhan
-
-## Skenario lab
+## <a name="lab-scenario"></a>Skenario lab
 Di lab ini, Anda akan menjelajahi halaman beranda pusat kepatuhan Microsoft 365 dan cara kemampuan Pengelola kepatuhan dapat membantu organisasi meningkatkan kondisi kepatuhan mereka.
 
 
 **Perkiraan Waktu**: 15-20 menit
 
-#### Tugas 1: Mempelajari halaman beranda pusat kepatuhan Microsoft 365 dan cara menyesuaikan tampilan kartu dan panel navigasi.
+#### <a name="task-1-explore-the-microsoft-365-compliance-center-home-page-and-learn-to-customize-the-card-view-and-the-navigation-panel"></a>Tugas 1: Mempelajari halaman beranda pusat kepatuhan Microsoft 365 dan cara menyesuaikan tampilan kartu dan panel navigasi.
 
-1.	Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
+1.  Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
 1. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (di mana ZZZZZZ adalah ID penyewa unik Anda yang diberikan oleh penyedia host lab), lalu pilih **Next**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     
-    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Sign in**.
-    1. Ketika diminta untuk tetap masuk, pilih **Yes**. Hal ini akan mengarahkan Anda ke halaman pusat admin Microsoft 365.
+    1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Ketika diminta untuk tetap masuk, pilih **Yes**. Ini akan mengarahkan Anda ke halaman pusat admin Microsoft 365.
 
 1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
 
@@ -31,29 +35,29 @@ Di lab ini, Anda akan menjelajahi halaman beranda pusat kepatuhan Microsoft 365 
 1. Menempatkan kursor mousedi atas bilah judul kartu apa pun akan mengubah bilah judul menjadi warna abu-abu.  Saat Anda melihat kursor berubah menjadi bentuk salib, Anda dapat memindahkan kartu ke lokasi yang Anda inginkan.
 1. Di bilah judul setiap kartu, Anda juga akan melihat elipsis yang memberikan tindakan yang dapat Anda lakukan.  Pilih elips pada katalog Solusi dan pilih **Remove**.
 1. Anda dapat menambahkan kartu, dengan memilih **+ Add cards**.  Jendela Tambahkan kartu ke beranda Anda akan terbuka.  Arahkan kursor mouse di atas kartu Katalog solusi yang ditampilkan di jendela ini dan seret ke lokasi di layar beranda tempat Anda ingin menempatkan kartu.
-1. Dari panel navigasi sebelah kiri halaman beranda pusat kepatuhan Microsoft 365, perhatikan bahwa hanya Solusi yang ditampilkan di bagian Katalog.  Dari panel navigasi sebelah kiri, pilih **[...Show all]**.  Perhatikan bagaimana semua solusi tambahan muncul di bawah bagian solusi.  
+1. Dari panel navigasi sebelah kiri halaman beranda pusat kepatuhan Microsoft 365, perhatikan bahwa hanya Solusi yang ditampilkan di bagian Katalog.  Dari panel navigasi kiri, pilih **...Tampilkan semua**.  Perhatikan bagaimana semua solusi tambahan muncul di bawah bagian solusi.  
 1. Pilih **Show less** untuk menyembunyikan.
-1. Sebagai admin kepatuhan, mungkin ada serangkaian solusi yang Anda kelola untuk organisasi kami dan dengan begitu, Anda mungkin ingin solusi itu saja yang tercantum di panel navigasi yang Anda lihat. Untuk menyesuaikan dengan preferensi Anda, pilih **Customize navigation**.  
-1. Dari jendela berlabel Kustomisasi panel navigasi, perhatikan bahwa Anda dapat memilih item yang ingin dimunculkan di panel navigasi dan menghapus pilihan item yang tidak ingin terlihat. Untuk keperluan lab ini, biarkan semua item tetap dipilih dan tekan **Save** di bagian bawah jendela.  
+1. Sebagai administrator kepatuhan, mungkin ada serangkaian solusi yang Anda kelola untuk organisasi kami dan karena itu, Anda mungkin ingin hanya memiliki solusi yang tercantum di panel navigasi yang Anda lihat. Untuk menyesuaikan dengan preferensi Anda, pilih **Customize navigation**.  
+1. Dari jendela berlabel Sesuaikan panel navigasi Anda, perhatikan cara Anda dapat memilih item yang ingin Anda tampilkan di panel navigasi dan membatalkan pilihan item yang tidak ingin Anda lihat. Untuk tujuan lab ini, tetap pilih semua item dan tekan **Simpan** di bagian bawah jendela.  
 1. Biarkan tab browser terbuka.
 
-#### Tugas 2: Pelajari tentang kondisi kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
+#### <a name="task-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Tugas 2: Pelajari tentang kondisi kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
 1. Dari panel navigasi kiri pusat kepatuhan Microsoft 365, pilih **Compliance Manager**.  Atau, Anda dapat memilih Pengelola Kepatuhan pada bilah judul kartu Pengelola Kepatuhan.
 
-1. Dari bagian atas halaman Pengelola Kepatuhan, pastikan **Overview** terpilih (digarisbawahi). Gulir ke bawah untuk melihat semua informasi yang tersedia di halaman  Informasi di halaman ini mencakup skor kepatuhan Anda, poin yang Anda capai, dan poin yang berhasil dicapai oleh Microsoft.   Anda akan melihat Tindakan perbaikan penting, Solusi yang memengaruhi skor Anda, dan perincian skor kepatuhan menurut kategori atau penilaian.
+1. Dari bagian atas halaman Pengelola Kepatuhan, pastikan **Overview** terpilih (digarisbawahi). Gulir ke bawah untuk melihat semua informasi yang tersedia di halaman  Informasi di halaman ini mencakup skor kepatuhan Anda, poin yang Anda raih, dan poin yang dikelola Microsoft yang dicapai.   Anda akan melihat Tindakan perbaikan penting, Solusi yang memengaruhi skor Anda, dan perincian skor kepatuhan menurut kategori atau penilaian.
 
-1. Dari bagian atas halaman Ikhtisar, pilih **Improvement actions**.  Inilah beberapa tindakan yang dapat meningkatkan skor kepatuhan organisasi. Perhatikan bahwa seiring tindakan perbaikan dilakukan, poin dapat memerlukan waktu hingga 24 jam untuk memperbarui.  Perhatikan filter yang tersedia.
+1. Dari bagian atas halaman Ikhtisar, pilih **Improvement actions**.  Ini adalah tindakan yang dapat meningkatkan skor kepatuhan organisasi. Perhatikan bahwa saat tindakan peningkatan diambil, poin mungkin memerlukan waktu hingga 24 jam untuk diperbarui.  Perhatikan filter yang tersedia.
 
 1. Dari daftar tindakan perbaikan, pilih **Enable self-service password reset**.  Setiap tindakan perbaikan memiliki bagian ringkasan bersama dengan halaman detail tempat Anda dapat memilih implementasi, pengujian, standar terkait dan persyaratan peraturan, serta dokumen.
 
-1. Kaluar dari tindakan perbaikan ini dengan memilih **Improvement Actions** dari breadcrumb di bagian kiri atas halaman.  Sekarang Anda kembali ke halaman tindakan perbaikan.
+1. Keluar dari tindakan peningkatan ini dengan memilih **Tindakan Peningkatan** dari breadcrumb di kiri atas halaman.  Sekarang Anda kembali ke halaman tindakan perbaikan.
 
 1. Dari bagian atas halaman, pilih **Solutions**. Pada halaman ini Anda akan melihat bagaimana kontribusi solusi pada skor Anda dan peluang yang tersisa untuk perbaikan.
 
 1. Dari bagian atas halaman, pilih **Assessments**. Pada halaman ini Anda akan melihat Acuan Dasar Perlindungan Data.  Hal ini adalah penilaian default yang disediakan Microsoft di Pengelola Kepatuhan untuk acuan dasar perlindungan data Microsoft 365.  Penilaian dasar ini memiliki seperangkat kontrol untuk peraturan dan standar utama perlindungan data dan tata kelola data umum. Pengelola Kepatuhan menjadi lebih membantu saat membuat dan mengelola penilaian Anda sendiri untuk memenuhi kebutuhan khusus organisasi Anda.
 
-1. Pilih **Data Protection Baseline**.  Perhatikan informasi yang tersedia di tab progres.  Anda juga dapat melihat informasi di bagian Kontrol, tindakan perbaikan Anda, dan tindakan Microsoft.  
+1. Pilih **Data Protection Baseline**.  Perhatikan informasi yang tersedia di tab progres.  Anda juga dapat melihat informasi tentang Kontrol, , tindakan peningkatan Anda, dan tindakan Microsoft.  
 
 1. Dari bagian kiri atas halaman, di atasnya tertulis Penilaian (breadcrumb), pilih **Assessment** untuk kembali ke halaman penilaian.  
 
@@ -64,5 +68,5 @@ Di lab ini, Anda akan menjelajahi halaman beranda pusat kepatuhan Microsoft 365 
 1. Tutup tab browser yang terbuka.
 
 
-#### Tinjauan
+#### <a name="review"></a>Tinjau
 Dalam lab ini, Anda telah mempelajari halaman beranda pusat kepatuhan Microsoft 365 dan cara kemampuan Pengelola Kepatuhan dapat membantu organisasi memperbaiki postur kepatuhan mereka.
