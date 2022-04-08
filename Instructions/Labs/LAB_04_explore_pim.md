@@ -2,12 +2,12 @@
 lab:
   title: 'Menjelajahi tata kelola identitas di Microsoft Azure AD dengan Privileged Identity management. '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894009"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489235"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Menjelajahi tata kelola identitas di Microsoft Azure AD dengan Privileged Identity management.
 
@@ -50,9 +50,9 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 
 2. Dari panel navigasi sebelah kiri, pilih **Identity Governance**.
 
-3. Dari jendela utama, pastikan **Getting started** digarisbawahi, lalu pilih **Manage role assignments** di bagian tengah kanan layar.  Atau, dari panel navigasi sebelah kiri, di bagian Privileged Identity Management, pilih **Azure AD roles**.
+3. Dari panel navigasi sebelah kiri, di bagian Privileged Identity Management, pilih **Azure AD roles**.
 
-4. Sekarang Anda berada di jendela Mulai Cepat Privileged Identity Management.  Pilih **Manage Access**.
+4. Sekarang Anda berada di jendela Mulai Cepat Privileged Identity Management.  Pilih **Kelola**.
 
 5. Sekarang Anda berada di halaman Peran Contoso.  Di bilah pencarian, di bagian atas halaman, masukkan **user**.  Dari hasil pencarian, pilih **User Administrator**.
 
@@ -85,7 +85,7 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 19. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan pilih **Sign out**. Kemudian tutup semua jendela browser.
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tugas 3: Tugas 3:  Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke Portal Azure untuk mengakses kemampuan Privileged Identity Management dari Azure Active Directory untuk mengaktifkan tugas Anda sebagai administrator Pengguna.  Setelah diaktifkan, Anda akan membuat beberapa perubahan konfigurasi pada pengguna yang sudah ada. Catatan: Untuk tugas ini, Anda memerlukan akses ke perangkat seluler yang dapat Anda akses langsung dan dapat menerima pesan teks.
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tugas 3: Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke Portal Azure untuk mengakses kemampuan Privileged Identity Management dari Azure Active Directory untuk mengaktifkan tugas Anda sebagai administrator Pengguna.  Setelah diaktifkan, Anda akan membuat beberapa perubahan konfigurasi pada pengguna yang sudah ada. Catatan: Untuk tugas ini, Anda memerlukan akses ke perangkat seluler yang dapat Anda akses langsung dan dapat menerima pesan teks.
 
 1. Buka Microsoft Edge.  Di bilah alamat browser, masukkan **portal.azure.com**.
 
