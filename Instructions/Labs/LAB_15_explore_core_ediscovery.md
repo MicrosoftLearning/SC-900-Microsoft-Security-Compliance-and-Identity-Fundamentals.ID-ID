@@ -1,13 +1,13 @@
 ---
 lab:
   title: Mempelajari alur kerja Core eDiscovery
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: cb7b0e4c2d7b2ac980e829f24ebbdbb31965e2b8
-ms.sourcegitcommit: 965f24bd5f74be6d0841bf526259a5651af4fdf5
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "139253907"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614374"
 ---
 # <a name="lab-explore-the-core-ediscovery-workflow"></a>Lab: Mempelajari alur kerja Core eDiscovery
 
@@ -22,7 +22,7 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan C
  Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
 1. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab Anda), lalu pilih **Berikutnya**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**. Ini akan mengarahkan Anda ke halaman pusat admin Microsoft 365.
