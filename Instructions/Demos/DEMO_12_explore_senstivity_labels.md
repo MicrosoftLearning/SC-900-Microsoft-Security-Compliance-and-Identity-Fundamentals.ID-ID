@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Label sensitivitas di Microsoft 365
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894073"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614230"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>Demo: Label sensitivitas di Microsoft 365
 
@@ -32,7 +32,7 @@ Dalam demo ini, Anda akan menunjukkan kemampuan label sensitivitas.  Anda akan m
 
 1. Dari panel navigasi sebelah kiri, di bagian solusi, pilih **Information protection**.
 
-1. Dalam kotak informasi berwarna kuning, yang menunjukkan bahwa organisasi Anda belum mengaktifkan kemampuan untuk memproses konten di file Office online dengan label sensitivitas terenkripsi yang diterapkan dan disimpan di OneDrive dan SharePoint.  Pilih Turn on now.  Setelah Anda melakukan ini, mungkin akan ada penundaan pada pengaturan untuk menyebar melalui sistem.
+1. Kotak informasi berwarna kuning menunjukkan bahwa organisasi Anda belum mengaktifkan kemampuan untuk memproses konten di file Office online dengan label sensitivitas terenkripsi yang diterapkan dan disimpan di OneDrive dan SharePoint.  Pilih Turn on now.  Setelah Anda melakukan ini, mungkin akan ada penundaan pada pengaturan untuk menyebar melalui sistem.
 
 1. Pastikan bahwa tab **Labels** di bagian atas halaman dipilih (digarisbawahi).
 

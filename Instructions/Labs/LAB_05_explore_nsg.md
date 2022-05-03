@@ -2,12 +2,12 @@
 lab:
   title: Mempelajari Grup Keamanan Jaringan Azure (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 6921230c178c08c8a6868de49f2f0673a72127fc
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
+ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019271"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "141605424"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Lab: Menjelajahi Grup Keamanan Jaringan Azure (NSG)
 
@@ -21,25 +21,26 @@ Di lab ini, Anda akan mempelajari fungsi kelompok keamanan jaringan di Azure.  A
 1.  Buka Microsoft Edge.  Di bilah alamat, masukkan **portal.azure.com**.
 
 1. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab Anda), lalu pilih **Berikutnya**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
 
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 1. Pada pojok kiri atas layar, di sebelah yang bertuliskan Microsoft Azure klik ikon menu portal Tampilkan (tiga garis horizontal yang juga disebut sebagai ikon hamburger) lalu klik **All Services**.  
 1. Di jendela utama, pada Featured, klik Komputer Vitual.  Jika Anda tidak melihat Komputer virtual terdaftar, masukkan di bilah pencarian, lalu klik dari hasil pencarian.
-1. Di pojok kiri halaman, klik **+Create**, lalu klik **+Virtual machine**.
+1. Dari pojok kiri halaman, pilih **+Buat**, lalu klik **Mesin virtual Azure**.
 1. Di tab basics, isi informasi berikut ini (untuk yang tidak terdaftar, biarkan pengaturan default):
     1. Langganan: pastikan pengaturan default adalah Azure Pass – Sponsorship.
 
     1. Grup sumber daya: pilih **Buat baru** lalu di bidang Nama masukkan **LabsSC900**, lalu pilih **OK**.
     1. Nama mesin virtual: masukkan **SC900-WinVM**.
-    1. Gambar: dari menu drop-down, pilih **Windows 10 Pro, Versi 20H2 – Gen 1**.
-    1. Ukuran: pilih **lihat semua ukuran** dari menu drop-down dan pilih **B2s**, lalu tekan **Pilih** di bagian bawah halaman.
-    1. Nama pengguna:  Masukkan nama pengguna pilihan Anda.  Harap dicatat, karena Anda akan membutuhkannya untuk mengakses Mesin Virtual.
-    1. Kata sandi:  Masukkan kata sandi pilihan Anda.  Harap dicatat, karena Anda akan membutuhkannya untuk mengakses Mesin Virtual.
-    1. Port masuk publik: pilih **Tidak ada**.
-    1. Lisensi: pilih **Saya mengonfirmasi bahwa saya memiliki lisensi Windows 10 yang memenuhi syarat dengan hak hosting multi-penyewa**, sehingga tanda centang muncul di kotak.
-    1. Pilih **Selanjutnya:Disk**. 
+    1. Wilayah: jika bidang wilayah tidak diisi sebelumnya, pilih wilayah yang paling dekat dengan lokasi Anda.
+    3. Gambar: dari menu drop-down, pilih **Windows 10 Pro, Versi 20H2 – Gen 1**.
+    4. Ukuran: pilih **lihat semua ukuran** dari menu drop-down dan pilih **B2s**, lalu tekan **Pilih** di bagian bawah halaman.
+    5. Nama pengguna:  Masukkan nama pengguna pilihan Anda.  Harap dicatat, karena Anda akan membutuhkannya untuk mengakses Mesin Virtual.
+    6. Kata sandi:  Masukkan kata sandi pilihan Anda.  Harap dicatat, karena Anda akan membutuhkannya untuk mengakses Mesin Virtual.
+    7. Port masuk publik: pilih **Tidak ada**.
+    8. Lisensi: pilih **Saya mengonfirmasi bahwa saya memiliki lisensi Windows 10 yang memenuhi syarat dengan hak hosting multi-penyewa**, sehingga tanda centang muncul di kotak.
+    9. Pilih **Selanjutnya:Disk**. 
 1. Sekarang Anda berada di tab Disk untuk mengonfigurasi VM.  Biarkan semua pengaturan ke default dan pilih **Berikutnya: Jaringan >** .
 1. Sekarang Anda berada di tab Jaringan untuk mengonfigurasi VM.  Isi informasi berikut (untuk apa pun yang tidak terdaftar, biarkan pengaturan default):
     1. Kelompok keamanan jaringan NIC: pilih **Tidak ada**.  Catatan: alasan Anda memilih Tidak Ada pada langkah ini adalah karena kami ingin membawa Anda melalui langkah-langkah menyiapkan NSG dari awal, yang tercakup dalam tugas-tugas berikutnya.

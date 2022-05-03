@@ -1,13 +1,13 @@
 ---
 lab:
   title: Menjelajahi Azure Policy
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893936"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614422"
 ---
 # <a name="lab-explore-azure-policy"></a>Lab: Menjelajahi Azure Policy
 
@@ -33,7 +33,7 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Di bagian atas halaman, di bagian Essentials, Anda dapat melihat nama, deskripsi, dan informasi penting lainnya.  Baca deskripsi (arahkan kursor ke deskripsi dengan mouse). CATATAN: Bidang deskripsi merujuk ke Azure Security Center yang telah diganti namanya menjadi Microsoft Defender untuk Cloud.
 
-1. Perhatikan informasi yang disediakan oleh dasbor yang diperbarui untuk mencerminkan item yang dipilih, definisi inisiatif ASC Default.  Harap diingat bahwa definisi inisiatif adalah kumpulan definisi kebijakan yang disesuaikan untuk mencapai tujuan tunggal yang menyeluruh. Informasi dapat dilihat menurut grup, kebijakan, sumber daya yang tidak sesuai, atau kejadian.
+1. Perhatikan informasi yang disediakan oleh dasbor telah diperbarui untuk mencerminkan item yang dipilih, ASC Default. ASC Default ini adalah definisi inisiatif Azure Security Benchmark.  Harap diingat bahwa definisi inisiatif adalah kumpulan definisi kebijakan yang disesuaikan untuk mencapai tujuan tunggal yang menyeluruh. Informasi dapat dilihat menurut grup, kebijakan, sumber daya yang tidak sesuai, atau kejadian.
 
 1. Keluar dari halaman ASC dan kembali ke beranda kebijakan dengan memilih **X** di sudut kanan atas jendela.
 
@@ -69,7 +69,9 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Perhatikan nama tugas default.  Biarkan nama apa adanya dan dari bagian bawah halaman, pilih **Next**.
 
-1. Di bidang Nama tag, masukkan **Environment**, lalu pilih **Next**.  
+1. Di bidang Nama tag, masukkan **Environment**, lalu pilih **Next**. 
+
+1. Biarkan pengaturan remediasi default apa adanya, kemudian pilih **Berikutnya**. 
 
 1. Dalam pesan ketidakpatuhan, masukkan **An environment tag is required**, kemudian pilih **Next**. Catatan: pesan ini akan muncul sebagai alasan ketidakpatuhan untuk grup sumber daya yang dibuat sebelum penetapan kebijakan dan tidak memiliki tag Lingkungan.  Untuk grup sumber daya yang dibuat setelah kebijakan dibuat, pembuatan grup sumber daya akan ditolak jika tidak ada tag lingkungan.
 
@@ -97,11 +99,13 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Anda akan melihat bahwa telah tervalidasi (nama dan nilai tag bukan bidang wajib di wizard), lalu pilih **Create**.
 
-1. Anda akan melihat pesan kegagalan di bagian atas layar, “Failed to create the resource group. View error details”.  Pilih **View error details**. Kondisi yang merupakan bagian dari kebijakan Azure tidak terpenuhi sehingga pembuatan grup sumber daya diblokir, karena ketidakpatuhan. Catatan: Jika Anda tidak melihat pesan kegagalan dan grup sumber daya yang telah dibuat, hal itu karena kebijakan belum diterapkan.  Buka halaman Kebijakan untuk kebijakan yang Anda buat di tugas sebelumnya dan setelah kebijakan diterapkan, Anda akan melihat bahwa sumber daya tidak sesuai.  Halaman detail akan menyertakan pesan ketidakpatuhan.
+1. Anda akan melihat pesan kegagalan di bagian atas layar, “Failed to create the resource group. View error details”.  Pilih **View error details**. Kondisi yang merupakan bagian dari kebijakan Azure tidak terpenuhi sehingga pembuatan grup sumber daya diblokir, karena ketidakpatuhan. 
+
+    Catatan: Jika Anda tidak melihat pesan kegagalan dan grup sumber daya yang telah dibuat, hal itu karena kebijakan belum diterapkan.  Buka halaman Kebijakan untuk kebijakan yang Anda buat di tugas sebelumnya dan setelah kebijakan diterapkan, Anda akan melihat bahwa sumber daya tidak sesuai.  Halaman detail akan menyertakan pesan ketidakpatuhan. Jika Anda mendapatkan kesalahan, langkah-langkah berikut menunjukkan cara memulihkan penyebaran.
 
 1. Ringkasan kesalahan menunjukkan jenis kesalahan, "Resource ‘SC900-Labs’ was disallowed by policy."  Tutup jendela ini dengan memilih **X** di sudut kiri atas layar.
 
-1. Dari jendela Buat grup sumber daya, pilih **<Previous**.
+1. Dari jendela Buat grup sumber daya, pilih **Sebelumnya**.
 
 1. Anda kembali ke halaman Tag untuk Buat grup sumber daya.  Di bidang Nama masukkan Lingkungan dan di bidang Nilai, masukkan **SC900-Labs**, lalu pilih **Berikutnya: Tinjau + Buat >** .
 
