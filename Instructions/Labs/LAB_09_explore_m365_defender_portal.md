@@ -2,28 +2,30 @@
 lab:
   title: "'Mempelajari portal Pertahanan Microsoft 365'"
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614410"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557146"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Lab: 'Mempelajari portal Pertahanan Microsoft 365'
 
 ## <a name="lab-scenario"></a>Skenario lab
-Di lab ini, Anda akan mempelajari portal Pertahanan Microsoft 365 dengan menelusuri konten yang ditampilkan di halaman arahan. Anda juga akan mempelajari opsi pada panel navigasi yang menyediakan akses cepat ke fungsi yang merupakan bagian dari solusi Deteksi dan Respons Microsoft yang diperluas (XDR): Pertahanan Microsoft untuk Titik Akhir, dan Pertahanan Microsoft untuk Office 365 (email dan kolaborasi).  Terakhir, Anda juga akan mempelajari bagaimana Microsoft Secure Score dapat membantu organisasi memperbaiki kondisi keamanannya.
 
+Di lab ini, Anda akan mempelajari portal Pertahanan Microsoft 365 dengan menelusuri konten yang ditampilkan di halaman arahan. Anda juga akan mempelajari opsi pada panel navigasi yang menyediakan akses cepat ke fungsi yang merupakan bagian dari solusi Deteksi dan Respons Microsoft yang diperluas (XDR): Pertahanan Microsoft untuk Titik Akhir, dan Pertahanan Microsoft untuk Office 365 (email dan kolaborasi).  Terakhir, Anda juga akan mempelajari bagaimana Microsoft Secure Score dapat membantu organisasi memperbaiki kondisi keamanannya.
 
 **Perkiraan Waktu**: 10-15 menit
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>Tugas 1:  Mempelajari halaman arahan Pertahanan Microsoft 365.
+### <a name="task-1"></a>Tugas 1
+
+Mempelajari halaman arahan Pertahanan Microsoft 365.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
 1. Masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
-   
+
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**. Ini akan mengarahkan Anda ke halaman pusat admin Microsoft 365.
 
@@ -43,7 +45,9 @@ Di lab ini, Anda akan mempelajari portal Pertahanan Microsoft 365 dengan menelus
 
 1. Memilih judul kartu akan membawa Anda ke informasi tambahan untuk topik tersebut. Anda akan mempelajari hal ini di tugas berikutnya.  Biarkan jendela browser tetap terbuka
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Tugas 2: Dalam tugas ini, Anda akan mempelajari bagaimana Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.
+### <a name="task-2"></a>Tugas 2
+
+Dalam tugas ini, Anda akan mempelajari bagaimana Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.
 
 1. Dari halaman Selamat Datang di portal Pertahanan Microsoft 365, pilih **Microsoft Secure Score**, dari bilah judul kartu (teks akan berubah menjadi biru).  Atau, Anda dapat memilih **Secure score** dari panel navigasi sebelah kiri.
 
@@ -63,5 +67,6 @@ Di lab ini, Anda akan mempelajari portal Pertahanan Microsoft 365 dengan menelus
 
 1. Tutup halaman browser.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
+
 Di lab ini, Anda telah mempelajari portal Pertahanan Microsoft 365 dengan menelusuri konten yang ditampilkan di halaman arahan, Anda telah mempelajari opsi di panel navigasi yang menyediakan akses cepat ke fungsi yang merupakan bagian dari solusi Deteksi dan Respons Microsoft yang diperluas (XDR), Pertahanan Microsoft untuk Titik Akhir, dan Pertahanan Microsoft 365 (email dan kolaborasi).  Terakhir, Anda juga telah mempelajari bagaimana Microsoft Secure Score dapat membantu organisasi untuk memperbaiki kondisi keamanannya.

@@ -1,21 +1,22 @@
 ---
 Pre-Demo Setup:
   title: Persiapan Demo
-ms.openlocfilehash: b44b5fe0c5f01e8cb2364dc426c2ec3a2b1e7029
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893933"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557254"
 ---
 # <a name="pre-demo-setup"></a>Persiapan Pra-Demo
 
-### <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
+## <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
+
 Dalam tugas penyiapan ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
 
 1. Jika Anda memiliki jendela browser yang terbuka, sebaiknya tutup semua browser.
 
-1. Klik kanan pada ikon Microsoft Edge dan pilih **New InPrivate window** untuk membuka sesi Penjelajahan In-Private baru. Lainnya 
+1. Klik kanan pada ikon Microsoft Edge dan pilih **New InPrivate window** untuk membuka sesi Penjelajahan In-Private baru.
 
 1. Di bilah alamat, masukkan **www.microsoftazurepass.com**.  
 
@@ -33,6 +34,7 @@ Dalam tugas penyiapan ini, Anda akan menukarkan Azure pass menggunakan kredensia
 1. Biarkan tab browser di halaman beranda portal Azure terbuka, Anda akan kembali ke sana di demo berikutnya.
 
 ### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Penyiapan bagian 2 - Mengaktifkan log audit Microsoft 365
+
 Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini dan mungkin perlu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
@@ -59,5 +61,3 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microso
 ### <a name="review"></a>Tinjau
 
 Dalam penyiapan ini, Anda telah menukarkan Azure pass, menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Anda juga telah mengaktifkan kemampuan log audit di Microsoft 365.
-
-

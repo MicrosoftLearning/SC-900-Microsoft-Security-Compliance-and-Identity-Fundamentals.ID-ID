@@ -2,16 +2,16 @@
 Demo:
   title: Pengaturan ulang kata sandi mandiri Azure Active Directory
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894148"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557218"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demo: Pengaturan ulang kata sandi mandiri Azure Active Directory (SSPR)
 
-### <a name="demo-scenario"></a>Skenario demo
+## <a name="demo-scenario"></a>Skenario demo
 
 Dalam demo ini, Anda akan mempelajari berbagai pengaturan yang terkait dengan pengaktifan pengaturan ulang kata sandi mandiri.
 
@@ -40,7 +40,6 @@ Dalam demo ini, Anda akan mempelajari berbagai pengaturan yang terkait dengan pe
 
 1. Biarkan halaman browser ini terbuka untuk demo berikutnya.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
 
-Dalam demo ini, Anda menunjukkan pengaturan yang terkait dengan pengaturan ulang kata sandi mandiri. 
-
+Dalam demo ini, Anda menunjukkan pengaturan yang terkait dengan pengaturan ulang kata sandi mandiri.
