@@ -2,12 +2,12 @@
 lab:
   title: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 7a9ae15dda8636c3323afacc0f92fc630485cc64
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894017"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489271"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
 
@@ -65,7 +65,7 @@ Di lab ini, Anda sebagai admin akan menjalani proses pengaktifan pengaturan ulan
 
 2. Dari panel navigasi sebelah kiri, pilih **Password reset**.  
 
-3. Properti untuk pengaturan ulang kata sandi mandiri ditampilkan.  Pastikan bahwa **Self service reset** telah **dipilih** untuk grup yang terdaftar, **SSPRSecurityUsers**.  Arahkan kursor Anda di atas ikon informasi di samping tulisan “select group” dan perhatikan yang tercantum, “Menentukan grup pengguna yang diizinkan untuk mengatur ulang kata sandi milik mereka." Anda harus menyertakan pengguna dalam grup, Anda tidak dapat memilih pengguna satu per satu.  Selain itu, jika Anda mengubah grup, grup yang Anda pilih akan menggantikan grup yang sudah terdaftar.  Karena itu, sebaiknya Anda menambahkan pengguna ke grup SSPR.  Terakhir, perhatikan kotak informasi berwarna biru, "Pengaturan ini hanya berlaku untuk pengguna akhir di organisasi Anda. Admin selalu mengaktifkan layanan pengaturan ulang kata sandi mandiri dan diharuskan menggunakan dua metode autentikasi untuk mengatur ulang kata sandi mereka.”
+3. Properti untuk pengaturan ulang kata sandi mandiri ditampilkan.  Pastikan **Atur ulang layanan mandiri** **dipilih** untuk grup yang terdaftar, **SSPRSecurityGroupUsers**.  Arahkan kursor Anda di atas ikon informasi di samping tulisan “select group” dan perhatikan yang tercantum, “Menentukan grup pengguna yang diizinkan untuk mengatur ulang kata sandi milik mereka." Anda harus menyertakan pengguna dalam grup, Anda tidak dapat memilih pengguna satu per satu.  Selain itu, jika Anda mengubah grup, grup yang Anda pilih akan menggantikan grup yang sudah terdaftar.  Karena itu, sebaiknya Anda menambahkan pengguna ke grup SSPR.  Terakhir, perhatikan kotak informasi berwarna biru, "Pengaturan ini hanya berlaku untuk pengguna akhir di organisasi Anda. Admin selalu mengaktifkan layanan pengaturan ulang kata sandi mandiri dan diharuskan menggunakan dua metode autentikasi untuk mengatur ulang kata sandi mereka.”
 
 5. Dari panel navigasi sebelah kiri Pengaturan ulang kata sandi, pilih **Authentication Methods**.
 
@@ -99,7 +99,7 @@ Di lab ini, Anda sebagai admin akan menjalani proses pengaktifan pengaturan ulan
 
 4. Karena ini adalah pertama kalinya Anda masuk sebagai Adele Vance, Anda akan diminta untuk mengatur ulang kata sandi.  Masukkan kata sandi lama Anda.  Untuk kata sandi baru Anda, masukkan  **SC900-Lab**. Masukkan  **SC-900-Lab** di bidang konfirmasi kata sandi.  Pilih **Masuk**.  Catatan: kami menggunakan kata sandi ini hanya untuk kenyamanan lab. Sebaiknya, Anda memasukkan kata sandi yang lebih aman.
 
-5. Tampilan pop-up yang menunjukkan bahwa informasi lebih lanjut diperlukan.  Hal ini karena sebagai anggota grup SSPRSecurityUsers, konfigurasi mengharuskan anggotanya mendaftar saat masuk.  Pilih tombol **Berikutnya**.  Catatan:  Alternatif untuk meminta pengguna melakukan pendaftaran sendiri, agar admin segera mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
+5. Tampilan pop-up yang menunjukkan bahwa informasi lebih lanjut diperlukan.  Ini karena sebagai anggota grup SSPRSecurityGroupUsers, konfigurasi mengharuskan anggotanya untuk mendaftar saat mereka masuk.  Pilih tombol **Berikutnya**.  Catatan:  Alternatif untuk meminta pengguna melakukan pendaftaran sendiri, agar admin segera mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 
 6. Halaman "Amankan akun Anda" akan terbuka.  Jendela yang muncul yaitu untuk metode autentikasi Ponsel, jika Anda tidak memiliki perangkat seluler yang dapat menerima pesan teks, lewati ke langkah berikutnya.  Anda diminta untuk memasukkan nomor ponsel. Pastikan pilihan **Text me a code** diaktifkan.   Masukkan nomor ponsel tempat Anda dapat menerima kode teks dan pilih **tombol Next**.  Jendela baru terbuka menunjukkan kode baru saja dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Next**. Jendela terbuka menunjukkan Berhasil dan menampilkan metode Masuk default Anda.  Pilih **Selesai**.  
 
