@@ -1,27 +1,28 @@
 ---
 lab:
   title: Siapkan
-ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489247"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557306"
 ---
 # <a name="lab-setup"></a>Lab: Pengaturan
 
-### <a name="lab-scenario"></a>Skenario lab
+## <a name="lab-scenario"></a>Skenario lab
 
 Di lab ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang mulus saat berpindah antara Microsoft 365 dan Azure. Sebagai bagian dari penyiapan, Anda juga akan mengaktifkan kemampuan log audit, di penyewa Microsoft 365 Anda, karena perlu beberapa waktu untuk diterapkan. Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan serta wawasan analitik.
 
 **Perkiraan Waktu**: 5-10 menit
 
-#### <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
+### <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
+
 Dalam tugas penyiapan ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
 
 1. Jika Anda memiliki jendela browser yang terbuka, sebaiknya tutup semua browser.
 
-1. Klik kanan pada ikon Microsoft Edge dan pilih **New InPrivate window** untuk membuka sesi Penjelajahan In-Private baru. Lainnya 
+1. Klik kanan pada ikon Microsoft Edge dan pilih **New InPrivate window** untuk membuka sesi Penjelajahan In-Private baru.
 
 1. Di bilah alamat, masukkan **www.microsoftazurepass.com**.  
 
@@ -38,7 +39,8 @@ Dalam tugas penyiapan ini, Anda akan menukarkan Azure pass menggunakan kredensia
 
 1. Biarkan tab browser di halaman beranda portal Azure terbuka, Anda akan kembali ke sana di demo berikutnya.
 
-#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Penyiapan bagian 2 - Mengaktifkan log audit Microsoft 365
+### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Penyiapan bagian 2 - Mengaktifkan log audit Microsoft 365
+
 Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini dan mungkin perlu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
@@ -60,6 +62,6 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microso
 
 1. Kembali ke halaman beranda pusat kepatuhan Microsoft 365 dengan memilih **Home** dari panel navigasi sebelah kiri.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
 
 Dalam penyiapan ini, Anda telah menukarkan Azure pass, menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Anda juga telah mengaktifkan kemampuan log audit di Microsoft 365.
