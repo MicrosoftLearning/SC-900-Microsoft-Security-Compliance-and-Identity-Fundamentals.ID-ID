@@ -2,21 +2,24 @@
 lab:
   title: Menjelajahi manajemen akses di Azure AD dengan Akses Bersyarat
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489258"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557277"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Lab: Menjelajahi manajemen akses di Azure AD dengan Bersyarat
 
 ## <a name="lab-scenario"></a>Skenario lab
+
 Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan pengguna.  Sebagai admin, Anda akan membuat kebijakan yang mengharuskan pengguna untuk menggunakan autentikasi multifaktor ketika mengakses aplikasi Manajemen Microsoft Azure berbasis cloud.  Dari perspektif pengguna, Anda akan melihat hasil dari kebijakan akses bersyarat, termasuk proses mendaftar ke MFA.
 
 **Perkiraan Waktu**: 10-15 menit
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Tugas 1: Di tugas ini Anda, sebagai admin akan mengatur ulang kata sandi untuk pengguna bernama Debra Berger.  Langkah ini diperlukan agar Anda dapat masuk sebagai pengguna di tugas berikutnya.
+### <a name="task-1"></a>Tugas 1
+
+Di tugas ini Anda, sebagai admin akan mengatur ulang kata sandi untuk pengguna bernama Debra Berger.  Langkah ini diperlukan agar Anda dapat masuk sebagai pengguna di tugas berikutnya.
 
 1. Buka Microsoft Edge.  Di bilah alamat, masukkan **portal.azure.com**.
 
@@ -41,8 +44,9 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 
 10. Biarkan jendela ini terbuka.
 
+### <a name="task-2"></a>Tugas 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>Tugas 2:  Di tugas ini, Anda akan memahami proses membuat kebijakan akses bersyarat di Azure AD.
+Di tugas ini, Anda akan memahami proses membuat kebijakan akses bersyarat di Azure AD.
 
 1. Buka tab browser, yang diberi label Contoso – Microsoft Azure.   Jika sebelumnya Anda menutup tab browser, buka Microsoft Edge, dan di bilah alamat masukkan portal.azure.com dan masuk dengan kredensial admin Anda, lalu pilih Azure Active Directory.  
 
@@ -60,7 +64,7 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 
 8. Pilih opsi untuk **Select users and groups**, lalu pilih **Users and groups**.  Jendela untuk Memilih pengguna dan grup akan terbuka.  
 
-9. Di Bilah pencarian, masukkan **Debra**.  Pilih **Debra Berger** di bawah bilah pencarian, lalu klik tombol **Select** di bagian bawah halaman.  Perlu dicatat, menetapkan kebijakan untuk pengguna dalam grup adalah praktik yang umum.  Untuk kelayakan tujuan menggunakan lab ini, kita akan menetapkan kebijakan untuk pengguna tertentu. 
+9. Di Bilah pencarian, masukkan **Debra**.  Pilih **Debra Berger** di bawah bilah pencarian, lalu klik tombol **Select** di bagian bawah halaman.  Perlu dicatat, menetapkan kebijakan untuk pengguna dalam grup adalah praktik yang umum.  Untuk kelayakan tujuan menggunakan lab ini, kita akan menetapkan kebijakan untuk pengguna tertentu.
 
 10. Pada tindakan atau aplikasi Cloud, pilih **No cloud apps or actions selected**.
 
@@ -80,9 +84,11 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 
 18. Keluar dari Azure, lalu tutup jendela browser Anda.
 
-#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>Tugas 3: Pada tugas ini, Anda akan menliaht hasil dari kebijakan akses bersyarat, dari persperktif pengguna yaitu Debra Berger. Anda akan mulai pertama kali dengan masuk ke aplikasi yang tidak disertakan dalam kebijakan akses bersyarat.  Lalu Anda akan mengulang proses kembali untuk aplikasi yang disertakan dalam kebijakan akses bersyarat.  Ingat kembali bahwa kebijakan mengharuskan pengguna untuk menggunakan MFA ketika mengakses aplikasi Manajemen Microsoft Azure.  Untuk menggunakan MFA, pengguna terlebih dahulu harus mendaftar ke metode autentikasi yang akan digunakan untuk MFA, misalnya kode yang dikirimkan ke perangkat seluler atau aplikasi autentikasi.
+### <a name="task-3"></a>Tugas 3
 
-1. Buka Microsoft Edge.  Di bilah alamat browser, masukkan **https://login.microsoftonline.com/** .
+Pada tugas ini, Anda akan menliaht hasil dari kebijakan akses bersyarat, dari persperktif pengguna yaitu Debra Berger. Anda akan mulai pertama kali dengan masuk ke aplikasi yang tidak disertakan dalam kebijakan akses bersyarat.  Lalu Anda akan mengulang proses kembali untuk aplikasi yang disertakan dalam kebijakan akses bersyarat.  Ingat kembali bahwa kebijakan mengharuskan pengguna untuk menggunakan MFA ketika mengakses aplikasi Manajemen Microsoft Azure.  Untuk menggunakan MFA, pengguna terlebih dahulu harus mendaftar ke metode autentikasi yang akan digunakan untuk MFA, misalnya kode yang dikirimkan ke perangkat seluler atau aplikasi autentikasi.
+
+1. Buka Microsoft Edge.  Di bilah alamat browser, masukkan **login.microsoftonline.com/** .
 
 1. Masuk sebagai Debra Burger,
     1. Di jendela Masuk, masukkan **DebraB@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
@@ -92,7 +98,7 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 
 1. Anda telah berhasil masuk ke akun Microsoft 365 Anda.  MFA tidak diperlukan untuk aplikasi ini karena tidak menjadi bagian kebijakan.
 
-1. Sekarang Anda akan berupaya untuk masuk ke aplikasi yang sesuai dengan kriteria MFA.  Buka Microsoft Edge dan di bilah alamat, masukkan https://portal.azure.com.
+1. Sekarang Anda akan berupaya untuk masuk ke aplikasi yang sesuai dengan kriteria MFA.  Buka Microsoft Edge dan di bilah alamat, masukkan **portal.azure.com**.
 
 1. Anda akan melihat jendela yang menunjukkan, Perlu informasi selengkapnya.  Pilih **Selanjutnya**.  Perlu diperhatikan, upaya ini akan memulai proses pendaftaran MFA, karena ini adalah upaya pertama kali untuk mengakses aplikasi cloud yang diidentifikasi dalam kebijakan akses bersyarat.  Proses pendaftaran diperlukan sekali saja.   Cara untuk mendorong pengguna untuk melewati proses pendaftaran adalah dengan membuat admin mengonfigurasi metode autentikasi untuk digunakan.
 
@@ -110,5 +116,6 @@ Di lab ini, Anda akan menjelajahi MFA akses bersyarat, dari perspektif admin dan
 
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di pojok kanan atas layar dan mengeklik Keluar. Kemudian tutup semua jendela browser.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
+
 Di lab ini, Anda telah memahami proses menyiapkan kebijakan akses bersyarat yang mengharuskan pengguna untuk melalui MFA ketika mereka mengakses aplikasi cloud Manajemen Microsoft Azure.  Kemudian, sebagai pengguna Anda telah memahami proses pendaftaran untuk MFA dan melihat hasil kebijakan akses bersyarat yang mengharuskan Anda untuk menggunakan MFA ketika mengakses portal Azure.

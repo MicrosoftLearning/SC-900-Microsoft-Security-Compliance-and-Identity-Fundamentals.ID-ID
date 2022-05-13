@@ -2,21 +2,24 @@
 lab:
   title: Menjelajahi Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614338"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557158"
 ---
-# <a name="lab-explore-microsoft-sentinel"></a>Lab: Menjelajahi Microsoft Sentinel 
+# <a name="lab-explore-microsoft-sentinel"></a>Lab: Menjelajahi Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>Skenario lab
+
 Di lab ini, Anda akan mempelajari proses untuk membuat instans Microsoft Sentinel.  Anda juga akan menyiapkan izin untuk memastikan akses ke sumber daya yang akan disebarkan untuk mendukung Microsoft Sentinel.  Setelah penyiapan dasar ini selesai, Anda akan melalui langkah-langkah untuk menyambungkan Microsoft Sentinel ke sumber data Anda, menyiapkan buku kerja, dan melakukan panduan singkat tentang beberapa kemampuan utama yang tersedia di Microsoft Azure Sentinel.  
 
 **Perkiraan Waktu**: 45-60 menit
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>Tugas 1:  Membuat instans Microsoft Sentinel
+### <a name="task-1"></a>Tugas 1
+
+Membuat instans Microsoft Sentinel
 
 1. Buka tab browser, **Home-Microsoft Azure**.  Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan masuk kembali.
 
@@ -43,11 +46,13 @@ Di lab ini, Anda akan mempelajari proses untuk membuat instans Microsoft Sentine
 
 1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>Tugas 2:  Dengan instans Microsoft Sentinel yang dibuat, Anda harus memastikan bahwa Anda memiliki akses yang diperlukan ke sumber daya yang disebarkan untuk mendukung Microsoft Sentinel.  
+### <a name="task-2"></a>Tugas 2
+
+Dengan instans Microsoft Sentinel yang dibuat, Anda harus memastikan bahwa Anda memiliki akses yang diperlukan ke sumber daya yang disebarkan untuk mendukung Microsoft Sentinel.
 
 1. Di kotak pencarian, di bilah biru di bagian atas halaman sebelah tulisan Microsoft Azure, masukkan **resource groups**, lalu pilih **Resource groups** dari hasil pencarian. Menetapkan peran di tingkat grup sumber daya akan memastikan peran akan berlaku untuk semua sumber daya yang disebarkan untuk mendukung Microsoft Sentinel.
 
-1. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-Sentinel-RG**. 
+1. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-Sentinel-RG**.
 
 1. Dari SC900-Sentinel-RG, pilih **Access control (IAM)** dari panel navigasi sebelah kiri.
 
@@ -55,14 +60,16 @@ Di lab ini, Anda akan mempelajari proses untuk membuat instans Microsoft Sentine
 
     1. Dari halaman Kontrol akses, pilih **+Add**, lalu pilih **Add role assignment**.
 
-    1. Jendela Tambahkan penetapan peran akan terbuka.  Di kotak pencarian, masuki **Microsoft Sentinel** untuk melihat 4 peran yang terkait dengan Microsoft Sentinel. 
+    1. Jendela Tambahkan penetapan peran akan terbuka.  Di kotak pencarian, masuki **Microsoft Sentinel** untuk melihat 4 peran yang terkait dengan Microsoft Sentinel.
     1. Dari salah satu peran yang tercantum, pilih **lihat** untuk melihat detail peran tersebut.  Untuk praktik terbaiknya Anda harus menetapkan hak istimewa minimum yang diperlukan untuk peran.  
 
     1. Tutup jendela dengan memilih **X** di sudut kanan atas jendela.
 
 1. Dari halaman kontrol akses, tutup jendela dengan memilih **X** di sudut kanan atas jendela.
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>Tugas 3:  Dalam tugas ini Anda akan melakukan proses menghubungkan Microsoft Sentinel ke sumber data Anda untuk mulai mengumpulkan data.
+### <a name="task-3"></a>Tugas 3
+
+Dalam tugas ini Anda akan melakukan proses menghubungkan Microsoft Sentinel ke sumber data Anda untuk mulai mengumpulkan data.
 
 1. Di kotak pencarian, pada bilah berwarna biru di bagian atas halaman di samping bagian yang tertulis Microsoft Azure, masukkan **Microsoft Sentinel** lalu pilih **Microsoft Sentinel** dari hasil pencarian.
 
@@ -84,7 +91,9 @@ Di lab ini, Anda akan mempelajari proses untuk membuat instans Microsoft Sentine
 
 1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>Tugas 4:  Dalam tugas ini Anda akan menelusuri proses menyiapkan buku kerja untuk Office 365, guna memvisualisasikan dan memantau data Anda.
+### <a name="task-4"></a>Tugas 4
+
+Dalam tugas ini Anda akan menelusuri proses menyiapkan buku kerja untuk Office 365, guna memvisualisasikan dan memantau data Anda.
 
 1. Dari panel navigasi sebelah kiri, pilih **Workbooks**.
 
@@ -96,7 +105,9 @@ Di lab ini, Anda akan mempelajari proses untuk membuat instans Microsoft Sentine
 
 1. Dari sudut kiri atas halaman Buku Kerja, di atas bagian yang tertulis Buku Kerja, pilih **Microsoft Sentinel**. Ini mengembalikan Anda ke halaman Gambaran Umum.
 
-#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>Tugas 5:  Dalam tugas ini Anda akan menelusuri beberapa opsi yang tersedia di Sentinel.
+### <a name="task-5"></a>Tugas 5
+
+Dalam tugas ini Anda akan menelusuri beberapa opsi yang tersedia di Sentinel.
 
 1. Dari panel navigasi sebelah kiri, pilih **Hunting**.  Dari tab **kueri**, yang dipilih (digarisbawahi), pilih kueri apa pun dari daftar.  Setelah kueri dipilih, perhatikan informasi yang diberikan tentang kueri tersebut, termasuk kode untuk kueri, serta opsi untuk menjalankan kueri dan melihat hasil.  Jangan pilih apa pun.
 
@@ -114,7 +125,9 @@ Di lab ini, Anda akan mempelajari proses untuk membuat instans Microsoft Sentine
 
 1. Dari sudut kiri atas jendela, tepat di bawah bilah biru, pilih **Beranda** untuk kembali ke halaman beranda portal Azure.
 
-#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>Tugas 6: Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Microsoft Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari lab ini minimal, Anda disarankan untuk menghapus grup sumber daya Microsoft Sentinel setelah Anda selesai menjelajahi fitur kemampuan Microsoft Sentinel.
+### <a name="task-6"></a>Tugas 6
+
+Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Microsoft Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari lab ini minimal, Anda disarankan untuk menghapus grup sumber daya Microsoft Sentinel setelah Anda selesai menjelajahi fitur kemampuan Microsoft Sentinel.
 
 1. Dari halaman Microsoft Sentinel, di pojok kiri atas halaman, di atas bagian yang tertulis Microsoft Sentinel, pilih **Semua Layanan**.
 
@@ -124,8 +137,8 @@ Di lab ini, Anda akan mempelajari proses untuk membuat instans Microsoft Sentine
 
 4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya,  **SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 
-5. Setelah Anda memverifikasi grup sumber daya telah dihapus, tutup halaman browser. 
+5. Setelah Anda memverifikasi grup sumber daya telah dihapus, tutup halaman browser.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
 
 Dalam demo ini Anda dipandu untuk menelusuri langkah-langkah untuk menyambungkan Microsoft Sentinel ke sumber data, menyiapkan buku kerja, dan dipandu melalui beberapa opsi yang tersedia di Microsoft Sentinel.

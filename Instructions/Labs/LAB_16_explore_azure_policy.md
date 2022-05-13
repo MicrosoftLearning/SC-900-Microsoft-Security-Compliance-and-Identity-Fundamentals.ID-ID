@@ -2,28 +2,30 @@
 lab:
   title: Menjelajahi Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614422"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557518"
 ---
 # <a name="lab-explore-azure-policy"></a>Lab: Menjelajahi Azure Policy
 
 ## <a name="lab-scenario"></a>Skenario lab
-Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dalam skala besar. Azure Policy mengevaluasi sumber daya di Azure dengan membandingkan properti sumber daya tersebut dengan aturan bisnis. Di lab ini, Anda akan mulai dengan mempelajari halaman arahan Azure policy. Setelah pembelajaran awal halaman Azure policy, Anda akan membuat kebijakan dan melihat dampak dari kebijakan tersebut.
 
+Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dalam skala besar. Azure Policy mengevaluasi sumber daya di Azure dengan membandingkan properti sumber daya tersebut dengan aturan bisnis. Di lab ini, Anda akan mulai dengan mempelajari halaman arahan Azure policy. Setelah pembelajaran awal halaman Azure policy, Anda akan membuat kebijakan dan melihat dampak dari kebijakan tersebut.
 
 **Perkiraan Waktu**: 20-25 menit
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Tugas 1: Menjelajahi halaman kebijakan Azure secara singkat.
+### <a name="task-1"></a>Tugas 1
+
+Menjelajahi halaman kebijakan Azure secara singkat.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.microsoft.com**.
 
 1. Masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
-    
+
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
@@ -53,7 +55,9 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Biarkan tab browser ini (Policy – Microsoft Azure) terbuka untuk tugas berikutnya.
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Tugas 2:  Dalam tugas ini, Anda akan membuat penetapan kebijakan dasar untuk mewajibkan tag pada grup sumber daya.
+### <a name="task-2"></a>Tugas 2
+
+Dalam tugas ini, Anda akan membuat penetapan kebijakan dasar untuk mewajibkan tag pada grup sumber daya.
 
 1. Buka tab browser, Policy – Microsoft Azure.
 
@@ -69,9 +73,9 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Perhatikan nama tugas default.  Biarkan nama apa adanya dan dari bagian bawah halaman, pilih **Next**.
 
-1. Di bidang Nama tag, masukkan **Environment**, lalu pilih **Next**. 
+1. Di bidang Nama tag, masukkan **Environment**, lalu pilih **Next**.
 
-1. Biarkan pengaturan remediasi default apa adanya, kemudian pilih **Berikutnya**. 
+1. Biarkan pengaturan remediasi default apa adanya, kemudian pilih **Berikutnya**.
 
 1. Dalam pesan ketidakpatuhan, masukkan **An environment tag is required**, kemudian pilih **Next**. Catatan: pesan ini akan muncul sebagai alasan ketidakpatuhan untuk grup sumber daya yang dibuat sebelum penetapan kebijakan dan tidak memiliki tag Lingkungan.  Untuk grup sumber daya yang dibuat setelah kebijakan dibuat, pembuatan grup sumber daya akan ditolak jika tidak ada tag lingkungan.
 
@@ -81,7 +85,9 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Sekarang Anda berada di halaman beranda layanan Azure.  Biarkan halaman ini tetap terbuka, Anda akan membutuhkannya untuk tugas berikutnya.
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Tugas 3:  Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan membuat grup sumber daya di Azure yang tidak memiliki tag, maka Anda akan melihat pembaharuan grup sumber daya yang menyertakan tag.  Catatan: Mungkin perlu waktu hingga 30 menit agar kebijakan yang dibuat di tugas sebelumnya diterapkan, tetapi biasanya terjadi lebih cepat.
+### <a name="task-3"></a>Tugas 3
+
+Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan membuat grup sumber daya di Azure yang tidak memiliki tag, maka Anda akan melihat pembaharuan grup sumber daya yang menyertakan tag.  Catatan: Mungkin perlu waktu hingga 30 menit agar kebijakan yang dibuat di tugas sebelumnya diterapkan, tetapi biasanya terjadi lebih cepat.
 
 1. Buka tab browser, Home – Microsoft Azure.
 
@@ -99,7 +105,7 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Anda akan melihat bahwa telah tervalidasi (nama dan nilai tag bukan bidang wajib di wizard), lalu pilih **Create**.
 
-1. Anda akan melihat pesan kegagalan di bagian atas layar, “Failed to create the resource group. View error details”.  Pilih **View error details**. Kondisi yang merupakan bagian dari kebijakan Azure tidak terpenuhi sehingga pembuatan grup sumber daya diblokir, karena ketidakpatuhan. 
+1. Anda akan melihat pesan kegagalan di bagian atas layar, “Failed to create the resource group. View error details”.  Pilih **View error details**. Kondisi yang merupakan bagian dari kebijakan Azure tidak terpenuhi sehingga pembuatan grup sumber daya diblokir, karena ketidakpatuhan.
 
     Catatan: Jika Anda tidak melihat pesan kegagalan dan grup sumber daya yang telah dibuat, hal itu karena kebijakan belum diterapkan.  Buka halaman Kebijakan untuk kebijakan yang Anda buat di tugas sebelumnya dan setelah kebijakan diterapkan, Anda akan melihat bahwa sumber daya tidak sesuai.  Halaman detail akan menyertakan pesan ketidakpatuhan. Jika Anda mendapatkan kesalahan, langkah-langkah berikut menunjukkan cara memulihkan penyebaran.
 
@@ -115,12 +121,11 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 1. Sebelum Anda keluar, hapus Azure policy.
     1. Dari sudut kiri atas halaman, pilih Beranda, untuk kembali ke halaman beranda Azure.
-    
+
     1. Di bawah teks tertulis layanan Azure, pilih Azure policy.
     1. Di bagian tengah halaman, Anda akan melihat daftar penetapan tugas Azure policy.  Pilih elipsis untuk penetapan kebijakan yang Memerlukan tag pada grup sumber daya, lalu pilih Delete assignment.
     1. Anda akan diminta untuk mengonfirmasi bahwa Anda ingin menghapus tugas.  Pilih Ya.
 
-
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
 
 Di lab ini, Anda telah membuka halaman arahan Azure policy. Setelah mempelajari awal halaman Azure policy, Anda telah menjalani proses pembuatan kebijakan dan Anda telah dapat melihat dampak dari kebijakan tersebut.

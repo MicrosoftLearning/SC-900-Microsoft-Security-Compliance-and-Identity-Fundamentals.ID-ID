@@ -2,21 +2,24 @@
 lab:
   title: 'Menjelajahi tata kelola identitas di Microsoft Azure AD dengan Privileged Identity management. '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489235"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557266"
 ---
-# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Menjelajahi tata kelola identitas di Microsoft Azure AD dengan Privileged Identity management.
+# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Mempelajari tata kelola identitas di Microsoft Azure AD dengan Privileged Identity Management
 
 ## <a name="lab-scenario"></a>Skenario lab
+
 Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Management (PIM). PIM membutuhkan Microsoft Azure AD Premium P2.  Di lab ini, Anda sebagai admin akan mengonfigurasi salah satu pengguna, yaitu Diego Siciliani, dengan peran administrator pengguna Microsoft Azure AD, melalui Privileged ID management (PIM).   Dengan hak istimewa admin pengguna, Diego akan dapat membuat pengguna dan mengelola lisensi grup, dan banyak lagi.  Baik sebagai admin maupun pengguna, Diego harus mengonfigurasi untuk lisensi Microsoft Azure AD Premium P2.
 
 **Perkiraan Waktu**: 30-45 menit
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Tugas 1: Di tugas ini, Anda sebagai admin akan mengatur ulang kata sandi untuk pengguna Diego Siciliani. Langkah ini diperlukan agar Anda dapat masuk sebagai pengguna di tugas berikutnya.
+### <a name="task-1"></a>Tugas 1
+
+Di tugas ini, Anda sebagai admin akan mengatur ulang kata sandi untuk pengguna Diego Siciliani. Langkah ini diperlukan agar Anda dapat masuk sebagai pengguna di tugas berikutnya.
 
 1. Buka Microsoft Edge.  Di bilah alamat, masukkan **portal.azure.com**.
 
@@ -43,8 +46,9 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 
 11. Biarkan halaman browser tetap terbuka, seperti yang akan Anda lakukan di tugas-tugas berikutnya.
 
+### <a name="task-2"></a>Tugas 2
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>Tugas 2: Di tugas ini, Anda sebagai admin akan menetapkan peran Microsoft Azure AD kepada Diego dalam Privileged Identity Management.
+Di tugas ini, Anda sebagai admin akan menetapkan peran Microsoft Azure AD kepada Diego dalam Privileged Identity Management.
 
 1. Buka tab browser, yang berlabel Contoso – Microsoft Azure.   Jika sebelumnya Anda menutup tab browser, buka Microsoft Edge, dan di bilah alamat masukkan portal.azure.com dan masuk dengan kredensial admin Anda, lalu pilih Azure Active Directory.  
 
@@ -62,7 +66,7 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 
 8. Biarkan jenis Cakupan ke nilai default, yaitu Direktori.  
 
-9. Di bagian Pilih anggota, pilih **No members selected**. Hal ini akan membuka jendela untuk Memilih anggota. 
+9. Di bagian Pilih anggota, pilih **No members selected**. Hal ini akan membuka jendela untuk Memilih anggota.
 
 10. Di bilah pencarian, masukkan **Diego**.  Dari hasil pencarian, pilih **Diego Siciliani**, lalu tekan **Select** di bagian bawah halaman.  
 
@@ -84,8 +88,9 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 
 19. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan pilih **Sign out**. Kemudian tutup semua jendela browser.
 
+### <a name="task-3"></a>Tugas 3
 
-#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tugas 3: Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke Portal Azure untuk mengakses kemampuan Privileged Identity Management dari Azure Active Directory untuk mengaktifkan tugas Anda sebagai administrator Pengguna.  Setelah diaktifkan, Anda akan membuat beberapa perubahan konfigurasi pada pengguna yang sudah ada. Catatan: Untuk tugas ini, Anda memerlukan akses ke perangkat seluler yang dapat Anda akses langsung dan dapat menerima pesan teks.
+Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke Portal Azure untuk mengakses kemampuan Privileged Identity Management dari Azure Active Directory untuk mengaktifkan tugas Anda sebagai administrator Pengguna.  Setelah diaktifkan, Anda akan membuat beberapa perubahan konfigurasi pada pengguna yang sudah ada. Catatan: Untuk tugas ini, Anda memerlukan akses ke perangkat seluler yang dapat Anda akses langsung dan dapat menerima pesan teks.
 
 1. Buka Microsoft Edge.  Di bilah alamat browser, masukkan **portal.azure.com**.
 
@@ -107,24 +112,25 @@ Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Mana
 1. Dari kiri bawah jendela Microsoft Authenticator, pilih **I want to setup a different method**.
 1. Anda diminta untuk Memilih metode yang berbeda.  Di sebelah aplikasi Authenticator, pilih tombol panah bawah.   Pilih **Phone**, lalu pilih **Confirm**.
 1. Anda diminta untuk memasukkan nomor ponsel yang ingin Anda gunakan. Pastikan negaranya benar, untuk kode negara nomor ponsel Anda.  Masukkan nomor ponsel Anda, pastikan **Text me a code** dipilih, lalu pilih **Next**.
-1. Masukkan kode 6 digit yang Anda terima di ponsel Anda dan pilih **Next**. 
+1. Masukkan kode 6 digit yang Anda terima di ponsel Anda dan pilih **Next**.
 1. Anda akan melihat pemberitahuan bahwa ponsel Anda berhasil didaftarkan. Pilih **Next**, lalu pilih **Done**.
 1. Anda akan ditanya apakah Anda ingin tetap masuk.  Pilih **Ya**.
 1. Jendela Aktifkan Administrator Pengguna muncul.  Anda diminta untuk memasukkan alasan aktivasi.Anda diminta untuk memasukkan alasan aktivasi.  Pada kotak yang muncul, masukkan alasan yang Anda inginkan (maksimal 500 karakter), lalu pilih **Activate**.
 1. Anda akan melihat status (3 tahap progres), saat aktivasi diproses.
-1. Setelah aktivasi selesai, Anda dikembalikan ke Peran saya | Halaman peran Azure Active Directory, tempat Anda akan melihat pemberitahuan yang menyatakan bahwa Anda baru saja mengaktifkan peran.  Pilih **Click here** untuk melihat peran aktif Anda.  Jika Anda melihat waktu berakhir yang berbeda dari yang semula dikonfigurasi, pilih tombol segarkan di bagian atas halaman (mungkin perlu beberapa menit untuk menyegarkan). 
+1. Setelah aktivasi selesai, Anda dikembalikan ke Peran saya | Halaman peran Azure Active Directory, tempat Anda akan melihat pemberitahuan yang menyatakan bahwa Anda baru saja mengaktifkan peran.  Pilih **Click here** untuk melihat peran aktif Anda.  Jika Anda melihat waktu berakhir yang berbeda dari yang semula dikonfigurasi, pilih tombol segarkan di bagian atas halaman (mungkin perlu beberapa menit untuk menyegarkan).
 1. Tutup halaman dengan memilih **X** di sudut kanan atas halaman.
 1. Tutup Privileged Identity Management | Jendela mulai cepat dengan memilih **X** di sudut kanan atas layar.
 1. Tutup jendela Tata Kelola Identitas dengan memilih **X** di sudut kanan atas halaman.
 1. Sekarang Anda kembali ke halaman Contoso Azure Active Directory.  Sebagai administrator pengguna Microsoft Azure AD, Anda dapat membuat pengguna dan grup, mengelola lisensi, dan banyak lagi.   Dari panel navigasi sebelah kiri, pilih **Users**.
 1. Dari daftar pengguna, pilih **Bianca Pisani**.
 1. Dari panel navigasi sebelah kiri, pilih **Licenses**.
-1. Perhatikan bahwa Bianca tidak memiliki lisensi yang ditetapkan.  Dari bagian atas halaman, pilih **+ Assignments**. 
+1. Perhatikan bahwa Bianca tidak memiliki lisensi yang ditetapkan.  Dari bagian atas halaman, pilih **+ Assignments**.
 1. Dari daftar pilihan lisensi, pilih **Office 365 E3** dan **Windows 10 Enterprise E3**.
 1. Dari bagian bawah halaman, pilih **Save**.  Anda akan melihat pemberitahuan singkat di kanan atas halaman yang menunjukkan bahwa lisensi berhasil ditetapkan.
 1. Tutup halaman penetapan lisensi yang diperbarui, dengan memilih **X** di sudut kanan atas halaman.
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan pilih **Sign out**. Kemudian tutup semua jendela browser.
 1. Durasi peran admin pengguna terbatas pada waktu yang dikonfigurasi.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
+
 Di lab ini; Anda telah menjelajahi PIM.  Anda sebagai admin telah mengonfigurasi Diego dengan hak istimewa admin pengguna selama jangka waktu tertentu.  Kemudian Anda sebagai Diego telah mempelajari proses mengaktifkan hak istimewa admin pengguna dan mengonfigurasi pengaturan pengguna.  Ingatlah bahwa PIM memerlukan lisensi Microsoft Azure AD Premium P2.

@@ -2,12 +2,12 @@
 lab:
   title: Mempelajari Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894020"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557290"
 ---
 # <a name="lab-explore-azure-active-directory"></a>Lab: Mempelajari Azure Active Directory
 
@@ -15,17 +15,17 @@ ms.locfileid: "137894020"
 
 Pada lab ini, Anda akan mengakses Azure Active Directory.  Selain itu, Anda akan membuat pengguna dan mengonfigurasi pengaturan yang berbeda, termasuk menambahkan lisensi.  
 
-
-
 **Perkiraan Waktu**: 10-15 menit
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Tugas 1:  Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Azure AD.  Dalam tugas ini Anda akan mempelajari cara mengakses Microsoft Azure AD melalui portal Admin Microsoft 365 dan melalui portal Microsoft Azure.
+### <a name="task-1"></a>Tugas 1
+
+Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Azure AD.  Dalam tugas ini Anda akan mempelajari cara mengakses Microsoft Azure AD melalui portal Admin Microsoft 365 dan melalui portal Microsoft Azure.
 
 1. Buka Microsoft Edge.
 
 2. Di bilah alamat, masukkan **admin.microsoft.com** untuk mengakses pusat admin Microsoft 365.
 
-3. Masuk dengan kredensial admin Anda. 
+3. Masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
@@ -44,8 +44,9 @@ Pada lab ini, Anda akan mengakses Azure Active Directory.  Selain itu, Anda akan
 
 10. Biarkan halaman browser ini terbuka untuk tugas berikutnya.
 
+### <a name="task-2"></a>Tugas 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Tugas 2:  Dalam tugas ini, Anda akan mempelajari cara membuat pengguna baru di Azure Active Directory dan menjelajahi beberapa layanan yang dapat dikelola di tingkat pengguna.
+Dalam tugas ini, Anda akan mempelajari cara membuat pengguna baru di Azure Active Directory dan menjelajahi beberapa layanan yang dapat dikelola di tingkat pengguna.
 
 1. Buka tab Contoso – Microsoft Azure yang terbuka di browser Anda. Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan pilih Azure Active Directory.  Anda harus masuk sebagai admin di portal Microsoft Azure. Jika tidak, masuk kembali.
 
@@ -109,7 +110,9 @@ Pada lab ini, Anda akan mengakses Azure Active Directory.  Selain itu, Anda akan
 
 20. Keluar dari semua tab browser dengan mengklik ikon pengguna di samping alamat email di sudut kanan atas layar. Kemudian tutup semua jendela browser.
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Tugas 3:  Dalam tugas ini, Anda akan masuk sebagai Sara Perez, untuk pertama kalinya.
+### <a name="task-3"></a>Tugas 3
+
+Dalam tugas ini, Anda akan masuk sebagai Sara Perez, untuk pertama kalinya.
 
 1. Buka Microsoft Edge.
 
@@ -127,9 +130,6 @@ Pada lab ini, Anda akan mengakses Azure Active Directory.  Selain itu, Anda akan
 
 8. **Sign out** dari semua tab browser dengan mengklik ikon pengguna di samping alamat email di sudut kanan atas layar. Kemudian tutup semua jendela browser.
 
+### <a name="review"></a>Tinjau
 
-
-#### <a name="review"></a>Tinjau
 Dalam lab ini, Anda telah memulai penjelajahan awal Microsoft Azure AD. Karena pelanggan Microsoft 365 secara otomatis menggunakan Microsoft Azure AD, maka Anda mengakses fitur dan layanan Microsoft Azure AD melalui portal admin Microsoft 365 atau melalui portal Microsoft Azure.  Anda dapat menggunakan pendekatan apa pun untuk mengerjakan suatu proses.  Anda juga telah mempelajari cara membuat pengguna baru dan pengaturan lainnya yang dapat dikonfigurasi, termasuk grup tempat pengguna dapat ditetapkan, ketersediaan peran, dan penetapan lisensi pengguna.
-
-

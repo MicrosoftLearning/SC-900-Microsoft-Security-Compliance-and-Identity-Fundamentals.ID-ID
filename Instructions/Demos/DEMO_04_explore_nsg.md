@@ -2,20 +2,21 @@
 Demo:
   title: Grup Keamanan Jaringan Azure (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019283"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557529"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demo: Grup Keamanan Jaringan Azure (NSG)
 
-### <a name="demo-scenario"></a>Skenario demo
+## <a name="demo-scenario"></a>Skenario demo
+
 Dalam demo ini, Anda akan menunjukkan fungsi grup keamanan jaringan (NSG) di Azure.  Anda akan melakukan ini dengan terlebih dahulu membuat Komputer Virtual (VM) tanpa NSG apa pun, sebagai bagian dari pengaturan prademo. Anda juga akan membuat NSG tanpa antarmuka atau subnet terkait.  Sebagai bagian dari demo, Anda akan menunjukkan aturan masuk dan keluar default untuk NSG. Kemudian, Anda akan melakukan proses menetapkan antarmuka VM ke NSG.  Setelah dikonfigurasikan, Anda akan menguji koneksi ke VM, menggunakan aturan NSG default, dan juga aturan yang akan Anda buat.
   
+### <a name="pre-demo-setup-part-1"></a>Pengaturan prademo bagian 1
 
-#### <a name="pre-demo-setup-part-1"></a>Pengaturan prademo bagian 1
  Instruktur disarankan agar melakukan ini **SEBELUM** kelas karena dapat memakan waktu beberapa menit untuk membuat VM. Dalam pengaturan ini, Anda akan membuat komputer virtual Windows 10.
 
 1. Buka tab **Home – Microsoft Azure** di browser Anda.  Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan masuk kembali.
@@ -34,7 +35,7 @@ Dalam demo ini, Anda akan menunjukkan fungsi grup keamanan jaringan (NSG) di Azu
     1. **Ukuran**: pilih **lihat semua ukuran** dari menu drop-down dan pilih **B2s**, lalu tekan **Pilih** di bagian bawah halaman.
     1. **Username**:  Masukkan nama pengguna pilihan Anda.  Harap dicatat, karena Anda akan membutuhkannya untuk mengakses Mesin Virtual.
     1. **Password**:  Masukkan kata sandi pilihan Anda.  Harap dicatat, karena Anda akan membutuhkannya untuk mengakses Mesin Virtual.
-    1. **Port masuk publik**: Anda dapat membiarkan pengaturan default (Apa pun yang Anda pilih di sini, karena pengaturan jaringan akan menggantikan apa yang Anda lakukan di sini).
+    1. **Port masuk publik**: Anda dapat membiarkan pengaturan default (Tidak masalah apa yang Anda pilih di sini karena pengaturan jaringan akan menggantikan apa yang Anda lakukan di sini).
     1. **Lisensi**: pilih **Saya mengonfirmasi bahwa saya memiliki lisensi Windows 10 yang memenuhi syarat dengan hak hosting multi-penyewa**, sehingga tanda centang muncul di kotak.
     1. Pilih **Selanjutnya:Disk**.
 
@@ -62,7 +63,8 @@ Dalam demo ini, Anda akan menunjukkan fungsi grup keamanan jaringan (NSG) di Azu
 
 1. Sekarang Anda kembali ke SC900-WinVM di portal Azure.  Biarkan tab browser ini terbuka untuk tugas berikutnya.
 
-#### <a name="pre-demo-setup-part-2"></a>Pengaturan Pra-Demo bagian 2
+### <a name="pre-demo-setup-part-2"></a>Pengaturan Pra-Demo bagian 2
+
 Buat grup keamanan jaringan, tetapi JANGAN tetapkan antarmuka jaringan VM ke NSG.  
 
 1. Buka Tab SC900-WinVM – Microsoft Azure di browser Anda.
@@ -80,8 +82,9 @@ Buat grup keamanan jaringan, tetapi JANGAN tetapkan antarmuka jaringan VM ke NSG
 
 1. Setelah penyebaran selesai, pilih **Go to resource** dan pastikan semuanya benar.  Harus ada 3 masuk default, 3 aturan keluar default, dan tidak ada subnet dan antarmuka yang terkait dengan NSG.  Kembali ke halaman **Home** portal Azure.  
 
-#### <a name="demo"></a>Demo
-Telusuri pengaturan NSG.  Dalam hal ini, Anda akan melakukan penelusuran ke NSG yang sudah ada (yang Anda buat dengan pengaturan di atas) yang belum ditetapkan ke antarmuka VM. Kemudian Anda akan menunjukkan proses pengaitan antarmuka ke NSG dan proses pembuatan aturan masuk dan keluar.
+### <a name="demo"></a>Demo
+
+Telusuri pengaturan NSG.  Dalam hal ini, Anda akan melakukan penelusuran ke NSG yang sudah ada (yang Anda buat dengan pengaturan di atas) yang belum ditetapkan ke antarmuka VM. Anda kemudian akan menunjukkan proses mengaitkan antarmuka ke NSG serta proses pembuatan aturan masuk dan keluar.
 
 1. Buka tab browser, **Home-Microsoft Azure**.  Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan masuk kembali.
 
@@ -143,13 +146,14 @@ Telusuri pengaturan NSG.  Dalam hal ini, Anda akan melakukan penelusuran ke NSG 
 
 1. Sekarang uji aturan NSG keluar
     1. Buka browser Edge di VM.
-    1. Masukkan **https://www.bing.com** . Halaman semestinya tidak ditampilkan. Catatan: jika Anda dapat terhubung ke internet dan Anda telah memverifikasi bahwa semua parameter aturan keluar telah diatur dengan benar, kemungkinan karena aturan tersebut memerlukan waktu beberapa menit untuk diterapkan. Silakan tunggu beberapa menit, lalu coba kembali.
+    1. Masukkan **www.bing.com**. Halaman semestinya tidak ditampilkan. Catatan: jika Anda dapat terhubung ke internet dan Anda telah memverifikasi bahwa semua parameter aturan keluar telah diatur dengan benar, kemungkinan karena aturan tersebut memerlukan waktu beberapa menit untuk diterapkan. Silakan tunggu beberapa menit, lalu coba kembali.
 
 1. Tutup koneksi desktop jarak jauh, dengan mengeklik **X** di bagian tengah atas halaman tempat alamat IP ditampilkan. Jendela pop-up menunjukkan Sesi jarak jauh Anda akan terputus. Pilih **Ok**.
 
 1. Kembali ke halaman Beranda portal Azure, dengan memilih **Microsoft Azure** di bilah biru bagian atas halaman.
 
-#### <a name="tear-down"></a>Penghapusan
+### <a name="tear-down"></a>Penghapusan
+
 **IMPORTANT**: Dalam tugas ini, Anda akan menghapus grup sumber daya dan semua sumber daya yang ada di dalamnya.   Ini penting untuk menghindari biaya tambahan.
 
 1. Buka Tab SC900-WinVM – Microsoft Azure di browser Anda.

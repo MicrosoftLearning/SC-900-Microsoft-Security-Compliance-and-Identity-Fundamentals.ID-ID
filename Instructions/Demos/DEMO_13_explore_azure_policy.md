@@ -2,19 +2,22 @@
 Demo:
   title: Kebijakan Azure
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614182"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557134"
 ---
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
 
-### <a name="demo-scenario"></a>Skenario demo
+## <a name="demo-scenario"></a>Skenario demo
+
 Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan dampak dari kebijakan tersebut.
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Demo Bagian 1: Membuat kebijakan untuk mengharuskan tag pada grup sumber daya (menunjukkan langkah-langkah untuk membuat kebijakan dari templat)
+### <a name="demo-part-1"></a>Demo Bagian 1
+
+Membuat kebijakan untuk mengharuskan tag pada grup sumber daya (menunjukkan langkah-langkah untuk membuat kebijakan dari templat)
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.microsoft.com**.  Seharusnya Anda sudah masuk. Jika tidak, masuk dengan kredensial admin Anda.
 
@@ -46,7 +49,9 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 1. Sekarang Anda berada di halaman beranda layanan Azure.  Biarkan halaman ini tetap terbuka, Anda akan membutuhkannya untuk tugas berikutnya.
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Bagian Demo 2:  Tunjukkan dampak kebijakan dengan membuat grup sumber daya tanpa tag, lalu perbaiki agar memiliki tag.
+### <a name="demo-part-2"></a>Demo Bagian 2
+
+Tunjukkan dampak kebijakan dengan membuat grup sumber daya tanpa tag, lalu perbaiki agar memiliki tag.
 
 1. Dari bagian atas halaman, di bawahnya tertulis Layanan Azure, pilih **Resource groups**. Jika Anda tidak melihat opsi yang tercantum, masukkan Grup sumber daya di bilah pencarian dan pilih dari sana.
 
@@ -74,6 +79,6 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 1. Anda akan melihat grup sumber daya yang terdaftar.  Karena tag disediakan di grup sumber daya, kondisi yang disertakan sebagai bagian dari kebijakan Azure telah terpenuhi.  Grup sumber daya mematuhi kebijakan.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
 
 Dalam demo ini, Anda telah menunjukkan proses penyiapan kebijakan Azure dan dampak dari kebijakan tersebut.

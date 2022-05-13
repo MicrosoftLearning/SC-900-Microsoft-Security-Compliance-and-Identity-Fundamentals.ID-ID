@@ -2,12 +2,12 @@
 lab:
   title: Menjelajahi Service Trust Portal
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e26a0d4eaaaabba7027215db53c3ebd0ccb0ad6c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614194"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557206"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Lab: Menjelajahi Service Trust Portal
 
@@ -17,12 +17,13 @@ Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Tr
 
 **Perkiraan Waktu**: 10-15 menit
 
+### <a name="task-1"></a>Tugas 1
 
-#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Tugas 1: Dalam tugas ini Anda akan mempelajari Service Trust Portal dan berbagai jenis konten yang tersedia, Anda akan mempelajari cara mengakses laporan, dan cara menyimpan laporan ke pustaka. 
+Dalam tugas ini Anda akan mempelajari Service Trust Portal dan berbagai jenis konten yang tersedia, Anda akan mempelajari cara mengakses laporan, dan cara menyimpan laporan ke pustaka.
 
 1. Buka Microsoft Edge.
 
-1. Di bilah alamat, masukkan **https://aka.ms/STP** .  Hal ini akan mengarahkan Anda ke halaman arahan untuk Service Trust Portal. Service Trust Portal berisi detail tentang penerapan kontrol dan proses Microsoft yang melindungi layanan cloud kami serta data pelanggan di dalamnya. 
+1. Di bilah alamat, masukkan **aka.ms/STP**.  Hal ini akan mengarahkan Anda ke halaman arahan untuk Service Trust Portal. Service Trust Portal berisi detail tentang penerapan kontrol dan proses Microsoft yang melindungi layanan cloud kami serta data pelanggan di dalamnya.
 
 1. Untuk mengakses beberapa sumber daya di Service Trust Portal, Anda harus masuk sebagai pengguna yang diautentikasi dengan akun layanan cloud Microsoft Anda dan meninjau serta menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan. Di sudut kanan atas halaman arahan untuk Portal Kepercayaan Layanan, Anda akan melihat opsi untuk Masuk.  **Masuk**, menggunakan kredensial administrator Anda dan, jika diminta, pilih **Setuju** untuk menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan.
 
@@ -46,7 +47,9 @@ Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Tr
 
 1. Anda dapat memilih dari kategori yang berbeda.  Termasuk Laporan Penilaian GRC, Panduan Kepatuhan, dan banyak lagi.  Seperti tugas sebelumnya, Anda dapat memfilter daftar dokumen yang ditampilkan dan dapat memilih dokumen untuk diunduh atau disimpan ke pustaka.
 
-#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Tugas 2: Dalam tugas ini Anda akan mengunjungi Pusat Kepercayaan dan membuka enam prinsip privasi utama Microsoft.
+### <a name="task-2"></a>Tugas 2
+
+Dalam tugas ini Anda akan mengunjungi Pusat Kepercayaan dan membuka enam prinsip privasi utama Microsoft.
 
 1. Dari bagian atas halaman Portal Kepercayaan Layanan, pilih **Trust Center**, lalu pilih **Home**. Hal ini akan membuka tab browser baru yang mengarahkan Anda ke Pusat Kepercayaan tempat Anda dapat menemukan informasi selengkapnya tentang keamanan, kepatuhan, dan privasi di Microsoft Cloud.
 
@@ -60,6 +63,6 @@ Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Tr
 
 1. Tutup jendela browser untuk keluar dari Service Trust Portal dan Pusat Kepercayaan.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
 
 Dalam lab ini, Anda telah mempelajari beberapa opsi yang tersedia di Service Trust Portal, cara mengakses laporan, dan cara menggunakan Pustaka Saya guna menyimpan dokumen untuk ditinjau nantinya.  Selain itu, Anda juga telah mengunjungi Pusat Kepercayaan untuk mengakses dan meninjau prinsip Privasi Microsoft.

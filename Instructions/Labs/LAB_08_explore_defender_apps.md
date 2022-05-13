@@ -2,23 +2,26 @@
 lab:
   title: 'Menjelajahi Aplikasi Microsoft Defender untuk Cloud '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: aa360b3d9e604e384cc5b040ef747425af76e13b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893996"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557573"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Lab: Menjelajahi Aplikasi Microsoft Defender untuk Cloud
 
 ## <a name="lab-scenario"></a>Skenario lab
-Di lab ini, Anda akan menjelajahi kemampuan Aplikasi Microsoft Defender untuk Cloud.  Anda akan mempelajari informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan dan mengontrol dampak terhadap organisasi Anda melalui kebijakan.  Catatan:  Organisasi harus memiliki lisensi untuk menggunakan Aplikasi Microsoft Defender untuk Cloud yang merupakan layanan langganan berbasis pengguna. 
+
+Di lab ini, Anda akan menjelajahi kemampuan Aplikasi Microsoft Defender untuk Cloud.  Anda akan mempelajari informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan dan mengontrol dampak terhadap organisasi Anda melalui kebijakan.  Catatan:  Organisasi harus memiliki lisensi untuk menggunakan Aplikasi Microsoft Defender untuk Cloud yang merupakan layanan langganan berbasis pengguna.
 
 **Perkiraan Waktu**: 15-20 menit
 
-#### <a name="task-1-explore-cloud-discovery"></a>Tugas 1: Mempelajari Cloud Discovery.
+### <a name="task-1"></a>Tugas 1
 
-1.  Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
+Mempelajari Cloud Discovery.
+
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
 1. Masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
@@ -50,7 +53,9 @@ Di lab ini, Anda akan menjelajahi kemampuan Aplikasi Microsoft Defender untuk Cl
 
 1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
-#### <a name="task-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Tugas 2: Menjelajahi cara-cara untuk menyelidiki aktivitas yang direkam.
+### <a name="task-2"></a>Tugas 2
+
+Menjelajahi cara-cara untuk menyelidiki aktivitas yang direkam.
 
 1. Dari panel navigasi sebelah kiri, di bagian Selidiki, pilih **Activity Log**.  Di sini, Anda mendapatkan visibilitas ke semua aktivitas dari aplikasi yang terhubung.   Karena konektor Office 365 sudah terhubung, Anda seharusnya dapat melihat beberapa data. Setelah menghubungkan Cloud App Security ke aplikasi menggunakan konektor Aplikasi, Cloud App Security akan memindai semua aktivitas yang terjadi - periode waktu pemindaian retroaktif berbeda per aplikasi - dan kemudian diperbarui terus-menerus dengan aktivitas baru.  
 
@@ -66,14 +71,16 @@ Di lab ini, Anda akan menjelajahi kemampuan Aplikasi Microsoft Defender untuk Cl
 
 1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
+### <a name="task-3"></a>Tugas 3
 
-#### <a name="task-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Tugas 3: Dalam tugas ini, Anda akan menjelajahi halaman kebijakan dan peringatan di Microsoft Defender untuk Cloud.
+Dalam tugas ini, Anda akan menjelajahi halaman kebijakan dan peringatan di Microsoft Defender untuk Cloud.
 
-1. Dari panel navigasi kiri, pilih tombol panah bawah di samping bagian dengan tulisan **Kontrol** lalu pilih **Kebijakan**.  Kebijakan yang tercantum memberikan informasi tentang jumlah peringatan yang dihasilkan oleh kebijakan, keparahan, dll. Memilih item baris apa pun, seperti **Proses masuk riskan**, memberikan opsi untuk mengedit kebijakan. Pilih **Batalkan** dari bagian bawah halaman. 
+1. Dari panel navigasi kiri, pilih tombol panah bawah di samping bagian dengan tulisan **Kontrol** lalu pilih **Kebijakan**.  Kebijakan yang tercantum memberikan informasi tentang jumlah peringatan yang dihasilkan oleh kebijakan, keparahan, dll. Memilih item baris apa pun, seperti **Proses masuk riskan**, memberikan opsi untuk mengedit kebijakan. Pilih **Batalkan** dari bagian bawah halaman.
 
 1. Dari panel navigasi sebelah kiri, pilih **Alerts**.  Jika Anda memiliki peringatan yang terdaftar, pilih item dari daftar peringatan. Tinjau informasi yang diberikan.  Dari sisi kanan atas jendela, pilih **Close alert**, guna melihat opsi untuk menutup peringatan.  
 
 1. Tutup jendela browser.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
+
 Di lab ini, Anda menjelajahi kemampuan Aplikasi Microsoft Defender untuk Cloud.  Anda telah mempelajari informasi yang tersedia di dasbor Cloud Discovery dan kemampuan yang tersedia serta menyelidiki temuan dan mengontrol dampaknya terhadap organisasi Anda melalui kebijakan.

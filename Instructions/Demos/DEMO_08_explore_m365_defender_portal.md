@@ -2,19 +2,22 @@
 Demo:
   title: Portal Pertahanan Microsoft 365
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614362"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557312"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>Demo: Portal Pertahanan Microsoft 365
 
-### <a name="demo-scenario"></a>Skenario demo
+## <a name="demo-scenario"></a>Skenario demo
+
 Dalam demo ini, Anda akan menunjukkan portal Pertahanan Microsoft 365 dengan menelusuri konten yang ditampilkan di halaman arahan. Anda juga akan menelusuri opsi pada panel navigasi yang menyediakan akses cepat ke fungsionalitas yang merupakan bagian dari solusi Deteksi dan Respons Microsoft yang diperluas (XDR): Pertahanan Microsoft untuk Titik Akhir, dan Pertahanan Microsoft untuk Office 365 (email dan kolaborasi).  Terakhir, Anda juga akan menunjukkan bagaimana Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.
 
-#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>Demo Bagian 1:  Mempelajari halaman arahan Pertahanan Microsoft 365.
+### <a name="demo-part-1"></a>Demo Bagian 1
+
+Mempelajari halaman arahan Pertahanan Microsoft 365.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.  Anda seharusnya sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin Anda.
 
@@ -36,7 +39,9 @@ Dalam demo ini, Anda akan menunjukkan portal Pertahanan Microsoft 365 dengan men
 
 1. Memilih judul kartu akan membawa Anda ke informasi tambahan untuk topik tersebut. Anda akan mempelajari hal ini di tugas berikutnya.  Biarkan jendela browser tetap terbuka
 
-#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Bagian Demo 2: Di bagian demo ini, Anda akan menunjukkan bagaimana Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.
+### <a name="demo-part-2"></a>Demo Bagian 2
+
+Di bagian demo ini, Anda akan menunjukkan bagaimana Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.
 
 1. Dari halaman Selamat Datang di portal Pertahanan Microsoft 365, pilih **Microsoft Secure Score**, dari bilah judul kartu (teks akan berubah menjadi biru).  Atau, Anda dapat memilih **Secure score** dari panel navigasi sebelah kiri.
 
@@ -56,6 +61,6 @@ Dalam demo ini, Anda akan menunjukkan portal Pertahanan Microsoft 365 dengan men
 
 1. Tutup halaman browser.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
 
 Dalam demo ini, Anda telah menjelajahi portal Pertahanan Microsoft 365 dengan menelusuri konten yang ditampilkan di halaman arahan, Anda telah menjelajahi opsi di panel navigasi yang menyediakan akses cepat ke fungsionalitas yang merupakan bagian dari solusi Deteksi dan Respons Diperpanjang (XDR) Microsoft, Pertahanan Microsoft untuk Titik Akhir, dan Pertahanan Microsoft untuk Office 365 (email dan kolaborasi).  Terakhir, Anda telah menunjukkan cara Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.

@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894092"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557171"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Demo: Pertahanan Microsoft untuk Aplikasi Cloud
 
-### <a name="demo-scenario"></a>Skenario demo
+## <a name="demo-scenario"></a>Skenario demo
+
 Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untuk Cloud.  Anda akan memandu pelajar mempelajari informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan dan mengontrol dampak terhadap organisasi Anda melalui kebijakan.  Catatan:  Organisasi harus memiliki lisensi untuk menggunakan Aplikasi Microsoft Defender untuk Cloud yang merupakan layanan langganan berbasis pengguna.  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>Demo Bagian 1: Mempelajari Cloud Discovery.
+### <a name="demo-part-1-explore-cloud-discovery"></a>Demo Bagian 1: Mempelajari Cloud Discovery
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.  Anda seharusnya sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin Anda.
 
@@ -54,7 +55,9 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untu
 
 1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Bagian Demo 2: Menjelajahi cara-cara untuk menyelidiki aktivitas yang direkam.
+### <a name="demo-part-2"></a>Demo Bagian 2
+
+Menjelajahi cara-cara untuk menyelidiki aktivitas yang direkam.
 
 1. Dari panel navigasi kiri, di bawah **Investigate**, pilih **Activity Log**.  Di sini, Anda mendapatkan visibilitas ke semua aktivitas dari aplikasi yang terhubung.   Karena konektor Office 365 sudah terhubung, Anda seharusnya dapat melihat beberapa data. Setelah menghubungkan Cloud App Security ke aplikasi menggunakan konektor Aplikasi, Cloud App Security akan memindai semua aktivitas yang terjadi - periode waktu pemindaian retroaktif berbeda per aplikasi - dan kemudian diperbarui terus-menerus dengan aktivitas baru.  
 
@@ -66,8 +69,9 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untu
 
 1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
 
+### <a name="demo-part-3"></a>Demo Bagian 3
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Bagian Demo 3: Dalam tugas ini, Anda akan menjelajahi halaman kebijakan dan peringatan di Microsoft Defender untuk Cloud.
+Dalam tugas ini Anda akan mempelajari halaman kebijakan dan peringatan di Aplikasi Microsoft Defender untuk Cloud
 
 1. Dari panel navigasi sebelah kiri, di bawah teks Kontrol, pilih **Policies**.  Kebijakan yang tercantum memberikan informasi tentang jumlah peringatan yang dihasilkan oleh kebijakan, keparahan, dll. Memilih item baris mana pun memberikan informasi yang lebih detail tentang kebijakan. Pilih item dari daftar, mis., **Risky sign-in**.  
 
@@ -75,5 +79,6 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untu
 
 1. Tutup jendela browser.
 
-#### <a name="review"></a>Tinjau
+### <a name="review"></a>Tinjau
+
 Dalam demo ini, Anda menunjukkan kemampuan Aplikasi Microsoft Defender untuk Cloud.  Andatelah  menunjukkan informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan, dan mengontrol dampaknya terhadap organisasi Anda melalui kebijakan.

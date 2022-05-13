@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: Mempelajari pusat kepatuhan & Pengelola Kepatuhan Microsoft 365
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Mempelajari portal kepatuhan Microsoft Purview & Manajer Kepatuhan
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614206"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557242"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Demo: Mempelajari pusat kepatuhan & Pengelola Kepatuhan Microsoft 365
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demo: Mempelajari portal kepatuhan Microsoft Purview & Manajer Kepatuhan
 
 ## <a name="demo-scenario"></a>Skenario demo
-Dalam demo ini, Anda akan menunjukkan halaman beranda pusat kepatuhan Microsoft 365 dan cara kemampuan Manajer kepatuhan dapat membantu organisasi meningkatkan kondisi kepatuhan mereka.
 
-## <a name="instructions"></a>Instruksi
+Dalam demo ini, Anda akan menunjukkan halaman beranda portal kepatuhan Microsoft Purview dan cara-cara tempat kemampuan manajer Kepatuhan dapat membantu organisasi meningkatkan postur kepatuhan mereka.
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Demo Bagian 1: Tunjukkan halaman beranda pusat kepatuhan Microsoft 365 serta cara menyesuaikan tampilan kartu dan panel navigasi.
+### <a name="demo-part-1"></a>Demo Bagian 1
+
+Tunjukkan halaman beranda portal kepatuhan Microsoft Purview serta cara menyesuaikan tampilan kartu dan panel navigasi.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**. Anda seharusnya sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin Anda.
 
 1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
 
-1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka ke halaman selamat datang di pusat kepatuhan Microsoft 365.  
+1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka pada halaman selamat datang di portal kepatuhan Microsoft Purview.  
 
 1. Bagian kartu di halaman beranda menunjukkan sekilas kepada Anda, bagaimana kinerja organisasi Anda dengan kondisi kepatuhan Anda, solusi yang tersedia untuk organisasi Anda, dan banyak lagi.
 
@@ -34,7 +35,7 @@ Dalam demo ini, Anda akan menunjukkan halaman beranda pusat kepatuhan Microsoft 
 
 1. Anda dapat menambahkan kartu, dengan memilih **+ Add cards**.  Jendela Tambahkan kartu ke beranda Anda akan terbuka.  Arahkan kursor mouse di atas kartu Katalog solusi yang ditampilkan di jendela ini dan seret ke lokasi di layar beranda tempat Anda ingin menempatkan kartu.
 
-1. Dari panel navigasi kiri halaman beranda pusat kepatuhan Microsoft 365, perhatikan item yang tercantum di bawah Solusi.  Jika hanya Katalog yang ditampilkan, maka dari panel navigasi kiri pilih **...Tampilkan semua**.  Perhatikan bagaimana semua solusi tambahan muncul di bawah bagian solusi.  
+1. Dari panel navigasi sebelah kiri halaman beranda portal kepatuhan Microsoft Purview, perhatikan item yang tercantum di bagian Solusi.  Jika hanya Katalog yang ditampilkan, maka dari panel navigasi kiri pilih **...Tampilkan semua**.  Perhatikan bagaimana semua solusi tambahan muncul di bawah bagian solusi.  
 
 1. Sebagai admin kepatuhan, mungkin ada serangkaian solusi yang Anda kelola untuk organisasi kami dan Anda ingin selalu tercantum di panel navigasi.  Untuk menyesuaikan dengan preferensi Anda, pilih **Customize navigation**.  
 
@@ -42,9 +43,11 @@ Dalam demo ini, Anda akan menunjukkan halaman beranda pusat kepatuhan Microsoft 
 
 1. Biarkan tab browser terbuka.
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Bagian Demo 2: Pelajari tentang kondisi kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
+### <a name="demo-part-2"></a>Demo Bagian 2
 
-1. Dari panel navigasi kiri pusat kepatuhan Microsoft 365, pilih **Compliance Manager**.  Atau, Anda dapat memilih Pengelola Kepatuhan pada bilah judul kartu Pengelola Kepatuhan.
+Pelajari tentang kondisi kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
+
+1. Dari panel navigasi sebelah kiri portal kepatuhan Microsoft Purview, pilih **Manajer Kepatuhan**.  Atau, Anda dapat memilih Pengelola Kepatuhan pada bilah judul kartu Pengelola Kepatuhan.
 
 1. Dari bagian atas halaman Pengelola Kepatuhan, pastikan **Overview** terpilih (digarisbawahi). Gulir ke bawah untuk melihat semua informasi yang tersedia di halaman  Informasi di halaman ini mencakup skor kepatuhan Anda, sebagai persentase dan berdasarkan poin yang Anda capai serta poin yang dikelola dan dicapai Microsoft.   Anda akan melihat Tindakan perbaikan penting, Solusi yang memengaruhi skor Anda, dan perincian skor kepatuhan menurut kategori atau penilaian.
 
@@ -66,7 +69,8 @@ Dalam demo ini, Anda akan menunjukkan halaman beranda pusat kepatuhan Microsoft 
 
 1. Dari daftar templat yang disertakan, pilih **ISO/IEC27001:2013**. Dari bagian kanan atas halaman, pilih **+ Create assessment**.  Perhatikan di bagian sisi kiri layar bahwa hanya ada dua langkah untuk membuat penilaian dari templat.  Pilih Batal dari bagian bawah halaman.
 
-1. Dari panel navigasi kiri, pilih **Home** untuk kembali ke halaman Beranda pusat kepatuhan Microsoft 365.  Biarkan halaman browser ini terbuka untuk demo berikutnya.
+1. Dari panel navigasi sebelah kiri, pilih **Beranda** untuk kembali ke halaman Beranda portal kepatuhan Microsoft Purview.  Biarkan halaman browser ini terbuka untuk demo berikutnya.
 
-#### <a name="review"></a>Tinjau
-Dalam demo ini, Anda telah menunjukkan halaman beranda pusat kepatuhan Microsoft 365 dan cara-cara yang menjadi kemampuan Pengelola Kepatuhan dapat membantu organisasi meningkatkan kondisi kepatuhan mereka.
+### <a name="review"></a>Tinjau
+
+Dalam demo ini Anda menunjukkan halaman beranda portal kepatuhan Microsoft Purview dan cara-cara kemampuan manajer Kepatuhan dapat membantu organisasi meningkatkan postur kepatuhan mereka.

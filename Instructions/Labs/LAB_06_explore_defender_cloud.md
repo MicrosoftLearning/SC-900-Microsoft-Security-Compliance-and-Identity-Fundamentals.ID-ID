@@ -2,22 +2,26 @@
 lab:
   title: Menjelajahi Microsoft Defender untuk Cloud
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 208e11a7e82497fbb900b4fa024fb6fb367d458e
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 580e84e726a6ba9c7d9109881710e08f059d0818
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893993"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557572"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Lab: Menjelajahi Microsoft Defender untuk Cloud
 
 ## <a name="lab-scenario"></a>Skenario lab
+
 Di lab ini, Anda akan menjelajahi Microsoft Defender untuk Cloud dan mempelajari cara Azure Secure Score dapat digunakan untuk meningkatkan postur keamanan organisasi Anda.
 
 **Perkiraan Waktu**: 30 menit
 
-#### <a name="task-1-in-this-task-you-will-take-a-brief-tour-of-microsoft-defender-for-cloud"></a>Tugas 1: Dalam tugas ini Anda akan mengikuti tur singkat Microsoft Defender untuk Cloud.
-1.  Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
+### <a name="task-1"></a>Tugas 1
+
+Dalam tugas ini Anda akan mengikuti tur singkat Microsoft Defender untuk Cloud.
+
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
 
 1. Masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
@@ -48,35 +52,36 @@ Di lab ini, Anda akan menjelajahi Microsoft Defender untuk Cloud dan mempelajari
 
 1. Dari halaman utama, pilih **Regulatory compliance**. Halaman kepatuhan terhadap peraturan menyediakan daftar kontrol kepatuhan.  Pada tiap kontrol adalah seperangkat penilaian yang didasarkan pada Tolok Ukur Keamanan Azure yang menyediakan rekomendasi tentang cara Anda dapat mengamankan solusi cloud Anda di Azure.
     1. Pilih **IM. Manajemen Identitas** lalu pilih **IM-6 Gunakan kontrol autentikasi yang kuat**.  Daftar ini menunjukkan tindakan tanggung jawab pelanggan yang dapat diambil untuk meningkatkan kondisi keamanan organisasi Anda.
-    1. Pilih **X** di sudut kanan atas layar untuk menutup halaman dan kembali ke halaman Gambaran Umum Microsoft Defender untuk Cloud. 
+    1. Pilih **X** di sudut kanan atas layar untuk menutup halaman dan kembali ke halaman Gambaran Umum Microsoft Defender untuk Cloud.
     1. Biarkan halaman gambaran umum Microsoft Defender untuk Cloud terbuka, yang akan Anda gunakan di tugas berikutnya.
 
+### <a name="task-2"></a>Tugas 2
 
-#### <a name="task-2-in-this-task-you-will-navigate-to-azure-secure-score-and-explore-recommendations-that-can-improve-your-secure-score"></a>Tugas 2: Dalam tugas ini, Anda akan melewati Skor Aman Azure dan menjelajahi rekomendasi yang dapat meningkatkan skor keamanan Anda. 
+Dalam tugas ini, Anda akan melewati Skor Aman Azure dan menjelajahi rekomendasi yang dapat meningkatkan skor keamanan Anda.
 
 1. Dari halaman gambaran umum Microsoft Defender untuk Cloud, pilih kartu **Secure Score**.
 1. Pilih **Azure Pass – Sponsorship**.  Catat skor aman Anda.
 1. Dari halaman rekomendasi, pilih **Terapkan praktik terbaik keamanan** untuk memperluas daftar. Perhatikan bahwa daftar menunjukkan status kesehatan sumber dayanya dengan warna merah.
-1. Klik item **There should be more than one owner assigned to your subscription**, yang menunjukkan status kesehatan sumber daya berwarna merah. 
+1. Klik item **There should be more than one owner assigned to your subscription**, yang menunjukkan status kesehatan sumber daya berwarna merah.
 1. Di bawahnya tertulis **Sumber daya yang terpengaruh**, pastikan Sumber daya yang tidak sehat dipilih/digarisbawahi, lalu pilih langganan Azure yang tercantum.
 1. Di bagian atas halaman Kontrol akses (IAM), klik **+ Add**, lalu dari menu tarik-turun klik **Add role assignment**.
     1. Dari sisi kiri halaman, pilih **Pemilik** (ini harus menjadi item pertama yang tercantum) sehingga baris disorot dengan warna abu-abu, lalu pilih **Berikutnya** dari bagian bawah halaman.
-    1. Di sebelah bagian yang tertulis Anggota, pilih **+ Pilih anggota**. 
+    1. Di sebelah bagian yang tertulis Anggota, pilih **+ Pilih anggota**.
     1. Dari jendela Pilih anggota yang terbuka di sisi kanan layar, pilih **Alex Wilber**, lalu tekan **Pilih** di bagian bawah halaman.  
     1. Dari halaman Tambahkan penetapan peran, pastikan bahwa Alex Wilber terdaftar sebagai anggota, lalu pilih **Berikutnya** diikuti oleh **Tinjau + tetapkan**.
     1. Perlu waktu hingga 24 jam agar status diperbarui, dan setelah skor keamanan Anda juga diperbarui serta semua item di Kelola grup izin dan akses dipenuhi.
     1. Dari pojok kiri atas halaman, di atas bagian yang tertulis Azure Pass, pilih **Microsoft Defender untuk Cloud** untuk menampilkan halaman gambaran umum Microsoft Defender untuk Cloud.
 1. Biarkan halaman ini terbuka untuk tugas berikutnya.
 
+### <a name="task-3"></a>Tugas 3
 
-#### <a name="task-3--recall-that-microsoft-defender-for-cloud-is-offered-in-two-modes-without-enhanced-security-features-free-and-with-enhanced-security-features-which-are-available-through-the-microsoft-defender-for-cloud-plans-in-this-task-you-discover-how-to-enabledisable-the-various-microsoft-defender-for-cloud-plans"></a>Tugas 3:  Perlu diingat bahwa Microsoft Defender untuk Cloud ditawarkan dalam dua mode: tanpa fitur keamanan yang ditingkatkan (gratis) dan dengan fitur keamanan yang ditingkatkan yang tersedia melalui paket Microsoft Defender untuk Cloud. Dalam tugas ini, Anda akan menemukan cara mengaktifkan/menonaktifkan berbagai paket Microsoft Defender untuk Cloud.
+Perlu diingat bahwa Microsoft Defender untuk Cloud ditawarkan dalam dua mode: tanpa fitur keamanan yang ditingkatkan (gratis) dan dengan fitur keamanan yang ditingkatkan yang tersedia melalui paket Microsoft Defender untuk Cloud. Dalam tugas ini, Anda akan menemukan cara mengaktifkan/menonaktifkan berbagai paket Microsoft Defender untuk Cloud.
 
-1.  Dari halaman gambaran umum Microsoft Defender untuk Cloud, pilih **Pengaturan lingkungan** dari panel navigasi kiri.
+1. Dari halaman gambaran umum Microsoft Defender untuk Cloud, pilih **Pengaturan lingkungan** dari panel navigasi kiri.
 1. Pilih tanda lebih besar dari **>** di sebelah bagian yang tertulis Grup Akar Penyewa untuk memperluasnya (jangan pilih Grup Akar Penyewa secara langsung karena akan mengarahkan Anda ke halaman lain), lalu pilih **Azure Pass - Sponsor**
-1.  Pada halaman Paket Defender, perhatikan cara Anda dapat memilih Aktifkan semua atau pilih masing-masing paket Defender. Biarkan pengaturan apa adanya dengan semua paket dinonaktifkan.
-1.  Sekarang Anda dapat menghapus tab browser untuk keluar portal Azure.
+1. Pada halaman Paket Defender, perhatikan cara Anda dapat memilih Aktifkan semua atau pilih masing-masing paket Defender. Biarkan pengaturan apa adanya dengan semua paket dinonaktifkan.
+1. Sekarang Anda dapat menghapus tab browser untuk keluar portal Azure.
 
+### <a name="review"></a>Tinjau
 
-#### <a name="review"></a>Tinjau
 Di lab ini, Anda menjelajahi Microsoft Defender untuk Cloud dan mempelajari cara Azure Secure Score dapat digunakan untuk meningkatkan postur keamanan organisasi Anda.
-
