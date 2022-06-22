@@ -2,18 +2,18 @@
 lab:
   title: Menjelajahi Service Trust Portal
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
+ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557206"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "146381228"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Lab: Menjelajahi Service Trust Portal
 
 ## <a name="lab-scenario"></a>Skenario lab
 
-Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Trust Portal. Anda juga akan mengunjungi Pusat Kepercayaan dan membuka enam prinsip privasi utama.
+Di lab ini, Anda akan mempelajari fitur dan konten yang tersedia dari Service Trust Portal. Anda juga akan mengunjungi Pusat Kepercayaan untuk melihat informasi tentang Privasi di Microsoft.
 
 **Perkiraan Waktu**: 10-15 menit
 
@@ -49,20 +49,14 @@ Dalam tugas ini Anda akan mempelajari Service Trust Portal dan berbagai jenis ko
 
 ### <a name="task-2"></a>Tugas 2
 
-Dalam tugas ini Anda akan mengunjungi Pusat Kepercayaan dan membuka enam prinsip privasi utama Microsoft.
+Dalam tugas ini Anda akan menampilkan Pusat Kepercayaan dan menavigasi ke informasi yang menjelaskan Privasi di Microsoft.
 
-1. Dari bagian atas halaman Portal Kepercayaan Layanan, pilih **Trust Center**, lalu pilih **Home**. Hal ini akan membuka tab browser baru yang mengarahkan Anda ke Pusat Kepercayaan tempat Anda dapat menemukan informasi selengkapnya tentang keamanan, kepatuhan, dan privasi di Microsoft Cloud.
+1. Dari bagian atas halaman Portal Kepercayaan Layanan, pilih **Trust Center**, lalu pilih **Home**. Ini akan membuka tab browser baru yang mengarahkan Anda ke Pusat Kepercayaan tempat Anda dapat menemukan informasi selengkapnya, seperti informasi tentang privasi dan banyak lagi.  
 
-1. Dari bagian atas halaman, pilih **Privacy**, lalu pilih **Resources**.
-
-1. Pilih **Additional privacy resources**.
-
-1. Pilih **Privacy at Microsoft**.
-
-1. Tinjau enam prinsip privasi utama.
+1. Anda akan melihat informasi tentang komitmen Kami (Microsoft) kepada Anda.  Dari sini pilih **Pelajari selengkapnya tentang Privasi Microsoft**.  Gulir halaman dan jelajahi berbagai tautan untuk mempelajari selengkapnya tentang privasi di Microsoft.
 
 1. Tutup jendela browser untuk keluar dari Service Trust Portal dan Pusat Kepercayaan.
 
 ### <a name="review"></a>Tinjau
 
-Dalam lab ini, Anda telah mempelajari beberapa opsi yang tersedia di Service Trust Portal, cara mengakses laporan, dan cara menggunakan Pustaka Saya guna menyimpan dokumen untuk ditinjau nantinya.  Selain itu, Anda juga telah mengunjungi Pusat Kepercayaan untuk mengakses dan meninjau prinsip Privasi Microsoft.
+Dalam lab ini, Anda telah mempelajari beberapa opsi yang tersedia di Service Trust Portal, cara mengakses laporan, dan cara menggunakan Pustaka Saya guna menyimpan dokumen untuk ditinjau nantinya.  Selain itu, Anda juga telah mengunjungi Pusat Kepercayaan untuk mengakses dan meninjau informasi tentang privasi di Microsoft.
