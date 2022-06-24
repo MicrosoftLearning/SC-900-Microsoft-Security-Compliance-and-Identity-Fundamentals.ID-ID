@@ -2,12 +2,12 @@
 lab:
   title: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557470"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542651"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
 
@@ -97,7 +97,7 @@ Dalam tugas ini, Anda sebagai pengguna Adele Vance akan melalui proses pendaftar
 2. Di bilah alamat, masukkan **login.microsoftonline.com**.
 
 3. Masuk sebagai Adele Vance,
-    1. Di jendela Masuk, masukkan **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
+    1. Di jendela Masuk, masukkan **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi yang Anda catat sebelumnya. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**
 

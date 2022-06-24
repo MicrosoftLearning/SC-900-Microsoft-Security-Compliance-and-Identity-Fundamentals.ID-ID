@@ -2,12 +2,12 @@
 lab:
   title: Menjelajahi Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557518"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542591"
 ---
 # <a name="lab-explore-azure-policy"></a>Lab: Menjelajahi Azure Policy
 
@@ -21,7 +21,7 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 Menjelajahi halaman kebijakan Azure secara singkat.
 
-1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.microsoft.com**.
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
 
 1. Masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
