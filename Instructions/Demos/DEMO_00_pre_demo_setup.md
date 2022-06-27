@@ -1,18 +1,19 @@
 ---
 Pre-Demo Setup:
   title: Persiapan Demo
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557254"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458324"
 ---
-# <a name="pre-demo-setup"></a>Persiapan Pra-Demo
+## <a name="pre-demo-setup"></a>Persiapan Pra-Demo
+Penyiapan ini terdiri dari dua tugas terpisah.  Tugas pertama berlaku dan direkomendasikan hanya jika lingkungan lab Anda menyertakan penggunaan Azure pass. Tugas kedua difokuskan untuk mengaktifkan Log Audit Microsoft dan menerapkan serta direkomendasikan terlepas dari apakah lingkungan Anda menggunakan Azure Pass atau tidak.
 
-## <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
+### <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
 
-Dalam tugas penyiapan ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
+Tugas ini berlaku dan direkomendasikan hanya jika lingkungan demo yang Anda gunakan menyertakan Azure Pass. Dalam tugas ini, Anda akan menukarkan Azure pass Anda menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
 
 1. Jika Anda memiliki jendela browser yang terbuka, sebaiknya tutup semua browser.
 

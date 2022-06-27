@@ -2,12 +2,12 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 4840bb3463325745987f55c4ed7d7462491e9fce
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557326"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542662"
 ---
 # <a name="demo-microsoft-sentinel"></a>Demo: Microsoft Sentinel
 
@@ -131,7 +131,7 @@ Penghapusan penyediaan pasca-kursus. Microsoft Sentinel ditagih berdasarkan volu
 
 3. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya,  **SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
+4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, **SC900-ResourceGroup**, lalu pilih **Hapus** dari bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 
 5. Setelah Anda memverifikasi grup sumber daya telah dihapus, tutup halaman browser.
 

@@ -2,12 +2,12 @@
 lab:
   title: Menjelajahi Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 72d9f0c32e7c8f48b9c6fdb3468a000a9006b6ba
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557158"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542579"
 ---
 # <a name="lab-explore-microsoft-sentinel"></a>Lab: Menjelajahi Microsoft Sentinel
 
@@ -135,7 +135,7 @@ Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis d
 
 3. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya,  **SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
+4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, **SC900-ResourceGroup**, lalu pilih **Hapus** dari bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 
 5. Setelah Anda memverifikasi grup sumber daya telah dihapus, tutup halaman browser.
 

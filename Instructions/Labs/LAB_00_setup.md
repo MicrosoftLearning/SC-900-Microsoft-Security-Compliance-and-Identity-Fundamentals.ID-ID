@@ -1,24 +1,24 @@
 ---
 lab:
   title: Siapkan
-ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ccbb76933233296b92dabd0e03fc63a0b51bf139
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557306"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458312"
 ---
 # <a name="lab-setup"></a>Lab: Pengaturan
 
 ## <a name="lab-scenario"></a>Skenario lab
 
-Di lab ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang mulus saat berpindah antara Microsoft 365 dan Azure. Sebagai bagian dari penyiapan, Anda juga akan mengaktifkan kemampuan log audit, di penyewa Microsoft 365 Anda, karena perlu beberapa waktu untuk diterapkan. Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan serta wawasan analitik.
+Lab penyiapan ini terdiri dari dua tugas terpisah.  Tugas pertama berlaku dan direkomendasikan hanya jika lingkungan lab Anda menyertakan penggunaan Azure pass. Tugas kedua difokuskan untuk mengaktifkan Log Audit Microsoft dan menerapkan serta direkomendasikan terlepas dari apakah lingkungan Anda menggunakan Azure Pass atau tidak.
 
 **Perkiraan Waktu**: 5-10 menit
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
 
-Dalam tugas penyiapan ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
+Tugas ini berlaku dan direkomendasikan hanya jika lingkungan lab yang Anda gunakan menyertakan Azure Pass. Dalam tugas ini, Anda akan menukarkan Azure pass Anda menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
 
 1. Jika Anda memiliki jendela browser yang terbuka, sebaiknya tutup semua browser.
 

@@ -2,12 +2,12 @@
 lab:
   title: Menjelajahi manajemen akses di Azure AD dengan Akses Bersyarat
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557277"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542603"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Lab: Menjelajahi manajemen akses di Azure AD dengan Bersyarat
 
@@ -28,7 +28,7 @@ Di tugas ini Anda, sebagai admin akan mengatur ulang kata sandi untuk pengguna b
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
-3. Pilih **Azure Active Directory**.  
+3. Di sudut kiri atas layar, di sebelah pada bagian yang bertuliskan Microsoft Azure, pilih ikon menu Tampilkan portal (tiga garis horizontal juga disebut sebagai ikon hamburger) lalu dari panel navigasi kiri, di bawah Favorit, pilih Azure Active Directory. Jika tidak tercantum di bawah favorit, lalu di kotak pencarian, masukkan Azure Active Directory, lalu dari daftar hasil, pilih **Azure Active Directory**.
 
 4. Dari panel navigasi sebelah kiri, pilih **Users**.
 
