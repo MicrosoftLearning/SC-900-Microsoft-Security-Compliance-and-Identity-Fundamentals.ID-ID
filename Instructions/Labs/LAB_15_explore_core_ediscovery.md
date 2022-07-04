@@ -2,12 +2,12 @@
 lab:
   title: Jelajahi alur kerja eDiscovery (Standar)
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542627"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649969"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Lab: Jelajahi alur kerja eDiscovery (Standar)
 
@@ -126,6 +126,8 @@ Di penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian selesai, A
     1. Di bidang kedua, pilih lokasi tempat Anda ingin menyimpan file ekspor, lalu pilih **Start**.  Setelah proses pengunduhan selesai, pilih **Close** dan tutup tab browser ini.
     1. Anda kembali ke jendela “Uji Penangguhan - Ekspor Pencarian Penjualan".  Pilih **Tutup**.
     1. Periksa lokasi unduhan Anda untuk memverifikasi unduhan berhasil diselesaikan.
+
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

@@ -2,12 +2,12 @@
 Demo:
   title: Grup Keamanan Jaringan Azure (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557529"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741855"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demo: Grup Keamanan Jaringan Azure (NSG)
 
@@ -152,9 +152,9 @@ Telusuri pengaturan NSG.  Dalam hal ini, Anda akan melakukan penelusuran ke NSG 
 
 1. Kembali ke halaman Beranda portal Azure, dengan memilih **Microsoft Azure** di bilah biru bagian atas halaman.
 
-### <a name="tear-down"></a>Penghapusan
+### <a name="post-course-delivery-tear-down"></a>Penghapusan setelah penyampaian kursus
 
-**IMPORTANT**: Dalam tugas ini, Anda akan menghapus grup sumber daya dan semua sumber daya yang ada di dalamnya.   Ini penting untuk menghindari biaya tambahan.
+VM adalah sumber daya yang ditagih dan meskipun biaya menjalankan VM dalam demo ini sangat kecil, sebaiknya Anda menghapus grup sumber daya yang berisi VM dan sumber daya terkait, di akhir penyampaian kursus.
 
 1. Buka Tab SC900-WinVM – Microsoft Azure di browser Anda.
 

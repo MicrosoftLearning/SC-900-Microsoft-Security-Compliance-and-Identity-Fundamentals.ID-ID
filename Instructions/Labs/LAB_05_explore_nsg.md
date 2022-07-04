@@ -2,12 +2,12 @@
 lab:
   title: Mempelajari Grup Keamanan Jaringan Azure (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557506"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650089"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Lab: Mempelajari Grup Keamanan Jaringan Azure (NSG)
 
@@ -151,9 +151,9 @@ Aturan keluar default untuk NSG mengizinkan lalu lintas internet keluar sehingga
 1. Tutup koneksi desktop jarak jauh, dengan mengeklik **X** di bagian tengah atas halaman tempat alamat IP ditampilkan.  Jendela pop-up menunjukkan Sesi jarak jauh Anda akan terputus. Pilih **OK**.
 1. Di tugas ini, Anda berhasil mengonfigurasi aturan keluar di NSG Anda, serta memblokir lalu lintas internet keluar.
 
-### <a name="task-5"></a>Tugas 5
+### <a name="tear-down"></a>Penghapusan
 
-**IMPORTANT**: Dalam tugas ini, Anda akan menghapus grup sumber daya dan semua sumber daya yang ada di dalamnya.   Ini penting untuk menghindari biaya tambahan.
+VM adalah sumber daya yang ditagih dan meskipun biaya menjalankan VM dalam demo ini sangat kecil, sebaiknya Anda menghapus grup sumber daya yang berisi VM dan sumber daya terkait, di akhir kursus.
 
 1. Buka Tab SC900-WinVM – Microsoft Azure di browser Anda.
 
@@ -163,6 +163,7 @@ Aturan keluar default untuk NSG mengizinkan lalu lintas internet keluar sehingga
 1. Di bagian tengah atas halaman LabsSC900, klik **Delete resource group**.
 1. DI jendela yang terbuka, masukkan nama grup sumber daya **LabsSC900**, untuk konfirmasi penghapusan grup sumber daya dan semua sumber daya di dalamnya, lalu klik **Delete** di bagian bawah halaman.
 1. Mungkin perlu beberapa menit agar semua sumber daya dan grup sumber daya terhapus.
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

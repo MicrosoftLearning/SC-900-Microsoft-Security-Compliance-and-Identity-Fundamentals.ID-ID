@@ -2,12 +2,12 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 4840bb3463325745987f55c4ed7d7462491e9fce
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 74c3f339580c0eed60eedfe1f19871fa115951fe
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542662"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649993"
 ---
 # <a name="demo-microsoft-sentinel"></a>Demo: Microsoft Sentinel
 
@@ -121,9 +121,9 @@ Dalam bagian ini Anda akan menunjukkan beberapa opsi yang tersedia di Sentinel.
 
 1. Dari sudut kiri atas jendela, tepat di bawah bilah biru, pilih **Beranda** untuk kembali ke halaman beranda portal Azure.
 
-### <a name="task-6"></a>Tugas 6
+### <a name="post-course-delivery-tear-down"></a>Penghapusan setelah penyampaian kursus
 
-Penghapusan penyediaan pasca-kursus. Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Microsoft Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari demo ini minimal, Anda disarankan untuk menghapus grup sumber daya Microsoft Sentinel setelah Anda selesai menjelajahi kemampuan Microsoft Sentinel.
+Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Microsoft Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari demo ini sedikit, sebaiknya Anda menghapus grup sumber daya Microsoft Sentinel setelah penyampaian kursus selesai.
 
 1. Dari halaman Microsoft Sentinel, di pojok kiri atas halaman, di atas bagian yang tertulis Microsoft Sentinel, pilih **Semua Layanan**.
 

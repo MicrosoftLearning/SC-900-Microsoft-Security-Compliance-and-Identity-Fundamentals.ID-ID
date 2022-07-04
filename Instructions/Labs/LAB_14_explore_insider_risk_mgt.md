@@ -2,12 +2,12 @@
 lab:
   title: Mempelajari manajemen risiko orang dalam di Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542639"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741879"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Lab: Mempelajari manajemen risiko orang dalam di Microsoft Purview
 
@@ -115,6 +115,8 @@ Dalam tugas ini, Anda akan mempelajari pembuatan kebijakan.
 1. Anda kembali ke tab Kebijakan di halaman Manajemen risiko dari dalam.  Kebijakan yang baru saja Anda buat akan dicantumkan.  
 
 1. Pada kebijakan yang baru saja Anda buat, bidang “Pengguna dalam cakupan” mewakili pengguna yang saat ini diberi skor risiko oleh kebijakan.  Menetapkan skor risiko kepada pengguna terjadi saat kebijakan dipicu, oleh karena itu nilainya menunjukkan 0.  Admin dapat mengonfigurasi kebijakan untuk mulai menetapkan skor risiko kepada pengguna tertentu, berdasarkan aktivitas yang terdeteksi oleh kebijakan yang Anda pilih, DAN mengabaikan persyaratan bahwa kejadian pemicu terdeteksi terlebih dahulu.  Untuk melakukan hal ini, pilih lingkaran kosong di samping nama kebijakan untuk memilih kebijakan, lalu pilih **Start scoring activity for users**, yang ditunjukkan di atas tabel kebijakan.  Isi setiap bidang, lalu pilih **Start scoring activity**.  Diperlukan waktu 24 jam bagi pengguna untuk muncul di tab 'Pengguna'. Setelah itu, Anda dapat memilih pengguna dari tab untuk meninjau aktivitas yang terdeteksi.  Pilih **Tutup** di bagian bawah jendela.
+
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

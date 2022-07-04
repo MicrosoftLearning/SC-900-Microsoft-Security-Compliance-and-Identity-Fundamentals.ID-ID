@@ -2,12 +2,12 @@
 lab:
   title: Menjelajahi Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542591"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741915"
 ---
 # <a name="lab-explore-azure-policy"></a>Lab: Menjelajahi Azure Policy
 
@@ -125,6 +125,8 @@ Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan memb
     1. Di bawah teks tertulis layanan Azure, pilih Azure policy.
     1. Di bagian tengah halaman, Anda akan melihat daftar penetapan tugas Azure policy.  Pilih elipsis untuk penetapan kebijakan yang Memerlukan tag pada grup sumber daya, lalu pilih Delete assignment.
     1. Anda akan diminta untuk mengonfirmasi bahwa Anda ingin menghapus tugas.  Pilih Ya.
+
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 
