@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Mempelajari label sensitivitas di Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 65cf71c24e66e5c94fb27a1479693338a3cd7091
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741843"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892652"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview; Pelajaran 4: Menjelaskan label sensitivitas'
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Lab: Mempelajari label sensitivitas di Microsoft Purview
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview
+- Pelajaran: Menjelaskan label sensitivitas
 
 ## <a name="lab-scenario"></a>Skenario lab
 

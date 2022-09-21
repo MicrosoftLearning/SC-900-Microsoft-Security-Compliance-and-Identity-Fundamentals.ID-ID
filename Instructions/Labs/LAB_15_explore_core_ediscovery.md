@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Jelajahi alur kerja eDiscovery (Standar)
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649969"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892664"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi alur kerja eDiscovery (Standar) ' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 5: Menjelaskan kemampuan eDiscovery dan audit Microsoft Purview; Pelajaran 2: Menjelaskan solusi eDiscovery di Microsoft 365'
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Lab: Jelajahi alur kerja eDiscovery (Standar)
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan eDiscovery dan kemampuan audit Microsoft Purview
+- Pelajaran: Menjelaskan solusi eDiscovery di Microsoft 365
 
 ## <a name="lab-scenario"></a>Skenario lab
 

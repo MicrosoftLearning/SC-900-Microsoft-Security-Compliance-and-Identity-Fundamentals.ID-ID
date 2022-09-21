@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Mempelajari Grup Keamanan Jaringan Azure (NSG)
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: d2377516343cb85c279c1a2d6347c59f573d73c7
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695293"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892197"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi Azure Network Security Groups (NSGs)' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 1: Menjelaskan kemampuan keamanan dasar di Azure; Pelajaran 6: Menjelaskan grup Keamanan Jaringan Azure'
+---
+--->
+
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Lab: Mempelajari Grup Keamanan Jaringan Azure (NSG)
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan keamanan dasar di Azure
+- Pelajaran: Menjelaskan grup Keamanan Jaringan Azure
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -51,7 +60,7 @@ Dalam tugas ini, Anda akan membuat komputer virtual Windows 10.
 1. Setelah penyebaran VM selesai, pilih **Go to resource**.
 1. Sekarang Anda berada di halaman SC900-WinVM.
 1. Di bagian atas halaman, klik **Connect**, lalu dari menu tarik-turun, klik **RDP**.
-1. Perhatikan bahwa prasyarat port tidak terpenuhi.  Untuk memungkinkan memenuhi prasyarat, aturan keamanan jaringan masuk dengan port tujuan 3389, yang digunakan oleh RDP, harus dikonfigurasi.  Anda akan melakukannya di tugas berikutnya, ketika Anda membuat grup keamanan jaringan.
+1. Perhatikan bahwa prasyarat port tidak terpenuhi.  Untuk memenuhi prasyarat, aturan keamanan jaringan masuk dengan port tujuan 3389, yang digunakan oleh RDP, harus dikonfigurasi.  Anda akan melakukannya di tugas berikutnya, ketika Anda membuat grup keamanan jaringan.
 1. Biarkan tab browser ini terbuka.
 
 ### <a name="task-2"></a>Tugas 2

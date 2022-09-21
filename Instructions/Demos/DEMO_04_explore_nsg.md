@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Grup Keamanan Jaringan Azure (NSG)
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 34a08ed5a6edd845087e4ed4b5d94d4f06bc8f89
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: ce07082f318bbb7b96e3eac0d8f549795bdf488d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695305"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892435"
 ---
+<a name="---"></a><!---
+---
+Demo: Judul: 'Azure Network Security Groups (NSGs)' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 1: Menjelaskan kemampuan keamanan dasar di Azure; Pelajaran 6: Menjelaskan grup Keamanan Jaringan Azure'
+---
+--->
+
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demo: Grup Keamanan Jaringan Azure (NSG)
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan keamanan dasar di Azure
+- Pelajaran: Menjelaskan grup Keamanan Jaringan Azure
 
 ## <a name="demo-scenario"></a>Skenario demo
 
@@ -46,7 +55,7 @@ Dalam demo ini, Anda akan menunjukkan fungsi grup keamanan jaringan (NSG) di Azu
 1. Setelah penyebaran VM selesai, pilih **Go to resource**.
 1. Sekarang Anda berada di halaman SC900-WinVM.
 1. Di bagian atas halaman, klik **Connect**, lalu dari menu tarik-turun, klik **RDP**.
-1. Perhatikan bahwa prasyarat port tidak terpenuhi.  Untuk memungkinkan memenuhi prasyarat, aturan keamanan jaringan masuk dengan port tujuan 3389, yang digunakan oleh RDP, harus dikonfigurasi.  Anda akan melakukannya di tugas berikutnya, ketika Anda membuat grup keamanan jaringan.
+1. Perhatikan bahwa prasyarat port tidak terpenuhi.  Untuk memenuhi prasyarat, aturan keamanan jaringan masuk dengan port tujuan 3389, yang digunakan oleh RDP, harus dikonfigurasi.  Anda akan melakukannya di tugas berikutnya, ketika Anda membuat grup keamanan jaringan.
 1. Biarkan tab browser ini terbuka.
 
 

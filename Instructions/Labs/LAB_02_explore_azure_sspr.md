@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542651"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892173"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi autentikasi Azure AD dengan pengaturan ulang kata sandi mandiri' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Pelajaran 4: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra
+- Modul: Menjelaskan kemampuan autentikasi Azure AD
+- Pelajaran: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD
 
 ## <a name="lab-scenario"></a>Skenario lab
 

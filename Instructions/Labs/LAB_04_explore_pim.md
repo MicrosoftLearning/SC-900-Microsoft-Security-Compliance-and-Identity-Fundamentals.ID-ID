@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Menjelajahi tata kelola identitas di Microsoft Azure AD dengan Privileged Identity management. '
-  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557266"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892221"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi tata kelola identitas di Azure AD dengan manajemen Identitas Istimewa. ' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 4: Menjelaskan kemampuan perlindungan identitas dan tata kelola Azure AD; Pelajaran 4: Menjelaskan kemampuan Privileged Identity Management'
+---
+--->
+
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Mempelajari tata kelola identitas di Microsoft Azure AD dengan Privileged Identity Management
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra
+- Modul: Menjelaskan kemampuan perlindungan dan tata kelola identitas di Azure AD
+- Pelajaran: Menjelaskan kemampuan Privileged Identity Management
 
 ## <a name="lab-scenario"></a>Skenario lab
 

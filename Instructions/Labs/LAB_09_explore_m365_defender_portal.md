@@ -1,15 +1,24 @@
 ---
-lab:
-  title: "'Mempelajari portal Pertahanan Microsoft 365'"
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5accd8bc5c37450e40dfb73b5f2cf0bb8cb24525
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649981"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892677"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi modul portal Pertahanan Microsoft 365': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365; Pelajaran 7: Menjelaskan portal Pertahanan Microsoft 365'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Lab: 'Mempelajari portal Pertahanan Microsoft 365'
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan perlindungan ancaman Microsoft 365
+- Pelajaran: Menjelaskan portal Pertahanan Microsoft 365
 
 ## <a name="lab-scenario"></a>Skenario lab
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Menjelajahi Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741915"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892149"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi Azure Policy' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure; Pelajaran 2: Jelaskan Azure Policy'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Lab: Menjelajahi Azure Policy
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan kemampuan tata kelola sumber daya di Azure
+- Pelajaran: Menjelaskan Azure Policy
 
 ## <a name="lab-scenario"></a>Skenario lab
 

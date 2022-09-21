@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Kebijakan Azure
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542675"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892209"
 ---
+<a name="---"></a><!---
+---
+Demo: Judul: 'Azure Policy' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure; Pelajaran 2: Jelaskan Azure Policy'
+---
+--->
+
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan kemampuan tata kelola sumber daya di Azure
+- Pelajaran: Menjelaskan Azure Policy
 
 ## <a name="demo-scenario"></a>Skenario demo
 

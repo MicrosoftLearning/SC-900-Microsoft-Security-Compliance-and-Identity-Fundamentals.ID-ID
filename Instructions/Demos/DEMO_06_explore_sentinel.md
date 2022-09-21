@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 74c3f339580c0eed60eedfe1f19871fa115951fe
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649993"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892389"
 ---
+<a name="---"></a><!---
+---
+Demo: Judul: Jalur Pembelajaran/Modul/Judul 'Microsoft Sentinel': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 3: Menjelaskan kemampuan keamanan Microsoft Azure Sentinel; Pelajaran 3: Menjelaskan bagaimana Microsoft Azure Sentinel menyediakan manajemen ancaman terintegrasi'
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>Demo: Microsoft Sentinel
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan keamanan Microsoft Sentinel
+- Pelajaran: Menjelaskan bagaimana Microsoft Sentinel menyediakan manajemen ancaman terintegrasi
 
 ## <a name="demo-scenario"></a>Skenario demo
 
