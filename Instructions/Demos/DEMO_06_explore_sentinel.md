@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557326"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892389"
 ---
+<a name="---"></a><!---
+---
+Demo: Judul: Jalur Pembelajaran/Modul/Judul 'Microsoft Sentinel': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 3: Menjelaskan kemampuan keamanan Microsoft Azure Sentinel; Pelajaran 3: Menjelaskan bagaimana Microsoft Azure Sentinel menyediakan manajemen ancaman terintegrasi'
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>Demo: Microsoft Sentinel
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan keamanan Microsoft Sentinel
+- Pelajaran: Menjelaskan bagaimana Microsoft Sentinel menyediakan manajemen ancaman terintegrasi
 
 ## <a name="demo-scenario"></a>Skenario demo
 
@@ -121,9 +130,9 @@ Dalam bagian ini Anda akan menunjukkan beberapa opsi yang tersedia di Sentinel.
 
 1. Dari sudut kiri atas jendela, tepat di bawah bilah biru, pilih **Beranda** untuk kembali ke halaman beranda portal Azure.
 
-### <a name="task-6"></a>Tugas 6
+### <a name="post-course-delivery-tear-down"></a>Penghapusan setelah penyampaian kursus
 
-Penghapusan penyediaan pasca-kursus. Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Microsoft Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari demo ini minimal, Anda disarankan untuk menghapus grup sumber daya Microsoft Sentinel setelah Anda selesai menjelajahi kemampuan Microsoft Sentinel.
+Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis di Microsoft Sentinel. Meskipun jumlah data yang diserap sebagai hasil dari demo ini sedikit, sebaiknya Anda menghapus grup sumber daya Microsoft Sentinel setelah penyampaian kursus selesai.
 
 1. Dari halaman Microsoft Sentinel, di pojok kiri atas halaman, di atas bagian yang tertulis Microsoft Sentinel, pilih **Semua Layanan**.
 
@@ -131,7 +140,7 @@ Penghapusan penyediaan pasca-kursus. Microsoft Sentinel ditagih berdasarkan volu
 
 3. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya,  **SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
+4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, **SC900-ResourceGroup**, lalu pilih **Hapus** dari bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 
 5. Setelah Anda memverifikasi grup sumber daya telah dihapus, tutup halaman browser.
 

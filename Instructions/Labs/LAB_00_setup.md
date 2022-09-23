@@ -1,24 +1,28 @@
 ---
-lab:
-  title: Siapkan
-ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557306"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892233"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Penyiapan'
+---
+--->
+
 # <a name="lab-setup"></a>Lab: Pengaturan
 
 ## <a name="lab-scenario"></a>Skenario lab
 
-Di lab ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang mulus saat berpindah antara Microsoft 365 dan Azure. Sebagai bagian dari penyiapan, Anda juga akan mengaktifkan kemampuan log audit, di penyewa Microsoft 365 Anda, karena perlu beberapa waktu untuk diterapkan. Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan serta wawasan analitik.
+Lab penyiapan ini terdiri dari dua tugas terpisah.  Tugas pertama berlaku dan direkomendasikan hanya jika lingkungan lab Anda menyertakan penggunaan Azure pass. Tugas kedua difokuskan untuk mengaktifkan Log Audit Microsoft dan menerapkan serta direkomendasikan terlepas dari apakah lingkungan Anda menggunakan Azure Pass atau tidak.
 
 **Perkiraan Waktu**: 5-10 menit
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
 
-Dalam tugas penyiapan ini, Anda akan menukarkan Azure pass menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
+Tugas ini berlaku dan direkomendasikan hanya jika lingkungan lab yang Anda gunakan menyertakan Azure Pass. Dalam tugas ini, Anda akan menukarkan Azure pass Anda menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
 
 1. Jika Anda memiliki jendela browser yang terbuka, sebaiknya tutup semua browser.
 

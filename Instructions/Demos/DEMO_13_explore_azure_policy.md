@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Kebijakan Azure
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557134"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892209"
 ---
+<a name="---"></a><!---
+---
+Demo: Judul: 'Azure Policy' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure; Pelajaran 2: Jelaskan Azure Policy'
+---
+--->
+
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan kemampuan tata kelola sumber daya di Azure
+- Pelajaran: Menjelaskan Azure Policy
 
 ## <a name="demo-scenario"></a>Skenario demo
 
@@ -19,7 +28,7 @@ Dalam demo ini, Anda akan mempelajari proses pengaturan kebijakan Azure dan damp
 
 Membuat kebijakan untuk mengharuskan tag pada grup sumber daya (menunjukkan langkah-langkah untuk membuat kebijakan dari templat)
 
-1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.microsoft.com**.  Seharusnya Anda sudah masuk. Jika tidak, masuk dengan kredensial admin Anda.
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.  Seharusnya Anda sudah masuk. Jika tidak, masuk dengan kredensial admin Anda.
 
 1. Di kotak pencarian, di bilah biru di bagian atas halaman di sebelah tulisan Microsoft Azure, masukkan **policy**, kemudian pilih **Policy** dari hasil pencarian.
 

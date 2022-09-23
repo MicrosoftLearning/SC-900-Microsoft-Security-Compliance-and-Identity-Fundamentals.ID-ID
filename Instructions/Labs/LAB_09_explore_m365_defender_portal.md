@@ -1,15 +1,24 @@
 ---
-lab:
-  title: "'Mempelajari portal Pertahanan Microsoft 365'"
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557146"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892677"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi modul portal Pertahanan Microsoft 365': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365; Pelajaran 7: Menjelaskan portal Pertahanan Microsoft 365'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Lab: 'Mempelajari portal Pertahanan Microsoft 365'
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan perlindungan ancaman Microsoft 365
+- Pelajaran: Menjelaskan portal Pertahanan Microsoft 365
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -65,7 +74,7 @@ Dalam tugas ini, Anda akan mempelajari bagaimana Microsoft Secure Score dapat me
 
 1. Dari bagian atas halaman, pilih **Metrics & trends**.  Perhatikan informasi yang tersedia.  Dari sudut kanan atas halaman, pilih **ikon kalender**.  Anda dapat mempersempit tampilan ke rentang tanggal khusus.  Memilih **ikon filter**, memungkinkan Anda memfilter tampilan berdasarkan Identitas, Perangkat, dan/atau aplikasi.  Tutup jendela dan pilih **Home** dari panel navigasi sebelah kiri untuk kembali ke halaman beranda Pertahanan Microsoft 365.
 
-1. Tutup halaman browser.
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Menjelajahi manajemen akses di Azure AD dengan Akses Bersyarat
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557277"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892161"
 ---
+<a name="---"></a><!---
+---
+Lab: Jalur Pembelajaran: 'Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari modul Microsoft Entra': 'Menjelaskan kemampuan manajemen akses pelajaran Azure AD': 'Menjelaskan Akses Bersyarat di Azure AD'
+---
+--->
+
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Lab: Menjelajahi manajemen akses di Azure AD dengan Bersyarat
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra
+- Modul: Menjelaskan kemampuan manajemen akses Azure AD
+- Pelajaran: Menjelaskan akses bersyarat di Azure AD
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -28,7 +37,7 @@ Di tugas ini Anda, sebagai admin akan mengatur ulang kata sandi untuk pengguna b
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
-3. Pilih **Azure Active Directory**.  
+3. Di sudut kiri atas layar, di sebelah pada bagian yang bertuliskan Microsoft Azure, pilih ikon menu Tampilkan portal (tiga garis horizontal juga disebut sebagai ikon hamburger) lalu dari panel navigasi kiri, di bawah Favorit, pilih Azure Active Directory. Jika tidak tercantum di bawah favorit, lalu di kotak pencarian, masukkan Azure Active Directory, lalu dari daftar hasil, pilih **Azure Active Directory**.
 
 4. Dari panel navigasi sebelah kiri, pilih **Users**.
 

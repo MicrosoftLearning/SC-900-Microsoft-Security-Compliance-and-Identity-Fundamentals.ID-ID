@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Akses bersyarata Azure Active Directory
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 9c981817c195e981ea69dc6bba5f168848d6d084
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c9d70711fdf9579ef2fdac491a59ceaf6a09547a
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557362"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892485"
 ---
-# <a name="demo-azure-active-directory-conditional-access"></a>Demo: Akses Bersyarat Azure Active Directory
+<a name="---"></a><!---
+---
+Demo: Judul: Jalur/Modul/Pelajaran Akses Bersyarat Azure AD: 'Jalur Pembelajaran: Jelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 3: Menjelaskan kemampuan manajemen akses Azure AD; Pelajaran 2: Jelaskan Akses Bersyarat di Azure AD'
+---
+--->
+
+# <a name="demo-azure-ad-conditional-access"></a>Demo: Akses Bersyarat Azure AD
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra
+- Modul: Menjelaskan kemampuan manajemen akses Azure AD
+- Pelajaran: Menjelaskan akses bersyarat di Azure AD
 
 ## <a name="demo-scenario"></a>Skenario demo
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Menjelajahi Aplikasi Microsoft Defender untuk Cloud '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557573"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892629"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Menjelajahi Microsoft Defender untuk Cloud ' Modul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365; Pelajaran 5: Jelaskan Microsoft Defender for Cloud Apps'
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Lab: Menjelajahi Aplikasi Microsoft Defender untuk Cloud
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan perlindungan ancaman Microsoft 365
+- Pelajaran: Menjelaskan Aplikasi Microsoft Defender untuk Cloud
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -79,7 +88,7 @@ Dalam tugas ini, Anda akan menjelajahi halaman kebijakan dan peringatan di Micro
 
 1. Dari panel navigasi sebelah kiri, pilih **Alerts**.  Jika Anda memiliki peringatan yang terdaftar, pilih item dari daftar peringatan. Tinjau informasi yang diberikan.  Dari sisi kanan atas jendela, pilih **Close alert**, guna melihat opsi untuk menutup peringatan.  
 
-1. Tutup jendela browser.
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

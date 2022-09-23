@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Jelajahi alur kerja eDiscovery (Standar)
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557602"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892664"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi alur kerja eDiscovery (Standar) ' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 5: Menjelaskan kemampuan eDiscovery dan audit Microsoft Purview; Pelajaran 2: Menjelaskan solusi eDiscovery di Microsoft 365'
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Lab: Jelajahi alur kerja eDiscovery (Standar)
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan eDiscovery dan kemampuan audit Microsoft Purview
+- Pelajaran: Menjelaskan solusi eDiscovery di Microsoft 365
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -115,7 +124,7 @@ Di penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian selesai, A
 
 1. Dari bagian bawah halaman, pilih **Actions**.  Perhatikan opsi yang tersedia, lalu pilih **Export results**.
 
-    1. Dari jendela hasil Ekspor, biarkan default dan pilih **Export** dari bagian bawah halaman. Anda akan secara otomatis kembali ke jendela “Test Hold - Sasles search". Pilih **close** di bagian bawah halaman.
+    1. Dari jendela hasil Ekspor, biarkan default dan pilih **Export** dari bagian bawah halaman. Anda akan secara otomatis kembali ke jendela “Test Hold - Sasles search". Pilih **tutup** di bagian bawah halaman.
 
     1. Dari SC900-Uji kasus, pilih **Ekspor** dari bagian atas halaman.
     1. Pilih **Test Hold - Sales Search_Export**
@@ -126,6 +135,8 @@ Di penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian selesai, A
     1. Di bidang kedua, pilih lokasi tempat Anda ingin menyimpan file ekspor, lalu pilih **Start**.  Setelah proses pengunduhan selesai, pilih **Close** dan tutup tab browser ini.
     1. Anda kembali ke jendela “Uji Penangguhan - Ekspor Pencarian Penjualan".  Pilih **Tutup**.
     1. Periksa lokasi unduhan Anda untuk memverifikasi unduhan berhasil diselesaikan.
+
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

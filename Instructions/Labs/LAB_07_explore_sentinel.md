@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Menjelajahi Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557158"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892642"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi Microsoft Sentinel' Jalur Pembelajaran/Modul/Judul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 3: Menjelaskan kemampuan keamanan Microsoft Azure Sentinel; Pelajaran 3: Menjelaskan bagaimana Microsoft Azure Sentinel menyediakan manajemen ancaman terintegrasi'
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>Lab: Menjelajahi Microsoft Sentinel
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
+- Modul: Menjelaskan kemampuan keamanan Microsoft Sentinel
+- Pelajaran: Menjelaskan bagaimana Microsoft Sentinel menyediakan manajemen ancaman terintegrasi
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -135,9 +144,9 @@ Microsoft Sentinel ditagih berdasarkan volume data yang diserap untuk analisis d
 
 3. Dari halaman Grup sumber daya, pilih grup sumber daya yang Anda buat dengan Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya,  **SC900-ResourceGroup**, lalu klik **Delete** di bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
+4. Dari bagian tengah atas halaman, pilih **Delete resource group**.  Tinjau peringatannya.  Masukkan nama grup sumber daya, **SC900-ResourceGroup**, lalu pilih **Hapus** dari bagian bawah halaman.  Diperlukan beberapa menit untuk menghapus grup sumber daya.
 
-5. Setelah Anda memverifikasi grup sumber daya telah dihapus, tutup halaman browser.
+5. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Menjelajahi Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557518"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892149"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi Azure Policy' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure; Pelajaran 2: Jelaskan Azure Policy'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Lab: Menjelajahi Azure Policy
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan kemampuan tata kelola sumber daya di Azure
+- Pelajaran: Menjelaskan Azure Policy
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -21,7 +30,7 @@ Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dal
 
 Menjelajahi halaman kebijakan Azure secara singkat.
 
-1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.microsoft.com**.
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
 
 1. Masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
@@ -125,6 +134,8 @@ Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan memb
     1. Di bawah teks tertulis layanan Azure, pilih Azure policy.
     1. Di bagian tengah halaman, Anda akan melihat daftar penetapan tugas Azure policy.  Pilih elipsis untuk penetapan kebijakan yang Memerlukan tag pada grup sumber daya, lalu pilih Delete assignment.
     1. Anda akan diminta untuk mengonfirmasi bahwa Anda ingin menghapus tugas.  Pilih Ya.
+
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

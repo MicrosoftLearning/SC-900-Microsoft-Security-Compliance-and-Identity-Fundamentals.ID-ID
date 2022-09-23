@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Mempelajari manajemen risiko orang dalam di Microsoft Purview
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557542"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892701"
 ---
+<a name="---"></a><!--->
+---
+Lab: Judul: 'Jelajahi manajemen risiko insider di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 4: Menjelaskan kemampuan risiko orang dalam di Microsoft Purview; Pelajaran 2: Menjelaskan manajemen risiko orang dalam'
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Lab: Mempelajari manajemen risiko orang dalam di Microsoft Purview
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan kemampuan risiko dari dalam di Microsoft Purview
+- Pelajaran: Menjelaskan Manajemen Risiko Dari Dalam
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -35,7 +44,7 @@ Dalam tugas ini, Anda sebagai administrator global akan mengaktifkan izin untuk 
 
 1. Dari panel navigasi sebelah kiri portal Kepatuhan Microsoft Purview, pilih **Izin**.
 
-1. Dari halaman izin & peran, di bagian portal kepatuhan, pilih **Peran**.
+1. Dari halaman izin & peran yang memiliki tulisan, "Lihat dan kelola peran yang digunakan untuk melakukan tugas khusus solusi di pusat kepatuhan." pilih **Peran**.
 
 1. Di bidang pencarian, masukkan **Risiko Insider** lalu pilih ikon pencarian (kaca pembesar).  Perhatikan banyak peran yang muncul.  Masing-masing memiliki tingkat akses yang berbeda.  Pilih **Insider risk management**.
 
@@ -115,6 +124,8 @@ Dalam tugas ini, Anda akan mempelajari pembuatan kebijakan.
 1. Anda kembali ke tab Kebijakan di halaman Manajemen risiko dari dalam.  Kebijakan yang baru saja Anda buat akan dicantumkan.  
 
 1. Pada kebijakan yang baru saja Anda buat, bidang “Pengguna dalam cakupan” mewakili pengguna yang saat ini diberi skor risiko oleh kebijakan.  Menetapkan skor risiko kepada pengguna terjadi saat kebijakan dipicu, oleh karena itu nilainya menunjukkan 0.  Admin dapat mengonfigurasi kebijakan untuk mulai menetapkan skor risiko kepada pengguna tertentu, berdasarkan aktivitas yang terdeteksi oleh kebijakan yang Anda pilih, DAN mengabaikan persyaratan bahwa kejadian pemicu terdeteksi terlebih dahulu.  Untuk melakukan hal ini, pilih lingkaran kosong di samping nama kebijakan untuk memilih kebijakan, lalu pilih **Start scoring activity for users**, yang ditunjukkan di atas tabel kebijakan.  Isi setiap bidang, lalu pilih **Start scoring activity**.  Diperlukan waktu 24 jam bagi pengguna untuk muncul di tab 'Pengguna'. Setelah itu, Anda dapat memilih pengguna dari tab untuk meninjau aktivitas yang terdeteksi.  Pilih **Tutup** di bagian bawah jendela.
+
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Mempelajari label sensitivitas di Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557590"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892652"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview; Pelajaran 4: Menjelaskan label sensitivitas'
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Lab: Mempelajari label sensitivitas di Microsoft Purview
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview
+- Pelajaran: Menjelaskan label sensitivitas
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -88,7 +97,7 @@ Dalam tugas ini, Anda akan melalui proses penerapan label dari sudut pandang pen
 
 1. Pilih **+ New blank document**, kemudian masukkan beberapa teks pada halaman.  Pada bilah berwarna biru di bagian atas halaman, pilih panah bawah, di sebelahnya tertulis DocumenXX - Tersimpan, dan di kotak Nama File masukkan, **Test-label**.
 
-1. Dari bilah menu atas, pilih **Sensitivity**, jika Anda tidak langsung melihat opsi ini, segarkan halaman. Dari menu tarik-turun, pilih **Confidential - Finance**.
+1. Dari bilah menu atas, pilih **Sensitivity**, jika Anda tidak langsung melihat opsi ini, segarkan halaman. Dari menu tarik-turun, pilih **Confidential - Finance**.  CATATAN:  CATATAN: Opsi Sensitivitas mungkin memakan waktu hingga 15 menit untuk muncul.
 
 1. Dari bilah menu atas, pilih **View**, lalu pilih **Reading view**.
 
@@ -112,7 +121,7 @@ Selain penandaan konten, setelan proteksi label juga disetel untuk enkripsi. Ses
 
 1. Dengan menggunakan browser web di Mesin Virtual lab Anda, masuk ke akun email tujuan pengiriman dokumen.  Perhatian, email mungkin diarahkan ke folder sampah Anda.  Saat Anda mencoba membuka file kata terlampir, Anda akan melihat pemberitahuan bahwa Anda tidak memiliki izin untuk membuka dokumen.
 
-1. Tutup tab browser yang terbuka.
+1. Tutup semua tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 

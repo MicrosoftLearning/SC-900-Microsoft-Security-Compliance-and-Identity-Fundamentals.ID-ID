@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557470"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892173"
 ---
+<a name="---"></a><!---
+---
+Lab: Judul: 'Jelajahi autentikasi Azure AD dengan pengaturan ulang kata sandi mandiri' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Pelajaran 4: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
+
+Lab ini memetakan ke konten Pelajari berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra
+- Modul: Menjelaskan kemampuan autentikasi Azure AD
+- Pelajaran: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD
 
 ## <a name="lab-scenario"></a>Skenario lab
 
@@ -97,7 +106,7 @@ Dalam tugas ini, Anda sebagai pengguna Adele Vance akan melalui proses pendaftar
 2. Di bilah alamat, masukkan **login.microsoftonline.com**.
 
 3. Masuk sebagai Adele Vance,
-    1. Di jendela Masuk, masukkan **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
+    1. Di jendela Masuk, masukkan **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi yang Anda catat sebelumnya. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**
 

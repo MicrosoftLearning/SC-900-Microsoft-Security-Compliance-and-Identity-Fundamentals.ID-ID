@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Mempelajari portal kepatuhan Microsoft Purview & Manajer Kepatuhan
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 557b2974e32c920172be89f909225d30519b79a0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557242"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892412"
 ---
+<a name="---"></a><!---
+---
+Demo: Judul: 'Jelajahi Portal kepatuhan Microsoft Purview & Compliance Manager' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 2: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview; Pelajaran 2: Jelaskan portal kepatuhan Microsoft Purview'
+---
+--->
+
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demo: Mempelajari portal kepatuhan Microsoft Purview & Manajer Kepatuhan
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview
+- Pelajaran: Menjelaskan portal kepatuhan Microsoft Purview
 
 ## <a name="demo-scenario"></a>Skenario demo
 

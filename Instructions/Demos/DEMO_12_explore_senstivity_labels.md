@@ -1,19 +1,28 @@
 ---
-Demo:
-  title: Label sensitivitas di Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557194"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892426"
 ---
+<a name="---"></a><!---
+---
+Demo: Judul: 'Label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview; Pelajaran 4: Menjelaskan label sensitivitas'
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demo: Label sensitivitas di Microsoft Purview
+
+Demo ini memetakan ke konten Learn berikut:
+
+- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
+- Modul: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview
+- Pelajaran: Menjelaskan label sensitivitas
 
 ## <a name="demo-scenario"></a>Skenario demo
 
-Dalam demo ini, Anda akan menunjukkan kemampuan label sensitivitas.  Anda akan melalui pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan yang sesuai untuk menerbitkan label.   Kemudian Anda telah melihat cara menerapkan label dan dampak dari label tersebut, dari sudut pandang pengguna.
+Dalam demo ini, Anda akan menunjukkan kemampuan label sensitivitas.  Anda akan melalui pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan yang sesuai untuk menerbitkan label.   Kemudian Anda telah melihat cara menerapkan label dan dampak dari label tersebut, dari sudut pandang pengguna.  **CATATAN**: Pertama kali Anda menggunakan Word online dengan penyewa Microsoft 365, diperlukan waktu 15 menit agar opsi Sensitivitas muncul pada pita.  Penyaji harus menjalankan demo bagian 2 sebelum kelas untuk memastikan waktu yang diperlukan hingga opsi muncul cukup.
 
 ### <a name="demo-part-1"></a>Demo Bagian 1
 
