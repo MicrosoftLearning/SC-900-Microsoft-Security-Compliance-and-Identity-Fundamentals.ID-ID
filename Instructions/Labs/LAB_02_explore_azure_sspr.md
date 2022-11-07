@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
+ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892173"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148118960"
 ---
 <a name="---"></a><!---
 ---
@@ -110,7 +110,7 @@ Dalam tugas ini, Anda sebagai pengguna Adele Vance akan melalui proses pendaftar
     1. Masukkan kata sandi yang Anda catat sebelumnya. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**
 
-4. Karena ini adalah pertama kalinya Anda masuk sebagai Adele Vance, Anda akan diminta untuk mengatur ulang kata sandi.  Masukkan kata sandi lama Anda.  Untuk kata sandi baru Anda, masukkan  **SC900-Lab**. Masukkan  **SC-900-Lab** di bidang konfirmasi kata sandi.  Pilih **Masuk**.  Catatan: kami menggunakan kata sandi ini hanya untuk kenyamanan lab. Sebaiknya, Anda memasukkan kata sandi yang lebih aman.
+4. Karena ini adalah pertama kalinya Anda masuk sebagai Adele Vance, Anda akan diminta untuk mengatur ulang kata sandi.  Masukkan kata sandi lama Anda.  Untuk kata sandi baru Anda, masukkan  **SC900-Lab**. Masukkan **SC900-Lab** di bidang konfirmasi kata sandi.  Pilih **Masuk**.  Catatan: kami menggunakan kata sandi ini hanya untuk kenyamanan lab. Sebaiknya, Anda memasukkan kata sandi yang lebih aman.
 
 5. Tampilan pop-up yang menunjukkan bahwa informasi lebih lanjut diperlukan.  Ini karena sebagai anggota grup SSPRSecurityGroupUsers, konfigurasi mengharuskan anggotanya untuk mendaftar saat mereka masuk.  Pilih tombol **Berikutnya**.  Catatan:  Alternatif untuk meminta pengguna melakukan pendaftaran sendiri, agar admin segera mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 
@@ -148,7 +148,7 @@ Dalam tugas ini, Anda, sebagai pengguna Adele Vance, akan melalui proses pengatu
 
 11. Dari kotak Pilih informasi akun, pilih **AdeleV@WWLxZZZZZZ.onmicrosoft.com** , masukkan kata sandi baru Anda, lalu pilih tombol **Masuk**.  Jika Anda diminta untuk Tetap masuk. pilih **Tidak**.
 
-12. Anda akan diarahkan ke portal Microsoft Azure.
+12. Sekarang Anda ada di portal Office.
 
 13. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan pilih **Sign out**. Kemudian tutup semua jendela browser
 
@@ -167,7 +167,7 @@ Dalam tugas ini, Anda, sebagai administrator, akan secara singkat melihat log Au
 
 4. Pilih **Azure Active Directory**.  
 
-5. Dari panel navigasi sebelah kiri, pilih **Password rest**.
+5. Dari panel navigasi sebelah kiri, pilih **Password reset**.
 
 6. Dari panel navigasi sebelah kiri, pilih **Audit logs**.  Perhatikan informasi dan filter yang tersedia.  Perhatikan juga bahwa Anda dapat mengunduh log.  
 
