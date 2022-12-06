@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
-ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "148118960"
----
 <a name="---"></a><!---
 ---
 Lab: Judul: 'Jelajahi autentikasi Azure AD dengan pengaturan ulang kata sandi mandiri' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Pelajaran 4: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD'
@@ -32,7 +24,7 @@ Dalam tugas ini, Anda,sebagai admin akan menambahkan pengguna yang sudah ada, Ad
 
 1. Buka Microsoft Edge.
 
-2. Di bilah alamat, masukkan **portal.azure.com** dan masuk dengan kredensial admin Anda.
+2. Di bilah alamat, masukkan**portal.azure.com** dan masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
