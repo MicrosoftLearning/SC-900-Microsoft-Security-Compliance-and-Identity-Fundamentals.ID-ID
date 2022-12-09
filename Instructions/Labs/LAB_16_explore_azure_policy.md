@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892149"
----
 <a name="---"></a><!---
 ---
 Lab: Judul: 'Jelajahi Azure Policy' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure; Pelajaran 2: Jelaskan Azure Policy'
@@ -22,81 +14,48 @@ Lab ini memetakan ke konten Pelajari berikut:
 
 ## <a name="lab-scenario"></a>Skenario lab
 
-Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dalam skala besar. Azure Policy mengevaluasi sumber daya di Azure dengan membandingkan properti sumber daya tersebut dengan aturan bisnis. Di lab ini, Anda akan mulai dengan mempelajari halaman arahan Azure policy. Setelah pembelajaran awal halaman Azure policy, Anda akan membuat kebijakan dan melihat dampak dari kebijakan tersebut.
+Azure Policy membantu memberlakukan standar organisasi dan menilai kepatuhan dalam skala besar. Azure Policy mengevaluasi sumber daya di Azure dengan membandingkan properti sumber daya tersebut dengan aturan bisnis. Di lab ini, Anda akan membuat kebijakan dan melihat dampak dari kebijakan tersebut.  Anda juga akan mempelajari informasi kepatuhan dan remediasi yang tersedia di halaman kebijakan.
 
-**Perkiraan Waktu**: 20-25 menit
+**Perkiraan Waktu**: 15-20 menit
 
 ### <a name="task-1"></a>Tugas 1
 
-Menjelajahi halaman kebijakan Azure secara singkat.
+Dalam tugas ini, Anda akan membuat penetapan kebijakan dasar untuk meminta tag pada grup sumber daya.
+1.  Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
 
-1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
+1. Masuk dengan kredensial admin untuk langganan Azure Anda (kredensial admin ini berbeda dengan kredensial admin Microsoft 365).
+    1. Di jendela Masuk, masukkan **User1-XXXXXXXX@LODSPRODMSLEARNMCA.onmicrosoft.com** (dengan XXXXXXXX adalah ID penyewa unik Anda yang diberikan oleh penyedia hosting lab Anda) lalu pilih **Berikutnya**.
 
-1. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
+    1. Masukkan kata sandi admin yang disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
+    1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
-    1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
-    1. Ketika diminta untuk tetap masuk, pilih **Yes**.
-
-1. Sekarang Anda berada di Portal Microsoft Azure.  Di kotak pencarian, di bilah biru di bagian atas halaman di sebelah tulisan Microsoft Azure, masukkan **policy**, kemudian pilih **Policy** dari hasil pencarian. Ini membuka halaman beranda Kebijakan yang menyediakan tampilan dasbor.  Cakupan informasi yang Anda lihat menerapkan Azure Pass yang digunakan, sebagai bagian dari lab ini.   Perhatikan informasi yang tersedia di dasbor.
-
-1. Ada item yang disebut ASC Default (ASC merujuk pada Azure Security Center yang sekarang disebut Microsoft Defender untuk Cloud) yang cakupannya adalah Azure Pass – Sponsor.   Pilih **ASC Default**.
-
-1. Di bagian atas halaman, di bagian Essentials, Anda dapat melihat nama, deskripsi, dan informasi penting lainnya.  Baca deskripsi (arahkan kursor ke deskripsi dengan mouse). CATATAN: Bidang deskripsi merujuk ke Azure Security Center yang telah diganti namanya menjadi Microsoft Defender untuk Cloud.
-
-1. Perhatikan informasi yang disediakan oleh dasbor telah diperbarui untuk mencerminkan item yang dipilih, ASC Default. ASC Default ini adalah definisi inisiatif Azure Security Benchmark.  Harap diingat bahwa definisi inisiatif adalah kumpulan definisi kebijakan yang disesuaikan untuk mencapai tujuan tunggal yang menyeluruh. Informasi dapat dilihat menurut grup, kebijakan, sumber daya yang tidak sesuai, atau kejadian.
-
-1. Keluar dari halaman ASC dan kembali ke beranda kebijakan dengan memilih **X** di sudut kanan atas jendela.
-
-1. Dari panel navigasi sebelah kiri, pilih **Getting started**.  Di sini, Anda dapat melihat berbagai opsi termasuk opsi untuk menelusuri kebijakan bawaan dan menetapkan kebijakan dalam skala besar, Anda dapat membuat definisi kebijakan khusus untuk lingkungan Anda, merekomendasikan penetapan kebijakan, dan banyak lagi.
-
-1. Dari panel navigasi sebelah kiri, pilih **Compliance**.  Sama seperti halaman ringkasan, di sini Anda dapat melihat status kepatuhan dari kebijakan dan/atau inisiatif yang tercantum.  Dari halaman Kepatuhan Kebijakan, Anda juga dapat menetapkan kebijakan atau inisiatif (Anda akan menetapkan kebijakan di tugas berikutnya).
-
-1. Dari panel navigasi sebelah kiri, pilih **Remediation**.  Halaman ini menyediakan daftar kebijakan yang memiliki sumber daya yang tidak sesuai.  Dengan memilih kebijakan di halaman remediasi, Anda dapat memicu pembuatan tugas untuk meremediasi kebijakan.  
-
-1. Dari panel navigasi sebelah kiri, di bagian penulisan, pilih **Assignments**.  Dari sini, Anda dapat melihat penetapan kebijakan dan/atau inisiatif saat ini serta Anda dapat membuat penetapan atau inisiatif kebijakan.  Anda akan kembali lagi di tugas berikutnya.  
-
-1. Dari panel navigasi sebelah kiri, pilih **Definitions**.  Dari halaman ini, pilih **Audit machines with insecure password security setting**.  Ini adalah definisi inisiatif, yang mencakup banyak kebijakan.  Untuk melihat seperti apa definisi kebijakan, pilih **Audit Windows machines that do not have a maximum password age of 70 days**.  Saat halaman terbuka, Anda akan melihat definisi kebijakan aktual dalam struktur Java Script Object Notation (JSON).   Seperti yang Anda lihat dari teks berwarna merah, definisi kebijakan berisi elemen yang menentukan nama tampilan, deskripsi, parameter, aturan kebijakan, dan banyak lagi. JANGAN MENGUBAH APA PUN.  
-
-1. Keluar dari halaman Definisi kebijakan, dengan memilih **X** di sudut kanan atas halaman.
-
-1. Keluar dari halaman Definisi inisiatif, dengan memilih **X** di sudut kanan atas halaman.
-
-1. Biarkan tab browser ini (Policy – Microsoft Azure) terbuka untuk tugas berikutnya.
-
-### <a name="task-2"></a>Tugas 2
-
-Dalam tugas ini, Anda akan membuat penetapan kebijakan dasar untuk mewajibkan tag pada grup sumber daya.
-
-1. Buka tab browser, Policy – Microsoft Azure.
+1. Anda sekarang berada di portal Microsoft Azure.  Di kotak pencarian, di bilah biru di bagian atas halaman di sebelah tulisan Microsoft Azure, masukkan **policy**, kemudian pilih **Policy** dari hasil pencarian. Tindakan ini akan membuka halaman beranda Kebijakan yang menyediakan tampilan dasbor.  Cakupan tampilan Dasbor adalah langganan Azure yang disediakan oleh authorized lab hoster (ALH). Anda akan melihat kebijakan yang tercantum, ini adalah kebijakan yang dibuat oleh ALH, untuk penggunaan langganan Azure.
 
 1. Bentuk panel navigasi kiri, di bawah Penulisan, pilih **Assignments**.
 
-1. Dari bagian atas halaman, pilih **Assign policy**.
+1. Dari bagian atas halaman, pilih **Assign policy**. Wizard penetapan kebijakan terbuka untuk memandu admin dalam proses penetapan kebijakan.
 
-1. Wizard Tetapkan kebijakan terbuka untuk memandu admin dalam proses menetapkan kebijakan.  Di samping bidang Definisi kebijakan, pilih **ellipses**.  Muncul daftar definisi kebijakan yang tersedia.  
+1. Anda mulai di tab Dasar.
+    1. Untuk Cakupan, biarkan pengaturan default. Dalam hal ini, cakupan kebijakan adalah langganan Azure yang disediakan oleh authorized lab hoster (ALH).
+    1. Untuk Definisi Kebijakan, pilih **elipsis**.  Muncul daftar definisi kebijakan yang tersedia.  Di bilah pencarian, masukkan, **Memerlukan tag**. Dari hasil pencarian, pilih **Require a tag on resource group** (Anda mungkin perlu menggulir ke bawah), kemudian tekan **Select**.  Catatan: efek dari kebijakan ini adalah Menolak pembuatan grup sumber daya baru yang tidak memenuhi persyaratan.  
+    1. Perhatikan nama tugas default.  Pertahankan nama apa adanya.
+    1. Pastikan bahwa Penegakan kebijakan diatur ke **Diaktifkan**, pilih **Berikutnya**.
 
-1. Di bilah pencarian, masukkan, **Tag**.
+1. Anda sekarang berada di tab Parameter. Di kolom Tag nama, masukkan **Lingkungan** lalu pilih **Berikutnya**.
 
-1. Dari hasil pencarian, pilih **Require a tag on resource group** (Anda mungkin perlu menggulir ke bawah), kemudian tekan **Select**.  Catatan: efek dari kebijakan ini adalah Menolak pembuatan grup sumber daya baru yang tidak memenuhi persyaratan.  
+1. Di tab Remediasi, biarkan pengaturan default apa adanya lalu pilih **Berikutnya**.
 
-1. Perhatikan nama tugas default.  Biarkan nama apa adanya dan dari bagian bawah halaman, pilih **Next**.
+1. Anda sekarang berada di tab Pesan ketidakpatuhan. Di bidang pesan ketidakpatuhan, masukkan **Tag lingkungan diperlukan**, lalu pilih **Berikutnya**. Catatan: pesan ini akan muncul sebagai alasan ketidakpatuhan untuk grup sumber daya yang dibuat sebelum penetapan kebijakan dan tidak memiliki tag Lingkungan.
 
-1. Di bidang Nama tag, masukkan **Environment**, lalu pilih **Next**.
-
-1. Biarkan pengaturan remediasi default apa adanya, kemudian pilih **Berikutnya**.
-
-1. Dalam pesan ketidakpatuhan, masukkan **An environment tag is required**, kemudian pilih **Next**. Catatan: pesan ini akan muncul sebagai alasan ketidakpatuhan untuk grup sumber daya yang dibuat sebelum penetapan kebijakan dan tidak memiliki tag Lingkungan.  Untuk grup sumber daya yang dibuat setelah kebijakan dibuat, pembuatan grup sumber daya akan ditolak jika tidak ada tag lingkungan.
-
-1. Tinjau penetapan kebijakan, lalu pilih Create.  Jika Anda tidak segera melihat kebijakan, pilih **Refresh**. Catatan: Mungkin perlu waktu hingga 30 menit agar kebijakan diterapkan.
+1. Tinjau penetapan kebijakan, lalu pilih **Buat**.  Jika Anda tidak segera melihat kebijakan, pilih **Refresh**. Catatan: Diperlukan waktu hingga 30 menit agar kebijakan diterapkan, tetapi biasanya lebih cepat.
 
 1. Keluar dari halaman Penetapan kebijakan dengan memilih **X** di sudut kanan atas layar.
 
-1. Sekarang Anda berada di halaman beranda layanan Azure.  Biarkan halaman ini tetap terbuka, Anda akan membutuhkannya untuk tugas berikutnya.
+1. Anda sekarang berada di halaman beranda layanan Azure.  Biarkan halaman ini tetap terbuka, Anda akan membutuhkannya untuk tugas berikutnya.
 
-### <a name="task-3"></a>Tugas 3
+### <a name="task-2"></a>Tugas 2
 
-Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan membuat grup sumber daya di Azure yang tidak memiliki tag, maka Anda akan melihat pembaharuan grup sumber daya yang menyertakan tag.  Catatan: Mungkin perlu waktu hingga 30 menit agar kebijakan yang dibuat di tugas sebelumnya diterapkan, tetapi biasanya terjadi lebih cepat.
+Dalam tugas ini Anda akan melihat dampak penetapan kebijakan Azure, dengan mencoba membuat grup sumber daya di Azure yang tidak memiliki tag.
 
 1. Buka tab browser, Home – Microsoft Azure.
 
@@ -104,7 +63,7 @@ Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan memb
 
 1. Dari sudut kiri atas halaman, pilih **+ Create**.
 
-1. Dari tab Dasar grup untuk Membuat sumber daya, biarkan bidang Langganan apa adanya, Azure Pass - Sponsorship.
+1. Dari tab Dasar pada Buat grup sumber daya, biarkan bidang Langganan apa adanya.
 
 1. Di bidang grup Sumber daya, masukkan,  **SC900-Labs**.
 
@@ -112,11 +71,9 @@ Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan memb
 
 1. Biarkan bidang tag Nama dan Nilai kosong.  JANGAN DIPOPULASIKAN, lalu pilih **Review + create**.
 
-1. Anda akan melihat bahwa telah tervalidasi (nama dan nilai tag bukan bidang wajib di wizard), lalu pilih **Create**.
+1. Anda akan melihat pesan validasi lolos (nama tag dan nilai bukan bidang yang wajib diisi dalam wizard), lalu pilih **Buat**.
 
-1. Anda akan melihat pesan kegagalan di bagian atas layar, “Failed to create the resource group. View error details”.  Pilih **View error details**. Kondisi yang merupakan bagian dari kebijakan Azure tidak terpenuhi sehingga pembuatan grup sumber daya diblokir, karena ketidakpatuhan.
-
-    Catatan: Jika Anda tidak melihat pesan kegagalan dan grup sumber daya yang telah dibuat, hal itu karena kebijakan belum diterapkan.  Buka halaman Kebijakan untuk kebijakan yang Anda buat di tugas sebelumnya dan setelah kebijakan diterapkan, Anda akan melihat bahwa sumber daya tidak sesuai.  Halaman detail akan menyertakan pesan ketidakpatuhan. Jika Anda mendapatkan kesalahan, langkah-langkah berikut menunjukkan cara memulihkan penyebaran.
+1. Anda akan melihat pesan kegagalan di bagian atas layar, “Gagal membuat grup sumber daya". Pilih **View error details**. Kondisi yang merupakan bagian dari kebijakan Azure tidak terpenuhi sehingga pembuatan grup sumber daya diblokir, karena ketidakpatuhan. Catatan: Jika Anda tidak melihat pesan kegagalan dan grup sumber daya yang telah dibuat, hal itu karena kebijakan belum diterapkan.  Buka halaman Kebijakan untuk kebijakan yang Anda buat di tugas sebelumnya dan setelah kebijakan diterapkan, Anda akan melihat bahwa sumber daya tidak sesuai.  Halaman detail akan menyertakan pesan ketidakpatuhan.
 
 1. Ringkasan kesalahan menunjukkan jenis kesalahan, "Resource ‘SC900-Labs’ was disallowed by policy."  Tutup jendela ini dengan memilih **X** di sudut kiri atas layar.
 
@@ -126,17 +83,33 @@ Dalam tugas ini, Anda akan melihat dampak penetapan kebijakan Azure, dengan memb
 
 1. Verifikasi tag dan pilih **Create**.
 
-1. Anda akan melihat grup sumber daya yang terdaftar.  Karena tag disediakan di grup sumber daya, kondisi yang disertakan sebagai bagian dari kebijakan Azure telah terpenuhi.  Grup sumber daya mematuhi kebijakan.
+1. Di bidang Nama, masukkan **Lingkungan** dan di bidang Nilai, masukkan **Lab** (nilai ini bisa apa saja, kebijakan hanya memerlukan nilai tag), lalu pilih **Berikutnya: Tinjau + Buat >** lalu pilih **Buat**.
 
-1. Sebelum Anda keluar, hapus Azure policy.
-    1. Dari sudut kiri atas halaman, pilih Beranda, untuk kembali ke halaman beranda Azure.
+1. Anda akan melihat grup sumber daya terdaftar.  
 
-    1. Di bawah teks tertulis layanan Azure, pilih Azure policy.
-    1. Di bagian tengah halaman, Anda akan melihat daftar penetapan tugas Azure policy.  Pilih elipsis untuk penetapan kebijakan yang Memerlukan tag pada grup sumber daya, lalu pilih Delete assignment.
-    1. Anda akan diminta untuk mengonfirmasi bahwa Anda ingin menghapus tugas.  Pilih Ya.
+1. Pilih **Beranda** dari breadcrumb di bagian atas halaman untuk kembali ke halaman beranda Azure.
 
-1. Tutup semua tab browser yang terbuka.
+1. Biarkan tab browser tetap terbuka, Anda akan membutuhkannya untuk tugas berikutnya.
+
+### <a name="task-3-optional"></a>Tugas 3 (Opsional)
+
+Dalam tugas ini, Anda akan menjalani langkah-langkah untuk memulihkan grup sumber daya yang tidak patuh. CATATAN: langganan Azure yang digunakan untuk lab akan memerlukan waktu yang lebih lama dari biasanya untuk memperbarui status kepatuhan grup sumber daya yang diperbaiki.
+
+1. Dari halaman beranda Azure, pilih **kebijakan**. Tindakan ini akan membuka halaman beranda Kebijakan yang menyediakan tampilan dasbor.  Cakupan untuk tampilan Dasbor adalah langganan Azure yang disediakan oleh authorized lab hoster.  
+
+1. Anda akan melihat kebijakan yang Anda buat sebelumnya, lalu pilih kebijakan tersebut.
+
+1. Di bagian atas halaman, di bagian Essentials, Anda dapat melihat nama, deskripsi, dan informasi penting lainnya.  Perhatikan bahwa kebijakan ditampilkan sebagai tidak patuh.  Pilih kebijakan untuk informasi lebih lanjut tentang mengapa kebijakan tersebut tidak sesuai. Di sini Anda dapat melihat bahwa sumber daya yang terdaftar sebagai resourgegroup1 tidak sesuai.  Ini adalah contoh grup sumber daya yang telah dibuat, sebelum pembuatan kebijakan. Pilih **Detail** untuk informasi selengkapnya.  Di sini Anda dapat melihat pesan kepatuhan bahwa tag lingkungan diperlukan.  Pilih **X** di kanan atas untuk menutup jendela.
+
+1. Pilih **resourcegroup1** lalu dari bagian atas halaman, pilih **Lihat Sumber Daya**.
+    1. Di sebelah tulisan Tag, pilih **edit**
+    1. Tempatkan kursor mouse di bidang Tag dan pilih **Lingkungan**.
+    1. Tempatkan kursor mouse di kolom Nilai dan pilih **Lab**, lalu pilih **Simpan**.
+
+1. Sekarang kembali ke halaman kebijakan.  Tempatkan kursor mouse Anda pada kotak pencarian warna biru di bagian atas halaman dan pilih **Kebijakan**.
+
+1. Dari panel navigasi sebelah kiri, pilih **Compliance**.  Sama seperti halaman ringkasan, di sini Anda dapat melihat status kepatuhan dari kebijakan dan/atau inisiatif yang tercantum.  CATATAN: meskipun Anda telah menambahkan tag ke grup sumber daya, perlu waktu untuk memperbarui status.  Langganan Azure yang digunakan untuk tujuan lab mungkin memerlukan waktu yang lebih lama dari biasanya. Jika Anda ingin menunggu status kepatuhan untuk sumber daya ini diperbarui, jangan tutup lab. Bergantung pada lingkungan lab, perlu waktu satu jam atau lebih untuk memperbarui.  
 
 ### <a name="review"></a>Tinjau
 
-Di lab ini, Anda telah membuka halaman arahan Azure policy. Setelah mempelajari awal halaman Azure policy, Anda telah menjalani proses pembuatan kebijakan dan Anda telah dapat melihat dampak dari kebijakan tersebut.
+Di lab ini, Anda menjalani proses pembuatan penetapan kebijakan Azure dan dapat melihat dampak dari kebijakan tersebut.

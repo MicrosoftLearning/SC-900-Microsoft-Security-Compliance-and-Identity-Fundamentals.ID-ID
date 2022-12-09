@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: ecea12b9b90c6dc3917d0ee93edcdba0436ccd0d
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892461"
----
 <a name="---"></a><!---
 ---
 Demo: Judul: 'Microsoft Defender untuk Cloud' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 2: Menjelaskan kemampuan manajemen keamanan Azure; Pelajaran 3: Menjelaskan Pertahanan Microsoft untuk Cloud'
@@ -22,58 +14,52 @@ Demo ini memetakan ke konten Learn berikut:
 
 ## <a name="demo-scenario"></a>Skenario demo
 
-Dalam demo ini, Anda akan mempelajari Microsoft Defender untuk Cloud dan menunjukkan cara Azure Secure Score dapat digunakan untuk meningkatkan postur keamanan organisasi.  CATATAN: CATATAN: Panduan demo ini mengasumsikan penyaji memiliki izin tingkat admin ke langganan Azure melalui Azure pass.  Langganan Azure, seperti Langganan Cloudslice, yang dikelola oleh Authorized Lab Hoster membatasi akses dan fungsionalitas sehingga beberapa langkah di bawah ini mungkin tidak tersedia atau tidak menampilkan informasi apa pun.
+Dalam demo ini, Anda akan mempelajari Microsoft Defender untuk Cloud dan menunjukkan bagaimana hal tersebut dapat digunakan untuk meningkatkan kondisi keamanan organisasi.  CATATAN: langganan Azure yang dikelola oleh Authorized Lab Hoster (AH) mungkin membatasi beberapa akses dan memerlukan waktu lebih lama dari biasanya.
 
-### <a name="demo-setup"></a>Penyiapan demo
+### <a name="demo-task-1"></a>Tugas Demo 1
 
-Dalam tugas penyiapan ini, Anda akan melakukan beberapa penyiapan dasar Microsoft Defender untuk Cloud, guna menyiapkan langganan serta mengaktifkan dan menetapkan kebijakan default. Lakukan ini sebelum Anda mendemonstrasikan di depan kelas. 
+Dalam tugas demo ini, Anda akan melakukan penelusuran tingkat tinggi dari beberapa kemampuan Microsoft Defender untuk Cloud.
 
-1. Buka tab browser, **Home-Microsoft Azure**.  Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan masuk kembali.
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**.
+1. Masuk dengan kredensial admin Anda.
+    1. Di jendela Masuk, masukkan nama pengguna yang diberikan oleh penyedia hosting lab Anda, lalu pilih **Berikutnya**.
+    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
+    1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
-1. Di kotak pencarian, pada bilah berwarna biru di bagian atas halaman di samping bagian yang tertulis Microsoft Azure, masukkan **Microsoft Defender untuk Cloud** lalu pilih **Microsoft Defender untuk Cloud** dari hasil pencarian.
+1. Di bilah pencarian berwarna biru, masukkan **Microsoft Defender untuk Cloud**, lalu dari daftar hasil, pilih **Microsoft Defender untuk Cloud**.
 
-1. Jika ini adalah pertama kalinya Anda masuk ke Microsoft Defender untuk Cloud dengan langganan, Anda dapat membuka halaman Memulai dan mungkin diminta untuk meningkatkan.  Gulir ke bagian bawah halaman dan pilih **skip**.  Anda akan dibawa ke halaman Ringkasan.
-    1. Di bagian atas halaman, Anda akan melihat kotak informasi berwarna biru muda yang menunjukkan, "Menyiapkan semuanya untuk langganan Anda. Hal ini mungkin membutuhkan waktu beberapa menit..."
-    1. Setelah langganan siap, kotak informasi baru akan muncul yang mengatakan, "Satu langganan tidak memiliki kebijakan default yang ditetapkan. Untuk meninjau daftar langganan, buka halaman Kebijakan Keamanan."  Pilih panah kanan di akhir kalimat.
-        1. Anda sekarang berada di halaman pengaturan Lingkungan. Pilih **Azure pass - Sponsor**. 
-        1. Di panel navigasi kiri, pilih **Kebijakan keamanan**.
-        1. Di beranda, di bawah teks Inisiatif default, pilih **Tetapkan kebijakan**.
-        1. Di bagian bawah panel, pilih **Tinjau + buat**.
-        1. Di bagian bawah halaman, pilih **Buat**.
-        1. Di bagian atas halaman, di bawah teks Microsoft Azure, pilih **Microsoft Defender untuk Cloud** dari breadcrumb, untuk kembali ke halaman ringkasan.
+1. Jika ini adalah pertama kalinya Anda memasuki Microsoft Defender untuk Cloud dengan langganan, Anda dapat membuka halaman Memulai, dan mungkin akan diminta untuk melakukan peningkatan.  Gulir ke bagian bawah halaman dan pilih **Lewati**.  Anda akan dibawa ke halaman Ringkasan.
 
-### <a name="demo-task"></a>Tugas Demo
-
-Dalam tugas demo ini Anda akan melakukan panduan tingkat tinggi dari beberapa kemampuan Microsoft Defender untuk Cloud.
-
-1. Informasi di bagian atas halaman ringkasan Microsoft Defender untuk Cloud mencakup jumlah langganan Azure, jumlah sumber daya yang dinilai, jumlah rekomendasi aktif, dan peringatan keamanan.  Di bagian utama halaman terdapat kartu yang mewakili Secure score, kepatuhan terhadap Peraturan, Wawasan, dan banyak lagi.  
+1. Di halaman Ringkasan Microsoft Defender untuk Cloud, perhatikan informasi yang tersedia di halaman tersebut.  Informasi di bagian atas halaman mencatumkan jumlah langganan Azure, jumlah Sumber daya yang dinilai, jumlah rekomendasi yang aktif, serta peringatan keamanan.  Di bagian utama halaman terdapat kartu yang mewakili postur Keamanan, Kepatuhan terhadap peraturan, Wawasan, dan lainnya.  Catatan: Inisiatif kebijakan default Microsoft Defender untuk Cloud, yang biasanya harus ditetapkan oleh admin, telah ditetapkan sebagai bagian dari penyiapan langganan Azure. Namun, skor aman akan ditampilkan sebagai 0% karena memerlukan waktu hingga 24 jam bagi Azure untuk mencerminkan skor awal.
 
 1. Dari bagian atas halaman, pilih **Assessed resources**.  (Perhatikan bahwa hal ini setara dengan memilih Inventaris dari panel navigasi kiri beranda Microsoft Defender untuk Cloud).
-    1. Ini membawa Anda ke halaman **Inventory** yang menunjukkan langganan Azure pass Anda.  Pilih **Azure Pass – Sponsorship**.
-    1. Halaman Kesehatan sumber daya menyediakan daftar rekomendasi.  Dari daftar yang tersedia, pilih **There should be more than one owner assigned to your subscription**.
-    1. Pilih panah tarik-turun di samping Langkah-langkah perbaikan. Perhatikan bagaimana langkah-langkah perbaikan rinci disediakan bersama dengan opsi mengambil tindakan.  
-    1. Pilih **Microsoft Defender untuk Cloud** dari sudut kiri atas layar untuk kembali ke halaman gambaran umum Microsoft Defender untuk Cloud.
+    1. Tindakan ini membawa Anda ke halaman **Inventaris** yang mencantumkan sumber daya saat ini. Pilih sumber daya mesin virtual, **sc900-winwm**. Sumber daya ini dikaitkan dengan mesin virtual yang Anda gunakan di lab sebelumnya.
+    1. Halaman kesehatan Sumber Daya untuk VM menyediakan daftar rekomendasi.  Dari daftar yang tersedia, pilih salah satu item dari daftar yang menunjukkan status **tidak sehat**.
+    1. Perhatikan detail deskripsi.  Pilih panah tarik-turun di samping Langkah-langkah perbaikan. Perhatikan bagaimana petunjuk perbaikan (atau tautan ke petunjuk) disediakan bersama dengan opsi untuk mengambil tindakan.  Keluar dari jendela tanpa melakukan tindakan apa pun.
+    1. Kembali ke halaman ringkasan Microsoft Defender untuk Cloud, dengan memilih **Microsoft Defender untuk Cloud | Ringkasan** dari bagian atas halaman, di bagian atas yang bertuliskan Kesehatan sumber daya.
 
-1. Dari bagian atas halaman, pilih **Active recommendations**.  (Perhatikan bahwa hal ini setara dengan memilih Rekomendasi dari panel navigasi kiri beranda Microsoft Defender untuk Cloud).
-    1. Halaman rekomendasi menampilkan dasbor Skor Aman Anda.
-    1. Di bawah dasbor Skor Aman terdapat daftar kontrol. Setiap kontrol keamanan mewakili risiko keamanan yang harus dikurangi dan juga mencakup informasi tentang skor maksimum yang berhubungan dengan kontrol tersebut, skor saat ini, potensi peningkatan skor, dan status kesehatan sumber daya.  
-    1. Pilih salah satu kontrol, seperti **Enable MFA**.  Pilih salah satu subitem, seperti **MFA should be enabled on accounts with owner permissions on your subscription**.  Di halaman yang terbuka, Anda akan melihat deskripsi, langkah-langkah Remediasi, dan sumber daya yang terkena dampak. Keluar dari halaman ini, dengan memilih **X** di pojok kanan atas layar.
+1. Dari panel navigasi kiri, pilih **Rekomendasi**.  (Perhatikan bahwa ini sama dengan memilih rekomendasi Aktif dari bagian atas halaman ringkasan Microsoft Defender untuk Cloud).
+    1. Verifikasi, tab **Semua rekomendasi** dipilih (digarisbawahi).  Perhatikan tampilan dasbor yang menunjukkan Rekomendasi aktif berdasarkan tingkat keparahan, Kesehatan sumber daya, dan lainnya.
+    1. Perhatikan bahwa beberapa item muncul sebagai sumber daya yang tidak sehat, seperti yang digambarkan oleh bilah merah di sebelah kanan item baris.  Dari daftar, pilih sumber daya yang tidak sehat.  Di halaman yang terbuka, Anda akan melihat deskripsi, langkah Remediasi, dan sumber daya yang terpengaruh. Keluar dari halaman ini, dengan memilih **X** di pojok kanan atas layar.
     1. Keluar dari halaman rekomendasi dengan memilih **X** di sudut kanan atas layar, untuk kembali ke halaman ikhtisar.
 
-1. Anda kembali ke halaman Gambaran Umum Microsoft Defender untuk Cloud.  Dari halaman utama, pilih **Regulatory compliance**. (Perhatikan bahwa hal ini setara dengan memilih Rekomendasi dari panel navigasi kiri beranda Microsoft Defender untuk Cloud).
-    1. Halaman kepatuhan terhadap peraturan menyediakan daftar kontrol kepatuhan.  Pada tiap kontrol adalah seperangkat penilaian yang didasarkan pada Tolok Ukur Keamanan Azure yang menyediakan rekomendasi tentang cara Anda dapat mengamankan solusi cloud Anda di Azure.
-    1. Pilih **IM. Manajemen Identitas** lalu pilih **IM-6 Gunakan kontrol autentikasi yang kuat**.  Daftar ini menunjukkan tindakan tanggung jawab pelanggan yang dapat diambil untuk meningkatkan kondisi keamanan organisasi Anda.
-    1. Pilih **X** di sudut kanan atas layar untuk menutup halaman dan kembali ke halaman kepatuhan peraturan.
-    1. Pilih **X** di sudut kanan atas layar untuk kembali ke halaman ikhtisar.
+1. Dari panel navigasi kiri utama, pilih **Kepatuhan peraturan**. Halaman kepatuhan peraturan menyediakan daftar kontrol kepatuhan berdasarkan tolok ukur keamanan cloud Microsoft (pastikan bahwa tab tolok ukur keamanan cloud Microsoft dipilih/digarisbawahi). Di bawah setiap domain kontrol adalah subset dari kontrol dan untuk setiap kontrol ada satu atau lebih penilaian. Setiap penilaian memberikan informasi termasuk deskripsi, remediasi, dan sumber daya yang terpengaruh.
+    1. Mari jelajahi salah satu area domain kontrol. Pilih (luaskan) **NS. Keamanan Jaringan**. Daftar kontrol yang terkait dengan keamanan jaringan ditampilkan.
+    1. Pilih **NS-10. Microsoft Defender untuk DNS harus diaktifkan**. Perhatikan daftar penilaian otomatis (yang mencakup penilaian otomatis untuk AWS) dan bagaimana setiap item baris penilaian memberikan informasi termasuk jenis sumber daya, sumber daya yang gagal, dan stasiun kepatuhan. Pilih penilaian yang tercantum.  Di sini Anda melihat informasi termasuk deskripsi, langkah-langkah Remediasi, dan sumber daya yang Terpengaruh.
+    1. Pilih **X** di pojok kanan atas layar untuk menutup halaman.
+    1. Pilih **Ringkasan** dari panel navigasi kiri untuk kembali ke halaman Ringkasan Microsoft Defender untuk Cloud.
+    1. Biarkan halaman ringkasan Microsoft Defender untuk Cloud tetap terbuka, yang akan Anda gunakan di tugas berikutnya.
 
-1. Perlu diingat bahwa Microsoft Defender untuk Cloud ditawarkan dalam dua mode: tanpa fitur keamanan yang ditingkatkan (gratis) dan dengan fitur keamanan yang ditingkatkan yang tersedia melalui paket Microsoft Defender untuk Cloud. Di sini Anda menemukan cara mengaktifkan/menonaktifkan berbagai paket Microsoft Defender untuk Cloud.
-    1. Dari halaman gambaran umum Microsoft Defender untuk Cloud, pilih **Pengaturan lingkungan** dari panel navigasi kiri.
-    1. Pilih tanda lebih besar dari **>** di sebelah bagian yang tertulis Grup Akar Penyewa untuk memperluasnya (jangan pilih Grup Akar Penyewa secara langsung karena akan mengarahkan Anda ke halaman lain), lalu pilih **Azure Pass - Sponsor**
-    1. Pada halaman Paket Defender, perhatikan cara Anda dapat memilih Aktifkan semua atau pilih masing-masing paket Defender. Biarkan pengaturan apa adanya dengan semua paket dinonaktifkan.
-    1. Pilih **X** di sudut kanan atas layar untuk kembali ke halaman pengaturan Lingkungan.
-    1. Pilih **X** di sudut kanan atas layar untuk kembali ke halaman ikhtisar.
+### <a name="demo-task-2"></a>Tugas Demo 2
 
-1. Kembali ke halaman beranda portal Azure dengan memilih **Home** di pojok kiri atas halaman.  Biarkan tab browser ini terbuka, karena Anda akan kembali lagi saat demo nanti.
+Perlu diperhatikan bahwa Microsoft Defender untuk Cloud ditawarkan dalam dua mode: tanpa fitur keamanan yang disempurnakan (gratis) dan dengan fitur keamanan yang disempurnakan yang tersedia melalui paket Microsoft Defender untuk Cloud. Dalam tugas ini, Anda akan menemukan cara mengaktifkan/menonaktifkan berbagai paket Microsoft Defender untuk Cloud.
+
+1. Dari halaman gambaran umum Microsoft Defender untuk Cloud, pilih **Pengaturan lingkungan** dari panel navigasi kiri.
+1. Pilih kotak **Luaskan semua** lalu pilih langganan **MOC--lodXXXXXXXX** yang tercantum di sebelah ikon tombol kuning.
+1. Pada halaman Paket Defender, perhatikan cara Anda dapat memilih Aktifkan semua atau pilih masing-masing paket Defender. 
+    1. Verifikasi bahwa status CSPM diatur ke **Aktif**, jika belum, atur sekarang.  
+    1. Aktifkan paket untuk Server.  Pilih **Aktif** untuk item baris Server, lalu pilih **Simpan** dari bagian atas halaman.
+1. Tutup semua tab browser yang terbuka.
 
 ## <a name="review"></a>Tinjau
 

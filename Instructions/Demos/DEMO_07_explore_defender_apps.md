@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 2ea64f800931ec99ace8cd3ec349573a0931899e
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892617"
----
 <a name="---"></a><!---
 ---
 Demo: Judul: Microsoft Defender for Cloud Apps ' Modul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365; Unit 5: Menjelaskan Aplikasi Microsoft Defender untuk Cloud'
@@ -22,9 +14,9 @@ Demo ini memetakan ke konten Learn berikut:
 
 ## <a name="demo-scenario"></a>Skenario demo
 
-Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untuk Cloud.  Anda akan memandu pelajar mempelajari informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan dan mengontrol dampak terhadap organisasi Anda melalui kebijakan.  Catatan:  Organisasi harus memiliki lisensi untuk menggunakan Aplikasi Microsoft Defender untuk Cloud yang merupakan layanan langganan berbasis pengguna.  
+Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untuk Cloud.  Anda akan memandu pelajar melalui informasi yang tersedia di dasbor Cloud discovery, katalog aplikasi Cloud, kemampuan yang tersedia untuk menyelidiki temuan dengan Log aktivitas dan File, serta cara mengontrol dampak terhadap organisasi Anda melalui Kebijakan.  Catatan: Organisasi harus memiliki lisensi untuk menggunakan Aplikasi Microsoft Defender untuk Cloud yang merupakan layanan langganan berbasis pengguna.  
 
-### <a name="demo-part-1-explore-cloud-discovery"></a>Demo Bagian 1: Mempelajari Cloud Discovery
+### <a name="demo-part-1-explore-cloud-discovery"></a>Demo Bagian 1: Menjelajahi Cloud discovery
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.  Anda seharusnya sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin Anda.
 
@@ -34,60 +26,60 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untu
 
 1. Jika ini adalah pertama kalinya Anda mengunjungi portal Pertahanan Microsoft 365, Anda mungkin akan melihat jendela pop-up untuk mengikuti tur singkat.  Tutup jendela ini.
 
-1. Dari bagian bawah panel navigasi kiri halaman Pertahanan Microsoft 365, pilih **More resources**.
+1. Dari panel navigasi kiri, pilih **Aplikasi Cloud** untuk meluaskan daftar, lalu pilih **Cloud Discovery**. Tindakan ini akan membawa Anda ke tampilan Dasbor.  Catat informasi yang tersedia di dasbor. Dari tampilan dasbor, Anda dapat memilih berbagai tab dari bagian atas halaman.  Buka setiap tab di bagian atas halaman.
+    
+1. Pilih **Aplikasi yang ditemukan**. Jendela aplikasi yang ditemukan memberikan tampilan yang lebih mendetail tentang aplikasi yang ditemukan, termasuk skor risiko, lalu lintas, jumlah pengguna, dan lainnya. 
+    1. Dari semua item dalam daftar, pilih **ellipses** di kolom tindakan tabel.  Perhatikan berbagai opsi yang tersedia, termasuk kemampuan untuk menandai aplikasi sebagai disetujui atau tidak.  Pilih elipsis sekali lagi, untuk menutup kotak tindakan.
+    1. Memilih item baris tertentu akan membuka halaman detail untuk aplikasi tertentu.  Pilih item dari daftar.  Untuk item yang dipilih, pilih tab **Penggunaan aplikasi cloud** untuk melihat informasi selengkapnya, termasuk **Penggunaan**, **Pengguna, IP**, **Alamat**, dan **Peringatan**. Setelah selesai menjelajahi halaman detail, kembali ke halaman aplikasi yang ditemukan, dengan memilih **Cloud Discovery** dari bread crumb di bagian atas halaman.  Jika memilih Cloud discovery dari panel navigasi kiri, Anda akan dibawa kembali ke tampilan dasbor.
+    1. Dari bagian atas halaman, pilih tab **alamat IP**. Di sini Anda akan menemukan data termasuk jumlah transaksi, jumlah lalu lintas dan jumlah unggahan, berdasarkan alamat IP.  Perhatikan bahwa Anda juga dapat memfilter menurut alamat IP tertentu atau mengekspor data untuk analisis lebih lanjut.
+    1. Dari bagian atas halaman, pilih **Pengguna**.  Ini adalah jenis informasi yang sama yang diberikan saat Anda memilih alamat IP, namun terdaftar untuk masing-masing pengguna.  Di sini, sekali lagi, Anda memfilter menurut pengguna tertentu dan mengekspor data untuk analisis lebih lanjut.
 
-1. Pada kartu **Aplikasi Microsoft Defender untuk Cloud**, pilih **Buka**.  Halaman browser baru terbuka ke Dasbor Cloud App Security.  Perhatikan kartu informasi yang tersedia.  Anda mungkin tidak melihat informasi apa pun pada kartu, karena lingkungan penyewa lab ini telah dikonfigurasi sebelumnya serta belum digunakan secara aktif.  
+1. Hal penting yang perlu diketahui adalah bahwa informasi yang diberikan di halaman Cloud Discovery dan tab terkait didasarkan pada laporan cuplikan dari log lalu lintas yang Anda unggah secara manual dari firewall dan proksi atau dari laporan berkelanjutan yang menganalisis semua log yang diteruskan dari jaringan Anda menggunakan Cloud App Security.  Untuk melihat tempat informasi ini disiapkan, pilih **Tindakan** di pojok kanan atas halaman.
+    1. Pilih opsi pertama, **Buat laporan snapshot Cloud Discovery** lalu pilih **Berikutnya**. Di sini, Anda akan mengisi detail yang diminta dan mengunggah log lalu lintas untuk menghasilkan dan mengunggah laporan.  Pilih **Keluar** dan jika diminta dengan Apakah Anda yakin, pilih **Keluar** lagi.  Data yang ditampilkan untuk penyewa lab Anda berasal dari laporan Snapshot, Anda dapat melihat informasi ini di bagian atas jendela Cloud Discovery.
+    1. Untuk melihat opsi laporan berkelanjutan, pilih **Tindakan** di pojok kanan atas halaman dan dari menu dropdown pilih **Konfigurasikan unggahan otomatis**.  Tidak ada sumber data yang terhubung, tetapi di sinilah Anda akan menambahkan sumber data. Pilih **Tambahkan sumber data** lalu pilih panah menu dropdown di bidang **Pilih alat** untuk melihat jenis alat yang dapat Anda sambungkan sebagai sumber data.  Pilih **Cancel** untuk keluar.
+    1. Dari panel navigasi kiri, pilih **Cloud discovery** untuk kembali ke halaman Cloud discovery.
 
-1. Dari panel navigasi sebelah kiri, pilih **Discover**, lalu dari menu tarik-turun, pilih **Cloud Discovery dashboard**.  Dasbor mencakup dan menampilkan ringkasan aplikasi yang ditemukan, kategori aplikasi, tingkat risiko, dan banyak lagi.  
+1. Dengan aplikasi Microsoft 365 Defender untuk Cloud, Anda dapat terhubung ke aplikasi secara langsung dengan menyiapkan konektor aplikasi yang akan memberi Anda visibilitas dan kontrol lebih besar atas aplikasi cloud Anda.  Hal penting yang perlu diperhatikan adalah merujuk ke dokumentasi untuk mengetahui prasyarat menghubungkan konektor aplikasi tertentu. Dari pojok kanan atas layar, pilih **Tindakan** lalu pilih **Pengaturan Cloud Discovery**.  Dari sisi kiri layar, di bagian Aplikasi yang terhubung, pilih **Konektor aplikasi**.  
+    1. Di halaman Aplikasi yang terhubung, pilih *Office 365** dari daftar untuk melihat informasi selengkapnya. Jika Office 365 menampilkan kesalahan koneksi, kemungkinan besar karena Audit tidak diaktifkan.  Jika audit diaktifkan, buka elipsis vertikal di sisi kanan item baris, lalu pilih **edit pengaturan**.  Untuk menghubungkan kembali, pilih **Hubungkan Office 365** di bagian bawah halaman. Halaman seharusnya sekarang menunjukkan bahwa Office 365 terhubung, pilih **Selesai**.  Status sekarang akan ditampilkan dengan tanda peringatan kuning, menunjukkan tidak ada status terbaru.  Diperlukan waktu beberapa saat untuk memperbarui status karena periode waktu pemindaian retroaktif berbeda untuk setiap aplikasi, dan penyewa lab mungkin memerlukan waktu yang lebih lama dari biasanya (jangan berharap status berubah selama demo karena dapat memakan waktu berjam-jam).
+    1. Sekarang Anda akan menyiapkan konektor aplikasi baru.  Pilih **+Connect an app** dan dari daftar tarik-turun pilih **Microsoft Azure**.  Dari jendela pop-up Microsoft Azure, pilih **Hubungkan Microsoft Azure** lalu pilih **Selesai**.  Anda akan melihat status terhubung (jika tidak melihatnya, refresh browser) dan informasi tentang pemindaian pengguna, data, dan aktivitas.  Kembali ke dasbor Cloud Discovery, dengan memilih **Cloud Discovery** dari panel navigasi paling kiri.
 
-    1. Dari bagian atas halaman Cloud Discovery, pilih tab **Discovered apps**.  Jendela aplikasi yang ditemukan memberikan tampilan yang lebih mendetail tentang aplikasi yang ditemukan, termasuk skor risiko, lalu lintas, jumlah pengguna, dan lainnya.
+1. Biarkan halaman ini tetap terbuka, karena Anda akan menggunakannya di bagian selanjutnya.
 
-        1. Dari semua item dalam daftar, pilih **ellipses** di kolom tindakan tabel.  Perhatikan berbagai opsi yang tersedia, termasuk kemampuan untuk menandai aplikasi sebagai disetujui atau tidak.  Pilih elipsis sekali lagi, untuk menutup kotak tindakan.
+### <a name="demo-part-2---explore-the-cloud-app-catalog"></a>Demo Bagian 2 - Menjelajahi katalog aplikasi Cloud
 
-        1. Memilih item baris tertentu akan membuka halaman detail untuk aplikasi tertentu.  Pilih item dari daftar.  Untuk item yang dipilih, buka setiap tab di bagian atas halaman detail:  **Usage**, **Info, IP**, **Addresses**, **Users**, dan **Alerts**. Setelah selesai menjelajahi halaman detail, kembali ke aplikasi yang ditemukan, dengan memilih **Discovered apps** dari panel navigasi sebelah kiri.
+Di bagian demo ini, Anda akan menunjukkan kemampuan katalog aplikasi Cloud. Cloud Discovery menganalisis log lalu lintas Anda berdasarkan katalog aplikasi cloud Aplikasi Microsoft Defender untuk Cloud yang berisi lebih dari 31.000 aplikasi cloud. Aplikasi diberi peringkat dan skor berdasarkan lebih dari 80 faktor risiko untuk memberi Anda visibilitas berkelanjutan ke penggunaan cloud, Shadow IT, dan risiko yang ditimbulkan Shadow IT pada organisasi Anda.  
 
-    1. Dari bagian atas halaman, pilih tab **IP addresses** (serupa dengan memilih alamat IP dari panel navigasi sebelah kiri).  Di sini, Anda akan menemukan data termasuk jumlah transaksi, jumlah lalu lintas, dan jumlah unggahan berdasarkan alamat IP.  Perhatikan bahwa Anda juga dapat memfilter menurut alamat IP tertentu atau mengekspor data untuk analisis lebih lanjut.
+1. Dari panel navigasi kiri, pilih **Katalog aplikasi cloud**.
 
-    1. Dari bagian atas halaman (atau panel navigasi sebelah kiri), pilih **Users**.  Ini adalah jenis informasi yang sama yang diberikan saat Anda memilih alamat IP, tetapi ini terdaftar untuk pengguna individu.  Di sini, sekali lagi, Anda memfilter menurut pengguna tertentu dan mengekspor data untuk analisis lebih lanjut.
+1. Katalog aplikasi Cloud memungkinkan Anda memilih aplikasi yang sesuai dengan persyaratan keamanan organisasi Anda. Admin dapat melakukan pemfilteran dasar pada aplikasi seperti yang ditampilkan di bagian atas halaman, yang mencakup apakah aplikasi diberi sanksi, tidak diberi sanksi, atau tidak memiliki tag, skor risiko, faktor risiko Kepatuhan, dan faktor risiko keamanan.  Misalnya, pemfilteran berdasarkan faktor risiko kepatuhan memungkinkan Anda menelusuri standar, sertifikasi, dan kepatuhan tertentu yang mungkin dipatuhi oleh aplikasi. Contohnya termasuk HIPAA, ISO 27001, SOC 2, dan PCI-DSS. Pilih **Faktor risiko kepatuhan** untuk melihat opsi yang tersedia.  Anda dapat memfilter lebih lanjut berdasarkan skor risiko, dengan menggerakkan penggeser pada skor risiko di bagian atas halaman. Jika Anda memindahkan slide, pastikan untuk mengaturnya sehingga rentangnya diatur dari 0 hingga 10.
 
-1. Informasi yang diberikan di tab ini didasarkan pada laporan cuplikan dari log lalu lintas yang Anda unggah secara manual dari firewall dan proksi atau dari laporan berkelanjutan yang menganalisis semua log yang diteruskan dari jaringan Anda menggunakan Cloud App Security.  Untuk melihat tempat informasi ini diatur, pilih **ellipses** di pojok kanan atas halaman.
+1. Admin juga dapat mencari aplikasi berdasarkan kategori.  Misalnya pada kolom pencarian kategori masukkan **Jejaring sosial**, lalu pilih **Jejaring sosial**.  Pilih **Yammer** untuk melihat selengkapnya.  Mengarahkan mouse Anda ke topik apa pun untuk kategori tertentu akan menampilkan ikon informasi yang dapat Anda pilih untuk mendapatkan informasi lebih lanjut tentang topik tersebut.
 
-    1. Pilih opsi pertama, **Create Cloud Discovery snapshot report**. Di sini, Anda akan mengisi detail yang diminta dan mengunggah log lalu lintas untuk menghasilkan dan mengunggah laporan.  Pilih **Batalkan**.  Data yang Anda lihat untuk penyewa lab berasal dari Laporan cuplikan, Anda dapat melihat informasi ini di sudut kanan atas layar.
+1. Biarkan halaman ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
-    1. Untuk melihat opsi laporan berkelanjutan, pilih **ellipses** di sudut kanan atas halaman dan dari menu tarik-turun pilih **Configure automatic upload**.  Tidak ada sumber data yang terhubung, tetapi di sinilah Anda akan menambahkan sumber data. Pilih panah menu tarik-turun, **Select Appliance** untuk melihat jenis peralatan yang dapat Anda hubungkan sebagai sumber data.  Pilih **Cancel** untuk keluar.
+### <a name="demo-part-3---explore-the-activity-log-and-files"></a>Demo Bagian 3 - Menjelajahi log Aktivitas dan File
 
-1. Poin lain yang perlu diperhatikan adalah Anda dapat terhubung ke aplikasi secara langsung dengan menyiapkan konektor aplikasi yang akan memberi Anda visibilitas dan kontrol yang lebih besar atas aplikasi cloud Anda. Dari sudut kiri atas layar, pilih **Settings cog icon** dan dari daftar tarik-turun, pilih **App connectors**.  
+Menjelajahi cara-cara menyelidiki aktivitas yang direkam dengan log aktivitas dan file.
 
-    1. Pada halaman Aplikasi yang terhubung, Anda akan melihat Office 365 pada daftar dengan status terhubung.  Jika Office 365 menunjukkan kesalahan koneksi, kemungkinan besar karena Audit tidak diaktifkan.
+1. Dari panel navigasi kiri, pilih dan jelajahi opsi **File** dan catat opsi untuk memfilter data berdasarkan aplikasi, pemilik, tingkat akses, jenis file, dan kebijakan yang cocok. Perhatikan juga opsi untuk membuat kebijakan baru dari penelusuran dan ekspor data.
+    1. Pilih **+ Kebijakan baru dari pencarian**.  Perhatikan bagaimana Anda dapat membuat kebijakan berdasarkan templat, memilih tingkat keparahan & kategori kebijakan, membuat filter untuk kebijakan, membuat peringatan, dan bahkan mengirim peringatan ke Power Automate.  Pilih **Batalkan** untuk keluar dari jendela pembuatan kebijakan, lalu pilih **Tinggalkan halaman**.
 
-    1. Pilih **+Connect an app** dan dari daftar tarik-turun pilih **Microsoft Azure**.  Dari jendela pop-up Microsoft Azure, pilih **Connect Microsoft Azure**.  Anda akan melihat status terhubung dan informasi terkait pemindaian, data, dan aktivitas pengguna.  Pilih **tutup Close**.
+1. Dari panel navigasi kiri, pilih **Log Aktivitas**. Di sini, Anda mendapatkan visibilitas ke semua aktivitas dari aplikasi yang terhubung. Anda mungkin tidak melihat data apa pun yang tercantum karena memerlukan waktu beberapa jam untuk melakukan pemindaian retroaktif setelah audit diaktifkan dan penyewa lab mungkin memerlukan waktu yang lebih lama dari biasanya. Perhatikan opsi filter yang tersedia dan opsi untuk membuat kebijakan baru dari pencarian.
 
-1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
+1. Biarkan halaman ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
-### <a name="demo-part-2"></a>Demo Bagian 2
+### <a name="demo-part-4---explore-policies"></a>Demo Bagian 4 - Menjelajahi kebijakan
 
-Menjelajahi cara-cara untuk menyelidiki aktivitas yang direkam.
+Di bagian ini, Anda akan menampilkan opsi yang tersedia untuk kebijakan di Aplikasi Microsoft Defender untuk Cloud.
 
-1. Dari panel navigasi kiri, di bawah **Investigate**, pilih **Activity Log**.  Di sini, Anda mendapatkan visibilitas ke semua aktivitas dari aplikasi yang terhubung.   Karena konektor Office 365 sudah terhubung, Anda seharusnya dapat melihat beberapa data. Setelah menghubungkan Cloud App Security ke aplikasi menggunakan konektor Aplikasi, Cloud App Security akan memindai semua aktivitas yang terjadi - periode waktu pemindaian retroaktif berbeda per aplikasi - dan kemudian diperbarui terus-menerus dengan aktivitas baru.  
+1. Dari panel navigasi kiri, pilih **Kebijakan** lalu pilih **Manajemen kebijakan**.  Kebijakan yang tercantum memberikan informasi tentang jumlah peringatan yang dihasilkan oleh kebijakan, keparahan, dll. Memilih item baris mana pun memberikan informasi yang lebih detail tentang kebijakan. Pilih item dari daftar, mis., **Risky sign-in**.
+    1. Perhatikan bahwa Anda juga dapat membuat kebijakan. Pilih **+ Buat kebijakan** untuk melihat jenis kebijakan yang dapat Anda buat.  Pilih **Kebijakan aktivitas** untuk melihat berbagai opsi yang tersedia untuk membuat kebijakan.  Pilih **Batalkan** untuk keluar dari jendela konfigurasi.
+    1. Perhatikan bahwa Anda juga dapat memiliki opsi untuk mengekspor informasi kebijakan.
 
-1. Pilih item untuk menampilkan informasi selengkapnya. Perhatikan di bagian atas halaman, terdapat opsi untuk menambahkan kebijakan baru dari pencarian atau mengekspor data untuk analisis lebih lanjut.  Pilih **+New policy from search**.  Perhatikan bagaimana Anda dapat membuat kebijakan berdasarkan templat, memilih tingkat keparahan & kategori kebijakan, membuat filter untuk kebijakan, membuat peringatan, dan bahkan mengirim peringatan ke Power Automate.  Pilih **Cancel** untuk keluar dari jendela pembuatan kebijakan.
-
-1. Dari panel navigasi kiri, pilih dan jelajahi opsi **Files**, serta perhatikan opsi untuk memfilter data, membuat kebijakan file, dan mengekspor data.  Pilih dan jelajahi opsi **user and accounts**.  Perhatikan opsi memfilter data dan mengekspor data.
-
-1. Dari panel navigasi kiri, pilih Konfigurasi keamanan. Halaman ini memberi Anda penilaian konfigurasi keamanan untuk akun Azure, Amazon Web Services (AWS), dan Google Cloud Platform (GCP) Anda.
-
-1. Biarkan halaman ini terbuka, karena Anda akan menggunakannya untuk tugas berikutnya.
-
-### <a name="demo-part-3"></a>Demo Bagian 3
-
-Dalam tugas ini Anda akan mempelajari halaman kebijakan dan peringatan di Aplikasi Microsoft Defender untuk Cloud
-
-1. Dari panel navigasi sebelah kiri, di bawah teks Kontrol, pilih **Policies**.  Kebijakan yang tercantum memberikan informasi tentang jumlah peringatan yang dihasilkan oleh kebijakan, keparahan, dll. Memilih item baris mana pun memberikan informasi yang lebih detail tentang kebijakan. Pilih item dari daftar, mis., **Risky sign-in**.  
-
-1. Dari panel navigasi sebelah kiri, pilih **Alerts**.  Jika Anda memiliki peringatan yang terdaftar, pilih item dari daftar peringatan. Tinjau informasi yang diberikan.  Dari sisi kanan atas jendela, pilih **Close alert**, guna melihat opsi untuk menutup peringatan.  
+1. Dari panel navigasi kiri, pilih **Template kebijakan**. Untuk membuat kebijakan dari salah satu template yang tersedia, pilih **+** di sebelah kiri item baris template.  Lihat berbagai opsi konfigurasi untuk kebijakan.  Pilih **Batalkan** untuk keluar dari halaman.
 
 1. Tutup jendela browser.
 
 ### <a name="review"></a>Tinjau
 
-Dalam demo ini, Anda menunjukkan kemampuan Aplikasi Microsoft Defender untuk Cloud.  Andatelah  menunjukkan informasi yang tersedia di dasbor Cloud Discovery serta kemampuan yang tersedia untuk menyelidiki temuan, dan mengontrol dampaknya terhadap organisasi Anda melalui kebijakan.
+Dalam demo ini, Anda menunjukkan kemampuan Aplikasi Microsoft Defender untuk Cloud.  Anda menunjukkan informasi yang tersedia di dasbor Cloud discovery, katalog aplikasi Cloud, kemampuan yang tersedia untuk menyelidiki temuan dengan Log aktivitas dan File, serta cara untuk mengontrol dampak terhadap organisasi Anda melalui Kebijakan
