@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892652"
----
 <a name="---"></a><!---
 ---
 Lab: Judul: 'Jelajahi label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview; Pelajaran 4: Menjelaskan label sensitivitas'
@@ -22,20 +14,20 @@ Lab ini memetakan ke konten Pelajari berikut:
 
 ## <a name="lab-scenario"></a>Skenario lab
 
-Di lab ini, Anda telah mempelajari kemampuan label sensitivitas.  Anda akan melalui pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan yang sesuai untuk menerbitkan label.   Kemudian Anda telah melihat cara menerapkan label dan dampak dari label tersebut, dari sudut pandang pengguna.
+Di lab ini, Anda akan mempelajari kemampuan label sensitivitas.  Anda akan melalui pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan terkait untuk menerbitkan label.   Kemudian Anda akan melihat cara menerapkan label dan dampak label tersebut, dari sudut pandang pengguna.
 
 **Perkiraan Waktu**: 20-25 menit
 
 ### <a name="task-1"></a>Tugas 1
 
-Dalam tugas ini, Anda akan memperoleh pemahaman tentang hal yang dapat dilakukan oleh label sensitivitas dengan menelusuri pengaturan untuk label sensitivitas yang sudah ada, yang telah dibuat dan kebijakan terkait untuk menerbitkan label.
+Dalam tugas ini, Anda akan mendapatkan pemahaman tentang apa yang dapat dilakukan label sensitivitas dengan mempelajari pengaturan untuk label sensitivitas yang ada yang telah dibuat dan kebijakan terkait untuk menerbitkan label.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
 1. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
 
-    1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**. Ini akan mengarahkan Anda ke halaman pusat admin Microsoft 365.
 
 1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
@@ -44,46 +36,43 @@ Dalam tugas ini, Anda akan memperoleh pemahaman tentang hal yang dapat dilakukan
 
 1. Dari panel navigasi sebelah kiri, di bagian solusi, pilih **Information protection**.
 
+1. Dari halaman ringkasan, perhatikan bahwa kotak informasi berwarna kuning menunjukkan bahwa organisasi Anda belum mengaktifkan kemampuan untuk memproses konten di file Office online yang menerapkan label sensitivitas terenkripsi dan disimpan di OneDrive dan SharePoint.  Pilih **Aktifkan sekarang**.  Setelah Anda melakukan ini, mungkin akan ada penundaan pada pengaturan untuk menyebar melalui sistem.  Tinjau juga informasi yang tersedia di halaman ringkasan ini.
+
 1. Pilih tab **Label** dari bagian atas halaman.
 
-1. Kotak informasi berwarna kuning yang ditampilkan yang menunjukkan, "Organisasi Anda belum mengaktifkan kemampuan untuk memproses konten di file online Office yang memiliki label sensitivitas terenkripsi yang diterapkan dan disimpan di OneDrive dan SharePoint..."  Pilih **Aktifkan sekarang**.  Setelah melakukan ini, mungkin ada penundaan untuk menyebarkan pengaturan melalui sistem.** **
-
-1. Di tengah halaman, perhatikan bahwa ada label yang sudah dibuat.  Pilih **Confidential - Finance**.  Jendela terbuka yang memberikan informasi tentang label ini.  Perhatikan bagaimana label ini diatur untuk mendukung enkripsi dan penandaan konten.  Pilih Edit Label di bagian atas halaman untuk melihat beberapa pengaturan konfigurasi dasar.
+1. Di tengah halaman, perhatikan bahwa ada label yang sudah dibuat.  Pilih **Confidential - Finance**.  Jendela terbuka yang memberikan informasi tentang label ini.  Perhatikan bagaimana label ini diatur untuk mendukung enkripsi dan penandaan konten.  Pilih **Edit Label** di bagian atas halaman untuk melihat beberapa pengaturan konfigurasi dasar.  Saat Anda menelusuri dan melihat berbagai pengaturan, JANGAN mengubah apa pun.
 
 1. Konfigurasi dimulai dengan memberikan nama dan deskripsi untuk label Anda.  Jangan mengubah apa pun.  Pilih **Next** di bagian bawah halaman.
 
-1. Perhatikan cakupan untuk label ini.  Cakupan diatur ke File & email tempat Anda dapat mengonfigurasi Enkripsi dan pengaturan penandaan konten untuk melindungi email berlabel dan file kantor.  Jangan mengubah apa pun.  Pilih **Next** di bagian bawah halaman.
+1. Perhatikan cakupan untuk label ini.  Cakupan diatur ke **Item**.  Baca deskripsi tetapi jangan mengubah apa pun.  Pilih **Next** di bagian bawah halaman.
 
-1. Untuk cakupan yang dipilih, File & email, Anda dapat mengonfigurasi untuk mengenkripsi dan/atau menandai konten.  Perhatikan bagaimana pengaturan perlindungan file dan email diatur untuk enkripsi dan penandaan konten file.  Tinjau definisi masing-masing.  Jangan mengubah apa pun.  Pilih **Next** di bagian bawah halaman.
+1. Untuk cakupan yang dipilih, item, Anda dapat mengonfigurasi untuk mengenkripsi dan/atau menandai konten.  Perhatikan bagaimana pengaturan perlindungan untuk file dan email diatur untuk enkripsi dan penandaan konten file.  Tinjau definisi masing-masing.  Jangan mengubah apa pun.  Pilih **Next** di bagian bawah halaman.
 
 1. Jendela Enkripsi menunjukkan konfigurasi untuk pengaturan enkripsi.  Jangan mengubah apa pun.  Tinjau kotak informasi di bagian Konfigurasi pengaturan enkripsi dan tinjau pengaturan yang dikonfigurasi. Perhatikan bagaimana akses pengguna ke konten diatur untuk tidak pernah kedaluwarsa.  Anda juga dapat menetapkan izin untuk pengguna dan grup tertentu sehingga hanya mereka yang dapat berinteraksi dengan konten yang menerapkan label ini.  Di bagian pengguna dan grup, penyewa ditentukan sehingga semua pengguna di penyewa Anda dapat melihat konten yang memiliki label ini.  Tim keuangan juga terdaftar dan mereka memiliki izin penulis bersama.  Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
 
 1. Pada halaman penandaan konten, perhatikan kotak informasi di bagian atas halaman.  Penandaan konten akan diterapkan ke dokumen tetapi hanya header dan footer yang akan diterapkan ke pesan email. Dengan kata lain, marka air tidak diterapkan pada email.  Penandaan konten yang terkait dengan label ini adalah marka air yang bertuliskan, SANGAT RAHASIA.  Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
 
-1. Sekarang Anda berada di jendela Pelabelan otomatis untuk file dan email.  Baca deskripsi pelabelan otomatis di bagian atas halaman dan kotak informasi di bawahnya.  Perhatikan juga bahwa label ini diatur untuk pelabelan otomatis dalam kondisi tertentu. Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
+1. Anda sekarang berada di jendela Pelabelan otomatis untuk file dan email.  Baca deskripsi pelabelan otomatis di bagian atas halaman dan kotak informasi di bawahnya.  Perhatikan juga bahwa label ini diatur untuk pelabelan otomatis dalam kondisi tertentu. Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
 
-1. Jendela berikutnya menentukan pengaturan perlindungan untuk tim, grup, dan situs yang menerapkan label ini. Ini tidak diaktifkan, pilih **Next** di bagian bawah halaman.
+1. Jendela berikutnya menentukan pengaturan perlindungan untuk grup dan situs yang menerapkan label ini. Ini tidak diaktifkan, pilih **Next** di bagian bawah halaman.
 
-1. Jendela berikutnya adalah fitur pratinjau untuk menerapkan label ini ke kolom database Azure (seperti SQL, Synapse, dan lainnya) yang berisi tipe info sensitif yang Anda pilih secara otomatis.  Fitur ini tidak diaktifkan. Pilih **Cancel** di bagian bawah halaman untuk keluar dari wizard konfigurasi label dan kembali ke halaman Proteksi Informasi.
+1. Jendela berikutnya adalah fitur pratinjau Pelabelan otomatis untuk aset data yang dibuat skema. Baca deskripsinya.  Fitur ini tidak diaktifkan. Pilih **Cancel** di bagian bawah halaman untuk keluar dari wizard konfigurasi label dan kembali ke halaman Proteksi Informasi.
 
 1. Dari bagian atas halaman Perlindungan Informasi, pilih **Label policies**.  Melalui kebijakan label, label sensitivitas dapat diterbitkan.  
 
-1. Pilih **Confidential-Finance Policy**.  Jendela terbuka yang memberikan informasi tentang kebijakan tersebut.  Kebijakan ini berfungsi untuk menerbitkan label Kebijakan Keuangan Rahasia dan melindungi data yang berisi data keuangan untuk Contoso.  Perhatikan juga bagaimana kebijakan ini diterbitkan kepada semua orang.  
+1. Dalam hal ini, Pilih **Kebijakan label sensitivitas global**.  Jendela terbuka yang memberikan informasi tentang kebijakan tersebut.  Perhatikan deskripsinya, ini adalah kebijakan label sensitivitas default untuk semua pengguna dan grup. Kebijakan ini berfungsi untuk menerbitkan sebagian besar label yang telah dikonfigurasikan sebelumnya untuk penyewa lab Microsoft 365 ini dan dicantumkan di tab label.  
 
 1. Pilih **Edit** kebijakan dari bagian atas jendela.
+    1. Baca deskripsi di bagian “Pilih label sensitivitas yang akan diterbitkan”.  Perhatikan label yang tertera.  Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
+    1. Baca deskripsi di bagian “Terbitkan ke pengguna dan grup”.  Perhatikan bahwa label ini tersedia untuk semua pengguna.  Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
+    1. Meninjau pengaturan kebijakan.  Pilih **Wajibkan pengguna untuk menerapkan label ke email dan dokumen mereka**. Tinjau deskripsi yang diberikan. Pilih **Next** di bagian bawah halaman.
+    1. Baca deskripsi di bagian, "Menerapkan label default ke dokumen." Di kolom Default label, pilih panah arah bawah lalu pilih **Umum/Semua karyawan (tidak dibatasi)** .  Pilih **Next** di bagian bawah halaman.
+    1. Baca deskripsi di bagian, Terapkan label default ke email." Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
+    1. Baca deskripsi di bagian, "Terapkan label default ke konten Power BI." Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
+    1. Opsi konfigurasi terakhir adalah memberi nama kebijakan Anda.  Karena Anda sedang mengedit kebijakan, kolom nama berwarna abu-abu. Pilih **Berikutnya** di bagian bawah halaman.
+    1. Tinjau pengaturan kebijakan lalu pilih **Kirim**, lalu pilih **Selesai** untuk kembali ke halaman Perlindungan informasi.
 
-1. Baca deskripsi di bagian “Pilih label sensitivitas yang akan diterbitkan”.  Perhatikan label yang tertera.  Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
-
-1. Baca deskripsi di bagian “Terbitkan ke pengguna dan grup”.  Perhatikan label ini tersedia untuk semua pengguna.  Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
-
-1. Meninjau pengaturan kebijakan.  Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
-    1. Baca deskripsi di bawah, "Terapkan label default ke dokumen."  Perhatikan bahwa tidak ada label default. Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
-    1. Baca deskripsi di bawah, "Terapkan label default ke email."  Pilih panah tarik-turun di kotak input, untuk melihat opsi yang tersedia. Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
-    1. Baca deskripsi di bawah, "Terapkan label default ke konten Power BI."  Perhatikan bahwa tidak ada label default. Jangan mengubah pengaturan apa pun.  Pilih **Next** di bagian bawah halaman.
-
-1. Opsi konfigurasi terakhir adalah memberi nama kebijakan Anda.  Jangan mengubah pengaturan apa pun.  Pilih **Cancel** di bagian bawah halaman untuk keluar dari konfigurasi kebijakan dan kembali ke halaman Proteksi informasi.
-
-1. Dari halaman Perlindungan informasi, pilih Pelabelan otomatis.  Perhatikan bahwa tidak ada kebijakan pelabelan otomatis yang dikonfigurasi.  Jangan mengubah pengaturan apa pun.  Jika Anda bertanya-tanya mengapa tidak ada kebijakan di sini, mengingat konfigurasi label diatur ke pelabelan otomatis untuk file dan email, kembali ke langkah-langkah di mana Anda dipandu melalui pengaturan konfigurasi label dan meninjau deskripsi dan kotak informasi terkait pelabelan otomatis untuk file dan email.  Petunjuk:  Di tab pelabelan otomatis untuk lab sensitivitas, tertulis  “Untuk menerapkan label ini ke file yang sudah disimpan secara otomatis (di SharePoint dan OneDrive) atau email yang sudah diproses oleh Exchange, Anda harus membuat kebijakan pelabelan otomatis."
+1. Dari halaman Perlindungan informasi, pilih Pelabelan otomatis.  Perhatikan bahwa tidak ada kebijakan pelabelan otomatis yang dikonfigurasi.  Jangan mengubah pengaturan apa pun.  Jika Anda bertanya-tanya mengapa tidak ada kebijakan di sini, karena konfigurasi label diatur ke pelabelan otomatis untuk file dan email, kembali ke langkah-langkah di mana Anda menelusuri pengaturan konfigurasi label dan tinjau kotak deskripsi dan informasi yang terkait dengan Pelabelan otomatis untuk file dan email.  Petunjuk:  Di tab pelabelan otomatis untuk lab sensitivitas, tertulis  “Untuk menerapkan label ini ke file yang sudah disimpan secara otomatis (di SharePoint dan OneDrive) atau email yang sudah diproses oleh Exchange, Anda harus membuat kebijakan pelabelan otomatis."
 
 1. Dari panel navigasi sebelah kiri, pilih Beranda untuk kembali ke portal kepatuhan Microsoft Purview.
 
@@ -91,13 +80,13 @@ Dalam tugas ini, Anda akan memperoleh pemahaman tentang hal yang dapat dilakukan
 
 ### <a name="task-2"></a>Tugas 2
 
-Dalam tugas ini, Anda akan melalui proses penerapan label dari sudut pandang pengguna (dalam hal ini, pengguna adalah admin) dan melihat penandaan konten yang dihasilkan oleh label.
+Dalam tugas ini, Anda akan melakukan proses penerapan label dari sudut pandang pengguna (dalam hal ini pengguna adalah admin) dan melihat penandaan konten yang dibuat oleh label.
 
-1. Dari beranda pusat kepatuhan Microsoft 365, pilih **ikon peluncur aplikasi**, di sebelah bagian yang tertulis Contoso Electronics. **klik kanan ikon Word** dan pilih **Buka di tab baru**.  
+1. Dari halaman beranda portal kepatuhan Microsoft Purview, pilih **ikon peluncur aplikasi**, di samping Contoso Electronics. Pilih **ikon Word**.  
 
-1. Pilih **+ New blank document**, kemudian masukkan beberapa teks pada halaman.  Pada bilah berwarna biru di bagian atas halaman, pilih panah bawah, di sebelahnya tertulis DocumenXX - Tersimpan, dan di kotak Nama File masukkan, **Test-label**.
+1. Pilih **+ New blank document**, kemudian masukkan beberapa teks pada halaman.  Di bagian atas halaman, pilih panah arah bawah, di sebelah tulisan Dokumen - Tersimpan, dan di kotak Nama File masukkan, **Label-uji** lalu tekan **Masuk** pada papan ketik.
 
-1. Dari bilah menu atas, pilih **Sensitivity**, jika Anda tidak langsung melihat opsi ini, segarkan halaman. Dari menu tarik-turun, pilih **Confidential - Finance**.  CATATAN:  CATATAN: Opsi Sensitivitas mungkin memakan waktu hingga 15 menit untuk muncul.
+1. Dari bilah menu atas, pilih **Ikon Sensitivitas** (ikon di sebelah kanan ikon mikrofon), jika Anda tidak segera melihat opsi ini, refresh halaman. Dari menu dropdown, pilih **Rahasia - Keuangan**.  
 
 1. Dari bilah menu atas, pilih **View**, lalu pilih **Reading view**.
 
@@ -107,9 +96,9 @@ Dalam tugas ini, Anda akan melalui proses penerapan label dari sudut pandang pen
 
 ### <a name="task-3-optional"></a>Tugas 3 (opsional)
 
-Selain penandaan konten, setelan proteksi label juga disetel untuk enkripsi. Sesuai izin yang dikonfigurasi dengan label ini, anggota grup keuangan dapat menulis bersama dokumen dengan label ini diterapkan dan pengguna di penyewa Contoso dapat melihat dokumen.  Dalam tugas ini, Anda akan mengirim dokumen ini ke alamat email yang dapat Anda akses (yaitu, alamat email pribadi) dan itu BUKAN bagian dari domain WWLxZZZZ.OnMicrosoft.com dan lihat apa yang terjadi saat Anda mencoba membuka lampiran.
+Ingatlah dari bagian pertama demo, bahwa label Rahasia - Keuangan disiapkan untuk enkripsi. Per izin yang dikonfigurasi dengan label ini, pengguna di penyewa Contoso memiliki izin penampil untuk setiap dokumen/email dengan label yang diterapkan.  Di bagian ini Anda akan mengirim dokumen yang Anda buat sebelumnya, yang menyertakan label Rahasia - Keuangan, ke alamat email yang dapat Anda akses (mis., alamat email pribadi atau email Microsoft Anda) dan itu BUKAN bagian dari WWLxZZZZ Domain.OnMicrosoft.com.  
 
-1. Dari halaman beranda portal kepatuhan Microsoft Purview, pilih **ikon peluncur aplikasi**, di samping Contoso Electronics. **klik kanan ikon Outlook** dan pilih **Buka di tab baru**.
+1. Dari halaman beranda portal kepatuhan Microsoft Purview, pilih **ikon peluncur aplikasi**, di samping Contoso Electronics. Pilih **ikon Outlook**.
 
 1. Pilih **New message** dari sudut kiri atas layar.  Masukkan alamat email yang dapat Anda akses dan bukan bagian dari domain WWLxZZZZ.OnMicrosoft.com, kemudian masukkan **Test** di baris subjek.
 
@@ -119,10 +108,10 @@ Selain penandaan konten, setelan proteksi label juga disetel untuk enkripsi. Ses
 
 1. Dari daftar yang muncul, pilih dokumen yang Anda buat dan beri label **Test-label**. Pilih **Next** dan pilih **Attach as a copy**.  Tekan **Kirim**.
 
-1. Dengan menggunakan browser web di Mesin Virtual lab Anda, masuk ke akun email tujuan pengiriman dokumen.  Perhatian, email mungkin diarahkan ke folder sampah Anda.  Saat Anda mencoba membuka file kata terlampir, Anda akan melihat pemberitahuan bahwa Anda tidak memiliki izin untuk membuka dokumen.
+1. Periksa email yang Anda kirimi dokumen.  Perhatian, email mungkin diarahkan ke folder sampah Anda.  Email berhasil terkirim, tetapi saat Anda mencoba membuka file word terlampir, yang awalnya diberi label sebagai rahasia - Keuangan, Anda akan melihat pemberitahuan bahwa Anda tidak memiliki izin untuk membuka dokumen tersebut.
 
-1. Tutup semua tab browser yang terbuka.
+1. Tutup tab browser yang terbuka.
 
 ### <a name="review"></a>Tinjau
 
-Di lab ini, Anda telah mempelajari kemampuan label sensitivitas.  Anda telah mempelajari pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan yang sesuai untuk menerbitkan label.   Kemudian Anda telah melihat cara menerapkan label dan dampak dari label tersebut, dari sudut pandang pengguna.
+Di lab ini, Anda akan mempelajari kemampuan label sensitivitas.  Anda akan melalui pengaturan untuk label sensitivitas yang sudah ada yang telah dibuat dan kebijakan terkait untuk menerbitkan label.   Kemudian Anda akan melihat cara menerapkan label dan dampak label tersebut, dari sudut pandang pengguna.
