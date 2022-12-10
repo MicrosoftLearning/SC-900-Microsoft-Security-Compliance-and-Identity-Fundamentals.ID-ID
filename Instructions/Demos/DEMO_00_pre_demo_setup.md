@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892473"
----
 <a name="---"></a><!---
 ---
 Penyiapan Pra-Demo: Judul: 'Penyiapan Demo'
@@ -14,56 +6,33 @@ Penyiapan Pra-Demo: Judul: 'Penyiapan Demo'
 
 ## <a name="pre-demo-setup"></a>Persiapan Pra-Demo
 
-Penyiapan ini terdiri dari dua tugas terpisah.  Tugas pertama berlaku dan direkomendasikan hanya jika lingkungan demo Anda menyertakan penggunaan pass Azure. Tugas kedua difokuskan untuk mengaktifkan Log Audit Microsoft dan menerapkan serta direkomendasikan terlepas dari apakah lingkungan Anda menggunakan Azure Pass atau tidak.
+Penyiapan ini terdiri dari pengaktifan Log Audit Microsoft.
 
-### <a name="setup-part-1---redeem-azure-pass"></a>Penyiapan bagian 1 - Menukarkan Azure Pass
+### <a name="setup---enable-microsoft-365-audit-log"></a>Penyiapan - Mengaktifkan log audit Microsoft 365
 
-Tugas ini berlaku dan direkomendasikan hanya jika lingkungan demo yang Anda gunakan menyertakan Azure Pass. Dalam tugas ini, Anda akan menukarkan Azure pass Anda menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Hal ini akan memberikan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.
-
-1. Jika Anda memiliki jendela browser yang terbuka, sebaiknya tutup semua browser.
-
-1. Klik kanan pada ikon Microsoft Edge dan pilih **New InPrivate window** untuk membuka sesi Penjelajahan In-Private baru.
-
-1. Di bilah alamat, masukkan **www.microsoftazurepass.com**.  
-
-1. Pilih tombol **start** untuk memulai.
-
-    1. Di jendela Masuk, masukkan email **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
-    1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.  Jika diminta untuk tetap masuk, pilih **Ya**.
-    1. Pilih **Confirm Microsoft Account** jika alamat email yang benar terdaftar.
-    1. Masukkan kode promo Anda di kotak kode Promo dan klik **Claim Promo Code**.  
-    1. Di halaman "Profil Anda", biarkan semua informasi default, pilih **Saya setuju dengan perjanjian langganan, detail penawaran, dan pernyataan privasi.** lalu pilih **Daftar**.
-    1. Jika jendela survei terbuka, Anda memilih untuk menutupnya dengan memilih **X** atau merespons yang sesuai dan pilih **Submit**.
-
-1. Mungkin perlu beberapa menit untuk mengaktifkan akun Anda.  Setelah diaktifkan, Anda akan diarahkan ke halaman Beranda portal Azure. Jendela Selamat Datang di Microsoft Azure terbuka, pilih **Maybe later** . Anda mungkin mendapatkan jendela pop-up "Optimize your cloud workloads with personalized recommendations", pilih **X** di sudut kanan atas jendela.
-
-1. Biarkan tab browser di halaman beranda portal Azure terbuka, Anda akan kembali ke sana di demo berikutnya.
-
-### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Penyiapan bagian 2 - Mengaktifkan log audit Microsoft 365
-
-Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini dan mungkin perlu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
+Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini, dan perlu waktu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat, karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
 1. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
-    1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
+    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**. Ini akan mengarahkan Anda ke halaman pusat admin Microsoft 365.
 
 1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
 
-1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka ke halaman selamat datang di pusat kepatuhan Microsoft 365.  
+1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka pada halaman selamat datang di portal kepatuhan Microsoft Purview.  
 
-1. Dari panel navigasi sebelah kiri pada pusat kepatuhan Microsoft 365, pilih **Show all**.
+1. Dari panel navigasi sebelah kiri portal kepatuhan Microsoft Purview, pilih **Tampilkan semua**.
 
 1. Dari panel navigasi sebelah kiri, di bagian solusi, pilih **Audit**.  Catatan: fungsi audit juga dapat diakses melalui halaman beranda Pertahanan Microsoft 365.
 
 1. Pastikan bahwa tab **Search** dipilih (digarisbawahi).
 
-1. Setelah Anda diarahkan ke halaman Audit, tunggu 2-3 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah berwarna biru di bagian atas halaman yang mengatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Start recording user and admin activity**.  Setelah audit diaktifkan, bilah berwarna biru akan menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak ada tindakan lebih lanjut yang diperlukan.
+1. Setelah Anda diarahkan ke halaman Audit, tunggu 2-3 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas halaman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Start recording user and admin activity**.  Setelah audit diaktifkan, bilah berwarna biru akan menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.
 
-1. Kembali ke halaman beranda pusat kepatuhan Microsoft 365 dengan memilih **Home** dari panel navigasi sebelah kiri.
+1. Kembali ke beranda portal kepatuhan Microsoft Purview dengan memilih **Beranda** dari panel navigasi sebelah kiri.
 
 ### <a name="review"></a>Tinjau
 
-Dalam penyiapan ini, Anda telah menukarkan Azure pass, menggunakan kredensial yang sama dengan penyewa Microsoft 365 Anda.  Anda juga telah mengaktifkan kemampuan log audit di Microsoft 365.
+Dalam penyiapan ini, Anda mengaktifkan kemampuan log audit di Microsoft 365.

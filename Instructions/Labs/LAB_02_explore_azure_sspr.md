@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
-ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "148118960"
----
 <a name="---"></a><!---
 ---
 Lab: Judul: 'Jelajahi autentikasi Azure AD dengan pengaturan ulang kata sandi mandiri' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Pelajaran 4: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD'
@@ -22,19 +14,19 @@ Lab ini memetakan ke konten Pelajari berikut:
 
 ## <a name="lab-scenario"></a>Skenario lab
 
-Di lab ini, Anda sebagai admin akan menjalani proses pengaktifan pengaturan ulang kata sandi mandiri. Dengan mengaktifkan SSPR, Anda akan berperan sebagai pengguna dan menjalani proses pendaftaran SSPR dan juga mengatur ulang kata sandi Anda.  Terakhir, Anda sebagai admin akan dapat melihat log audit serta data penggunaan & wawasan untuk SSPR.
+Di lab ini, Anda sebagai admin akan menjalani proses pengaktifan pengaturan ulang kata sandi mandiri. Dengan mengaktifkan SSPR, Anda kemudian akan mengambil peran sebagai pengguna dan melalui proses pendaftaran SSPR dan juga mengatur ulang kata sandi.  Terakhir, Anda sebagai admin akan dapat melihat log audit serta data penggunaan & wawasan untuk SSPR.
 
 **Perkiraan Waktu**: 15-20 menit
 
 ### <a name="task-1"></a>Tugas 1
 
-Dalam tugas ini, Anda,sebagai admin akan menambahkan pengguna yang sudah ada, Adele Vance, ke dalam grup SSPRSecurityUsers.  Selain itu, Anda juga perlu melakukan pengaturan ulang kata sandi pengguna sehingga Anda dapat melakukan upaya masuk yang pertama kali sebagai pengguna dan mendaftar SSPR.
+Dalam tugas ini, Anda,sebagai admin akan menambahkan pengguna yang sudah ada, Adele Vance, ke dalam grup SSPRSecurityUsers.  Selain itu, Anda juga harus mengatur ulang kata sandi pengguna agar dapat masuk untuk pertama kalinya, sebagai pengguna, dan mendaftar SSPR.
 
 1. Buka Microsoft Edge.
 
 2. Di bilah alamat, masukkan **portal.azure.com** dan masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
-    1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
+    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
 3. Pilih **Azure Active Directory**.  
@@ -57,9 +49,9 @@ Dalam tugas ini, Anda,sebagai admin akan menambahkan pengguna yang sudah ada, Ad
 
 12. Pilih **Adele Vance** dari daftar pengguna.
 
-13. Pilih **Reset password** dari bagian atas halaman. Karena Anda belum pernah masuk sebagai Adele Vance, Anda perlu mengatur ulang sandi
+13. Pilih **Reset password** dari bagian atas halaman. Karena sebelumnya Anda belum masuk sebagai Adele Vance, Anda harus mengatur ulang kata sandi
 
-14. Ketika jendela pengaturan ulang kata sandi terbuka, pilih **Reset Password**.  PENTING, catat kata sandi baru, karena Anda akan memerlukannya di tugas berikutnya untuk dapat masuk sebagai pengguna.
+14. Ketika jendela pengaturan ulang kata sandi terbuka, pilih **Reset Password**.  PENTING, catat kata sandi baru, karena Anda memerlukannya di tugas berikutnya, agar dapat masuk sebagai pengguna.
 
 15. Tutup jendela pengaturan ulang kata sandi dengan memilih **X** di sudut kanan atas halaman.
 
@@ -67,7 +59,7 @@ Dalam tugas ini, Anda,sebagai admin akan menambahkan pengguna yang sudah ada, Ad
 
 17. Tutup jendela Pengguna dengan mengeklik **X** di pojok kanan atas halaman.
 
-18. Biarkan jendela Ringkasan Contoso tetap terbuka karena Anda akan menggunakannya dalam tugas berikutnya.
+18. Tetap buka jendela Ringkasan Aswono karena Anda akan menggunakannya dalam tugas selanjutnya.
 
 ### <a name="task-2"></a>Tugas 2
 
@@ -77,7 +69,7 @@ Dalam tugas ini, Anda, sebagai admin, akan mempelajari cara mengonfigurasi Penga
 
 1. Dari panel navigasi sebelah kiri, pilih **Password reset**.  
 
-1. Properti untuk pengaturan ulang kata sandi mandiri ditampilkan.  Pastikan **Atur ulang layanan mandiri** **dipilih** untuk grup yang terdaftar, **SSPRSecurityGroupUsers**.  Arahkan kursor Anda di atas ikon informasi di samping tulisan “select group” dan perhatikan yang tercantum, “Menentukan grup pengguna yang diizinkan untuk mengatur ulang kata sandi milik mereka." Anda harus menyertakan pengguna dalam grup, Anda tidak dapat memilih pengguna satu per satu.  Selain itu, jika Anda mengubah grup, grup yang Anda pilih akan menggantikan grup yang sudah terdaftar.  Karena itu, sebaiknya Anda menambahkan pengguna ke grup SSPR.  Terakhir, perhatikan kotak informasi berwarna biru, "Pengaturan ini hanya berlaku untuk pengguna akhir di organisasi Anda. Admin selalu mengaktifkan layanan pengaturan ulang kata sandi mandiri dan diharuskan menggunakan dua metode autentikasi untuk mengatur ulang kata sandi mereka.”
+1. Properti untuk pengaturan ulang kata sandi mandiri ditampilkan.  Pastikan bahwa **Pengaturan ulang layanan mandiri** **dipilih** untuk grup yang terdaftar, **SSPRSecurityGroupUsers**.  Arahkan kursor Anda di atas ikon informasi di sebelah yang bertuliskan "pilih grup" dan perhatikan bahwa tertulis, "Menentukan grup pengguna yang diizinkan untuk mengatur ulang kata sandi mereka sendiri." Anda harus menyertakan pengguna dalam grup, Anda tidak dapat memilih pengguna satu per satu.  Selain itu, jika Anda mengubah grup, grup yang Anda pilih akan menggantikan grup yang sudah terdaftar.  Karena itu, Anda disarankan untuk menambahkan pengguna ke grup SSPR.  Terakhir, perhatikan kotak informasi berwarna biru, "Pengaturan ini hanya berlaku untuk pengguna akhir di organisasi Anda. Admin selalu mengaktifkan layanan pengaturan ulang kata sandi mandiri dan diharuskan menggunakan dua metode autentikasi untuk mengatur ulang kata sandi mereka.”
 
 1. Dari panel navigasi sebelah kiri Pengaturan ulang kata sandi, pilih **Authentication Methods**.
 
@@ -87,7 +79,7 @@ Dalam tugas ini, Anda, sebagai admin, akan mempelajari cara mengonfigurasi Penga
 
 1. Dari panel navigasi sebelah kiri pengaturan ulang kata sandi, pilih **Registration**.  
 
-1. Pastikan pengaturan Mewajibkan pengguna untuk mendaftar saat masuk ditetapkan ke **Yes**.  Biarkan Jumlah hari sebelum pengguna diminta untuk mengonfirmasi ulang informasi autentikasi mereka ditetapkan ke nilai default 180.   Perhatikan kotak informasi di halaman itu.
+1. Pastikan pengaturan Mewajibkan pengguna untuk mendaftar saat masuk ditetapkan ke **Yes**.  Biarkan Jumlah hari diatur ke default 180 sebelum pengguna diminta untuk mengonfirmasi ulang informasi autentikasi mereka.   Perhatikan kotak informasi di halaman itu.
 
 1. Dari panel navigasi sebelah kiri Pengaturan ulang kata sandi, pilih **Notifications**.  
 
@@ -106,19 +98,20 @@ Dalam tugas ini, Anda sebagai pengguna Adele Vance akan melalui proses pendaftar
 2. Di bilah alamat, masukkan **login.microsoftonline.com**.
 
 3. Masuk sebagai Adele Vance,
-    1. Di jendela Masuk, masukkan **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
+    1. Di jendela Masuk, masukkan **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
     1. Masukkan kata sandi yang Anda catat sebelumnya. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**
 
-4. Karena ini adalah pertama kalinya Anda masuk sebagai Adele Vance, Anda akan diminta untuk mengatur ulang kata sandi.  Masukkan kata sandi lama Anda.  Untuk kata sandi baru Anda, masukkan  **SC900-Lab**. Masukkan **SC900-Lab** di bidang konfirmasi kata sandi.  Pilih **Masuk**.  Catatan: kami menggunakan kata sandi ini hanya untuk kenyamanan lab. Sebaiknya, Anda memasukkan kata sandi yang lebih aman.
+
+4. Karena ini adalah proses masuk pertama Anda sebagai Adele Vance, Anda akan diminta untuk mengatur ulang kata sandi.  Masukkan kata sandi lama Anda.  Untuk kata sandi baru Anda, masukkan **SC900-Lab**. Masukkan  **SC-900-Lab** di bidang konfirmasi kata sandi.  Pilih **Masuk**.  Catatan: kami menggunakan kata sandi ini hanya untuk kenyamanan lab. Sebaiknya, Anda memasukkan kata sandi yang lebih aman.
 
 5. Tampilan pop-up yang menunjukkan bahwa informasi lebih lanjut diperlukan.  Ini karena sebagai anggota grup SSPRSecurityGroupUsers, konfigurasi mengharuskan anggotanya untuk mendaftar saat mereka masuk.  Pilih tombol **Berikutnya**.  Catatan:  Alternatif untuk meminta pengguna melakukan pendaftaran sendiri, agar admin segera mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 
-6. Halaman "Amankan akun Anda" akan terbuka.  Jendela yang muncul yaitu untuk metode autentikasi Ponsel, jika Anda tidak memiliki perangkat seluler yang dapat menerima pesan teks, lewati ke langkah berikutnya.  Anda diminta untuk memasukkan nomor ponsel. Pastikan pilihan **Text me a code** diaktifkan.   Masukkan nomor ponsel tempat Anda dapat menerima kode teks dan pilih **tombol Next**.  Jendela baru terbuka menunjukkan kode baru saja dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Next**. Jendela terbuka menunjukkan Berhasil dan menampilkan metode Masuk default Anda.  Pilih **Selesai**.  
+6. Halaman "Amankan akun Anda" akan terbuka.  Jendela yang muncul yaitu untuk metode autentikasi Ponsel, jika Anda tidak memiliki perangkat seluler yang dapat menerima pesan teks, lewati ke langkah berikutnya.  Anda diminta memasukkan nomor telepon. Pastikan pilihan **Text me a code** diaktifkan.   Masukkan nomor ponsel tempat Anda dapat menerima kode teks dan pilih **tombol Next**.  Jendela baru terbuka menunjukkan kode telah dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Next**. Jendela terbuka menunjukkan Berhasil dan menampilkan metode Masuk default Anda.  Pilih **Selesai**.  
 
-7. Lewati langkah ini jika Anda dapat mengonfigurasi SSPR dengan nomor ponsel Anda.  Atau, Anda dapat mengatur metode yang berbeda seperti yang ditunjukkan di bagian kiri bawah jendela.  Jika Anda memilih untuk menyiapkan metode yang berbeda, pilih **I want to set up a different method**, jendela pop-up akan muncul, menanyakan Metode mana yang ingin Anda gunakan?  Dari menu tarik-turun, pilih metode yang Anda inginkan, **Email**, lalu pilih tombol **Confirm**.  Masukkan email yang ingin Anda gunakan, lalu pilih **Next**.  Jendela baru terbuka menunjukkan bahwa kode baru saja dikirim ke email yang Anda masukkan.  Akses email yang Anda masukkan untuk mendapatkan kode.  Masukkan kode yang Anda terima dan pilih **Next**. Jendela terbuka menunjukkan Berhasil dan menampilkan metode Masuk default Anda.  Pilih **Selesai**.
+7. Lewati langkah ini jika Anda dapat mengonfigurasi SSPR dengan nomor ponsel Anda.  Atau, Anda dapat mengatur metode yang berbeda seperti yang ditunjukkan di bagian kiri bawah jendela.  Jika Anda memilih untuk menyiapkan metode yang berbeda, pilih **Saya ingin menyiapkan metode yang berbeda**, jendela pop-up muncul, menanyakan Metode mana yang ingin Anda gunakan?  Dari menu dropdown, pilih metode pilihan Anda, **Email**, lalu pilih tombol **Konfirmasi**.  Masukkan email yang ingin Anda gunakan, lalu pilih **Next**.  Jendela baru akan terbuka yang menunjukkan bahwa kode telah dikirim ke email yang Anda masukkan.  Akses email yang Anda masukkan untuk mendapatkan kode.  Masukkan kode yang Anda terima dan pilih **Next**. Jendela terbuka menunjukkan Berhasil dan menampilkan metode Masuk default Anda.  Pilih **Selesai**.
 
-8. Anda sekarang dapat menyelesaikan proses masuk Anda.  Anda harus berada di halaman arahan portal azure.  Jika Anda melihat waktu proses masuk Anda telah kedaluwarsa, cukup masukkan kembali kata sandi, SC900-Lab.
+8. Sekarang Anda dapat menyelesaikan proses masuk.  Anda harus berada di halaman arahan portal Microsoft Azure.  Jika Anda melihat bahwa waktu masuk Anda telah kedaluwarsa, cukup masukkan kembali kata sandi, SC900-Lab.
 
 9. Keluar dari portal Microsoft Azure dan tutup jendela browser Anda.
 
@@ -136,9 +129,9 @@ Dalam tugas ini, Anda, sebagai pengguna Adele Vance, akan melalui proses pengatu
 
 5. Kembali ke jendela akun Anda yang terbuka.   Pastikan email untuk Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, ditampilkan di kotak email atau nama pengguna.  Jika tidak, masukkan.  
 
-6. Di kotak kosong, masukkan karakter yang ditampilkan dalam gambar atau kata-kata dari audio. Setelah Anda memasukkannya, pilih **Next**.
+6. Di kotak kosong, masukkan karakter yang ditampilkan dalam gambar atau kata-kata dari audio. Setelah Anda memasukkannya, pilih **Berikutnya**.
 
-7. Layar menunjukkan Kembali ke akun Anda dan menunjukkan langkah Verifikasi 1 > pilih kata sandi baru. Biarkan pengaturan default **Text my mobile phone**.  Anda diminta untuk memasukkan nomor ponsel Anda.  Setelah Anda memasukkannya, pilih **Text button**.  Jika selama pendaftaran Anda memilih email, jendela Kembali ke akun Anda akan menunjukkan bahwa Anda akan menerima email yang berisi kode verifikasi di alamat email alternatif Anda.  Pilih **Email**.
+7. Layar menunjukkan Kembali ke akun Anda dan menunjukkan langkah Verifikasi 1 > pilih kata sandi baru. Biarkan pengaturan default **Text my mobile phone**.  Anda diminta untuk memasukkan nomor ponsel.  Setelah Anda memasukkannya, pilih tombol **Teks**.  Jika selama pendaftaran Anda memilih email, jendela Kembali ke akun Anda akan menunjukkan bahwa Anda akan menerima email yang berisi kode verifikasi di alamat email alternatif Anda.  Pilih **Email**.
 
 8. Masukkan kode verifikasi lalu tekan **Next**.
 
@@ -161,8 +154,8 @@ Dalam tugas ini, Anda, sebagai administrator, akan secara singkat melihat log Au
 2. Di bilah alamat, masukkan **portal.azure.com**
 
 3. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
-    1. Masukkan kata sandi admin yang akan disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
+    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.
 
 4. Pilih **Azure Active Directory**.  
@@ -183,4 +176,4 @@ Dalam tugas ini, Anda, sebagai administrator, akan secara singkat melihat log Au
 
 ### <a name="review"></a>Tinjau
 
-Di lab ini, Anda sebagai admin telah melalui proses mengaktifkan pengaturan ulang kata sandi mandiri. Dengan mengaktifkan SSPR, Anda diasumsikan sebagai pengguna yang harus menjalani proses pendaftaran SSPR dan juga mengatur ulang kata sandi.  Terakhir, Anda sebagai admin telah mempelajari tempat mengakses log audit serta data penggunaan & wawasan untuk SSPR.
+Di lab ini, Anda sebagai admin telah melalui proses mengaktifkan pengaturan ulang kata sandi mandiri. Dengan mengaktifkan SSPR, Anda kemudian akan berperan sebagai pengguna untuk menjalani proses pendaftaran SSPR dan juga mengatur ulang kata sandi Anda.  Terakhir, Anda sebagai admin telah mempelajari tempat mengakses log audit serta data penggunaan & wawasan untuk SSPR.
