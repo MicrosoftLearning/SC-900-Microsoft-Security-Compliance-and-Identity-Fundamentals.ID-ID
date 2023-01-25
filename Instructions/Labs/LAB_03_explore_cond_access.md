@@ -87,15 +87,15 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 ### <a name="task-3"></a>Tugas 3
 
-Dalam tugas ini Anda akan melihat dampak dari kebijakan akses bersyarat, dari sudut pandang pengguna, Debra Berger. Anda akan mulai terlebih dahulu dengan masuk ke aplikasi yang tidak termasuk dalam kebijakan akses bersyarat.  Kemudian Anda akan mengulangi proses untuk aplikasi yang termasuk dalam kebijakan akses bersyarat.  Ingat kembali bahwa kebijakan mengharuskan pengguna untuk menggunakan MFA ketika mengakses aplikasi Manajemen Microsoft Azure.  Untuk menggunakan MFA, pengguna terlebih dahulu harus mendaftar ke metode autentikasi yang akan digunakan untuk MFA, misalnya kode yang dikirimkan ke perangkat seluler atau aplikasi autentikasi.
+Dalam tugas ini Anda akan melihat dampak dari kebijakan akses bersyarat, dari sudut pandang pengguna, Debra Berger. Pertama, Anda akan masuk ke aplikasi yang tidak disertakan dalam kebijakan akses bersyarat (portal Microsoft 365 di login.microsoftonline.com).  Kemudian Anda akan mengulangi proses di atas untuk aplikasi yang disertakan dalam kebijakan akses bersyarat (portal Microsoft Azure di portal.azure.com).  Ingat kembali bahwa kebijakan mengharuskan pengguna untuk menggunakan MFA ketika mengakses aplikasi Manajemen Microsoft Azure.  Untuk menggunakan MFA, pengguna terlebih dahulu harus mendaftar ke metode autentikasi yang akan digunakan untuk MFA, misalnya kode yang dikirimkan ke perangkat seluler atau aplikasi autentikasi.
 
-1. Masuk sebagai Debra Burger. 
-    1. Di jendela Masuk, masukkan **DebraB@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
+1. Buka Microsoft Edge.  Di bilah alamat, masukkan **login.microsoftonline.com**.
+    1. Masuk sebagai **DebraB@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
     1. Masukkan kata sandi yang Anda catat sebelumnya. Pilih **Masuk**.
     1. Karena kata sandi yang diberikan saat Anda, sebagai admin, mengatur ulang kata sandi bersifat sementara, Anda perlu memperbarui kata sandi (ini bukan bagian dari kebijakan MFA). Masukkan kata sandi saat ini, lalu untuk kata sandi baru masukkan **SC900-Lab**, lalu masukkan lagi **SC900** untuk mengonfirmasi kata sandi.
     1. Ketika diminta untuk tetap masuk, pilih **Yes**.  Anda telah berhasil masuk ke akun Microsoft 365 Anda. MFA tidak diperlukan untuk aplikasi ini karena tidak menjadi bagian kebijakan.
 
-1. Sekarang Anda akan mencoba masuk ke aplikasi yang memenuhi kriteria untuk MFA. Buka tab baru di portal.Microsoft Microsoft Edge dan di bilah alamat, masukkan **portal.azure.com**.
+1. Sekarang Anda akan mencoba masuk ke aplikasi yang memenuhi kriteria untuk MFA. Buka tab browser baru dan masukkan **portal.azure.com**.
 
 1. Anda akan melihat jendela yang menunjukkan, Informasi lebih lanjut diperlukan.  Pilih **Selanjutnya**.  Perlu diperhatikan, tindakan ini akan memulai proses pendaftaran MFA, karena ini adalah pertama kalinya Anda mengakses aplikasi cloud yang diidentifikasi dalam kebijakan akses bersyarat.  Proses pendaftaran diperlukan sekali saja.   Cara untuk mendorong pengguna untuk melewati proses pendaftaran adalah dengan membuat admin mengonfigurasi metode autentikasi untuk digunakan.
 
