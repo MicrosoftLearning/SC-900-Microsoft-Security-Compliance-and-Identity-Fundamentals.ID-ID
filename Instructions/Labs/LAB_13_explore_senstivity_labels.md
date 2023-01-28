@@ -84,9 +84,9 @@ Dalam tugas ini, Anda akan melakukan proses penerapan label dari sudut pandang p
 
 1. Dari halaman beranda portal kepatuhan Microsoft Purview, pilih **ikon peluncur aplikasi**, di samping Contoso Electronics. Pilih **ikon Word**.  
 
-1. Pilih **+ New blank document**, kemudian masukkan beberapa teks pada halaman.  Di bagian atas halaman, pilih panah arah bawah, di sebelah tulisan Dokumen - Tersimpan, dan di kotak Nama File masukkan, **Label-uji** lalu tekan **Masuk** pada papan ketik.
+1. Di bawah Buat baru, pilih **Dokumen kosong**, lalu masukkan beberapa teks di halaman.  Di bagian atas halaman, pilih panah arah bawah, di sebelah tulisan Dokumen - Tersimpan, dan di kotak Nama File masukkan, **Label-uji** lalu tekan **Masuk** pada papan ketik.
 
-1. Dari bilah menu atas, pilih **Ikon Sensitivitas** (ikon di sebelah kanan ikon mikrofon), jika Anda tidak segera melihat opsi ini, refresh halaman. Dari menu dropdown, pilih **Rahasia - Keuangan**.  
+1. Dari bilah menu atas, pilih **ikon Sensitivitas**, ikon di sebelah kanan ikon mikrofon (tergantung pada ukuran layar, Anda mungkin perlu memilih elipsis lalu memilih sensitivitas). Dari menu dropdown, pilih **Rahasia - Keuangan**.  CATATAN: jika Anda tidak segera melihat opsi Sensitivitas, refresh halaman, tetapi karena ini adalah lingkungan penyewa lab, Anda mungkin mengalami penundaan yang lebih lama dari penundaan normal (10-15 menit).
 
 1. Dari bilah menu atas, pilih **View**, lalu pilih **Reading view**.
 
@@ -100,13 +100,13 @@ Ingatlah dari bagian pertama demo, bahwa label Rahasia - Keuangan disiapkan untu
 
 1. Dari halaman beranda portal kepatuhan Microsoft Purview, pilih **ikon peluncur aplikasi**, di samping Contoso Electronics. Pilih **ikon Outlook**.
 
-1. Pilih **New message** dari sudut kiri atas layar.  Masukkan alamat email yang dapat Anda akses dan bukan bagian dari domain WWLxZZZZ.OnMicrosoft.com, kemudian masukkan **Test** di baris subjek.
+1. Pilih **Email baru** dari sudut kiri atas layar.  Masukkan alamat email yang dapat Anda akses dan bukan bagian dari domain WWLxZZZZ.OnMicrosoft.com, kemudian masukkan **Test** di baris subjek.
 
-1. Pilih **Lampirkan**.
+1. Pilih **Lampirkan** (ikon penclip kertas).
 
-1. Pilih **Browse cloud locations**.
+1. Pilih **OneDrive**.
 
-1. Dari daftar yang muncul, pilih dokumen yang Anda buat dan beri label **Test-label**. Pilih **Next** dan pilih **Attach as a copy**.  Tekan **Kirim**.
+1. Pastikan tab **Terbaru** di panel navigasi kiri dipilih.  Dari daftar yang muncul, pilih dokumen yang Anda buat dan beri label **Test-label**. Pilih **Next** dan pilih **Attach as a copy**.  Tekan **Kirim**.
 
 1. Periksa email yang Anda kirimi dokumen.  Perhatian, email mungkin diarahkan ke folder sampah Anda.  Email berhasil terkirim, tetapi saat Anda mencoba membuka file word terlampir, yang awalnya diberi label sebagai rahasia - Keuangan, Anda akan melihat pemberitahuan bahwa Anda tidak memiliki izin untuk membuka dokumen tersebut.
 

@@ -37,9 +37,11 @@ Dalam tugas ini, Anda akan membuat penetapan kebijakan dasar untuk meminta tag p
 
 1. Anda mulai di tab Dasar.
     1. Untuk Cakupan, biarkan pengaturan default. Dalam hal ini, cakupan kebijakan adalah langganan Azure yang disediakan oleh authorized lab hoster (ALH).
-    1. Untuk Definisi Kebijakan, pilih **elipsis**.  Muncul daftar definisi kebijakan yang tersedia.  Di bilah pencarian, masukkan, **Memerlukan tag**. Dari hasil pencarian, pilih **Require a tag on resource group** (Anda mungkin perlu menggulir ke bawah), kemudian tekan **Select**.  Catatan: efek dari kebijakan ini adalah Menolak pembuatan grup sumber daya baru yang tidak memenuhi persyaratan.  
+    1. Untuk Definisi Kebijakan, pilih **elipsis**.  Muncul daftar definisi kebijakan yang tersedia.  Di bilah pencarian, masukkan, **Memerlukan tag**. Dari hasil pencarian, pilih **Perlu tag pada grup sumber daya** (Anda mungkin perlu menggulir ke bawah), lalu tekan **Tambahkan**.  Catatan: efek dari kebijakan ini adalah Menolak pembuatan grup sumber daya baru yang tidak memenuhi persyaratan.  
     1. Perhatikan nama tugas default.  Pertahankan nama apa adanya.
-    1. Pastikan bahwa Penegakan kebijakan diatur ke **Diaktifkan**, pilih **Berikutnya**.
+    1. Pastikan bahwa penegakan Kebijakan diatur ke **Diaktifkan**
+
+1. Pilih **Berikutnya**, lalu pilih **Berikutnya** lagi untuk berpindah ke tab Parameter (Anda juga bisa memilih tab parameter secara langsung).
 
 1. Anda sekarang berada di tab Parameter. Di kolom Tag nama, masukkan **Lingkungan** lalu pilih **Berikutnya**.
 
