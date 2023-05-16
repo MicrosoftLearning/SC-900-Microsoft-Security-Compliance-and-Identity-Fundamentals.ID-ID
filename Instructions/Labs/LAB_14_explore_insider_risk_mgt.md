@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Jelajahi manajemen risiko insider di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 4: Menjelaskan kemampuan risiko orang dalam di Microsoft Purview; Pelajaran 2: Menjelaskan manajemen risiko orang dalam'
+lab:
+  title: 'Jelajahi manajemen risiko insider di Microsoft Purview'
+  module: 'Modul 4: Menjelaskan kemampuan risiko orang dalam di Microsoft Purview'
 ---
---->
+
 
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Lab: Mempelajari manajemen risiko orang dalam di Microsoft Purview
 

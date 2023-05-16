@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Jelajahi Jalur Pembelajaran/Modul/Pelajaran Microsoft Defender untuk Cloud': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 2: Menjelaskan kemampuan manajemen keamanan Azure; Pelajaran 3: Menjelaskan Pertahanan Microsoft untuk Cloud'
+lab:
+  title: 'Jelajahi Microsoft Defender untuk Cloud'
+  module: 'Modul 2: Menjelaskan kemampuan manajemen keamanan Azure'
 ---
---->
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Lab: Menjelajahi Microsoft Defender untuk Cloud
 

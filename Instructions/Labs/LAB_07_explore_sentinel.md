@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Jelajahi Microsoft Sentinel' Jalur Pembelajaran/Modul/Judul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 3: Menjelaskan kemampuan keamanan Microsoft Azure Sentinel; Pelajaran 3: Menjelaskan bagaimana Microsoft Azure Sentinel menyediakan manajemen ancaman terintegrasi'
+lab:
+  title: 'Jelajahi Microsoft Sentinel'
+  module: 'Modul 3: Menjelaskan kemampuan keamanan Microsoft Azure Sentinel'
 ---
---->
+
+
 
 # <a name="lab-explore-microsoft-sentinel"></a>Lab: Menjelajahi Microsoft Sentinel
 

@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Penyiapan'
+lab:
+  title: 'Penyiapan'
+  module: 'Penyiapan'
 ---
---->
+
 
 # <a name="lab-setup"></a>Lab: Pengaturan
 

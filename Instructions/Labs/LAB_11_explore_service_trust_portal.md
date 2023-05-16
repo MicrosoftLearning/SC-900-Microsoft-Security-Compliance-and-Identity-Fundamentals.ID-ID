@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Jelajahi Portal Kepercayaan Layanan' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 1: Menjelaskan kemampuan manajemen kepatuhan di Microsoft; Pelajaran 2: Jelajahi Portal Kepercayaan Layanan'
+lab:
+  title: 'Jelajahi Portal Kepercayaan Layanan'
+  module: 'Modul 1: Menjelaskan kemampuan manajemen kepatuhan di Microsoft'
 ---
---->
+
 
 # <a name="lab-explore-the-service-trust-portal"></a>Lab: Menjelajahi Service Trust Portal
 

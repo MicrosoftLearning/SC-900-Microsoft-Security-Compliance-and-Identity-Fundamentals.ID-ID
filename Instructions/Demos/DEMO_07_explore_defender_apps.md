@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Demo: Judul: Microsoft Defender for Cloud Apps ' Modul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365; Unit 5: Menjelaskan Aplikasi Microsoft Defender untuk Cloud'
+demo:
+  title: 'Microsoft Defender for Cloud Apps'
+  module: 'Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365'
 ---
---->
 
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Demo: Pertahanan Microsoft untuk Aplikasi Cloud
 

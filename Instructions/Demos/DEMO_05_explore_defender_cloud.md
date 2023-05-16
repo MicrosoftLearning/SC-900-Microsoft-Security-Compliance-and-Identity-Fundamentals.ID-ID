@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Demo: Judul: 'Microsoft Defender untuk Cloud' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 2: Menjelaskan kemampuan manajemen keamanan Azure; Pelajaran 3: Menjelaskan Pertahanan Microsoft untuk Cloud'
+demo:
+  title: 'Microsoft Defender untuk Cloud'
+  module: 'Modul 2: Menjelaskan kemampuan manajemen keamanan Azure'
 ---
---->
+
+
 
 # <a name="demo-microsoft-defender-for-cloud"></a>Demo: Microsoft Defender untuk Cloud
 

@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Jelajahi label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview; Pelajaran 4: Menjelaskan label sensitivitas'
+lab:
+  title: 'Jelajahi label sensitivitas di Microsoft Purview'
+  module: 'Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview'
 ---
---->
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Lab: Mempelajari label sensitivitas di Microsoft Purview
 

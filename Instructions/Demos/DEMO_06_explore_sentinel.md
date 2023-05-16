@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Demo: Judul: Jalur Pembelajaran/Modul/Judul 'Microsoft Sentinel': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 3: Menjelaskan kemampuan keamanan Microsoft Azure Sentinel; Pelajaran 3: Menjelaskan bagaimana Microsoft Azure Sentinel menyediakan manajemen ancaman terintegrasi'
+demo:
+  title: 'Microsoft Sentinel'
+  module: 'Modul 3: Menjelaskan kemampuan keamanan Microsoft Azure Sentinel'
 ---
---->
+
+
 
 # <a name="demo-microsoft-sentinel"></a>Demo: Microsoft Sentinel
 

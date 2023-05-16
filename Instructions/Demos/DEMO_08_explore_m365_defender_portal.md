@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Judul: Modul 'Portal Pertahanan Microsoft 365': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365; Pelajaran 7: Menjelaskan portal Pertahanan Microsoft 365'
+demo:
+  title: 'Portal Pertahanan Microsoft 365'
+  module: 'Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365'
 ---
---->
+
 
 # <a name="demo-the-microsoft-365-defender-portal"></a>Demo: Portal Pertahanan Microsoft 365
 

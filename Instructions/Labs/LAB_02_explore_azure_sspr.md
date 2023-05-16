@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Jelajahi autentikasi Azure AD dengan pengaturan ulang kata sandi mandiri' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Pelajaran 4: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD'
+lab:
+  title: 'Jelajahi autentikasi Azure AD dengan pengaturan ulang kata sandi mandiri'
+  module: 'Modul 2: Menjelaskan kemampuan autentikasi Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Menjelajahi Autentikasi Microsoft Azure AD dengan pengaturan ulang kata sandi mandiri
 

@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Lab: Judul: 'Jelajahi tata kelola identitas di Azure AD dengan manajemen Identitas Istimewa. ' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 4: Menjelaskan kemampuan perlindungan identitas dan tata kelola Azure AD; Pelajaran 4: Menjelaskan kemampuan Privileged Identity Management'
+lab:
+  title: 'Jelajahi tata kelola identitas di Azure AD dengan manajemen Identitas Istimewa'
+  module: 'Modul 4: Menjelaskan kemampuan perlindungan identitas dan tata kelola Azure AD'
 ---
---->
+
+
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Mempelajari tata kelola identitas di Microsoft Azure AD dengan Privileged Identity Management
 

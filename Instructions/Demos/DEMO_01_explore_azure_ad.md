@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Judul: 'Jelajahi Azure AD Pengaturan Pengguna' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 1: Menjelaskan layanan dasar dan jenis identitas Azure AD; Pelajaran 4: Menjelaskan jenis identitas Azure AD'
+demo:
+  title: 'Jelajahi Azure AD Pengaturan Pengguna'
+  module: 'Modul 1: Menjelaskan layanan dasar dan jenis identitas Azure AD'
 ---
---->
+
 
 # <a name="demo-azure-ad-user-settings"></a>Demo: Pengaturan pengguna Azure AD
 

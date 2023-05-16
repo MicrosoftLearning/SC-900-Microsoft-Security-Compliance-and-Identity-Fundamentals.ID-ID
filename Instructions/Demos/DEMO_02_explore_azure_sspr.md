@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Demo: Judul: 'Azure AD pengaturan ulang kata sandi mandiri (SSPR)' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Pelajaran 4: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD'
+demo:
+  title: 'Azure AD pengaturan ulang kata sandi mandiri (SSPR)'
+  module: 'Modul 2: Menjelaskan kemampuan autentikasi Azure AD'
 ---
---->
+
+
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demo: Pengaturan ulang kata sandi layanan mandiri Azure AD (SSPR)
 
