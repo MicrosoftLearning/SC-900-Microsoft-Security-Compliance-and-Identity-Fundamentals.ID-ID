@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Jelajahi Portal kepatuhan Microsoft Purview & Compliance Manager'
-  module: 'Modul 2: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview'
+Lab: Judul: 'Jelajahi Portal kepatuhan Microsoft Purview & Compliance Manager' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 2: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview; Pelajaran 2: Jelaskan portal kepatuhan Microsoft Purview'
 ---
-
+--->
 
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Lab: Mempelajari portal kepatuhan Microsoft Purview & Manajer Kepatuhan
 

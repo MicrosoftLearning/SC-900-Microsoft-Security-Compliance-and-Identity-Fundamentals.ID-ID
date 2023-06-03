@@ -1,10 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Label sensitivitas di Microsoft Purview'
-  module: 'Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview'
+Demo: Judul: 'Label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview; Pelajaran 4: Menjelaskan label sensitivitas'
 ---
-
-
+--->
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demo: Label sensitivitas di Microsoft Purview
 

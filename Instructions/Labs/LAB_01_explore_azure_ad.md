@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Jelajahi Azure Active Directory'
-  module: 'Modul 1: Menjelaskan layanan dasar dan jenis identitas Azure AD'
+Lab: Judul: 'Jelajahi Jalur Pembelajaran/Modul/Pelajaran Azure Active Directory': 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 1: Menjelaskan layanan dasar dan jenis identitas Azure AD; Pelajaran 4: Menjelaskan jenis identitas Azure AD'
 ---
-
+--->
 
 # <a name="lab-explore-azure-active-directory"></a>Lab: Mempelajari Azure Active Directory
 

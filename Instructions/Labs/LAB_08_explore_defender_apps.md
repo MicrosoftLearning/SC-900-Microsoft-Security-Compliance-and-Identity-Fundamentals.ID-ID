@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Menjelajahi Microsoft Defender untuk Cloud'
-  module: 'Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365'
+Lab: Judul: 'Menjelajahi Microsoft Defender untuk Cloud ' Modul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft 365; Pelajaran 5: Jelaskan Microsoft Defender for Cloud Apps'
 ---
-
+--->
 
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Lab: Menjelajahi Aplikasi Microsoft Defender untuk Cloud
 

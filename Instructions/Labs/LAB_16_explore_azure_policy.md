@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Jelajahi Azure Policy'
-  module: 'Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure'
+Lab: Judul: 'Jelajahi Azure Policy' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure; Pelajaran 2: Jelaskan Azure Policy'
 ---
-
+--->
 
 # <a name="lab-explore-azure-policy"></a>Lab: Menjelajahi Azure Policy
 

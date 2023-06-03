@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure Policy'
-  module: 'Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure'
+Demo: Judul: 'Azure Policy' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 6: Menjelaskan kemampuan tata kelola sumber daya di Azure; Pelajaran 2: Jelaskan Azure Policy'
 ---
-
+--->
 
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
 

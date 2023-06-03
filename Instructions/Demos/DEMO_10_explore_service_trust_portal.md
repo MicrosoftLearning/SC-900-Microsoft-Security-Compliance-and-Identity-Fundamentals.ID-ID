@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Portal Kepercayaan Layanan'
-  module: 'Modul 1: Menjelaskan kemampuan manajemen kepatuhan di Microsoft'
+Demo: Judul: Jalur Pembelajaran /Modul/Pelajaran 'Portal Kepercayaan Layanan': 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 1: Menjelaskan kemampuan manajemen kepatuhan di Microsoft; Pelajaran 2: Jelajahi Portal Kepercayaan Layanan'
 ---
-
+--->
 
 # <a name="demo-service-trust-portal"></a>Demo: Service Trust Portal
 

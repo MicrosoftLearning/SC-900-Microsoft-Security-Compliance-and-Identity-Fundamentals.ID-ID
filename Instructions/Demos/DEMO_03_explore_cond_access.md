@@ -1,10 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Akses Bersyarat Azure AD'
-  module: 'Modul 3: Menjelaskan kemampuan manajemen akses Azure AD'
+Demo: Judul: Jalur/Modul/Pelajaran Akses Bersyarat Azure AD: 'Jalur Pembelajaran: Jelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 3: Menjelaskan kemampuan manajemen akses Azure AD; Pelajaran 2: Jelaskan Akses Bersyarat di Azure AD'
 ---
-
-
+--->
 
 # <a name="demo-azure-ad-conditional-access"></a>Demo: Akses Bersyarat Azure AD
 

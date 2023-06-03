@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Menjelaskan kemampuan manajemen akses pelajaran Azure AD'
-  module: 'Menjelaskan kemampuan manajemen akses pelajaran Azure AD'
+Lab: Jalur Pembelajaran: 'Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari modul Microsoft Entra': 'Menjelaskan kemampuan manajemen akses pelajaran Azure AD': 'Menjelaskan Akses Bersyarat di Azure AD'
 ---
+--->
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>Lab: Menjelajahi manajemen akses di Azure Active Directory dengan Akses Bersyarat
 

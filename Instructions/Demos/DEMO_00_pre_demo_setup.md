@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Penyiapan Demo'
-  module: 'Penyiapan Demo'
+Penyiapan Pra-Demo: Judul: 'Penyiapan Demo'
 ---
+--->
 
 ## <a name="pre-demo-setup"></a>Persiapan Pra-Demo
 
