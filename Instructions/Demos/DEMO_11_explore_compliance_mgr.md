@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Demo: Judul: 'Jelajahi Portal kepatuhan Microsoft Purview & Compliance Manager' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 2: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview; Pelajaran 2: Jelaskan portal kepatuhan Microsoft Purview'
 ---
 --->
 
-# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demo: Mempelajari portal kepatuhan Microsoft Purview & Manajer Kepatuhan
+# Demo: Mempelajari portal kepatuhan Microsoft Purview & Manajer Kepatuhan
 
 Demo ini memetakan ke konten Learn berikut:
 
@@ -12,17 +12,15 @@ Demo ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview
 - Pelajaran: Menjelaskan portal kepatuhan Microsoft Purview
 
-## <a name="demo-scenario"></a>Skenario demo
+## Skenario demo
 
 Dalam demo ini, Anda akan menunjukkan halaman beranda portal kepatuhan Microsoft Purview dan cara-cara di mana kemampuan Pengelola Kepatuhan dapat membantu organisasi meningkatkan postur kepatuhan mereka.
 
-### <a name="demo-part-1"></a>Demo Bagian 1
+### Demo Bagian 1
 
 Tunjukkan halaman beranda portal kepatuhan Microsoft Purview serta cara menyesuaikan tampilan kartu dan panel navigasi.
 
-1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**. Anda seharusnya sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin Anda.
-
-1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **https://admin.microsoft.com**. Anda harus sudah masuk sebagai admin.  Jika tidak, masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh hoster lab resmi (ALH). Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
 
 1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka pada halaman selamat datang di portal kepatuhan Microsoft Purview.  
 
@@ -36,7 +34,7 @@ Tunjukkan halaman beranda portal kepatuhan Microsoft Purview serta cara menyesua
 
 1. Anda dapat menambahkan kartu, dengan memilih **+ Add cards**.  Jendela Tambahkan kartu ke beranda Anda akan terbuka.  Arahkan kursor mouse di atas kartu Katalog solusi yang ditampilkan di jendela ini dan seret ke lokasi di layar beranda tempat Anda ingin menempatkan kartu.
 
-1. Dari panel navigasi sebelah kiri halaman beranda portal kepatuhan Microsoft Purview, perhatikan item yang tercantum di bagian Solusi.  Jika hanya Katalog yang ditampilkan, maka dari panel navigasi kiri pilih **...Tampilkan semua**.  Perhatikan bagaimana semua solusi tambahan muncul di bawah bagian solusi.  
+1. Dari panel navigasi sebelah kiri halaman beranda portal kepatuhan Microsoft Purview, perhatikan item yang tercantum di bagian Solusi. 
 
 1. Sebagai admin kepatuhan, mungkin ada sekumpulan solusi yang Anda kelola untuk organisasi kami, dan Anda ingin selalu mencantumkannya di panel navigasi.  Untuk menyesuaikan dengan preferensi Anda, pilih **Customize navigation**.  
 
@@ -44,7 +42,7 @@ Tunjukkan halaman beranda portal kepatuhan Microsoft Purview serta cara menyesua
 
 1. Biarkan tab browser terbuka.
 
-### <a name="demo-part-2"></a>Demo Bagian 2
+### Demo Bagian 2
 
 Pelajari tentang kondisi kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
@@ -54,7 +52,7 @@ Pelajari tentang kondisi kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
 1. Dari bagian atas halaman Ikhtisar, pilih **Improvement actions**.  Ini adalah tindakan yang dapat meningkatkan skor kepatuhan organisasi. Perhatikan bahwa saat tindakan peningkatan diambil, poin mungkin memerlukan waktu hingga 24 jam untuk diperbarui.  Perhatikan filter yang tersedia.
 
-1. Dari daftar tindakan perbaikan, pilih **Enable self-service password reset**.  Tinjau informasi yang tersedia untuk tindakan perbaikan.  Sisi kiri jendela memberikan ringkasan singkat tentang penerapan, status pengujian, dan lainnya. Di sebelah kanan ringkasan adalah halaman detail tempat Anda dapat memilih penerapan, pengujian, standar terkait dan persyaratan peraturan, serta dokumen. Masing-masing tab ini memberikan informasi yang lebih detail untuk tindakan perbaikan.
+1. Dari daftar tindakan perbaikan, pilih **Enable self-service password reset**.  Tinjau informasi yang tersedia untuk tindakan perbaikan.  Sisi kiri jendela memberikan gambaran singkat tentang status implementasi, status pengujian, dan banyak lagi. Di sebelah kanan ringkasan adalah halaman detail tempat Anda dapat memilih penerapan, pengujian, standar terkait dan persyaratan peraturan, serta dokumen. Masing-masing tab ini memberikan informasi yang lebih detail untuk tindakan perbaikan.
 
 1. Keluar dari tindakan peningkatan ini dengan memilih **Tindakan Peningkatan** dari breadcrumb di kiri atas halaman.  Anda sekarang kembali ke halaman tindakan peningkatan.
 
@@ -64,13 +62,16 @@ Pelajari tentang kondisi kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
 1. Pilih **Data Protection Baseline**.  Perhatikan informasi yang tersedia di tab progres. Anda juga dapat melihat informasi tentang Kontrol, tindakan peningkatan Anda, dan tindakan Microsoft.  
 
-1. Dari bagian kiri atas halaman, di atasnya tertulis Penilaian (breadcrumb), pilih **Assessment** untuk kembali ke halaman penilaian.  
+1. Dari kiri atas halaman, di atas bertuliskan Penilaian (breadcrumb), pilih **Penilaian** untuk kembali ke halaman penilaian.  Sebelum meninggalkan tab penilaian, perhatikan bahwa Anda dapat menambahkan penilaian Anda sendiri.
 
-1. Dari bagian atas halaman, pilih **Assessment templates**.  Halaman ini mencantumkan templat yang tersedia. Anda dapat membuat penilaian untuk organisasi Anda dengan menggunakan template yang sudah ada atau membuat template baru.
-    1. Dari daftar template yang disertakan, pilih salah satu template. Dari bagian kanan atas halaman, pilih **+ Create assessment**.  Di sini Anda dapat melihat beberapa langkah dan potongan informasi yang diperlukan untuk membuat penilaian dari template yang sudah ada - identifikasi produk untuk penilaian, beri nama penilaian, dan tetapkan ke grup.  Pilih Batal dari bagian bawah halaman.
+1. Dari bagian atas halaman, pilih **Peraturan**.  Halaman ini mencantumkan peraturan yang tersedia untuk organisasi Anda. Anda juga dapat membuat penilaian dari templat yang tersedia.  Pilih salah satu templat premium dari daftar.  Anda akan melihat informasi spesifik tentang peraturan tersebut termasuk kontrol, tindakan peningkatan Anda, dan tindakan Microsoft.  Dari sudut kanan atas jendela, Anda akan melihat opsi untuk **+ Buat penilaian**, yang memungkinkan Anda membuat penilaian berdasarkan templat.  Kembali ke halaman peraturan dengan memilih **Peraturan** dari remah roti di bagian atas halaman.
 
-1. Tutup semua tab browser yang terbuka.
+1. Dari bagian atas halaman, pilih **Pemberitahuan**.   Di sini Anda dapat melihat dan mengelola pemberitahuan untuk peristiwa yang dapat memengaruhi skor kepatuhan organisasi Anda.  Jika ada pemberitahuan yang tercantum, pilih pemberitahuan tersebut untuk melihat informasi tentang kebijakan pemberitahuan terkait.
 
-### <a name="review"></a>Tinjau
+1. Dari panel navigasi kiri, pilih **Beranda** untuk kembali ke halaman arahan portal kepatuhan Microsoft Purview.
+
+1. Biarkan tab browser terbuka jika Anda berencana untuk menampilkan demo berikutnya.
+
+### Tinjau
 
 Dalam demo ini, Anda menunjukkan halaman beranda portal kepatuhan Microsoft Purview dan cara-cara di mana kemampuan Pengelola Kepatuhan dapat membantu organisasi meningkatkan postur kepatuhan mereka.

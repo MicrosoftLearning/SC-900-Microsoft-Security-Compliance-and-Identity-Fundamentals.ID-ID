@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Judul: Jalur Pembelajaran /Modul/Pelajaran 'Portal Kepercayaan Layanan': 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 1: Menjelaskan kemampuan manajemen kepatuhan di Microsoft; Pelajaran 2: Jelajahi Portal Kepercayaan Layanan'
+Demo: Judul: Jalur Pembelajaran /Modul/Unit 'Service Trust Portal': 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 1: Menjelaskan portal Kepercayaan Layanan microsoft dan kemampuan privasi; Unit 2: Jelajahi Portal Kepercayaan Layanan'
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>Demo: Service Trust Portal
+# Demo: Service Trust Portal
 
 Demo ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan kemampuan manajemen kepatuhan di Microsoft
+- Modul: Menjelaskan portal Kepercayaan Layanan microsoft dan kemampuan privasi
 - Unit: Menjelajahi Portal Kepercayaan Layanan
 
-## <a name="demo-scenario"></a>Skenario demo
+## Skenario demo
 
 Dalam demo ini, Anda akan menunjukkan fitur dan konten yang tersedia dari Service Trust Portal. Juga disertakan navigasi Pusat Kepercayaan untuk melihat informasi tentang Privasi di Microsoft.
 
-### <a name="demo-part-1"></a>Demo bagian 1
+### Demo bagian 1
 
 Di bagian ini, Anda akan memandu pelajar melalui berbagai jenis konten yang tersedia di Service Trust Portal, cara mengakses laporan, dan cara menyimpan laporan ke pustaka Anda.
 
@@ -40,11 +40,11 @@ Di bagian ini, Anda akan memandu pelajar melalui berbagai jenis konten yang ters
 
 1. Untuk kembali ke beranda Service Trust Portal, pilih tautan **Service Trust Portal** di bagian atas halaman.
 
-1. Dari beranda Service Trust Portal, gulir ke bawah ke kategori **Sumber Daya untuk Organisasi Anda**. Pilih **Sumber Daya untuk Organisasi Anda**.  Perhatikan bahwa semua dokumen yang tercantum di sini didasarkan pada langganan dan izin organisasi Anda.
+1. Dari beranda Portal Kepercayaan Layanan, gulir ke bawah ke **Sumber Daya untuk kategori Organisasi Anda** . Pilih **Sumber Daya untuk Organisasi Anda**.  Perhatikan bahwa semua dokumen yang tercantum di sini didasarkan pada langganan dan izin organisasi Anda.
 
 1. Untuk kembali ke beranda Service Trust Portal, pilih tautan **Service Trust Portal** di bagian atas halaman.
 
-### <a name="demo-part-2-optional"></a>Demo Bagian 2 (Opsional)
+### Demo Bagian 2 (Opsional)
 
 Di bagian demo ini, Anda akan menunjukkan Pusat Kepercayaan dan menavigasi ke informasi yang menjelaskan Privasi di Microsoft.
 
@@ -54,8 +54,8 @@ Di bagian demo ini, Anda akan menunjukkan Pusat Kepercayaan dan menavigasi ke in
 
 1. Halaman browser baru terbuka ke Pusat Kepercayaan Microsoft tempat Anda menemukan informasi lebih lanjut, termasuk informasi tentang privasi dan banyak lagi. Jelajahi konten halaman ini dan navigasikan melalui tautan yang berbeda.
 
-1. Tutup semua tab browser yang terbuka.
+1. Tutup tab browser yang terbuka untuk Portal Kepercayaan Layanan dan Pusat kepercayaan.
 
-### <a name="review"></a>Tinjau
+### Tinjau
 
 Dalam demo ini, Anda menjelajahi beberapa opsi yang tersedia di Service Trust Portal dan cara menggunakan fitur Pustaka Saya untuk menyimpan dokumen yang akan ditinjau di lain waktu.  Selain itu, Anda juga telah mengunjungi Pusat Kepercayaan untuk mengakses dan meninjau informasi tentang privasi di Microsoft.
