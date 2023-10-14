@@ -1,18 +1,25 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Judul: 'Penyiapan'
 ---
 --->
 
-# <a name="lab-setup"></a>Lab: Pengaturan
+# Lab: Pengaturan
 
-## <a name="lab-scenario"></a>Skenario lab
+## Penyewa WWL - Ketentuan penggunaan
+Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur.
+
+Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab langsung. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi.
+
+Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak untuk mendapatkan akses dan repositori kapan saja.
+
+## Skenario lab
 
 Lab penyiapan ini terdiri dari mengaktifkan Log Audit Microsoft.
 
 **Perkiraan Waktu**: 5-10 menit
 
-### <a name="setup---enable-microsoft-365-audit-log"></a>Penyiapan - Mengaktifkan log audit Microsoft 365
+### Penyiapan - Mengaktifkan log audit Microsoft 365
 
 Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini, dan perlu waktu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
 
@@ -35,6 +42,6 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microso
 
 1. Kembali ke halaman beranda portal kepatuhan Microsoft Purview dengan memilih **Beranda** dari panel navigasi kiri untuk keluar dari Microsoft 365. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf MA (di sebelah ikon tanda tanya), lalu pilih **Keluar**. Tutup browser.
 
-### <a name="review"></a>Tinjau
+### Tinjau
 
 Dalam penyiapan ini, Anda mengaktifkan kemampuan log audit di Microsoft 365.

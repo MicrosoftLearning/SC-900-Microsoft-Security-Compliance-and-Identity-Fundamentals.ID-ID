@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Judul: 'Azure AD pengaturan ulang kata sandi mandiri (SSPR)' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Pelajaran 4: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD'
+Demo: Judul: 'Microsoft Entra pengaturan ulang kata sandi mandiri (SSPR)' Jalur Pembelajaran/Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi ID Microsoft Entra; Unit 4: Menjelaskan pengaturan ulang kata sandi mandiri'
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demo: Pengaturan ulang kata sandi layanan mandiri Azure AD (SSPR)
+# Demo: Microsoft Entra pengaturan ulang kata sandi mandiri (SSPR)
 
 Demo ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra
-- Modul: Menjelaskan kemampuan autentikasi Azure AD
-- Pelajaran: Menjelaskan pengaturan ulang kata sandi mandiri di Azure AD
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Entra
+- Modul: Menjelaskan kemampuan autentikasi ID Microsoft Entra
+- Unit: Menjelaskan pengaturan ulang kata sandi mandiri
 
-## <a name="demo-scenario"></a>Skenario demo
+## Skenario demo
 
 Dalam demo ini, Anda akan menelusuri berbagai pengaturan yang terkait dengan pengaktifan pengaturan ulang kata sandi mandiri.
 
-1. Buka tab Contoso – Microsoft Azure yang terbuka di browser Anda. Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan portal.azure.com dan pilih Azure Active Directory. Anda harus masuk sebagai admin di portal Microsoft Azure. Jika tidak, masuk kembali.
+1. Kembali ke tab browser terbuka berjudul "Pusat admin home-Microsoft Entra."  Jika sebelumnya Anda menutup tab browser tersebut, buka Microsoft Edge dan masuk ke **[entra.microsoft.com](https://entra.microsoft.com)** dengan kredensial admin Microsoft 365 Anda.
 
-1. Dari panel navigasi kiri, pilih Atur ulang kata sandi.
+1. Dari panel navigasi kiri, perluas **Perlindungan** lalu pilih **Reset kata sandi**.
 
 1. Tab properti disorot.  Di jendela Properti, perhatikan bahwa SSPR dapat diaktifkan ke Tidak ada, Pilih, atau Semua.
     1. Letakkan kursor Anda di atas ikon informasi di sebelah tulisan “Pengaturan ulang kata sandi mandiri diaktifkan," dan jelaskan bahwa Anda dapat memilih "Dipilih" untuk membatasi pengaturan ulang kata sandi ke sekelompok pengguna terbatas, daripada, memilih Tidak Ada atau semua.
@@ -41,6 +41,6 @@ Dalam demo ini, Anda akan menelusuri berbagai pengaturan yang terkait dengan pen
 
 1. Biarkan halaman browser ini terbuka untuk demo berikutnya.
 
-### <a name="review"></a>Tinjau
+### Tinjau
 
 Dalam demo ini, Anda menunjukkan pengaturan yang terkait dengan pengaturan ulang kata sandi mandiri.
