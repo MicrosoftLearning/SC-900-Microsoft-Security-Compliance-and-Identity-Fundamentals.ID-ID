@@ -4,44 +4,44 @@ Lab: Judul: 'Penyiapan'
 ---
 --->
 
-# Lab: Pengaturan
+# Lab: Penyiapan
 
 ## Penyewa WWL - Ketentuan penggunaan
-Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur.
+Jika Anda diberikan penyewa sebagai bagian dari penyajian pelatihan yang dipimpin instruktur, harap diperhatikan bahwa penyewa tersedia untuk mendukung lab praktik dalam pelatihan yang dipimpin instruktur.
 
-Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab langsung. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi.
+Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat perpanjangan.
 
-Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak untuk mendapatkan akses dan repositori kapan saja.
+Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja.
 
-## Skenario lab
+## Skenario laboratorium
 
 Lab penyiapan ini terdiri dari mengaktifkan Log Audit Microsoft.
 
-**Perkiraan Waktu**: 5-10 menit
+**Perkiraan Waktu:**: 5-10 menit
 
 ### Penyiapan - Mengaktifkan log audit Microsoft 365
 
-Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini, dan perlu waktu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
+Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini, dan perlu waktu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat, karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
-1. Masuk dengan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
-    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
-    1. Ketika diminta untuk tetap masuk, pilih **Yes**. Ini akan mengarahkan Anda ke halaman pusat admin Microsoft 365.
+1. Masuk menggunakan kredensial admin Anda.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab) lalu pilih **Berikutnya**.
+    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika diminta untuk tetap masuk, pilih **Ya**. Ini akan membawa Anda ke laman pusat admin Microsoft 365.
 
-1. Dari panel navigasi sebelah kiri pada pusat admin Microsoft 365, pilih **Show all**.
+1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
-1. Di bagian pusat Admin, pilih **Compliance**.  Halaman browser baru terbuka pada halaman selamat datang di portal kepatuhan Microsoft Purview.  
+1. Di Pusat admin, pilih **Kepatuhan**.  Laman browser baru membuka laman selamat datang di portal kepatuhan Microsoft Purview.  
 
-1. Dari panel navigasi sebelah kiri, di bagian solusi, pilih **Audit**.  Catatan: fungsi audit juga dapat diakses melalui halaman beranda Pertahanan Microsoft 365 (sebelumnya disebut sebagai pusat keamanan Microsoft 365).
+1. Dari panel navigasi kiri, di bagian solusi, pilih **Audit**.  Catatan: fungsionalitas audit juga dapat diakses melalui beranda Microsoft 365 Defender (sebelumnya disebut sebagai pusat keamanan Microsoft 365).
 
 1. Pastikan tab **Pencarian Baru** dipilih (digarisbawahi).
 
-1. Setelah Anda diarahkan ke halaman Audit, tunggu 2-3 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah berwarna biru di bagian atas halaman yang mengatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Start recording user and admin activity**.  Jika diminta untuk mengonfirmasi bahwa pengaturan organisasi perlu diperbarui, pilih **Ya**. Setelah audit diaktifkan, bilah berwarna biru akan menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.  Cara lain untuk memeriksa apakah audit diaktifkan adalah melalui PowerShell, tetapi itu di luar cakupan kursus ini.
+1. Setelah Anda masuk ke laman Audit, tunggu 2-3 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas laman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Mulai merekam aktivitas pengguna dan admin**.  Jika diminta untuk mengonfirmasi bahwa pengaturan organisasi perlu diperbarui, pilih **Ya**. Setelah audit diaktifkan, bilah biru menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.  Cara lain untuk memeriksa apakah audit diaktifkan adalah melalui PowerShell, tetapi itu berada di luar cakupan kursus ini.
 
-1. Kembali ke halaman beranda portal kepatuhan Microsoft Purview dengan memilih **Beranda** dari panel navigasi kiri untuk keluar dari Microsoft 365. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf MA (di sebelah ikon tanda tanya), lalu pilih **Keluar**. Tutup browser.
+1. Kembali ke laman beranda portal kepatuhan Microsoft Purview dengan memilih **Beranda** dari panel navigasi kiri untuk keluar dari Microsoft 365. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf MA (di sebelah ikon tanda tanya), lalu pilih **Keluar**. Tutup browser.
 
-### Tinjau
+### Tinjauan
 
-Dalam penyiapan ini, Anda mengaktifkan kemampuan log audit di Microsoft 365.
+Dalam penyiapan ini, Anda telah mengaktifkan kemampuan log audit di Microsoft 365.
