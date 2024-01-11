@@ -20,7 +20,7 @@ Di Demo ini, Anda akan mempelajari langkah-langkah yang diperlukan untuk menyiap
 
 Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus eDiscovery, pengguna harus diberi izin yang sesuai. Di bagian demo ini, Anda sebagai admin global, akan mempelajari proses penambahan pengguna tertentu sebagai anggota grup peran Manajer eDiscovery.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Laman browser baru terbuka pada halaman selamat datang di portal kepatuhan Microsoft Purview.  
+1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Laman browser baru membuka laman selamat datang di portal kepatuhan Microsoft Purview.  
 
 1. Dari panel navigasi kiri, bentangkan (pilih panah bawah) **Peran & Cakupan**, lalu pilih **Izin**.
 
@@ -59,15 +59,15 @@ Sekarang, setelah Anda membuat kasus eDiscovery (Standar), Anda dapat mulai beke
 
 1. Dari laman Beranda kasus, pilih tab **Penangguhan**, lalu pilih **+Buat**.
 
-1. Di kolom nama, masukkan **Penangguhan pengujian** lalu pilih **Berikutnya**.
+1. Di kolom nama, masukkan **Penangguhan pengujian**, lalu pilih **Berikutnya**.
 
 1. Di laman Pilih lokasi, pilih tombol pengalih di samping **kotak surat Exchange** untuk mengatur status ke **Aktif**.  
 
-1. Sekarang pilih **Pilih pengguna, grup, atau tim**.  Di Kotak pencarian, masukkan **Adele**, lalu tekan Enter di keyboard Anda. Dari hasil pencarian pilih **Adele Vance**, lalu pilih **Selesai**.
+1. Sekarang pilih **Pilih pengguna, grup, atau tim**.  Di Kotak pencarian, masukkan **Adele**, lalu tekan Enter di keyboard Anda. Dari hasil pencarian, pilih **Adele Vance**, lalu pilih **Selesai**.
 
 1. Dari laman Pilih Lokasi, pilih **Berikutnya**.  Untuk kecocokan dengan Demo, tidak ada lokasi lain yang akan disertakan dalam penangguhan ini.
 
-1. Halaman Ketentuan kueri memungkinkan Anda membuat penangguhan, berdasarkan Kata Kunci atau Ketentuan tertentu yang dipenuhi, pilih **+ Tambahkan ketentuan** untuk melihat opsi yang tersedia.  Pilih **Selanjutnya**. Tanpa syarat apa pun, penangguhan akan mempertahankan semua konten di lokasi yang ditentukan.
+1. Laman Syarat kueri memungkinkan Anda membuat penangguhan, berdasarkan Kata Kunci atau Ketentuan tertentu yang dipenuhi, pilih **+ Tambahkan syarat** untuk melihat opsi yang tersedia.  Pilih **Selanjutnya**. Tanpa syarat apa pun, penangguhan akan mempertahankan semua konten di lokasi yang ditentukan.
 
 1. Tinjau pengaturan Anda dan pilih **Kirim**, mungkin perlu waktu satu menit, lalu pilih **Selesai**.  Penangguhan pengujian akan muncul dalam daftar.  Jika Anda tidak segera melihatnya, pilih **Refresh**
 
@@ -75,15 +75,15 @@ Sekarang, setelah Anda membuat kasus eDiscovery (Standar), Anda dapat mulai beke
 
 ### Demo Bagian 4
 
-Dengan penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian Anda selesai, eDiscovery mendukung tindakan, seperti mengekspor dan mengunduh hasil untuk penyelidikan di masa mendatang.   Catatan: Pencarian yang terkait dengan kasus eDiscovery (Standar) tidak terdaftar di laman pencarian konten di portal kepatuhan Microsoft Purview. Pencarian ini hanya terdaftar di halaman Pencarian dari kasus eDiscovery (Standar) terkait.
+Setelah memasukkan penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian Anda selesai, eDiscovery mendukung tindakan, seperti mengekspor dan mengunduh hasil untuk penyelidikan di masa mendatang.   Catatan: Pencarian yang terkait dengan kasus eDiscovery (Standar) tidak terdaftar di laman pencarian konten di portal kepatuhan Microsoft Purview. Pencarian ini hanya terdaftar di laman Pencarian dari kasus eDiscovery (Standar) terkait.
 
 1. Dari laman Kasus Uji SC900, pilih **Pencarian**.
 
-1. Dari laman Pencarian, pilih **+ Pencarian Baru**.
+1. Dari halaman Pencarian, pilih **+ Pencarian Baru**.
 
 1. Di bidang Nama, masukkan **Penangguhan Pengujian – Pencarian Penjualan**, lalu pilih **Berikutnya** dari bagian bawah laman.
 
-1. Di laman Pilih lokasi, pilih **lokasi yang ditangguhkan** dan batalkan pilihan **Tambahkan Konten Aplikasi untuk pengguna Lokal**, karena lingkungan lab Anda tidak memiliki pengguna lokal, lalu pilih **Berikutnya **.
+1. Di laman Pilih lokasi, pilih **lokasi yang ditangguhkan** dan batalkan pilihan **Tambahkan Konten Aplikasi untuk pengguna Lokal**, karena lingkungan lab Anda tidak memiliki pengguna lokal, maka pilih **Berikutnya **.
 
 1. Laman Syarat kueri memungkinkan Anda membuat penangguhan, berdasarkan Kata Kunci atau Syarat tertentu yang dipenuhi. Pada bidang kata kunci, masukkan **Penjualan**, pilih **Berikutnya**.
 

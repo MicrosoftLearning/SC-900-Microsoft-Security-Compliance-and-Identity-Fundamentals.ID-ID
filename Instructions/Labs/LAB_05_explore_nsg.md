@@ -10,9 +10,9 @@ Lab ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
 - Modul: Menjelaskan kemampuan keamanan dasar di Azure
-- Pelajaran: Menjelaskan grup Keamanan Jaringan Azure
+- Unit: Menjelaskan grup Keamanan Jaringan Azure
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan mempelajari fungsi grup keamanan jaringan di Azure.  Anda akan melakukannya dengan membuat grup keamanan jaringan (NSG) dan menetapkan NSG ke antarmuka mesin virtual (VM) yang sudah ada sebelumnya.  Setelah dikonfigurasi, Anda akan mengamati aturan masuk dan keluar default, membuat aturan baru, dan menguji aturan tersebut.  Di lab ini, VM yang akan Anda gunakan dengan NSG dibuat untuk Anda, jadi Anda akan melihat beberapa informasi yang terkait dengan VM tersebut terlebih dahulu.
   
@@ -56,7 +56,7 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan, menetapkan antarmuka 
 1. Dari bagian atas laman Grup keamanan jaringan, pilih **+ Buat**.
 
 1. Pada tab Dasar di laman Buat grup keamanan jaringan, tentukan pengaturan berikut:
-    1. Langganan: Biarkan nilainya diatur ke default (ini adalah langganan Azure yang disediakan oleh authorized lab hoster)
+    1. Langganan: Biarkan nilainya diatur ke default (ini adalah langganan Azure yang disediakan oleh hoster lab resmi)
     1. Grup sumber daya:  **LabsSC900**
     1. Nama:  **NSG-SC900**
     1. Wilayah: biarkan default.
@@ -81,8 +81,8 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan, menetapkan antarmuka 
     1. Layanan:  **RDP**
     1. Tindakan: **Izinkan**
     1. Prioritas: **1000**. Aturan dengan angka lebih rendah memiliki prioritas lebih tinggi dan diproses terlebih dahulu.
-    1. Nama: Biarkan nama default atau buat nama deskriptif Anda sendiri.
-    1. Perhatikan tanda peringatan di bagian bawah halaman.  Kami menggunakan RDP hanya untuk pengujian dan mendemonstrasikan fungsionalitas NSG.
+    1. Nama: Biarkan nama default atau buat nama deskriptif sendiri.
+    1. Perhatikan tanda peringatan di bagian bawah laman.  Kami menggunakan RDP hanya untuk pengujian dan mendemonstrasikan fungsionalitas NSG.
     1. Pilih **Tambahkan**
 
 1. Setelah aturan disediakan, aturan akan muncul dalam daftar aturan masuk (Anda mungkin perlu melakukan refresh layar).

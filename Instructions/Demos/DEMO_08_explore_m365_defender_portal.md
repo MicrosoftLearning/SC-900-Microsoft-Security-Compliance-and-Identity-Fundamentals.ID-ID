@@ -32,7 +32,7 @@ Menjelajahi laman arahan Pertahanan Microsoft 365.
 
 1. Memilih judul kartu akan membawa Anda ke informasi tambahan untuk topik tersebut. Anda akan mempelajarinya di tugas berikutnya.
 
-1. Panel navigasi kiri menyediakan tautan/akses ke informasi yang merupakan bagian dari Extended Detection and Response (solusi XDR) Microsoft yang mencakup insiden & peringatan, perburuan, pusat tindakan, analitik ancaman, skor aman, dan lainnya.  Panel ini juga mencakup akses cepat ke Pertahanan Microsoft untuk Titik Akhir (tautan tercantum di bagian Titik Akhir), Pertahanan untuk Office 365 (tautan tercantum di bagian Email dan Kolaborasi), Aplikasi Pertahanan Microsoft untuk Cloud (tautan di bagian aplikasi Cloud),.  Jelajahi opsi ini dengan memilih beberapa tautan.   Untuk kembali ke laman beranda portal Pertahanan Microsoft 365, pilih**Beranda** di panel navigasi sebelah kiri.
+1. Panel navigasi kiri menyediakan tautan/akses ke informasi yang merupakan bagian dari Extended Detection and Response (solusi XDR) Microsoft yang mencakup insiden & peringatan, perburuan, pusat tindakan, analitik ancaman, skor aman, dan banyak lagi.  Panel ini juga mencakup akses cepat ke Pertahanan Microsoft untuk Titik Akhir (tautan tercantum di bagian Titik Akhir), Pertahanan untuk Office 365 (tautan tercantum di bagian Email dan Kolaborasi), Aplikasi Pertahanan Microsoft untuk Cloud (tautan di bagian aplikasi Cloud),.  Jelajahi opsi ini dengan memilih beberapa tautan.   Untuk kembali ke laman beranda portal Pertahanan Microsoft 365, pilih**Beranda** di panel navigasi sebelah kiri.
 
 1. Tetap buka jendela browser.
 

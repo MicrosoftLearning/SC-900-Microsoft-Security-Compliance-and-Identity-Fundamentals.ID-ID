@@ -13,7 +13,7 @@ Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. P
 
 Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja.
 
-## Skenario laboratorium
+## Skenario lab
 
 Lab penyiapan ini terdiri dari mengaktifkan Log Audit Microsoft.
 

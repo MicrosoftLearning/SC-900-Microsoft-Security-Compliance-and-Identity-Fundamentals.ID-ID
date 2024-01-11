@@ -12,7 +12,7 @@ Lab ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan kemampuan perlindungan terhadap ancaman di Microsoft 365
 - Pelajaran: Menjelaskan Microsoft Defender untuk Cloud Apps
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan mempelajari kemampuan Microsoft Defender untuk Cloud Apps.  Anda akan mempelajari informasi yang tersedia di dasbor Cloud Discovery, katalog aplikasi Cloud, kemampuan yang tersedia untuk menyelidiki temuan, dan cara mengontrol dampak terhadap organisasi Anda melalui kebijakan. Catatan: Organisasi harus memiliki lisensi untuk menggunakan Microsoft Defender untuk Cloud Apps yang merupakan layanan langganan berbasis pengguna.
 
@@ -64,7 +64,7 @@ Cloud Discovery menganalisis log lalu lintas Anda berdasarkan katalog aplikasi c
 
 1. Katalog aplikasi Cloud memungkinkan Anda memilih aplikasi yang sesuai dengan persyaratan keamanan organisasi Anda. Admin dapat melakukan pemfilteran dasar pada aplikasi seperti yang ditampilkan di bagian atas laman, yang mencakup apakah aplikasi diberi sanksi, tidak diberi sanksi, atau tidak memiliki tag, skor risiko, faktor risiko Kepatuhan, dan faktor risiko keamanan.  Misalnya, pemfilteran berdasarkan faktor risiko kepatuhan memungkinkan Anda menelusuri standar, sertifikasi, dan kepatuhan tertentu yang mungkin dipatuhi oleh aplikasi. Contohnya termasuk HIPAA, ISO 27001, SOC 2, dan PCI-DSS. Pilih **Faktor risiko kepatuhan** untuk melihat opsi yang tersedia.  Anda dapat memfilter lebih lanjut berdasarkan skor risiko, dengan menggerakkan penggeser pada skor risiko di bagian atas laman. Jika Anda memindahkan slide, pastikan sudah mengaturnya sehingga rentangnya diatur dari 0 hingga 10.
 
-1. Admin juga dapat mencari aplikasi berdasarkan kategori.  Misalnya, pada kolom pencarian kategori, masukkan **Jejaring sosial**, lalu pilih **Jejaring sosial**.  Pilih item apa pun dari daftar untuk tampilan terperinci.  Mengarahkan mouse Anda ke topik apa pun untuk kategori tertentu akan menampilkan ikon informasi yang dapat Anda pilih untuk mendapatkan informasi lebih lanjut tentang topik tersebut.
+1. Admin juga dapat mencari aplikasi berdasarkan kategori.  Misalnya, pada kolom pencarian kategori, masukkan **Jejaring sosial**, lalu pilih **Jejaring sosial**.  Pilih item apa pun dari daftar untuk tampilan terperinci.  Arahkan mouse Anda ke topik apa pun untuk kategori tertentu akan menampilkan ikon informasi yang dapat Anda pilih untuk mendapatkan informasi lebih lanjut tentang topik tersebut.
 
 1. Biarkan laman ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
@@ -88,7 +88,7 @@ Dalam tugas ini, Anda akan mempelajari kebijakan di Microsoft Defender untuk Clo
     1. Perhatikan bahwa Anda juga dapat membuat kebijakan. Pilih **+ Buat kebijakan** untuk melihat jenis kebijakan yang dapat Anda buat.  Pilih **Kebijakan aktivitas** untuk melihat berbagai opsi yang tersedia untuk membuat kebijakan.  Pilih **Batalkan** untuk keluar dari jendela konfigurasi.
     1. Perhatikan bahwa Anda juga dapat memiliki opsi untuk mengekspor informasi kebijakan.
 
-1. Dari panel navigasi kiri, pilih **Template kebijakan**. Untuk membuat kebijakan dari salah satu template yang tersedia, pilih **+** di sebelah kiri item baris template.  Lihat berbagai opsi konfigurasi untuk kebijakan.  Pilih **Batalkan** untuk keluar dari laman.
+1. Dari panel navigasi kiri, pilih **Templat kebijakan**. Untuk membuat kebijakan dari salah satu template yang tersedia, pilih **+** di sebelah kiri item baris template.  Lihat berbagai opsi konfigurasi untuk kebijakan.  Pilih **Batalkan** untuk keluar dari laman.
 
 1. Tutup jendela browser.
 

@@ -12,7 +12,7 @@ Lab ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan kemampuan perlindungan terhadap ancaman di Microsoft 365
 - Unit: Menjelaskan portal Pertahanan Microsoft 365
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan menjelajahi portal Pertahanan Microsoft 365 dengan menjelajahi konten yang ditampilkan di laman arahan. Anda juga akan mempelajari opsi pada panel navigasi yang menyediakan akses cepat ke fungsionalitas yang merupakan bagian dari solusi Extended Detection and Response (XDR) Microsoft: Pertahanan Microsoft untuk Titik Akhir dan Pertahanan Microsoft untuk Office 365 (email dan kolaborasi).  Terakhir, Anda juga akan menjelajahi bagaimana Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.
 
@@ -25,9 +25,9 @@ Jelajahi laman arahan Pertahanan Microsoft 365.
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 
 1. Masuk menggunakan kredensial admin Anda.
-    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
+    1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab) lalu pilih **Berikutnya**.
 
-    1. Masukkan kata sandi admin yang disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
+    1. Masukkan kata sandi admin yang disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Jika diminta untuk tetap masuk, pilih **Ya**. Ini akan membawa Anda ke laman pusat admin Microsoft 365.
 
 1. Dari panel navigasi kiri pusat pusat admin administrator Microsoft 365, pilih **Keamanan**.  Jika Anda tidak melihat Keamanan tercantum, pilih **Tampilkan semua**, lalu pilih **Keamanan**.  Laman browser baru membuka laman selamat datang di portal Microsoft 365 Defender.  

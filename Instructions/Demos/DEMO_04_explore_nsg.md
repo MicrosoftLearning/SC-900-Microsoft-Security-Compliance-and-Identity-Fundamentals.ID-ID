@@ -117,7 +117,7 @@ Di bagian ini, Anda akan menampilkan aturan keluar NSG saat ini yang memungkinka
     1. Protokol: **Semua**
     1. Tindakan: **Tolak**
     1. Prioritas: **1000**
-    1. Nama: Biarkan nama default atau buat nama deskriptif sendiri.
+    1. Nama: Biarkan nama default atau buat nama deskriptif Anda.
     1. Pilih **Tambahkan**
 
 1. Setelah aturan disediakan, aturan akan muncul di daftar aturan keluar.  Meskipun muncul dalam daftar, akan memakan waktu beberapa menit untuk diterapkan (tunggu beberapa menit sebelum melanjutkan dengan langkah-langkah berikutnya).  

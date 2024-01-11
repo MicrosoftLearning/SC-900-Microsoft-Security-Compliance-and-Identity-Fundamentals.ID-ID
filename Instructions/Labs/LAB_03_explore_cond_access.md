@@ -12,7 +12,7 @@ Lab ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan kemampuan manajemen akses Microsoft Entra ID
 - Unit: Menjelaskan Akses Bersyarat
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan mempelajari MFA akses bersyarat, dari sudut pandang admin dan pengguna.  Sebagai admin, Anda akan membuat kebijakan yang mengharuskan pengguna melalui autentikasi multifaktor saat mengakses portal Microsoft Admin.  Dari perspektif pengguna, Anda akan melihat dampak kebijakan akses bersyarat, termasuk proses pendaftaran MFA.
 

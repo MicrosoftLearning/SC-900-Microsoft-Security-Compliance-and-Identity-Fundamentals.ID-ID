@@ -12,7 +12,7 @@ Lab ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan kemampuan autentikasi Microsoft Entra ID
 - Unit: Menjelaskan pengaturan ulang kata sandi mandiri
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda, sebagai admin, akan menelusuri proses penambahan pengguna ke grup keamanan SSPR, yang sudah disiapkan di penyewa Microsoft 365 Anda. Dengan mengaktifkan SSPR, Anda akan mengambil peran sebagai pengguna dan menjalani proses pendaftaran SSPR dan juga mengatur ulang kata sandi.  Terakhir, Anda sebagai admin, akan dapat melihat log audit dan data penggunaan & wawasan untuk SSPR.
 

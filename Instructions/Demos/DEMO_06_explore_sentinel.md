@@ -22,7 +22,7 @@ Instans Microsoft Sentinel seharusnya dibuat sebagai bagian dari penyiapan prade
 
 1. Buka tab browser, **Beranda- Microsoft Azure**.  Jika sebelumnya Anda menutup tab, buka halaman browser dan di bilah alamat, masukkan **https://portal.azure.com**. Masuk dengan kredensial Azure yang disediakan oleh host lab resmi (ALH).  Ini membawa Anda ke beranda layanan Azure.
 
-1. Di kotak pencarian, pada bilah berwarna biru di bagian atas halaman di samping bagian yang tertulis Microsoft Azure, masukkan **Microsoft Sentinel** lalu pilih **Microsoft Sentinel** dari hasil pencarian.  
+1. Di kotak pencarian, pada bilah berwarna biru di bagian atas laman di samping bagian yang tertulis Microsoft Azure, masukkan **Microsoft Sentinel**, lalu pilih **Microsoft Sentinel** dari hasil pencarian.  
 
 1. Pada laman Microsoft Sentinel, Anda akan melihat instans Sentinel Anda tercantum dan pilihlah instans tersebut.  Jika tidak tercantum, buat sekarang.
     1. Dari laman Microsoft Sentinel, pilih **Buat Microsoft Sentinel**.
@@ -100,7 +100,7 @@ Di bagian demo ini, Anda akan menunjukkan beberapa opsi yang tersedia di Sentine
 
 1. Dari panel navigasi kiri, pilih **Otomatisasi**.  Di sini, Anda dapat membuat aturan otomatisasi sederhana, mengintegrasikan dengan playbook yang ada, atau membuat playbook baru.  Pilih **+ Buat**, lalu pilih **Aturan otomatisasi**.  Perhatikan jendela yang terbuka di sisi kanan layar dan opsi yang tersedia untuk membuat syarat dan tindakan.  Pilih **Batal** dari bagian bawah halaman.
 
-1. Dari panel navigasi kiri, pilih **Buku kerja**. Baca deskripsi tentang apa itu buku kerja Microsoft Sentinel.  Buku kerja dapat ditambahkan melalui Hub konten. Buku kerja apa pun yang sebelumnya diinstal akan tercantum di sini. Pilih **Buka hub konten**.  Hub konten mencantumkan konten yang menyertakan buku kerja baik sebagai bagian dari solusi atau sebagai buku kerja mandiri. Gulir ke bawah untuk melihat opsi yang tersedia.
+1. Dari panel navigasi kiri, pilih **Buku kerja**. Baca deskripsi tentang apa itu buku kerja Microsoft Sentinel.  Buku kerja dapat ditambahkan melalui Hub konten. Buku kerja apa pun yang sebelumnya diinstal akan tercantum di sini. Pilih **Buka hub konten**.  Hub konten mencantumkan konten yang menyertakan buku kerja baik sebagai bagian dari solusi maupun sebagai buku kerja mandiri. Gulir ke bawah untuk melihat opsi yang tersedia.
 
 1. Tutup jendela dengan memilih **X** di pojok kanan atas jendela.
 

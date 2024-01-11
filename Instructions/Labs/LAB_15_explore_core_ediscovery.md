@@ -12,7 +12,7 @@ Lab ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan eDiscovery dan kemampuan audit Microsoft Purview
 - Unit: Menjelaskan solusi eDiscovery di Microsoft Purview
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan eDiscovery, termasuk menyiapkan izin peran, membuat kasus eDiscovery, membuat penangguhan eDiscovery, dan membuat kueri pencarian.  Catatan: Lisensi untuk eDiscovery (Standar) memerlukan langganan organisasi yang sesuai dan lisensi per pengguna. Jika Anda tidak yakin lisensi mana yang mendukung eDiscovery (Standar), kunjungi [Memulai eDiscovery (Standar) di Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
@@ -46,7 +46,7 @@ Dalam tugas ini, Anda sebagai Administrator eDiscovery (admin MOD adalah adminis
 
 1. Dari panel navigasi sebelah kiri, di bagian Solusi, bentangkan **eDiscovery**, lalu pilih **Standar**.
 
-1. Dari bagian atas halaman eDiscovery (Standar), pilih **+ Buat kasus**.
+1. Dari bagian atas laman eDiscovery (Standar), pilih **+ Buat kasus**.
 
 1. Di jendela Kasus baru, masukkan Nama kasus, **SC900 Test Case**, lalu pilih **Simpan** di bagian bawah laman.
 
@@ -68,7 +68,7 @@ Sekarang, setelah Anda membuat kasus eDiscovery (Standar), Anda dapat mulai beke
 
 1. Di kolom nama, masukkan **Penangguhan pengujian**, lalu pilih **Berikutnya**.
 
-1. Di halaman Pilih lokasi, pilih tombol pengalih di samping **kotak surat Exchange** untuk mengatur status ke **Aktif**.  
+1. Di laman Pilih lokasi, pilih tombol pengalih di samping **kotak surat Exchange** untuk mengatur status ke **Aktif**.  
 
 1. Sekarang pilih **Pilih pengguna, grup, atau tim**.  Di Kotak pencarian, masukkan **Adele**, lalu tekan Enter di keyboard Anda. Dari hasil pencarian, pilih **Adele Vance**, lalu pilih **Selesai**.
 
@@ -86,7 +86,7 @@ Setelah memasukkan penangguhan, Anda akan membuat kueri pencarian.  Setelah penc
 
 1. Buka tab Kasus Uji SC900 di browser Anda.
 
-1. Dari halaman Kasus Uji SC900, pilih **Pencarian**.
+1. Dari laman Kasus Uji SC900, pilih **Pencarian**.
 
 1. Dari halaman Pencarian, pilih **+ Pencarian Baru**.
 

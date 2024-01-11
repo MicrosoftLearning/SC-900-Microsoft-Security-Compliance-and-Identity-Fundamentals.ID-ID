@@ -10,7 +10,7 @@ Demo ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
 - Modul: Menjelaskan Service Trust Portal Microsoft dan kemampuan privasi
-- Unit: Menjelajahi Portal Kepercayaan Layanan
+- Unit: Menjelajahi Service Trust Portal
 
 ## Skenario demo
 
@@ -26,13 +26,13 @@ Di bagian ini, Anda akan memandu pelajar melalui berbagai jenis konten yang ters
 
 1. Untuk mengakses beberapa sumber daya di Service Trust Portal, Anda harus masuk sebagai pengguna yang diautentikasi dengan akun layanan cloud Microsoft Anda dan tinjau serta terima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan. Di pojok kanan atas laman arahan Service Trust Portal, Anda akan melihat opsi untuk Masuk.  **Masuk**, menggunakan kredensial administrator Anda dan, jika diminta, pilih **Setuju** untuk menerima Perjanjian Kerahasiaan Microsoft untuk Materi Kepatuhan.
 
-1. Gulir ke bawah pada halaman dan perhatikan berbagai kategori informasi yang tersedia. Dari kategori Sertifikasi, Regulasi, dan Standar, pilih **ISO/IEC**.
+1. Gulir ke bawah pada laman dan perhatikan berbagai kategori informasi yang tersedia. Dari kategori Sertifikasi, Regulasi, dan Standar, pilih **ISO/IEC**.
 
-1. Perhatikan deskripsi di bagian atas halaman dan dokumen tersedia yang berlaku.  Pilih **elipsis** di bawah header Opsi Lainnya untuk dokumen pertama dalam daftar.  Perhatikan opsi yang berbeda.
+1. Perhatikan deskripsi di bagian atas laman dan dokumen tersedia yang berlaku.  Pilih **elipsis** pada header Opsi Lainnya untuk dokumen pertama dalam daftar.  Perhatikan berbagai opsinya.
 
-1. Pilih **Simpan ke Pustaka**.  Jendela yang menanyakan apakah Anda ingin berlangganan dokumen ini akan muncul.  Pilih **Ya**. Jendela pengaturan pemberitahuan akan muncul, perhatikan pengaturan yang berbeda. Pilih **Simpan**.
+1. Pilih **Simpan ke Pustaka**.  Akan muncul jendela yang menanyakan apakah Anda ingin berlangganan dokumen ini.  Pilih **Ya**. Jendela pengaturan pemberitahuan akan muncul, perhatikan berbagai pengaturannya. Pilih **Simpan**.
 
-1. Untuk memverifikasi bahwa dokumen telah disimpan, gulir ke bagian atas halaman dan pilih **Pustaka Saya**.  Untuk dokumen apa pun di laman Pustaka Saya, pilih elipsis untuk melihat opsi yang tersedia.
+1. Untuk memverifikasi bahwa dokumen telah disimpan, gulir ke bagian atas laman dan pilih **Pustaka Saya**.  Untuk dokumen apa pun di laman Pustaka Saya, pilih elipsis untuk melihat berbagai opsinya.
 
 1. Dari bagian atas laman Pustaka Saya, pilih **Service Trust Portal** untuk kembali ke beranda Service Trust Portal.
 
@@ -42,7 +42,7 @@ Di bagian ini, Anda akan memandu pelajar melalui berbagai jenis konten yang ters
 
 1. Dari beranda Service Trust Portal, gulir turun ke kategori **Sumber Daya untuk Organisasi Anda**. Pilih **Sumber Daya untuk Organisasi Anda**.  Perhatikan bahwa semua dokumen yang tercantum di sini didasarkan pada langganan dan izin organisasi Anda.
 
-1. Untuk kembali ke beranda Service Trust Portal, pilih tautan **Service Trust Portal** di bagian atas halaman.
+1. Untuk kembali ke beranda Service Trust Portal, pilih tautan **Service Trust Portal** di bagian atas laman.
 
 ### Demo Bagian 2 (Opsional)
 

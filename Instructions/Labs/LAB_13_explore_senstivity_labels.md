@@ -12,9 +12,9 @@ Lab ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview
 - Unit: Menjelaskan label sensitivitas
 
-## Skenario laboratorium
+## Skenario lab
 
-Di lab ini, Anda akan mempelajari kemampuan label sensitivitas.  Anda akan melalui pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan terkait untuk menerbitkan label.   Kemudian Anda akan melihat cara menerapkan label dan dampak label tersebut, dari sudut pandang pengguna.
+Di lab ini, Anda telah mempelajari kemampuan label sensitivitas.  Anda akan membahas pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan terkait untuk menerbitkan label.   Kemudian, Anda akan melihat cara menerapkan label dan dampak label tersebut, dari sudut pandang pengguna.
 
 **Perkiraan Waktu**: 20-25 menit
 

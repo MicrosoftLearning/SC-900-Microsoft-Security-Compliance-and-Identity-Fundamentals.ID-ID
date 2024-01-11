@@ -12,7 +12,7 @@ Lab ini memetakan ke konten Learn berikut:
 - Modul: Menjelaskan perlindungan identitas dan kemampuan tata kelola Microsoft Entra
 - Unit: Menjelaskan kemampuan Privileged Identity Management
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Management (PIM). PIM memang memerlukan lisensi Microsoft Entra ID P2.  Di lab ini, Anda, sebagai admin, akan mengonfigurasi salah satu pengguna Anda, Diego Siciliani, dengan peran administrator pengguna Microsoft Entra, melalui privileged ID management (PIM).   Dengan hak istimewa admin pengguna, Diego akan dapat membuat pengguna dan grup mengelola lisensi, dan banyak lagi.  Baik admin maupun pengguna, Diego, harus dikonfigurasi untuk lisensi Microsoft Entra ID P2.
 

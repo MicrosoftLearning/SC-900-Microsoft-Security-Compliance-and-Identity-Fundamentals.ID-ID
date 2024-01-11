@@ -57,7 +57,7 @@ Untuk penyiapan ini, Anda menggunakan lingkungan Azure Cloud Slice yang terpisah
 
 Periksa apakah VM telah dibuat. Jika belum, siapkan sekarang. Anda akan menggunakan VM sebagai bagian dari demo NSG.
 
-1. Buka Microsoft Edge.  Di bilah alamat, masukkan **https://portal.azure.com** dan masuk dengan kredensial Azure yang disediakan oleh hoster lab resmi (ALH).  Ini membawa Anda ke beranda layanan Azure.
+1. Buka Microsoft Edge.  Di bilah alamat, masukkan **https://portal.azure.com** dan masuk dengan kredensial Azure yang disediakan oleh host lab resmi (ALH).  Ini membawa Anda ke beranda layanan Azure.
 
 1. Di kotak pencarian warna biru di bagian atas laman, masukkan **Mesin Virtual**, lalu pilih **Mesin Virtual** dari hasil pencarian.
 
@@ -104,7 +104,7 @@ Tujuannya di sini hanyalah mengakses Microsoft Defender untuk Cloud untuk pertam
 
 1. Di bilah pencarian berwarna biru, masukkan **Microsoft Defender untuk Cloud**, lalu dari daftar hasil, pilih **Microsoft Defender untuk Cloud**.
 
-1. Jika ini pertama kalinya Anda memasuki Microsoft Defender untuk Cloud dengan langganan, Anda dapat membuka laman Memulai dan mungkin akan diminta melakukan peningkatan.  Gulir ke bagian bawah laman dan pilih **Lewati**.  Anda akan dibawa ke laman Ringkasan.
+1. Jika ini adalah pertama kalinya Anda memasuki Microsoft Defender untuk Cloud dengan langganan, Anda dapat membuka laman Memulai, dan mungkin akan diminta untuk melakukan peningkatan.  Gulir ke bagian bawah laman dan pilih **Lewati**.  Anda akan dibawa ke laman Ringkasan.
 
 1. Semua langganan memiliki CSPM dasar yang diaktifkan secara default, yang memberikan skor aman, tetapi dapat memakan waktu hingga 24 jam agar Defender untuk Cloud mencerminkan skor aman awal.
 
@@ -120,9 +120,9 @@ Periksa apakah instans Microsoft Sentinel telah dibuat. Jika belum, siapkan seka
 
 1. Di kotak pencarian, pada bilah berwarna biru di bagian atas laman di samping bagian yang tertulis Microsoft Azure, masukkan **Microsoft Sentinel**, lalu pilih **Microsoft Sentinel** dari hasil pencarian.
 
-1. Dari halaman Microsoft Sentinel, pilih **Buat Microsoft Sentinel**.
+1. Dari laman Microsoft Sentinel, pilih **Buat Microsoft Sentinel**.
 
-1. Dari halaman Tambahkan Microsoft Sentinel ke ruang kerja, pilih **Buat ruang kerja baru**.
+1. Dari laman Tambahkan Microsoft Sentinel ke ruang kerja, pilih **Buat ruang kerja baru**.
 
 1. Dari tab Dasar di Buat ruang kerja Analitik Log, masukkan berikut ini:
     1. Langganan: Biarkan diatur ke default.
@@ -133,7 +133,7 @@ Periksa apakah instans Microsoft Sentinel telah dibuat. Jika belum, siapkan seka
     1. Verifikasi informasi yang Anda masukkan, lalu pilih **Buat**.
     1. Mungkin perlu waktu satu atau dua menit agar ruang kerja ne terdaftar, jika Anda masih tidak melihatnya, pilih **Refresh**, lalu pilih **Tambahkan**.
 
-1. Setelah ruang kerja baru ditambahkan, laman Microsoft Sentinel | Berita & panduan akan ditampilkan, yang menunjukkan bahwa uji coba gratis Microsoft Sentinel telah diaktifkan.  Pilih **OK**.
+1. Setelah ruang kerja baru ditambahkan, laman Microsoft Sentinel | Berita & panduan akan ditampilkan, menunjukkan bahwa uji coba gratis Microsoft Sentinel telah diaktifkan.  Pilih **OK**.
 
 ### Tinjauan
 
