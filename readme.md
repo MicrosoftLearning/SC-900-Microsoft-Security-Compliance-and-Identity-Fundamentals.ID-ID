@@ -1,42 +1,36 @@
 # SC-900: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft
 
-Repositori ini mencakup skrip demo dan instruksi lab untuk **SC-900T00: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft**.  Skrip demo dan lab mengasumsikan akses ke penyewa WWL M365 Enterprise 2019 SPE_E5 yang telah dikonfigurasi sebelumnya, tersedia melalui penyedia host lab resmi (ALH) dan penggunaan langganan Azure menggunakan pass Azure.  Azure pass dipanggil untuk memastikan bahwa langganan Azure disiapkan menggunakan kredensial yang sama dengan penyewa Microsoft 365 yang disediakan oleh ALH (yaitu, Azure pass ditebus menggunakan kredensial yang sama dengan penyewa Microsoft 365).  Hal ini memungkinkan pengalaman yang lebih mulus saat berpindah antara Microsoft 365 dan Azure.  Skrip demo dan instruksi lab dapat dijalankan di penyewa Microsoft 365 dan langganan Azure milik pengguna, tetapi tidak dijamin, karena beberapa fitur mungkin tidak diaktifkan dengan langganan pribadi pengguna.
+Repositori ini mencakup skrip demo dan instruksi lab untuk **SC-900T00: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft**.  Skrip demo dan lab mengasumsikan akses ke penyewa SPE_E5 WWL M365 Enterprise 2019 yang telah dikonfigurasi sebelumnya, tersedia melalui host lab resmi (ALH) dan penggunaan langganan Azure yang disediakan oleh ALH. Beberapa skrip demo dan instruksi lab dapat dijalankan dari penyewa Microsoft 365 dan langganan Azure milik pengguna, tetapi tidak dijamin, karena beberapa fitur mungkin tidak dapat diaktifkan dengan langganan pribadi pengguna.
 
-Antarmuka pengguna (UI) untuk Microsoft 365 dan Azure terus diperbarui.  Karena perubahan ini terjadi, setiap upaya dilakukan guna memastikan langkah demo dan lab diperbarui untuk mencerminkan perubahan, tetapi tidak jarang teradapat varian pada UI yang dijelaskan di lab/demo dan penyewa sebenarnya. 
+Antarmuka pengguna (UI) di Azure dan Microsoft 365 diperbarui secara terus-menerus.  Karena perubahan ini terjadi setiap kali ada upaya dilakukan untuk memastikan demo dan langkah-langkah lab diperbarui untuk mencerminkan perubahan, tetapi tidak jarang melihat variansi di UI yang dijelaskan dalam lab/demo dan penyewa aktual. 
 
-- Skrip demo dimaksudkan untuk digunakan oleh instruktur guna mendemonstrasikan fungsionalitas, di lingkungan langsung, selama penyampaian kursus.  
+- Demo dimaksudkan untuk digunakan oleh instruktur untuk menunjukkan fungsionalitas, di lingkungan langsung, selama penyajian kursus.  Harap diperhatikan, demo yang tersedia sebelumnya telah dihapus, itulah sebabnya penomoran berubah dari DEMO_08_explore_m365_defender_portal ke DEMO_10_explore_service_trust_portal.
 
-- Laboratorium tersedia sebagai tambahan untuk konten kursus. Laboratorium ini dimaksudkan untuk kasus ketika mitra pembelajaran dapat menyediakan lingkungan bagi peserta didik, dalam jangka waktu yang lama, setelah penyampaian kursus 1 hari, karena tidak ada cukup waktu bagi instruktur untuk membahas konten kursus dan bagi siswa guna menyelesaikan laboratorium, selama penyampaian kursus. Lab dirancang sebagai lab yang berdiri sendiri (tidak ada ketergantungan antarlab).
+- Lab tersedia sebagai pelengkap konten kursus. Lab-lab ini ditujukan untuk kasus di mana mitra pembelajaran dapat membuat lingkungan tersedia bagi pelajar, untuk jangka waktu yang lama, setelah penyajian kursus 1 hari, karena tidak ada waktu yang cukup bagi instruktur untuk membahas konten kursus dan bagi siswa untuk menyelesaikan lab, selama penyajian kursus. Lab dirancang sebagai lab mandiri (tidak ada ketergantungan antar lab).  Harap diperhatikan, lab yang tersedia sebelumnya telah dihapus, itulah sebabnya penomoran berubah dari LAB_09_explore_m365_defender_portal ke LAB_11_explore_service_trust_portal.
 
 - **Apakah Anda seorang MCT?** - Lihat [Panduan Pengguna GitHub untuk MCT](https://microsoftlearning.github.io/MCT-User-Guide/) kami
 
 
-## Apa yang kami lakukan?
+## Apa yang kita lakukan di sini?
 
-- Untuk mendukung kursus ini, kami perlu sering memperbarui konten kursus agar tetap terbaru dengan layanan Azure yang digunakan dalam kursus.  Kami mempublikasikan petunjuk lab dan file lab di GitHub guna memungkinkan kontribusi terbuka antara penulis kursus dan MCT agar konten tetap terbaru dengan perubahan di platform Azure.
+- Untuk mendukung kursus ini, kami perlu sering memperbarui konten kursus agar tetap terkini dengan layanan Azure dan Microsoft 365 yang digunakan dalam kursus.  Kami menerbitkan instruksi lab dan file lab di GitHub untuk memungkinkan kontribusi terbuka antara pembuat kursus dan MCT agar konten tetap terbarui dengan perubahan di Azure dan Microsoft 365.
 
-- Kami berharap hal ini dapat menghadirkan bentuk kolaborasi ke lab yang belum pernah kami alami sebelumnya - saat Azure berubah dan Anda menemukannya pertama kali saat penyajian langsung, silakan melakukan peningkatan langsung di sumber lab.  Bantu rekan MCT Anda.
+- Kami berharap ini akan membawa rasa kolaborasi ke lab seperti yang belum pernah kami miliki sebelumnya - ketika Azure atau Microsoft 365 berubah dan Anda menemukannya pertama kali selama penyajian langsung, silakan membuat peningkatan langsung di sumber lab.  Bantu sesama MCT.
 
 ## Bagaimana cara menggunakan file-file ini relatif terhadap file MOC yang dirilis?
 
-- Buku pegangan instruktur dan PowerPoint masih akan menjadi sumber utama Anda untuk mengajarkan konten kursus.
+- PowerPoint akan tetap menjadi sumber utama Anda untuk mengajarkan konten kursus.
 
-- File-file di GitHub ini dirancang untuk digunakan bersama dengan buku pegangan siswa, tetapi berada di GitHub sebagai repositori pusat sehingga MCT dan penulis kursus dapat memiliki sumber bersama untuk file lab terbaru.
+- Pada setiap penyampaian, sebaiknya pelatih memeriksa GitHub tentang setiap perubahan yang mungkin telah dilakukan guna mendukung layanan Azure atau Microsoft 365 terbaru, dan mendapatkan file terbaru untuk penyampaian.
 
-- Sebaiknya pada setiap penyajian, pelatih memeriksa GitHub untuk setiap perubahan yang mungkin telah dilakukan guna mendukung layanan Azure terbaru, dan mendapatkan file terbaru untuk penyajian mereka.
+## Bagaimana cara berkontribusi?
 
-## Bagaimana dengan perubahan pada buku pegangan siswa?
+- Setiap MCT dapat mengirimkan permintaan pull terhadap kode atau konten di repositori GitHub, Microsoft dan penulis kursus akan melakukan triase dan menyertakan perubahan konten dan kode lab sesuai kebutuhan.
 
-- Kami akan meninjau buku pegangan siswa setiap tiga bulan dan memperbarui melalui saluran rilis MOC normal sesuai kebutuhan.
-
-## Bagaimana cara saya berkontribusi?
-
-- Setiap MCT dapat mengirimkan permintaan penarikan kode atau konten di repo GitHub, Microsoft dan penulis kursus akan melakukan triase serta menyertakan konten dan perubahan kode lab sesuai kebutuhan.
-
-- Anda dapat mengirimkan bug, perubahan, penyempurnaan, dan ide.  Menemukan fitur Azure baru sebelum kami?  Kirimkan demo baru!
+- Anda dapat mengirimkan bug, perubahan, peningkatan, dan ide.  
 
 ## Catatan
 
 ### Materi Kelas
 
-Sebaiknya MCT dan Mitra mengakses materi ini dan pada gilirannya, memberikan materi ini secara terpisah kepada siswa.  Mengarahkan siswa secara langsung ke GitHub untuk mengakses langkah-langkah Lab sebagai bagian dari kelas yang sedang berlangsung akan mengharuskan mereka untuk mengakses UI lain sebagai bagian dari kursus, yang berkontribusi pada pengalaman yang membingungkan bagi siswa. Menjelaskan kepada siswa tentang mengapa mereka menerima instruksi Lab terpisah dapat menyoroti sifat antarmuka dan platform berbasis cloud yang selalu berubah. Dukungan Microsoft Learning untuk mengakses file di GitHub dan dukungan untuk navigasi situs GitHub terbatas pada MCT yang mengajarkan kursus ini saja.
+MCT dan Mitra sangat disarankan untuk mengakses materi-materi ini dan pada gilirannya, menyediakannya secara terpisah kepada siswa.  Mengarahkan siswa langsung ke GitHub untuk mengakses langkah-langkah Lab sebagai bagian dari kelas yang sedang berlangsung akan mengharuskan mereka untuk mengakses UI lain sebagai bagian dari kursus, yang berkontribusi pada pengalaman yang membingungkan bagi siswa. Penjelasan kepada siswa mengenai mengapa mereka menerima instruksi Lab terpisah dapat menyoroti sifat antarmuka dan platform berbasis cloud yang selalu berubah. Dukungan Microsoft Learn untuk mengakses file di GitHub dan dukungan untuk navigasi situs GitHub terbatas pada MCT yang mengajar kursus ini saja.
