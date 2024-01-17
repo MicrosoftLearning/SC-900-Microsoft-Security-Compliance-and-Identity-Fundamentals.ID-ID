@@ -10,9 +10,9 @@ Lab ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
 - Modul: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview
-- Pelajaran: Menjelaskan portal kepatuhan Microsoft Purview
+- Unit: Menjelaskan portal kepatuhan Microsoft Purview
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan menjelajahi halaman beranda portal kepatuhan Microsoft Purview dan cara-cara di mana kemampuan Pengelola Kepatuhan dapat membantu organisasi meningkatkan postur kepatuhan mereka.
 
@@ -25,12 +25,12 @@ Pelajari halaman beranda portal kepatuhan Microsoft Purview dan pelajari cara me
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 1. Masuk menggunakan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang diberikan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
-    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia hosting lab Anda. Pilih **Masuk**.
+    1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Jika diminta untuk tetap masuk, pilih **Ya**. Ini akan membawa Anda ke laman pusat admin Microsoft 365.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
-1. Di Pusat admin, pilih **Kepatuhan**.  Halaman browser baru terbuka pada halaman selamat datang di portal kepatuhan Microsoft Purview.  
+1. Di Pusat admin, pilih **Kepatuhan**.  Laman browser baru membuka laman selamat datang di portal kepatuhan Microsoft Purview.  
 
 1. Bagian kartu di beranda menunjukkan kepada Anda, sekilas tentang kinerja organisasi Anda dengan postur kepatuhan Anda, solusi yang tersedia untuk organisasi Anda, dan banyak lagi.
 
@@ -42,7 +42,7 @@ Pelajari halaman beranda portal kepatuhan Microsoft Purview dan pelajari cara me
 
 1. Anda dapat menambahkan kartu, dengan memilih **+ Tambahkan kartu**.  Jendela Tambahkan kartu ke laman beranda Anda terbuka.  Arahkan kursor mouse Anda di atas kartu yang ditampilkan di jendela ini dan seret ke lokasi di layar beranda tempat Anda ingin meletakkan kartu tersebut.
 
-1. Dari panel navigasi sebelah kiri halaman beranda portal kepatuhan Microsoft Purview, perhatikan item yang tercantum di bagian Solusi.  
+1. Dari panel navigasi sebelah kiri laman beranda portal kepatuhan Microsoft Purview, perhatikan item yang tercantum di bagian Solusi.  
 
 1. Sebagai administrator kepatuhan, mungkin ada serangkaian solusi yang Anda kelola untuk organisasi kami dan karena itu, Anda mungkin ingin hanya memiliki solusi yang tercantum di panel navigasi yang Anda lihat. Untuk mengustomisasi ke preferensi Anda, pilih **Sesuaikan navigasi**.  
 
@@ -54,19 +54,19 @@ Pelajari halaman beranda portal kepatuhan Microsoft Purview dan pelajari cara me
 
 Pelajari tentang postur kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
-1. Dari panel navigasi sebelah kiri portal kepatuhan Microsoft Purview, pilih **Manajer Kepatuhan**.  Atau, Anda dapat memilih Pengelola Kepatuhan pada bilah judul kartu Pengelola Kepatuhan.
+1. Dari panel navigasi sebelah kiri portal kepatuhan Microsoft Purview, pilih **Pengelola Kepatuhan**.  Atau, Anda dapat memilih Pengelola Kepatuhan pada bilah judul kartu Pengelola Kepatuhan.
 
-1. Dari bagian atas laman Pengelola Kepatuhan, pastikan **Ikhtisar** dipilih (digarisbawahi). Gulir ke bawah untuk melihat semua informasi yang tersedia di laman tersebut.  Informasi di halaman ini mencakup skor kepatuhan Anda, poin yang Anda raih, dan poin yang dikelola Microsoft yang dicapai.   Anda akan melihat Tindakan peningkatan utama, Solusi yang memengaruhi skor Anda, dan pengelompokan skor kepatuhan berdasarkan kategori.
+1. Dari bagian atas laman Pengelola Kepatuhan, pastikan **Ikhtisar** dipilih (digarisbawahi). Gulir ke bawah untuk melihat semua informasi yang tersedia di laman tersebut.  Informasi di laman ini mencakup skor kepatuhan Anda, poin yang dicapai, dan poin pencapaian yang dikelola Microsoft.   Anda akan melihat Tindakan peningkatan utama, Solusi yang memengaruhi skor Anda, dan pengelompokan skor kepatuhan berdasarkan kategori.
 
-1. Dari bagian atas laman Ikhtisar, pilih **Tindakan peningkatan**.  Ini adalah tindakan yang dapat meningkatkan skor kepatuhan organisasi. Perhatikan bahwa saat tindakan peningkatan diambil, poin mungkin memerlukan waktu hingga 24 jam untuk diperbarui.  Perhatikan filter yang tersedia.
+1. Dari bagian atas laman Ikhtisar, pilih **Tindakan peningkatan**.  Ini tindakan yang dapat meningkatkan skor kepatuhan organisasi. Perhatikan bahwa saat tindakan peningkatan diambil, poin mungkin memerlukan waktu hingga 24 jam untuk diperbarui.  Perhatikan filter yang tersedia.
 
-1. Dari daftar tindakan peningkatan, pilih **Aktifkan pengaturan ulang kata sandi mandiri**.  Tinjau informasi yang tersedia untuk tindakan perbaikan.  Sisi kiri jendela memberikan ringkasan singkat tentang penerapan, status pengujian, dan lainnya. Di sebelah kanan ringkasan adalah halaman detail tempat Anda dapat memilih penerapan, pengujian, standar terkait dan persyaratan peraturan, serta dokumen. Masing-masing tab ini memberikan informasi yang lebih detail untuk tindakan perbaikan.
+1. Dari daftar tindakan peningkatan, pilih **Aktifkan pengaturan ulang kata sandi mandiri**.  Tinjau informasi yang tersedia untuk tindakan peningkatan.  Sisi kiri jendela memberikan ringkasan singkat tentang penerapan, status pengujian, dan lainnya. Di sebelah kanan ikhtisar adalah laman detail tempat Anda dapat memilih penerapan, pengujian, standar terkait, dan persyaratan peraturan, serta dokumen. Masing-masing tab ini memberikan informasi yang lebih detail untuk tindakan perbaikan.
 
-1. Keluar dari tindakan peningkatan ini dengan memilih **Tindakan Peningkatan** dari bilah di pojok - kiri atas laman.  Anda sekarang kembali ke halaman tindakan peningkatan.
+1. Keluar dari tindakan peningkatan ini dengan memilih **Tindakan Peningkatan** dari bilah di pojok - kiri atas laman.  Sekarang, Anda kembali ke laman tindakan peningkatan.
 
-1. Dari bagian atas laman, pilih **Solusi**. Di halaman ini, Anda akan melihat bagaimana solusi berkontribusi pada skor Anda dan peluang yang tersisa untuk peningkatan.
+1. Dari bagian atas laman, pilih **Solusi**. Di laman ini, Anda akan melihat bagaimana solusi berkontribusi pada skor Anda dan peluang yang tersisa untuk peningkatan.
 
-1. Dari bagian atas laman, pilih **Penilaian**. Di halaman ini, Anda akan melihat Dasar Perlindungan Data untuk Microsoft 365.  Ini adalah penilaian garis dasar default yang disediakan Microsoft di Pengelola Kepatuhan untuk Microsoft 365.  Penilaian acuan dasar ini memiliki serangkaian kontrol peraturan dan standar utama untuk perlindungan data dan tata kelola data umum. Pengelola Kepatuhan akan semakin berguna saat Anda menambahkan penilaian sendiri untuk memenuhi kebutuhan khusus organisasi Anda.
+1. Dari bagian atas laman, pilih **Penilaian**. Di laman ini, Anda akan melihat Acuan Dasar Perlindungan Data untuk Microsoft 365.  Ini adalah penilaian acuan dasar default yang disediakan Microsoft di Pengelola Kepatuhan untuk Microsoft 365.  Penilaian acuan dasar ini memiliki serangkaian kontrol peraturan dan standar utama untuk perlindungan data dan tata kelola data umum. Pengelola Kepatuhan akan makin berguna saat Anda menambahkan penilaian sendiri untuk memenuhi kebutuhan khusus organisasi Anda.
 
 1. Pilih **Acuan Dasar Perlindungan Data**.  Perhatikan informasi yang tersedia di tab progres. Anda juga dapat melihat informasi tentang Kontrol, tindakan peningkatan Anda, dan tindakan Microsoft.  
 

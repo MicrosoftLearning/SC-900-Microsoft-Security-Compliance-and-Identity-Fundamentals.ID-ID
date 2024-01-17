@@ -6,13 +6,13 @@ Lab: Judul: 'Menjelajahi Pengaturan Pengguna Microsoft Entra ID' Jalur Pembelaja
 
 # Lab: Menjelajahi Microsoft Entra ID
 
-Lab ini memetakan ke konten Pelajari berikut:
+Lab ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Entra.
 - Modul: Menjelaskan fungsi dan jenis identitas Microsoft Entra ID.
 - Unit: Menjelaskan jenis identitas.
 
-## Skenario laboratorium
+## Skenario lab
 
 Di lab ini, Anda akan mengakses Microsoft Entra ID (sebelumnya disebut sebagai Azure Active Directory).  Selain itu, Anda akan membuat pengguna dan mengonfigurasi pengaturan yang berbeda, termasuk menambahkan lisensi.  
 
