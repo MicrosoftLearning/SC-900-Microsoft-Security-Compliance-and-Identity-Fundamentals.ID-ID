@@ -30,7 +30,7 @@ Dalam tugas ini, Anda akan mendapatkan pemahaman tentang apa yang dapat dilakuka
 1. Dari panel navigasi kiri, pilih **Label**.
    1. Di laman Label, perhatikan bahwa kotak informasi berwarna kuning menunjukkan bahwa organisasi Anda belum mengaktifkan kemampuan untuk memproses konten di file Office online yang menerapkan label sensitivitas terenkripsi dan disimpan di OneDrive dan SharePoint.  Pilih **Aktifkan sekarang**.  Setelah Anda melakukan ini, mungkin ada penundaan agar pengaturan disebarluaskan melalui sistem dan ada langkah tambahan yang harus diselesaikan untuk melindungi Teams, situs SharePoint, dan Grup Microsoft 365.
 
-1. Beberapa label telah dikonfigurasi sebelumnya di penyewa lab Microsoft 365 Anda, untuk memudahkan Anda. Pilih label bernama **Confidential-Finance**.  Jendela terbuka yang menyediakan informasi tentang label ini.  Perhatikan pengaturan untuk label ini.  Pilih **ikon pensil** di bagian atas laman untuk melihat beberapa pengaturan konfigurasi dasar. Jika Anda tidak melihat ikon pensil, pilih elipsis.
+1. Beberapa label telah dikonfigurasi sebelumnya di penyewa lab Microsoft 365 Anda, untuk memudahkan Anda. Pilih label bernama **Confidential-Finance**.  Jendela terbuka yang menyediakan informasi tentang label ini.  Perhatikan pengaturan untuk label ini.  Pilih **Edit label** (mungkin juga ditampilkan sebagai ikon pensil) di bagian atas halaman untuk melihat beberapa pengaturan konfigurasi dasar. Jika Anda tidak melihat opsi ini, pilih elipsis.
     1. Konfigurasi dimulai dengan memberikan nama dan deskripsi untuk label Anda.  Jangan mengubah apa pun.  Pilih **Berikutnya** di bagian bawah laman.
     1. Tinjau cakupan untuk label ini. Jangan mengubah apa pun.  Pilih **Berikutnya** di bagian bawah laman.
     1. Layar berikutnya adalah tempat Anda dapat memilih pengaturan perlindungan untuk item berlabel. Label ini dikonfigurasi untuk mendukung penandaan konten. Jangan mengubah apa pun.  Pilih **Berikutnya** di bagian bawah laman.
@@ -41,9 +41,7 @@ Dalam tugas ini, Anda akan mendapatkan pemahaman tentang apa yang dapat dilakuka
 
 1. Dari panel navigasi kiri, pilih **Label kebijakan**.  Label sensitivitas dapat diterbitkan melalui kebijakan label.  Penyewa Microsoft 365 telah dikonfigurasi dengan beberapa kebijakan label, demi kemudahan Anda.
 
-1. Pilih **Kebijakan Confidential-Finance**.  Jendela yang terbuka menyediakan informasi tentang pembuatan kebijakan. 
-
-1. Pilih **Edit kebijakan** dari bagian atas laman.  Di sini, Anda akan membahas pengaturan tanpa mengubah apa pun.
+1. Pilih **Kebijakan Confidential-Finance**.  Jendela yang terbuka menyediakan informasi tentang pembuatan kebijakan. Pilih **Edit kebijakan** dari bagian atas laman.  Di sini, Anda akan membahas pengaturan tanpa mengubah apa pun.
     1. Tinjau deskripsi untuk "Pilih label sensitivitas untuk diterbitkan".  Perhatikan label yang tercantum.  Jangan ubah pengaturan apa pun.  Pilih **Berikutnya** di bagian bawah laman.
     1. Tinjau deskripsi untuk "Tetapkan unit admin". Unit Admin diatur ke direktori lengkap, jangan mengubah pengaturan apa pun. Pilih **Selanjutnya**.  
     1. Tinjau deskripsi untuk "Terbitkan ke pengguna dan grup".  Perhatikan bahwa label ini tersedia untuk semua pengguna.  Jangan ubah pengaturan apa pun.  Pilih **Berikutnya** di bagian bawah laman.
@@ -55,7 +53,7 @@ Dalam tugas ini, Anda akan mendapatkan pemahaman tentang apa yang dapat dilakuka
     1. Opsi konfigurasi terakhir adalah memberi nama kebijakan Anda.  Karena Anda sedang mengedit kebijakan, kolom nama berwarna abu-abu. Pilih **Berikutnya** di bagian bawah halaman.
     1. Tinjau pengaturan kebijakan. Pilih **Batal** untuk membuang perubahan apa pun dan kembali ke laman Kebijakan label.
 
-1. Dari laman Perlindungan informasi, pilih Pelabelan otomatis. Tinjau deskripsi. Perhatikan bahwa Anda membuat kebijakan pelabelan otomatis untuk menerapkan label sensitivitas secara otomatis ke pesan email atau file OneDrive dan SharePoint yang berisi info sensitif. Tidak ada kebijakan label otomatis yang telah dikonfigurasi sebelumnya di penyewa kita. Untuk membuat kebijakan label otomatis baru, pilih **Buat kebijakan label otomatis**.  Di sini, Anda akan mempelajari langkah-langkah untuk membuat kebijakan baru.
+1. Dari panel navigasi kiri, di bawah Perlindungan informasi, pilih Pelabelan otomatis. Tinjau deskripsi. Perhatikan bahwa Anda membuat kebijakan pelabelan otomatis untuk menerapkan label sensitivitas secara otomatis ke pesan email atau file OneDrive dan SharePoint yang berisi info sensitif. Tidak ada kebijakan label otomatis yang telah dikonfigurasi sebelumnya di penyewa kita. Untuk membuat kebijakan label otomatis baru, pilih **Buat kebijakan label otomatis**.  Di sini, Anda akan mempelajari langkah-langkah untuk membuat kebijakan baru.
     1. Anda mulai dengan memilih informasi yang Anda inginkan untuk diterapkan label ini.  Perhatikan opsi yang tersedia.  Pilih **Medis dan kesehatan**, lalu pilih salah satu templat yang tersedia.  Pilih **Selanjutnya**.
     1. Anda dapat memberi nama kebijakan label otomatis atau menggunakan nama default.  Pilih **Selanjutnya**.
     1. Anda dapat menetapkan unit admin tempat kebijakan ini berlaku.  Biarkan pengaturan default pada seluruh direktori dan pilih **Berikutnya**.
@@ -79,7 +77,7 @@ Dalam tugas ini, Anda akan melalui proses penerapan label sensitivitas ke dokume
 
 1. Buat Pilih **Dokumen kosong**, lalu masukkan beberapa teks di laman tersebut.  Di bagian atas laman, pilih panah arah bawah, di sebelah tulisan Dokumen - Tersimpan, dan di kotak Nama File masukkan **Test-label**, lalu tekan **Enter** pada papan ketik.
 
-1. Dari bilah menu atas, pilih **ikon** Sensitivitas, ikon di sebelah kanan ikon mikrofon (tergantung ukuran layar Anda, Anda mungkin perlu memilih elipsis, lalu memilih sensitivitas). Banner kuning di bagian atas laman akan muncul dan di ujung kanan tombol Pilih label ditampilkan.  Pilih tombol **Pilih label** .  Jendela pop-up akan muncul.   Pilih **Pilih label** dan dari menu menurun, pilih **Confidential-Finance**, lalu pilih **OK**.  
+1. Di ujung kanan bilah menu atas (juga disebut sebagai pita) adalah panah bawah, pilih, lalu pilih **Pita** Klasik.  Ini akan mempermudah identitas ikon sensitivitas. Pilih **Sensitivitas**, yang terletak di samping ikon mikrofon. Dari menu drop-down, pilih **Confidential-Finance**.  
 
 1. Dari bilah menu atas, pilih **Tampilan**, lalu pilih **Tampilan baca**.
 

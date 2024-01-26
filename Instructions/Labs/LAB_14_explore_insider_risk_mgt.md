@@ -84,7 +84,7 @@ Dalam tugas ini, Anda akan mempelajari pengaturan untuk membuat kebijakan.  Tuju
     1. Pemicu: Peristiwa pemicu menentukan kapan suatu kebijakan akan mulai menetapkan skor risiko ke aktivitas pengguna.  Anda dapat memilih dari kebijakan DLP yang ada atau jika pengguna melakukan aktivitas eksfiltrasi. Pilih **Pengguna cocok dengan kebijakan pencegahan kehilangan data (DLP)** lalu dari menu menurun, pilih **Data Keuangan AS**. Pilih **Selanjutnya**.
     1. Indikator: Perhatikan bahwa semua indikator kantor yang Anda pilih di tugas sebelumnya dipilih (Anda dapat melihat ini dengan memilih tombol panah arah bawah di sebelah indikator Kantor), lalu pilih **Berikutnya**.
     1. Pada laman Opsi deteksi, biarkan semua pengaturan diatur ke default, tetapi baca deskripsi yang terkait dengan berbagai opsi dan arahkan kursor ke ikon informasi untuk mendapatkan informasi selengkapnya tentang pengaturan tertentu.  Pilih **Selanjutnya**.
-    1. Pada laman untuk Memutuskan apakah akan menggunakan ambang indikator default atau pelanggan, biarkan pengaturannya diatur ke default **Ambang default**, lalu pilih **Berikutnya**.
+    1. Pada halaman untuk Memutuskan apakah akan menggunakan ambang batas indikator default atau pelanggan, biarkan pengaturan **default Terapkan ambang yang disediakan oleh Microsoft**, lalu pilih **Berikutnya**.
     1. Selesai: tinjau pengaturan, pilih **Kirim**.
     1. Tinjau deskripsi tentang apa yang terjadi selanjutnya, lalu pilih **Selesai**.
 

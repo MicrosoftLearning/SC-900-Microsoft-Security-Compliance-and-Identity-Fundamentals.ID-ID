@@ -35,25 +35,19 @@ Dalam tugas ini, Anda akan melihat beberapa parameter yang terkait dengan VM yan
 
 1. Sekarang, Anda berada di halaman SC900-WinVM.  Perhatikan beberapa informasi dasar tentang VM.
 
-1. Dari bagian atas laman, pilih **Hubungkan**.  Pilih opsi untuk **Memeriksa akses**, yang tercantum di bawah alamat IP.  Pemeriksaan ini akan dilakukan menggunakan port 3389, yang merupakan port untuk konektivitas RDP.  Anda akan melihat pesan "Tidak dapat memverifikasi".  Dari kotak RDP asal, klik **Pilih**.  Di jendela yang terbuka, di bagian "1 Konfigurasikan prasyarat untuk RDP Asal", Anda akan melihat "Azure perlu mengonfigurasi beberapa fitur untuk menyambungkan ke VM".  Dalam tugas berikutnya, Anda akan menyiapkan NSG untuk secara eksplisit mengizinkan koneksi RDP.
+1. Dari panel navigasi kiri, pilih **Jaringan Pengaturan**.  Bagian penting dari jendela utama menunjukkan antarmuka jaringan untuk VM.  Perhatikan bagaimana tidak ada yang tercantum di samping Kelompok keamanan jaringan, karena tidak ada NSG yang ditetapkan ke antarmuka.
 
-
-1. Dari panel navigasi kiri, pilih **Jaringan**.  
-    1. Tampilan default adalah untuk aturan port masuk.  Perhatikan bahwa antarmuka jaringan untuk VM ini tidak memiliki konfigurasi grup keamanan jaringan.  Hal yang sama berlaku jika Anda memilih Aturan port keluar.
-    1. Pilih **Aturan keamanan yang efektif** di sebelah tulisan Antarmuka jaringan.  Perhatikan bahwa tulisan, "Tidak ada grup keamanan jaringan atau grup keamanan aplikasi yang dikaitkan dengan antarmuka jaringan".
-
-1. Biarkan tab browser ini terbuka.
-
+1. Tetap buka tab ini.
 
 ### Tugas 2
 
 Dalam tugas ini, Anda akan membuat grup keamanan jaringan, menetapkan antarmuka jaringan VM ke NSG tersebut, dan membuat aturan masuk baru untuk lalu lintas RDP.
 
-1. Dari tab NSG yang terbuka, *klik kanan* tautan **Beranda** di bagian atas laman dan pilih **Buka tautan di tab baru** untuk membuka laman lain ke layanan Azure.
+1. Dari tab Buka Azure, *klik* kanan tautan **Beranda** di bagian atas halaman dan pilih **Buka tautan di tab** baru untuk membuka halaman lain ke layanan Azure.
 
 1. Di bilah pencarian warna biru di bagian atas laman, masukkan **Grup keamanan jaringan** dan dari hasilnya, pilih **Grup keamanan jaringan**. Jangan pilih *Grup keamanan jaringan (klasik)*.
 
-1. Dari bagian atas laman Grup keamanan jaringan, pilih **+ Buat**.
+1. Dari tengah halaman, pilih tombol biru berlabel **Buat grup** keamanan jaringan.  Atau, Anda dapat memilih **+ Buat** dari bagian atas halaman Grup keamanan jaringan.
 
 1. Pada tab Dasar di laman Buat grup keamanan jaringan, tentukan pengaturan berikut:
     1. Langganan: Biarkan nilainya diatur ke default (ini adalah langganan Azure yang disediakan oleh hoster lab resmi)
@@ -64,15 +58,19 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan, menetapkan antarmuka 
 
 1. Setelah penyebaran selesai, pilih **Buka Sumber daya**.
 
-1. Di bagian atas laman di bawah yang bertuliskan Essentials, Anda akan melihat beberapa informasi dasar tentang NSG yang Anda buat.  Dua hal yang perlu diperhatikan adalah bahwa tidak ada aturan Keamanan Kustom dan tidak ada subnet atau antarmuka jaringan yang terkait dengan NSG ini.  Meskipun tidak ada aturan keamanan khusus, ada aturan masuk dan keluar default yang disertakan dengan setiap NSG, seperti yang ditampilkan di laman.  Tinjau aturan masuk dan keluar. Aturan masuk default menolak semua lalu lintas masuk yang bukan dari jaringan virtual atau load balancer Azure.  Aturan keluar menolak semua lalu lintas keluar, kecuali lalu lintas antara jaringan virtual dan lalu lintas keluar ke internet.
+1. Anda harus berada di halaman gambaran umum untuk NSG yang baru dibuat.  Jika tidak, maka dari panel navigasi kiri, pilih **Gambaran Umum**. Di bagian atas laman di bawah yang bertuliskan Essentials, Anda akan melihat beberapa informasi dasar tentang NSG yang Anda buat.  Dua hal yang perlu diperhatikan adalah bahwa tidak ada aturan Keamanan Kustom dan tidak ada subnet atau antarmuka jaringan yang terkait dengan NSG ini.  Meskipun tidak ada aturan keamanan khusus, ada aturan masuk dan keluar default yang disertakan dengan setiap NSG, seperti yang ditampilkan di laman.  Tinjau aturan masuk dan keluar. Aturan masuk default menolak semua lalu lintas masuk yang bukan dari jaringan virtual atau load balancer Azure.  Aturan keluar menolak semua lalu lintas keluar, kecuali lalu lintas antara jaringan virtual dan lalu lintas keluar ke internet.
 
 1. Dari panel navigasi kiri di laman NSG-SC900, di bagian Pengaturan, pilih **Antarmuka jaringan**.
     1. Lalu pilih **Kaitkan**.
-    2. Di bidang kaitkan antarmuka jaringan, pilih **panah bawah**, pilih **sc900-winvmXXX **, lalu pilih **OK** di bagian bawah jendela. Setelah antarmuka dikaitkan dengan NSG, antarmuka akan muncul dalam daftar.
+    2. Di bidang kaitkan antarmuka jaringan, pilih **panah bawah**, pilih **sc900-winvmXXX **, lalu pilih **OK** di bagian bawah jendela. Setelah antarmuka dikaitkan dengan NSG, antarmuka akan muncul dalam daftar.  NSG sekarang ditetapkan ke antarmuka jaringan VM Anda.
 
-1. Di panel navigasi kiri, pilih **Aturan keamanan masuk**.
+1. Beralih kembali ke tab **SC900-WinWM - Microsoft Azure** di browser.  Refresh halaman. Di samping tempat dikatakan Kelompok keamanan jaringan, anda sekarang akan melihat nama NSG yang baru saja Anda buat.  Jika Anda masih tidak melihatnya, tunggu sebentar lagi lalu refresh halaman lagi.
 
-1. Aturan masuk default menolak semua lalu lintas masuk yang bukan dari jaringan virtual atau load balancer Azure sehingga Anda perlu menyiapkan aturan untuk mengizinkan lalu lintas RDP masuk (lalu lintas di port 3389). Ingat bahwa Anda tidak dapat menghapus aturan default, tetapi Anda dapat menggantinya dengan membuat aturan dengan prioritas yang lebih tinggi.
+1. Dari panel navigasi kiri, pilih **Koneksi**. Dari jendela utama, di samping tempatnya memperlihatkan nomor port 3389, pilih **Periksa akses**. Fungsi akses pemeriksaan mengirim sinyal (lalu lintas) ke port RDP default 3389 VM untuk memeriksa apakah dapat diakses. Mungkin perlu waktu satu menit, tetapi Anda akan melihat Tidak dapat diakses.  Ini diharapkan, karena aturan NSG DenyAllInBound menolak semua lalu lintas masuk ke VM.
+
+1. Beralih kembali ke tab **NSG-SC900 - Microsoft Azure** di browser.
+
+1. Di panel navigasi kiri, pilih **Aturan keamanan masuk**. Aturan masuk default menolak semua lalu lintas masuk yang bukan dari jaringan virtual atau load balancer Azure sehingga Anda perlu menyiapkan aturan untuk mengizinkan lalu lintas RDP masuk (lalu lintas di port 3389). Ingat bahwa Anda tidak dapat menghapus aturan default, tetapi Anda dapat menggantinya dengan membuat aturan dengan prioritas yang lebih tinggi.
 
 1. Dari bagian atas halaman, pilih **Tambahkan**. Di jendela aturan keamanan masuk, tentukan pengaturan berikut:
     1. Sumber: **Semua**
@@ -93,7 +91,7 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan, menetapkan antarmuka 
 
 Dalam tugas ini, Anda akan menguji aturan NSG masuk yang baru dibuat untuk mengonfirmasi bahwa Anda dapat membuat koneksi desktop jarak jauh (RDP) ke VM.  Begitu berada di dalam VM, Anda akan bekerja memeriksa konektivitas keluar ke Internet dari VM.
 
-1. Buka tab SC900-WinVM – Microsoft Azure di browser Anda. Jika sebelumnya Anda menutup tab browser, buka tab browser baru, masukkan **https://portal.azure.com**, dan pilih **Mesin virtual**, lalu pilih VM, **SC900-WinVM.**
+1. Buka tab SC900-WinVM – Microsoft Azure di browser Anda.
 
 1. Pilih **Hubungkan** dari panel navigasi kiri.
 
@@ -145,7 +143,6 @@ Di tugas sebelumnya, Anda telah mengonfirmasi bahwa Anda dapat membuat koneksi R
 1. Kembali ke VM Anda (ikon RDP untuk VM harus ditampilkan di bilah tugas di bagian bawah laman).
 
 1. Buka browser Microsoft Edge di VM Anda dan masukkan **www.bing.com**. Laman ini seharusnya tidak ditampilkan. jika Anda dapat terhubung ke internet dan Anda memverifikasi bahwa semua parameter aturan keluar telah ditetapkan dengan benar, kemungkinan karena perlu waktu beberapa menit untuk menerapkan aturan tersebut.  Tutup browser, tunggu beberapa menit dan coba lagi. Langganan Azure di lingkungan lab mungkin memerlukan waktu yang lebih lama dari biasanya.
-
 
 1. Tutup koneksi desktop jarak jauh, dengan memilih **X** di tengah atas laman tempat alamat IP ditampilkan.  Jendela pop-up muncul yang menunjukkan sesi jarak jauh Anda akan terputus. Pilih **OK**.
 
