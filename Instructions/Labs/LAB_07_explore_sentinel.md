@@ -74,17 +74,17 @@ Tujuan dari tugas ini untuk memandu Anda menelusuri langkah-langkah yang terliba
 
 1. Dari panel navigasi kiri, pilih **Hub konten**.
 
-1. Luangkan waktu sejenak untuk menggulir ke bawah guna melihat daftar lengkap solusi yang tersedia dan opsi untuk memfilter daftar.  Untuk tugas ini, kita mencari **Microsoft Defender untuk Cloud**.  Pilihlah dari daftar.  Di jendela samping yang terbuka, baca deskripsi, lalu pilih **Instal**.  Solusi ini mencakup satu konektor data dan satu aturan analitik. Mungkin perlu waktu satu menit untuk menginstalnya.  Pilih **Kelola**.
+1. Luangkan waktu sejenak untuk menggulir ke bawah guna melihat daftar lengkap solusi yang tersedia dan opsi untuk memfilter daftar.  Untuk tugas ini, kita mencari **Microsoft Defender untuk Cloud**.  Pilihlah dari daftar.  Di jendela samping yang terbuka, baca deskripsi, lalu pilih **Instal**.  Setelah penginstalan selesai, kolom status di jendela utama akan ditampilkan sebagai terinstal.
 
-1. Pilih kotak di samping tulisan Microsoft Defender untuk Cloud.  Jendela terbuka di sisi kanan laman.  Pilih **Buka laman konektor**.
+1. Sekali lagi, pilih **Microsoft Defender untuk Cloud** dari daftar. Dari jendela di sebelah kanan, pilih **Kelola**.
+
+1. Di sisi kanan halaman Microsoft Defender untuk Cloud adalah deskripsi dan catatan yang terkait dengan solusi dari Content Hub dan apa yang disertakan sebagai bagian dari solusi ini.  Di jendela utama adalah komponen solusi.  Dalam hal ini ada dua konektor data dan satu aturan data. Segitiga oranye menunjukkan bahwa beberapa konfigurasi diperlukan. Pilih kotak di samping tempatnya tertulis **Microsoft Defender untuk Cloud berbasis langganan (Warisan)**.  Jendela terbuka di sisi kanan laman.  Pilih **Buka laman konektor**.
 
 1. Perhatikan instruksi konfigurasi  Pilih kotak di samping nama langganan, lalu pilih **Koneksi**.  Jendela pop-op mungkin muncul yang menunjukkan bahwa hanya langganan tempat Anda memiliki izin Pembaca Keamanan yang akan memulai streaming pemberitahuan Microsoft Defender untuk Cloud.  Pilih **OK**.  Status akan berpindah ke tersambung.  Sekarang, konektor diaktifkan, meskipun mungkin perlu beberapa waktu agar konektor muncul di laman konektor data.  
 
-1. Sekarang lihat informasi tentang aturan analitik.  Dari bagian atas laman (di bilah), pilih **Microsoft Defender untuk Cloud**. Batalkan pilih kotak di samping tempat yang tertulis Microsoft Defender untuk Cloud, karena Anda telah mengonfigurasi konektor (mungkin perlu beberapa waktu agar ikon peringatan menghilang). Pilih kotak di samping tulisan **Deteksi Aktivitas Penghapusan CoreBackUp dari pemberitahuan keamanan terkait**. Di jendela yang terbuka, Anda akan melihat informasi tentang aturan dan apa yang dilakukannya.  
-    1. CATATAN: Detail logika aturan berada di luar cakupan dasar, membahas langkah-langkah untuk mengonfigurasi aturan untuk melihat jenis informasi yang dapat dikonfigurasi sebagai bagian dari aturan. Pilih **Konfigurasi**.
-    1. Pilih aturan **Deteksi Aktivitas Penghapusan CoreBackUp dari pemberitahuan keamanan terkait**.
-    1. Dari jendela yang terbuka di sisi kanan laman, pilih **Buat aturan**.
-    1. Buka setiap laman konfigurasi, lalu pilih **Tinjau dan buat**, lalu pilih **Simpan**.
+1. Sekarang lihat informasi tentang aturan analitik.  Dari bagian atas laman (di bilah), pilih **Microsoft Defender untuk Cloud**. Batalkan pilih kotak di samping tempat yang tertulis Microsoft Defender untuk Cloud, karena Anda telah mengonfigurasi konektor (mungkin perlu beberapa waktu agar ikon peringatan menghilang). Pilih kotak di samping tulisan **Deteksi Aktivitas Penghapusan CoreBackUp dari pemberitahuan keamanan terkait**.  Ini memunculkan halaman Aturan Analitik.  Sekali lagi, pilih **Aktivitas Deteksi Penghapusan CoreBackUp dari aturan pemberitahuan** keamanan terkait. Jendela yang terbuka di sebelah kanan, yang menyediakan informasi tentang aturan dan apa yang dilakukannya.  Pilih **Buat aturan**.  
+    1. Meskipun detail logika aturan berada di luar lingkup dasar-dasar, buka setiap tab dalam pembuatan aturan untuk melihat jenis informasi yang dapat dikonfigurasi
+    1. Saat Anda mencapai tab Tinjau + buat, pilih **Simpan**.
 
 1. Kembali ke laman Sentinel dengan memilih **Microsoft Sentinel | Hub konten** dari bilah di bagian atas laman, di atas tulisan aturan Analitik.
 
@@ -99,13 +99,13 @@ Dalam tugas ini, Anda akan menelusuri beberapa opsi yang tersedia di Sentinel.
 
 1. Dari panel navigasi sebelah kiri, pilih **MITRE ATT&CK**.  MITRE ATT&CK adalah pangkalan pengetahuan taktik dan teknik yang umum digunakan oleh penyerang. Dengan Microsoft Sentinel, Anda dapat melihat deteksi yang sudah aktif di ruang kerja Anda, dan yang tersedia bagi Anda untuk dikonfigurasi, untuk memahami cakupan keamanan organisasi Anda, berdasarkan taktik dan teknik dari kerangka kerja MITRE ATT&CK®.  Pilih sel apa pun dari matriks dan catat informasi yang tersedia di sisi kanan layar. **Catatan**: Anda mungkin perlu memilih "**<<**" di sisi kanan jauh jendela untuk melihat panel informasi.
 
-1. Dari panel navigasi sebelah kiri, pilih **Komunitas**. Analis keamanan Microsoft terus-menerus membuat dan menambahkan buku kerja, playbook, dan kueri hunting baru, serta masih banyak lagi, mempostingnya ke komunitas agar dapat digunakan di lingkungan Anda. Dari sisi kanan layar, pilih **Onboard konten komunitas**.  Tab baru ke repositori GitHub terbuka, kemudian Anda dapat mengunduh konten untuk mengaktifkan skenario Anda. Gulir ke bawah ke bagian README.md dan tinjau deskripsinya. Kembali ke tab Azure di browser Anda.
+1. Dari panel navigasi sebelah kiri, pilih **Komunitas**. Halaman komunitas mencakup wawasan dan pembaruan keamanan Cyber dari Microsoft Research, tautan ke daftar Blog Microsoft Azure Sentinel, tautan ke Forum Microsoft Sentinel, menautkan edisi terbaru ke Microsoft Sentinel Hub, dan banyak lagi. Jelajahi ini seseringnya.
 
 1. Dari panel navigasi kiri, pilih **Analitik**.  Di sana, ada dua aturan aktif, satu yang tersedia secara default dan aturan yang Anda buat di tugas sebelumnya. Pilih aturan **Deteksi Serangan Multitahap Tingkat Lanjut**.  Perhatikan informasi terperinci.  Microsoft Sentinel menggunakan Fusion, mesin korelasi berdasarkan algoritme pembelajaran mesin yang dapat diskalakan, untuk secara otomatis mendeteksi serangan multitahap (dikenal juga sebagai ancaman persisten tingkat lanjut) dengan mengidentifikasi kombinasi perilaku anomali dan aktivitas mencurigakan yang diamati pada berbagai tahap rantai pematian. Atas dasar penemuan ini, Microsoft Sentinel menghasilkan insiden yang akan sulit ditangkap. **Catatan**: Anda mungkin perlu memilih "**<<**" di sisi kanan jauh jendela untuk melihat panel informasi.
 
 1. Dari panel navigasi kiri, pilih **Otomatisasi**.  Di sini, Anda dapat membuat aturan otomatisasi sederhana, mengintegrasikan dengan playbook yang ada, atau membuat playbook baru.  Pilih **+ Buat**, lalu pilih **Aturan otomatisasi**.  Perhatikan jendela yang terbuka di sisi kanan layar dan opsi yang tersedia untuk membuat syarat dan tindakan.  Pilih **Batal** dari bagian bawah halaman.
 
-1. Dari panel navigasi kiri, pilih **Buku kerja**. Baca deskripsi tentang apa itu buku kerja Microsoft Sentinel.  Buku kerja dapat ditambahkan melalui Hub Konten. Setiap buku kerja yang sebelumnya diinstal akan dicantumkan di sini. Pilih **Buka hub konten**.  Hub konten mencantumkan konten yang menyertakan buku kerja baik sebagai bagian dari solusi maupun sebagai buku kerja mandiri. Gulir ke bawah untuk melihat opsi yang tersedia.
+1. Dari panel navigasi kiri, pilih **Buku kerja**. Baca deskripsi buku kerja Microsoft Azure Sentinel.  Buku kerja dapat ditambahkan melalui Hub Konten. Setiap buku kerja yang sebelumnya diinstal akan dicantumkan di sini. Pilih **Buka hub konten**.  Hub konten mencantumkan konten yang menyertakan buku kerja baik sebagai bagian dari solusi maupun sebagai buku kerja mandiri. Gulir ke bawah untuk melihat opsi yang tersedia.
 
 1. Tutup jendela dengan memilih **X** di pojok kanan atas jendela.
 
