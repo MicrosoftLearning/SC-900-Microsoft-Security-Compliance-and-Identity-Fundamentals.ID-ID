@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Penyiapan'
+lab:
+  title: Penyiapan lab
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # Lab: Penyiapan
 
