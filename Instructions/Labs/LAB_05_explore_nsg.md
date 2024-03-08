@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi Grup Keamanan Jaringan (NSG) di Azure' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 1: Menjelaskan kemampuan keamanan dasar di Azure; Unit 6: Menjelaskan grup Keamanan Jaringan Azure'
+lab:
+  title: Menjelajahi Kelompok Keamanan Jaringan Azure (NSG)
+  module: Describe the basic security capabilities in Azure
 ---
---->
 
 # Lab: Menjelajahi Grup Keamanan Jaringan (NSG) di Azure
 

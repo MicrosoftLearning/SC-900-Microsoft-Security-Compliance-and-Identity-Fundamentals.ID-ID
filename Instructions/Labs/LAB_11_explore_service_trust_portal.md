@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi Service Trust Portal' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 1: Menjelaskan kemampuan manajemen kepatuhan di Microsoft; Unit 2: Menjelajahi Service Trust Portal'
+lab:
+  title: Menjelajahi Portal Kepercayaan Layanan
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # Lab: Menjelajahi Service Trust Portal
 

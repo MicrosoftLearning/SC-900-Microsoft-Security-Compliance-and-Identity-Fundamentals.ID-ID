@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorium: Judul: 'Menjelajahi Microsoft Sentinel’ Jalur Pembelajaran/Modul/Judul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 3: Menjelaskan kemampuan keamanan Microsoft Sentinel; Unit 3: Menjelaskan kemampuan mitigasi dan deteksi ancaman di Microsoft Sentinel'
+lab:
+  title: Menjelajahi Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # Lab: Menjelajahi Microsoft Sentinel
 
@@ -14,7 +14,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 ## Skenario lab
 
-, Anda akan mempelajari proses pembuatan instans Microsoft Sentinel.  Anda juga akan menyiapkan izin untuk memastikan akses ke sumber daya yang akan disebarkan untuk mendukung Microsoft Sentinel.  Setelah penyiapan dasar ini selesai, Anda akan menjalani langkah-langkah untuk menghubungkan Microsoft Sentinel ke sumber data, menyiapkan buku kerja, dan melakukan penelusuran singkat beberapa kemampuan utama yang tersedia di Microsoft Sentinel.
+Di lab ini, Anda akan menelusuri proses pembuatan instans Microsoft Sentinel.  Anda juga akan menyiapkan izin untuk memastikan akses ke sumber daya yang akan disebarkan untuk mendukung Microsoft Sentinel.  Setelah penyiapan dasar ini selesai, Anda akan menjalani langkah-langkah untuk menghubungkan Microsoft Sentinel ke sumber data, menyiapkan buku kerja, dan melakukan penelusuran singkat beberapa kemampuan utama yang tersedia di Microsoft Sentinel.
 
 **Perkiraan Waktu**: 45-60 menit
 
