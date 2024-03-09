@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi modul portal Pertahanan Microsoft 365': 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan terhadap ancaman di Microsoft 365; Unit 7: Menjelaskan portal Pertahanan Microsoft 365'
+lab:
+  title: Menjelajahi portal Microsoft 365 Defender
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # Lab: Menjelajahi portal Pertahanan Microsoft 365
 

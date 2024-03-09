@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi Microsoft Defender untuk Cloud’ Jalur Pembelajaran/Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 2: Menjelaskan kemampuan manajemen keamanan Azure; Unit 3: Menjelaskan manajemen postur keamanan cloud'
+lab:
+  title: Menjelajahi Microsoft Defender untuk Cloud
+  module: Describe the security management capabilities of Azure
 ---
---->
 
 # Lab : Menjelajahi Microsoft Defender untuk Cloud
 

@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi Privileged Identity management. ' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Entra; Modul 4: Modul: Menjelaskan kemampuan perlindungan identitas dan tata kelola Microsoft Entra; Unit 4: Menjelaskan kemampuan Privileged Identity Management'
+lab:
+  title: Menjelajahi privileged identity management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # Lab: Menjelajahi Privileged Identity management
 

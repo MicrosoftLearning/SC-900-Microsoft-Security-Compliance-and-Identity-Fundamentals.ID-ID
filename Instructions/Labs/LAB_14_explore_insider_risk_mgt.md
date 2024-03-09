@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi manajemen risiko dari dalam di Microsoft Purview' Jalur Pembelajaran/Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 4: Menjelaskan kemampuan risiko dari dalam di Microsoft Purview; Unit 2: Menjelaskan manajemen risiko dari dalam'
+lab:
+  title: Menjelajahi manajemen risiko dari dalam di Microsoft Purview
+  module: Describe the insider risk capabilities in Microsoft Purview
 ---
---->
 
 # Lab: Menjelajahi manajemen risiko dari dalam di Microsoft Purview
 

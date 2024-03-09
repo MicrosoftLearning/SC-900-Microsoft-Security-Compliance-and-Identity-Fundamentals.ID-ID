@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan perlindungan informasi dan manajemen siklus hidup data di Microsoft Purview; Unit 4: Menjelaskan label sensitivitas'
+lab:
+  title: Menjelajahi label sensitivitas di Microsoft Purview
+  module: Describe information protection and data lifecycle management in Microsoft Purview
 ---
---->
 
 # Lab: Menjelajahi label sensitivitas di Microsoft Purview
 

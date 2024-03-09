@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Jalur Pembelajaran: 'Menjelaskan kemampuan Microsoft Entra’ Modul: 'Menjelaskan kemampuan manajemen akses Microsoft Entra ID’ Unit: 'Menjelaskan Akses Bersyarat’
+lab:
+  title: Akses Bersyarat Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # Lab: Akses Bersyarat Microsoft Entra
 

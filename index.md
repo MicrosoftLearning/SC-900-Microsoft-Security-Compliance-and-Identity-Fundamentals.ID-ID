@@ -16,10 +16,15 @@ Hyperlink ke masing-masing latihan lab tercantum di bawah ini.
 {% untuk aktivitas di lab %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## Demo
+<!---
 
-{% assign demos = site.pages | where_exp:"page", "page.url berisi '/Instructions/Demos'" %}
-| Modul | Demo |
+
+## Demos
+
+{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
+| Module | Demo |
 | --- | --- | 
-{% untuk aktivitas di Demo %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
+
+--->

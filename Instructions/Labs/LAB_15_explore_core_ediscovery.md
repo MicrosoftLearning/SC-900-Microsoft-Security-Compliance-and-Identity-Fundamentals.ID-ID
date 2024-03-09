@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi alur kerja eDiscovery (Standar) ' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 5: Menjelaskan kemampuan eDiscovery dan audit Microsoft Purview; Unit 2: Menjelaskan solusi eDiscovery di Microsoft 365'
+lab:
+  title: Menjelajahi alur kerja eDiscovery (Standar)
+  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
 ---
---->
 
 # Lab: Menjelajahi alur kerja eDiscovery (Standar)
 

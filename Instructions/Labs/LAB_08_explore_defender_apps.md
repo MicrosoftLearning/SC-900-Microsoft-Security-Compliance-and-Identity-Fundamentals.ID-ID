@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi Microsoft Defender untuk Cloud Apps' Modul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan terhadap ancaman di Microsoft 365; Unit 5: Menjelaskan Microsoft Defender untuk Cloud Apps'
+lab:
+  title: Menjelajahi Aplikasi Microsoft Defender untuk Cloud
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # Lab: Menjelajahi Microsoft Defender untuk Cloud Apps
 

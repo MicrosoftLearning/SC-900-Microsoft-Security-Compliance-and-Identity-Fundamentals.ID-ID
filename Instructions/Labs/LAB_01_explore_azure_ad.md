@@ -1,10 +1,10 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi Pengaturan Pengguna Microsoft Entra ID' Jalur Pembelajaran/Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Entra; Modul 1: Menjelaskan fungsi dan jenis identitas Microsoft Entra ID; Unit 3: Menjelaskan jenis identitas Microsoft Entra'
+lab:
+  title: Menjelajahi Pengaturan Pengguna ID Microsoft Entra
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# Lab: Menjelajahi Microsoft Entra ID
+# Lab: Menjelajahi Pengaturan Pengguna ID Microsoft Entra
 
 Lab ini memetakan ke konten Learn berikut:
 

@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Judul: 'Menjelajahi Portal kepatuhan Microsoft Purview & Pengelola Kepatuhan' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 2: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview; Unit 2: Menjelaskan portal kepatuhan Microsoft Purview'
+lab:
+  title: Menjelajahi portal kepatuhan Microsoft Purview & Manajer Kepatuhan
+  module: Describe the compliance management capabilities in Microsoft Purview
 ---
---->
 
 # Lab: Menjelajahi portal kepatuhan Microsoft Purview & Pengelola Kepatuhan
 

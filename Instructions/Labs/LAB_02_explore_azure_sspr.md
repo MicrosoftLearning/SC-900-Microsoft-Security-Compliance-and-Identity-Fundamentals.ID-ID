@@ -1,3 +1,9 @@
+---
+lab:
+  title: Pengaturan ulang kata sandi mandiri Microsoft Entra
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
 <!---
 ---
 Lab: Judul: 'Menjelajahi autentikasi Azure AD dengan pengaturan ulang kata sandi mandiri' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan Azure Active Directory (Azure AD), bagian dari Microsoft Entra; Modul 2: Menjelaskan kemampuan autentikasi Azure AD; Unit 4: Menjelaskan kata sandi mandiri'
