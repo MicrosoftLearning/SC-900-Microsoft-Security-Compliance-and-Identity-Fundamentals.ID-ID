@@ -43,7 +43,7 @@ Dalam tugas ini Anda, sebagai admin, akan mengatur ulang kata sandi untuk penggu
 
 ### Tugas 2
 
-Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat di Azure AD.
+Dalam tugas ini, Anda akan melalui proses pembuatan kebijakan akses bersyar di ID Microsoft Entra.
 
 1. Buka tab browser untuk beranda pusat admin Microsoft Entra.   Jika sebelumnya Anda menutup tab browser ini, buka Microsoft Edge dan di bilah alamat, masukkan **https://entra.microsoft.com** dan masuk dengan kredensial admin Anda disediakan oleh host ALH.
 
