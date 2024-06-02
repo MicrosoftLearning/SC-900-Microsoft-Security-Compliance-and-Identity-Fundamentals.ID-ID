@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Pengaturan ulang kata sandi mandiri Microsoft Entra
+  title: Pengaturan ulang kata sandi layanan mandiri Microsoft Entra
   module: Describe the authentication capabilities of Microsoft Entra ID
 ---
 

@@ -64,7 +64,7 @@ Pada langkah ini, Anda akan menunjukkan proses penerapan label dari sudut pandan
 
 1. Pilih **Dokumen** kosong, lalu masukkan beberapa teks di laman tersebut.  Pada bilah wartna biru di bagian atas laman, pilih panah arah bawah, di sebelah tulisan Dokumen - Tersimpan, dan di kotak Nama File masukkan, **Label-uji** lalu tekan tombol **Enter** pada keyboard Anda.
 
-1. Di ujung kanan bilah menu atas (juga disebut sebagai pita) adalah panah bawah, pilih, lalu pilih **Pita** Klasik.  Ini akan mempermudah identitas ikon sensitivitas. Pilih **Sensitivitas**, yang terletak di samping ikon mikrofon. Dari menu drop-down, pilih **Confidential-Finance**.  
+1. Di ujung kanan bilah menu atas (juga disebut sebagai pita) adalah panah bawah, pilih, lalu pilih **Pita Klasik**.  Ini akan mempermudah identitas ikon sensitivitas. Pilih **Sensitivitas**, yang terletak di samping ikon mikrofon. Dari menu drop-down, pilih **Confidential-Finance**.  
 
 1. Dari bilah menu atas, pilih **Tampilan**, lalu pilih **Tampilan baca**.
 
