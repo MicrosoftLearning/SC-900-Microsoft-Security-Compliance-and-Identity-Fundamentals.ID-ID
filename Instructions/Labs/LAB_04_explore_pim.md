@@ -43,7 +43,7 @@ Dalam tugas ini Anda, sebagai admin, akan mengatur ulang kata sandi untuk penggu
 
 ### Tugas 2
 
-Dalam tugas ini, Anda, sebagai admin, akan menetapkan peran Azure AD di Privileged Identity Management kepada Diego.
+Dalam tugas ini, Anda, sebagai admin, akan menetapkan peran ID Microsoft Entra di Privileged Identity Management.
 
 1. Buka tab browser untuk beranda pusat admin Microsoft Entra.
 
@@ -108,9 +108,9 @@ Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsof
 1. Anda ditanya apakah ingin tetap masuk.  Pilih **Ya**.
 1. Jendela Aktifkan Administrator Pengguna muncul.  Anda harus memasukkan alasan aktivasi.  Dalam kotak yang muncul, masukkan alasan apa pun yang Anda inginkan (maksimal 500 karakter), lalu pilih **Aktifkan**.
 1. Anda akan melihat status (3 tahap progres), saat aktivasi diproses.
-1. Setelah aktivasi selesai, Anda kembali ke laman Peran saya | Peran Azure AD, tempat Anda akan melihat pemberitahuan yang menyatakan bahwa Anda telah mengaktifkan peran.  Pilih **Klik di sini** untuk melihat peran aktif Anda.  Jika Anda melihat waktu akhir berbeda dari yang awalnya dikonfigurasi, pilih tombol refresh di bagian atas laman (mungkin perlu beberapa menit untuk melakukan penyegaran).
+1. Setelah aktivasi selesai, Anda dikembalikan ke Peran saya | Halaman peran ID Microsoft Entra, tempat Anda akan melihat pemberitahuan yang menyatakan bahwa Anda telah mengaktifkan peran.  Pilih **Klik di sini** untuk melihat peran aktif Anda.  Jika Anda melihat waktu akhir berbeda dari yang awalnya dikonfigurasi, pilih tombol refresh di bagian atas laman (mungkin perlu beberapa menit untuk melakukan penyegaran).
 1. Kembali ke beranda portal kepatuhan Microsoft Purview dengan memilih **Beranda** dari panel navigasi sebelah kiri. 
-1. Sebagai administrator pengguna Azure AD, Anda dapat membuat pengguna dan grup, mengelola lisensi, dan banyak lagi. Dari panel navigasi sebelah kiri, bentangkan **Identitas**, pilih **Pengguna**, lalu pilih **Semua pengguna**.
+1. Sebagai administrator pengguna ID Microsoft Entra, Anda dapat membuat pengguna dan grup, mengelola lisensi, dan banyak lagi. Dari panel navigasi sebelah kiri, bentangkan **Identitas**, pilih **Pengguna**, lalu pilih **Semua pengguna**.
 1. Dari daftar pengguna, pilih **Bianca Pisani**.
 1. Dari panel navigasi kiri, pilih **Lisensi**.
 1. Perhatikan bahwa Bianca tidak memiliki lisensi yang ditetapkan.  Dari bagian atas laman, pilih **+ Penugasan**.
@@ -122,4 +122,4 @@ Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsof
 
 ### Tinjauan
 
-Di lab ini; Anda telah menjelajahi PIM.  Sebagai admin, Anda telah mengonfigurasi Diego dengan hak istimewa admin pengguna selama jumlah waktu yang ditentukan.  Kemudian Anda, sebagai Diego, mempelajari proses mengaktifkan hak istimewa admin pengguna dan mengonfigurasi pengaturan pengguna.  Ingat bahwa PIM memerlukan lisensi Azure AD Premium P2.
+Di lab ini; Anda telah menjelajahi PIM.  Sebagai admin, Anda telah mengonfigurasi Diego dengan hak istimewa admin pengguna selama jumlah waktu yang ditentukan.  Kemudian Anda, sebagai Diego, mempelajari proses mengaktifkan hak istimewa admin pengguna dan mengonfigurasi pengaturan pengguna.  Ingat bahwa PIM memerlukan lisensi Microsoft Entra ID Premium P2.
