@@ -10,7 +10,7 @@
            | Pengaturan pengguna Microsoft Entra ID  | [DEMO_01_explore_azure_ad](DEMO_01_explore_azure_ad.md) |
 | 01a | Metode autentikasi dan MFA | [DEMO_01a_explore_authentication](DEMO_01a_explore_authentication.md) |
 | 02
-           | Pengaturan ulang kata sandi mandiri Microsoft Entra (SSPR)  | [DEMO_02_explore_azure_sspr](DEMO_02_explore_azure_sspr.md) |
+           | Pengaturan ulang kata sandi mandiri (SSPR) Microsoft Entra  | [DEMO_02_explore_azure_sspr](DEMO_02_explore_azure_sspr.md) |
 | 03
            | Akses Bersyarat Microsoft Entra ID  | [DEMO_03_explore_cond_access](DEMO_03_explore_cond_access.md) |
 | 04
@@ -27,4 +27,4 @@
 | 10 | Portal Kepercayaan Layanan  | [DEMO_10_explore_service_trust_portal](DEMO_10_explore_service_trust_portal.md) |
 | 11 | Menjelajahi portal kepatuhan Microsoft Purview & Manajer Kepatuhan  | [DEMO_11_explore_compliance_mgr](DEMO_11_explore_compliance_mgr.md) |
 | 12 | Label sensitivitas di Microsoft Purview  | [DEMO_12_explore_senstivity_labels](DEMO_12_explore_senstivity_labels.md) |
-| 13 | Menjelajahi alur kerja eDiscovery (Standar)  | [core_ediscovery DEMO_13_explore](DEMO_13_explore-core_ediscovery.md) |
+| 13 | Menjelajahi alur kerja eDiscovery (Standar)  | [DEMO_13_explore-core_ediscovery](DEMO_13_explore-core_ediscovery.md) |

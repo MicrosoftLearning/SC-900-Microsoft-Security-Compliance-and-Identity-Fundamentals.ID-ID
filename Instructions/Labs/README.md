@@ -9,11 +9,11 @@
 | 01
            | Menjelajahi Pengaturan Pengguna ID Microsoft Entra | [LAB_01_explore_azure_ad](LAB_01_explore_azure_ad.md) |
 | 02
-           | Pengaturan ulang kata sandi mandiri Microsoft Entra | [LAB_02_explore_azure_sspr](LAB_02_explore_azure_sspr.md) |
+           | Pengaturan ulang kata sandi layanan mandiri Microsoft Entra | [LAB_02_explore_azure_sspr](LAB_02_explore_azure_sspr.md) |
 | 03
            | Akses Bersyarat Microsoft Entra ID | [LAB_03_explore_cond_access](LAB_03_explore_cond_access.md) |
 | 04
-           | Menjelajahi privileged identity management | [LAB_04_explore_pim](LAB_04_explore_pim.md) |
+           | Jelajahi manajemen Privileged Identity | [LAB_04_explore_pim](LAB_04_explore_pim.md) |
 | 05
            | Menjelajahi Kelompok Keamanan Jaringan Azure (NSG) | [LAB_05_explore_nsg](LAB_05_explore_nsg.md) |
 | 06

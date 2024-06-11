@@ -41,7 +41,7 @@ Dalam demo ini, Anda akan menjelajahi berbagai pengaturan yang tersedia untuk au
     1. **Pendaftaran** ditampilkan dengan garis bawah biru.  Di sini, Anda dapat melihat aktivitas pendaftaran untuk metode autentikasi yang berbeda.
     1. Pilih **Penggunaan** untuk melihat detail penggunaan dan perhatikan bahwa Anda dapat menambahkan filter yang berbeda.
 
-1. Dalam modul ini, Anda juga berbicara tentang autentikasi multifaktor. Anda akan membahas lebih lanjut tentang MFA dalam demo pada akses bersyarat, tetapi Anda mungkin ingin mengambil waktu satu menit untuk menampilkan beberapa pengaturan dasar.  Dari panel navigasi pusat admin Microsoft Entra, pilih **Autentikasi** multifaktor.  Anda mungkin perlu memilih **Tampilkan lainnya** pada bagian perlindungan, di panel navigasi kiri.
+1. Dalam modul ini, Anda juga berbicara tentang autentikasi multifaktor. Anda akan membahas lebih lanjut tentang MFA dalam demo pada akses bersyarat, tetapi Anda mungkin ingin mengambil waktu satu menit untuk menampilkan beberapa pengaturan dasar.  Dari panel navigasi pusat admin Microsoft Entra, pilih **Autentikasi multifaktor**.  Anda mungkin perlu memilih **Tampilkan lainnya** pada bagian perlindungan, di panel navigasi kiri.
     1. Pada laman **Memulai**, ini menunjukkan bahwa cara terbaik untuk menerapkannya kepada pengguna melalui akses bersyarat, tetapi ada beberapa pengaturan tertentu yang Anda konfigurasi di sini.
     1. Pilih **Penguncian akun** dan panggil parameter penguncian yang dapat dikonfigurasi.
     1. Pilih **Blokir/buka blokir pengguna**, sampaikan bahwa di sinilah admin dapat memblokir/membuka blokir pengguna secara manual.  Perhatikan bahwa pengguna yang diblokir akan tetap diblokir selama 90 hari kecuali dibuka blokirnya secara manual.
