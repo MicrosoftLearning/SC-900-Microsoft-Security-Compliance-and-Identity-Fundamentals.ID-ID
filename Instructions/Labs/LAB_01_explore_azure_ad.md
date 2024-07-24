@@ -79,7 +79,7 @@ Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Entra ID (sebe
 
     1. Untuk menambahkan lisensi pilih **+ Penugasan** dari bagian atas jendela utama.
 
-    1. Di bagian Pilih lisensi, pilih **Office 365 E3** dan **Windows 10/11 Enterprise E3**, lalu pilih tombol **Simpan** di bagian bawah layar. Pemberitahuan di sudut kanan atas layar akan menunjukkan bahwa penetapan lisensi berhasil.
+    1. Di bawah Pilih lisensi, pilih **Microsoft Power Apps untuk Pengembang** dan **Microsoft Power Automate Gratis** lalu pilih tombol **Simpan** di bagian bawah layar. Pemberitahuan di sudut kanan atas layar akan menunjukkan bahwa penetapan lisensi berhasil.
 
     1. Pilih **X** di kanan atas layar untuk menutup laman Penugasan lisensi.
 
@@ -106,7 +106,7 @@ Dalam tugas ini, Anda akan masuk sebagai Sara Perez, untuk pertama kalinya.
 
 6. Di bidang Kata sandi baru, masukkan kata sandi baru, konfirmasi kata sandi, lalu pilih **Masuk**.  Catat kata sandi baru karena Anda akan membutuhkannya untuk latihan lab berikutnya di SSPR.
 
-7. Sekarang, Anda berhasil masuk ke Microsoft 365.
+7. Anda sekarang harus berhasil masuk ke akun Microsoft Sara.  Perhatikan bahwa lisensi Sara yang Anda tetapkan dalam tugas sebelumnya hanya terbatas pada Power Automate Free dan Power Apps for Developer dan tidak menyertakan lisensi E5.
 
 8. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf SP (di sebelah ikon tanda tanya), lalu pilih **Keluar**, lalu tutup browser.
 
