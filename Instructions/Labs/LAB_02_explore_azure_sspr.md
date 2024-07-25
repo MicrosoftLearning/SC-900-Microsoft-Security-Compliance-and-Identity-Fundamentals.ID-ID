@@ -77,7 +77,7 @@ Dalam tugas ini, Anda, sebagai admin, akan menambahkan pengguna yang Anda buat d
 
 ### Tugas 3
 
-Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani pendaftaran proses pengaturan ulang kata sandi ulang   Tugas ini mengharuskan Anda memiliki akses ke perangkat seluler tempat Anda dapat menerima pesan teks atau akun email pribadi yang dapat Anda akses
+Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani pendaftaran proses pengaturan ulang kata sandi ulang   Tugas ini mengharuskan Anda memiliki akses ke perangkat seluler tempat Anda dapat menerima pesan teks.
 
 1. Buka Microsoft Edge dan di bilah alamat, masukkan **https://login.microsoft.com**.
 
@@ -85,8 +85,10 @@ Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani pendaftaran p
 
 1. Pop-up yang ditampilkan menunjukkan bahwa Informasi lebih lanjut diperlukan.  Ini karena sebagai anggota grup SSPRSecurityGroupUsers, konfigurasi mengharuskan anggotanya untuk mendaftar saat mereka masuk.  Pilih tombol **Berikutnya**.  Catatan: Alternatif untuk meminta pengguna melakukan pendaftaran, sendiri, adalah agar admin dapat langsung mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 
-1. Laman "Jaga keamanan akun Anda” akan terbuka.  Jendela yang muncul untuk metode autentikasi Telepon, jika Anda tidak memiliki perangkat seluler yang mampu menerima pesan teks, lewati ke langkah berikutnya.  Anda diminta memasukkan nomor telepon. Pastikan opsi **Kirim kode lewat SMS** diaktifkan.   Masukkan nomor telepon tempat Anda bisa menerima teks kode dan pilih tombol **Berikutnya**.  Jendela baru yang terbuka menunjukkan kode telah dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Berikutnya**. Jendela yang terbuka menunjukkan Berhasil dan memperlihatkan Metode masuk default Anda.  Pilih **Selesai**.  
-    1. Atau, Anda dapat mengatur metode yang berbeda seperti yang ditunjukkan di bagian kiri bawah jendela.  Jika Anda memilih untuk menyiapkan metode yang berbeda, pilih **Saya ingin menyiapkan metode yang berbeda**, jendela pop-up muncul, menanyakan Metode mana yang ingin Anda gunakan?  Dari menu menurun, pilih metode pilihan Anda, **Email**, lalu pilih tombol **Konfirmasi**.  Masukkan email yang ingin Anda gunakan, lalu pilih **Berikutnya**.  Jendela baru akan terbuka yang menunjukkan bahwa kode telah dikirim ke email yang Anda masukkan.  Akses email yang Anda masukkan untuk mendapatkan kode.  Masukkan kode yang Anda terima dan pilih **Berikutnya**. Jendela yang terbuka menunjukkan Berhasil dan memperlihatkan Metode masuk default Anda.  Pilih **Selesai**.
+1. Laman "Jaga keamanan akun Anda” akan terbuka.  Jendela yang muncul adalah untuk metode Microsoft Authenticator yang memerlukan aplikasi pengautentikasi.  Untuk lab ini, kami akan menggunakan metode yang berbeda, untuk menghindari langkah harus mengunduh aplikasi.  Pilih **Saya ingin menggunakan metode** yang berbeda.
+    1. Dari jendela pop-up yang muncul, pilih panah drop-down dan pilih **Telepon**, lalu pilih **Konfirmasi**.
+    1. Anda diminta memasukkan nomor telepon. Pastikan opsi **Terima kode** diaktifkan.   Masukkan nomor telepon tempat Anda bisa menerima kode dan pilih **Berikutnya**.  
+    1. Jendela baru yang terbuka menunjukkan kode telah dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Berikutnya**. Jendela terbuka yang menunjukkan kode di-vierifikasi. Pilih **Berikutnya** lalu pilih **Selesai**.  
 
 1. Sekarang Anda dapat menyelesaikan proses masuk. Jika Anda melihat bahwa waktu masuk telah kedaluwarsa, cukup masukkan kembali kata sandi.
 
@@ -108,7 +110,7 @@ Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani proses pengat
 
 1. Dalam kotak kosong, masukkan karakter yang ditampilkan dalam gambar atau kata-kata dari audio. Setelah Anda memasukkannya, pilih **Berikutnya**.
 
-1. Layar menunjukkan Kembali ke akun Anda dan menampilkan Langkah verifikasi 1 > memilih kata sandi baru. Biarkan pengaturan default **SMS ke ponsel saya**.  Anda diminta untuk memasukkan nomor ponsel.  Setelah Anda memasukkannya, pilih tombol **Teks**.  Jika selama pendaftaran Anda memilih email, jendela Kembali ke akun Anda akan menunjukkan bahwa Anda akan menerima email yang berisi kode verifikasi di alamat email alternatif Anda.  Pilih **Email**.
+1. Layar menunjukkan Kembali ke akun Anda dan menampilkan Langkah verifikasi 1 > memilih kata sandi baru. Biarkan pengaturan default **SMS ke ponsel saya**.  Anda diminta untuk memasukkan nomor ponsel.  Setelah Anda memasukkannya, pilih tombol **Teks**. 
 
 1. Masukkan kode verifikasi, lalu tekan **Berikutnya**.
 
@@ -118,7 +120,7 @@ Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani proses pengat
 
 1. Dari kotak Pilih informasi akun, pilih **sara@WWLxZZZZZZ.onmicrosoft.com**, masukkan kata sandi baru Anda, lalu pilih tombol **Masuk**.  Jika Anda diminta untuk Tetap masuk. pilih **Tidak**.
 
-1. Sekarang Anda berada di portal Office.
+1. Anda sekarang harus masuk ke akun Microsoft Sara.
 
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih **Keluar**. Kemudian tutup semua jendela browser.
 
