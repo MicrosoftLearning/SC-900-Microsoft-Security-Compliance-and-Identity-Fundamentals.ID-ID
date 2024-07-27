@@ -114,7 +114,7 @@ Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsof
 1. Dari daftar pengguna, pilih **Bianca Pisani**.
 1. Dari panel navigasi kiri, pilih **Lisensi**.
 1. Perhatikan bahwa Bianca tidak memiliki lisensi yang ditetapkan.  Dari bagian atas laman, pilih **+ Penugasan**.
-1. Dari daftar pilih lisensi, pilih **Office 365 E3** dan **Windows 10 Enterprise E3**.
+1. Dari daftar pilih lisensi, pilih **Microsoft Power Apps untuk Pengembang** dan **Microsoft Power Automate Gratis**.
 1. Di bagian bawah laman, pilih **Simpan**.  Anda akan melihat pemberitahuan singkat di kanan atas laman yang menunjukkan bahwa lisensi berhasil ditetapkan.
 1. Tutup laman penugasan lisensi terbaru dengan memilih **X** di pojok kanan atas laman.
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih **Keluar**. Kemudian tutup semua jendela browser..

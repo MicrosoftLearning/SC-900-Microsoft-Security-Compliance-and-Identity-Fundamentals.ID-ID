@@ -67,7 +67,7 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 1. Di bidang di bawah tulisan **Pilih apa kebijakan ini berlaku**, pilih panah bawah dan catat opsi yang tersedia.  Biarkan pengaturan default, **Cloud apps**.  Pastikan tab **Sertakan** digarisbawahi.  Pilih **Pilih aplikasi**, lalu di bawah tulisan **Pilih**, pilih **Tidak Ada**.  Jendela Pilih Aplikasi cloud akan terbuka.
 
-1. Di bilah pencarian, masukkan **Azure**.  Dari hasil pencarian yang muncul di bawah kotak pencarian, pilih **Portal  Admin Microsoft**, lalu tekan **Pilih** di bagian bawah laman.  Perhatikan peringatannya.  
+1. Pilih **Portal** Admin Microsoft, lalu tekan **Pilih** di bagian bawah halaman.  Perhatikan peringatannya.  
 
 1. Di bagian Kondisi, pilih **0 kondisi yang dipilih**.  Perhatikan berbagai opsi yang dapat Anda konfigurasi.  Melalui kebijakan, Anda dapat mengontrol akses pengguna berdasarkan sinyal dari kondisi termasuk: risiko pengguna, risiko masuk, platform perangkat, lokasi, aplikasi klien, atau filter untuk perangkat.  Jelajahi opsi yang dapat dikonfigurasi ini, tetapi jangan atur kondisi apa pun.
 
