@@ -41,15 +41,15 @@ Dalam tugas ini, Anda, sebagai admin, akan menelusuri beberapa pengaturan konfig
 
 1. Dalam Jumlah metode yang diperlukan untuk beristirahat, pilih **1**. Catat informasi yang kotak di layar.
 
-1. Perhatikan berbagai metode yang tersedia untuk pengguna.  **Email** dan **Ponsel (khusus SMS)** harus sudah dicentang. Jika belum, pilihlah.
+1. Perhatikan berbagai metode yang tersedia untuk pengguna.  **Email** dan **Ponsel** harus sudah diperiksa; jika tidak, pilih.
 
 1. Dari panel navigasi kiri Pengaturan ulang kata sandi, pilih **Pendaftaran**.  
 
-1. Pastikan pengaturan Wajibkan pengguna mendaftar saat masuk diatur ke **Ya**.  Biarkan Jumlah hari sebelum pengguna diminta untuk mengonfirmasi ulang informasi autentikasi mereka diatur ke default 180.   Perhatikan kotak informasi laman tersebut.
+1. Pastikan pengaturan Wajibkan pengguna mendaftar saat masuk diatur ke **Ya**.  Biarkan Jumlah hari sebelum pengguna diminta untuk mengkonfirmasi ulang informasi autentikasi mereka, ke default **180**.   Perhatikan kotak informasi laman tersebut.
 
 1. Dari panel navigasi kiri Pengaturan ulang kata sandi, pilih **Pemberitahuan**.  
 
-1. Pastikan pengaturan Wajibkan pengguna mendaftar saat masuk diatur ke **Ya**.  Biarkan pengaturan Beri tahu semua admin saat admin lain mengatur ulang kata sandi mereka diatur ke Ya.
+1. Pastikan pengaturan Wajibkan pengguna mendaftar saat masuk diatur ke **Ya**.  Biarkan pengaturan untuk Memberi tahu semua admin saat admin lain mengatur ulang kata sandi mereka ke **Tidak**.
 
 1. Perhatikan bahwa panel navigasi Pengaturan ulang kata sandi juga menyertakan opsi untuk melihat log audit dan Penggunaan & wawasan.
 
@@ -85,10 +85,10 @@ Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani pendaftaran p
 
 1. Pop-up yang ditampilkan menunjukkan bahwa Informasi lebih lanjut diperlukan.  Ini karena sebagai anggota grup SSPRSecurityGroupUsers, konfigurasi mengharuskan anggotanya untuk mendaftar saat mereka masuk.  Pilih tombol **Berikutnya**.  Catatan: Alternatif untuk meminta pengguna melakukan pendaftaran, sendiri, adalah agar admin dapat langsung mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 
-1. Laman "Jaga keamanan akun Anda” akan terbuka.  Jendela yang muncul adalah untuk metode Microsoft Authenticator yang memerlukan aplikasi pengautentikasi.  Untuk lab ini, kami akan menggunakan metode yang berbeda, untuk menghindari langkah harus mengunduh aplikasi.  Pilih **Saya ingin menggunakan metode** yang berbeda.
-    1. Dari jendela pop-up yang muncul, pilih panah drop-down dan pilih **Telepon**, lalu pilih **Konfirmasi**.
+1. Laman "Jaga keamanan akun Anda” akan terbuka.  Jendela yang muncul adalah untuk metode Telepon.
     1. Anda diminta memasukkan nomor telepon. Pastikan opsi **Terima kode** diaktifkan.   Masukkan nomor telepon tempat Anda bisa menerima kode dan pilih **Berikutnya**.  
-    1. Jendela baru yang terbuka menunjukkan kode telah dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Berikutnya**. Jendela terbuka yang menunjukkan kode di-vierifikasi. Pilih **Berikutnya** lalu pilih **Selesai**.  
+    1. Jendela baru yang terbuka menunjukkan kode telah dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Berikutnya**. Jendela terbuka yang menunjukkan ponsel Anda terdaftar. Pilih **Berikutnya** lalu pilih **Selesai**.  
+    1. Jika Anda ingin menggunakan email, pilih **Saya ingin menyiapkan metode** lain dan ikuti langkah-langkahnya. 
 
 1. Sekarang Anda dapat menyelesaikan proses masuk. Jika Anda melihat bahwa waktu masuk telah kedaluwarsa, cukup masukkan kembali kata sandi.
 
