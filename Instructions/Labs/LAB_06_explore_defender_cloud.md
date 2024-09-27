@@ -31,7 +31,7 @@ Dalam tugas ini, Anda akan melakukan penelusuran tingkat tinggi dari beberapa ke
 1. Dari laman Ikhtisar Microsoft Defender untuk Cloud, perhatikan informasi yang tersedia di laman tersebut (jika Anda melihat 0 sumber daya yang dinilai dan rekomendasi aktif, refresh laman browser, mungkin perlu waktu beberapa menit).  Informasi di bagian atas laman mencakup jumlah langganan Azure, jumlah sumber daya yang dinilai, jumlah rekomendasi aktif, dan peringatan keamanan.  Di bagian utama laman, terdapat kartu yang mewakili Postur keamanan, Kepatuhan peraturan, Wawasan, dan banyak lagi.  Catatan: Inisiatif kebijakan default Microsoft Defender untuk Cloud, yang biasanya harus ditetapkan oleh admin, telah ditetapkan sebagai bagian dari penyiapan langganan Azure. Namun, skor aman akan ditampilkan sebagai 0% karena memerlukan waktu hingga 24 jam bagi Azure untuk mencerminkan skor awal.
 
 1. Dari bagian atas laman, pilih **Sumber daya yang dinilai**. 
-    1. Tindakan ini membawa Anda ke laman **Inventaris** yang mencantumkan sumber daya saat ini. Pilih sumber daya mesin virtual, **sc900-winwm**. Sumber daya ini dikaitkan dengan mesin virtual yang Anda gunakan di lab sebelumnya.
+    1. Tindakan ini membawa Anda ke laman **Inventaris** yang mencantumkan sumber daya saat ini. Pilih sumber daya komputer virtual, **sc900-winvm**. Sumber daya ini dikaitkan dengan mesin virtual yang Anda gunakan di lab sebelumnya.
     1. Laman Kesehatan sumber daya untuk VM menyediakan daftar rekomendasi.  Dari daftar yang tersedia, pilih salah satu item dari daftar yang menunjukkan status **tidak sehat**.
     1. Perhatikan detail deskripsi.  Pilih panah menurun di samping langkah-langkah Remediasi. Perhatikan bagaimana petunjuk perbaikan (atau tautan ke petunjuk) disediakan bersama dengan opsi untuk mengambil tindakan.  Keluar dari jendela tanpa melakukan tindakan apa pun.
     1. Kembali ke laman ikhtisar Microsoft Defender untuk Cloud, dengan memilih **Microsoft Defender untuk Cloud | Ikhtisar** dari bagian atas laman, di bagian atas yang bertuliskan Kesehatan sumber daya.
@@ -52,7 +52,7 @@ Dalam tugas ini, Anda akan melakukan penelusuran tingkat tinggi dari beberapa ke
 
 Perlu diperhatikan bahwa Microsoft Defender untuk Cloud ditawarkan dalam dua mode: tanpa fitur keamanan yang disempurnakan (gratis) dan dengan fitur keamanan yang disempurnakan yang tersedia melalui paket Microsoft Defender untuk Cloud. Dalam tugas ini, Anda akan menemukan cara mengaktifkan/menonaktifkan berbagai paket Microsoft Defender untuk Cloud.
 
-1. Dari laman ikhtisar Microsoft Defender untuk Cloud, pilih **Pengaturan lingkungan** dari panel navigasi kiri.
+1. Dari halaman ringkasan Microsoft Defender untuk Cloud, perluas **Manajemen** dan pilih **Pengaturan** lingkungan dari panel navigasi kiri.
 1. Pilih kotak **Bentangkan semua**, lalu pilih langganan **MOC--lodXXXXXXXX** yang tercantum di sebelah ikon tombol kuning.
 1. Pada laman paket Defender, perhatikan cara Anda dapat memilih Aktifkan semua atau pilih beberapa paket Defender. 
     1. Pastikan status CSPM diatur ke **Aktif**. Jika belum, atur sekarang.  

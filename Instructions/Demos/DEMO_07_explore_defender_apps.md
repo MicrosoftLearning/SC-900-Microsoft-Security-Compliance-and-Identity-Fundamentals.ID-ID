@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Judul: Microsoft Defender untuk Cloud Apps ' Modul: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan terhadap ancaman di Microsoft 365; Unit 5: Menjelaskan Microsoft Defender untuk Cloud Apps'
+Demo: Judul: Modul aplikasi Microsoft Defender untuk Cloud: 'Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft; Modul 4: Menjelaskan kemampuan perlindungan ancaman Microsoft Defender XDR; Unit 5: Menjelaskan aplikasi Microsoft Defender untuk Cloud'
 ---
 --->
 
@@ -9,7 +9,7 @@ Demo: Judul: Microsoft Defender untuk Cloud Apps ' Modul: 'Jalur Pembelajaran: M
 Demo ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan solusi keamanan Microsoft
-- Modul: Menjelaskan kemampuan perlindungan terhadap ancaman di Microsoft 365
+- Modul: Menjelaskan kemampuan perlindungan ancaman Microsoft Defender XDR
 - Unit: Menjelaskan Microsoft Defender untuk Cloud Apps
 
 ## Skenario demo
@@ -22,9 +22,9 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untu
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
-1. Di Pusat admin, pilih **Keamanan**.  Laman browser baru membuka laman selamat datang di portal Pertahanan Microsoft 365.  
+1. Di Pusat admin, pilih **Keamanan**.  Halaman browser baru terbuka ke halaman selamat datang portal Pertahanan Microsoft.  
 
-1. Jika ini pertama kalinya Anda mengunjungi portal Pertahanan Microsoft 365, Anda mungkin mendapatkan jendela pop-up untuk mengikuti tur cepat.
+1. Jika ini pertama kalinya Anda mengunjungi portal Pertahanan Microsoft, Anda mungkin mendapatkan jendela pop-up untuk mengikuti tur cepat.
 
 1. Dari panel navigasi kiri, pilih **Cloud apps** untuk meluaskan daftar, lalu pilih **Cloud Discovery**. Tindakan ini akan membawa Anda ke tampilan Dasbor.  Catat informasi yang tersedia di dasbor. Dari tampilan dasbor, Anda dapat memilih berbagai tab dari bagian atas halaman.  Buka setiap tab di bagian atas laman.
 
@@ -39,7 +39,7 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untu
     1. Untuk melihat opsi laporan berkelanjutan, pilih **Tindakan** di pojok kanan atas laman dan dari menu menurun, pilih **Konfigurasikan unggahan otomatis**.  Tidak ada sumber data yang tersambung, tetapi di sinilah Anda akan menambahkan sumber data. Pilih **Tambahkan sumber data**, lalu pilih panah menu dropdown di bidang **Pilih alat** untuk melihat jenis alat yang dapat Anda sambungkan sebagai sumber data.  Pilih **Batal** untuk keluar.
     1. Dari panel navigasi kiri, pilih **Cloud discovery** untuk kembali ke laman Cloud discovery.
 
-1. Dengan aplikasi Microsoft 365 Defender untuk Cloud, Anda dapat terhubung ke aplikasi secara langsung dengan menyiapkan konektor aplikasi yang akan memberi Anda visibilitas dan kontrol lebih besar atas aplikasi cloud Anda. Dari pojok kanan atas layar, pilih **Tindakan**, lalu pilih **Pengaturan Cloud Discovery**.  Perhatikan pengaturan yang tersedia.
+1. Dengan aplikasi Microsoft Defender untuk Cloud, Anda dapat terhubung ke aplikasi secara langsung dengan menyiapkan konektor aplikasi yang akan memberi Anda visibilitas dan kontrol yang lebih besar atas aplikasi cloud Anda. Dari pojok kanan atas layar, pilih **Tindakan**, lalu pilih **Pengaturan Cloud Discovery**.  Perhatikan pengaturan yang tersedia.
     1. Dari panel navigasi kiri jendela pengaturan aplikasi Cloud, pilih **Konektor aplikasi (** Anda mungkin perlu menggulir ke bawah).
     1. Laman Konektor aplikasi adalah tempat Anda akan melihat konektor aplikasi apa pun yang sudah disiapkan dan tempat Anda dapat menambahkan konektor aplikasi.
     1. Anda akan melihat Microsoft 365 tercantum. Jika menunjukkan kesalahan koneksi, buka elipsis vertikal di sisi kanan item baris, lalu pilih **Edit pengaturan**.  Untuk menghubungkan kembali, pilih **Hubungkan Office 365** di bagian bawah laman. Sekarang, laman seharusnya menunjukkan bahwa Office 365 terhubung, pilih **Selesai**.  Sekarang, status akan ditampilkan dengan tanda peringatan kuning, menunjukkan tidak ada status terbaru.  Perlu beberapa waktu untuk memperbarui status karena periode waktu pemindaian retroaktif berbeda untuk setiap aplikasi dan penyewa lab mungkin memerlukan waktu yang lebih lama dari biasanya.
@@ -48,7 +48,7 @@ Dalam demo ini, Anda akan menunjukkan kemampuan Aplikasi Microsoft Defender untu
 
 1. Saat berada di laman Pengaturan aplikasi cloud, ada baiknya meluangkan waktu beberapa menit juga untuk menjelajahi beberapa pengaturan Cloud Discovery lainnya.  
     1. Pilih **Aplikasi Kontrol Aplikasi Akses Bersyarat** dan perhatikan deskripsinya, "Kontrol Aplikasi Akses Bersyarat menambahkan kemampuan pemantauan dan kontrol real time untuk aplikasi Anda."
-    1. Pilih Perlindungan Informasi Microsoft, sampaikan pengaturan yang tersedia.
+    1. Pilih **Perlindungan** Informasi Microsoft, bicaralah dengan pengaturan yang tersedia.
     1. Anda dapat menjelajahi bagian lain. Sebutkan tingkat integrasi dan fleksibilitas.
 
 1. Kembali ke dasbor Cloud Discovery, dengan memilih **Cloud Discovery** dari panel navigasi paling kiri.
@@ -67,15 +67,11 @@ Di bagian demo ini, Anda akan menunjukkan kemampuan katalog aplikasi Cloud. Clou
 
 1. Biarkan laman ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
-### Demo Bagian 3 - Menjelajahi log Aktivitas dan File
+### Demo Bagian 3 - Jelajahi log Aktivitas
 
-Menjelajahi cara-cara menyelidiki aktivitas yang direkam dengan log aktivitas dan file.
+Jelajahi cara di mana Anda dapat menyelidiki aktivitas yang direkam dengan log aktivitas.
 
 1. Dari panel navigasi kiri, pilih **Log Aktivitas**. Di sini, Anda mendapatkan visibilitas ke semua aktivitas dari aplikasi yang terhubung. Anda mungkin tidak melihat data apa pun yang tercantum karena memerlukan waktu beberapa jam untuk melakukan pemindaian retroaktif setelah audit diaktifkan dan penyewa lab mungkin memerlukan waktu yang lebih lama dari biasanya. Perhatikan opsi filter yang tersedia dan opsi untuk membuat kebijakan baru dari pencarian.
-
-1. Untuk memberikan perlindungan data, Microsoft Defender untuk Cloud Apps memberi Anda visibilitas ke semua file dari aplikasi yang terhubung, misalnya, semua file yang disimpan di SharePoint dan Salesforce. Dari panel navigasi kiri, pilih dan jelajahi opsi **File**.
-    1. Kemampuan untuk memindai file harus diaktifkan sebagai bagian dari Pengaturan perlindungan informasi aplikasi Microsoft 365 Cloud.  Pilih **Aktifkan pemantauan file** dan pilih kotak di samping tempat yang bertuliskan **Aktifkan pemantauan file**, lalu pilih **Simpan**.  
-    1. Kembali ke file dengan memilih **File**, tercantum di bagian aplikasi cloud, dari panel navigasi kiri. Anda mungkin tidak melihat apa pun yang tercantum karena dapat memakan waktu beberapa hari sebelum Anda dapat melihat file Anda, tetapi ada baiknya menyampaikan bahwa setelah file dicantumkan, Anda dapat memfilter data menurut aplikasi, pemilik, tingkat akses, jenis file, dan kebijakan yang cocok. Juga, Anda membuat kebijakan baru dari penelusuran dan ekspor data.
 
 1. Biarkan laman ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
@@ -90,7 +86,7 @@ Di bagian ini, Anda akan menampilkan opsi yang tersedia untuk kebijakan di Micro
 
 1. Dari panel navigasi kiri, pilih **Templat kebijakan**. Untuk membuat kebijakan dari salah satu templat yang tersedia, pilih **+** di sebelah kanan item baris templat.  Lihat berbagai opsi konfigurasi untuk kebijakan.  Pilih **Batalkan** untuk keluar dari laman.
 
-1. Dari panel navigasi sebelah kiri, pilih **Beranda** untuk laman Beranda Pertahanan Microsoft 365.
+1. Dari panel navigasi kiri, pilih **Beranda** untuk kembali ke beranda untuk Pertahanan Microsoft.
 
 1. Biarkan tab browser tetap terbuka jika Anda berencana melanjutkan ke demo berikutnya.
 
