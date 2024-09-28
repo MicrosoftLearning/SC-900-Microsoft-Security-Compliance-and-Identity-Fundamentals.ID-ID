@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Judul: 'Menjelajahi alur kerja eDiscovery (Standar) ' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 5: Menjelaskan eDiscovery dan kemampuan audit Microsoft Purview; Unit 2: Menjelaskan solusi eDiscovery di Microsoft 365'
+Demo: Judul: 'Jelajahi alur kerja eDiscovery' Jalur Pembelajaran/Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview; Modul 3: Menjelaskan solusi kepatuhan data Microsoft Purview; Unit 2: Menjelaskan eDiscovery'
 ---
 --->
 
@@ -8,38 +8,34 @@ Demo: Judul: 'Menjelajahi alur kerja eDiscovery (Standar) ' Jalur Pembelajaran/M
 
 Demo ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan eDiscovery dan kemampuan audit Microsoft Purview
-- Unit: Menjelaskan solusi eDiscovery di Microsoft Purview
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
+- Modul: Menjelaskan solusi kepatuhan data Microsoft Purview
+- Unit: Menjelaskan eDiscovery
 
 ## Skenario demo
 
-Di Demo ini, Anda akan mempelajari langkah-langkah yang diperlukan untuk menyiapkan eDiscovery, termasuk menyiapkan izin peran, membuat kasus eDiscovery, membuat penangguhan eDiscovery, dan membuat kueri pencarian.  Catatan: Lisensi untuk eDiscovery (Standar) memerlukan langganan organisasi yang sesuai dan lisensi per pengguna. Jika Anda tidak yakin lisensi mana yang mendukung eDiscovery (Standar), kunjungi [Memulai eDiscovery (Standar) di Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+Di Demo ini, Anda akan mempelajari langkah-langkah yang diperlukan untuk menyiapkan eDiscovery, termasuk menyiapkan izin peran, membuat kasus eDiscovery, membuat penangguhan eDiscovery, dan membuat kueri pencarian.  CATATAN: Di portal Microsoft Purview pembaruan untuk antarmuka pengguna diluncurkan, secara bertahap. Beberapa penyewa lab/demo mungkin belum menampilkan UI terbaru, sehingga semua langkah lab ditampilkan menggunakan UI eDiscovery Klasik.
 
 ### Demo Bagian 1
 
 Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus eDiscovery, pengguna harus diberi izin yang sesuai. Di bagian demo ini, Anda sebagai admin global, akan mempelajari proses penambahan pengguna tertentu sebagai anggota grup peran Manajer eDiscovery.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Laman browser baru membuka laman selamat datang di portal kepatuhan Microsoft Purview.  
-
-1. Dari panel navigasi kiri, bentangkan (pilih panah bawah) **Peran & Cakupan**, lalu pilih **Izin**.
-
-1. Pada solusi Microsoft Purview, pilih **Peran**.
-
-1. Di bidang pencarian, masukkan **eDiscovery** lalu pilih ikon pencarian (kaca pembesar).  Pilih **Manajer eDiscovery**.  Perhatikan peran dalam grup peran.
-
-1. Pilih **Edit**.  Perhatikan bahwa ada dua subgrup, eDiscovery Manager dan eDiscovery Administrator.  
-    1. Laman "Kelola Manajer eDiscovery" memungkinkan Anda menambahkan pengguna ke peran manajer eDiscovery. Untuk Demo ini, kita akan menambahkan anggota ke subgrup eDiscovery Administrator, jadi pilih **Berikutnya**.
-    1. Pada laman "Kelola Administrator eDiscovery", pilih **Pilih pengguna** . Cari dan pilih **Administrator MOD** dan **Megan Bowen**, lalu tekan **Pilih** di bagian bawah laman, lalu pilih **Berikutnya** dan **Simpan**.
-    1. Pada laman "Anda berhasil memperbarui grup peran", pilih **Selesai**.
+1. Buka tab browser untuk **Microsoft Purview**. Jika sebelumnya Anda menutupnya, buka tab browser dan di bilah alamat, masukkan **https://purview.microsoft.com**. Untuk mengakses portal Microsoft Purview baru, pilih kotak di samping tempat yang tertulis, **saya menyetujui ketentuan pengungkapan aliran data dan Pernyataan** Privasi, lalu pilih **Mulai**.  
+1. Dari panel navigasi kiri, pilih **Pengaturan**.
+1. Dari panel navigasi yang terbuka, pilih **Peran dan cakupan** untuk memperluas opsi, lalu pilih **Grup** peran.
+1. Di kotak pencarian di sisi kanan layar, cari pada istilah **eDiscovery**.  Pilih **Manajer eDiscovery**.
+    1. Pilih **Edit**.
+    1. Pilih **Pilih pengguna**.
+    1. Cari Administrator MOD, pilih kotak di samping **Administrator** MOD lalu pilih tombol **Pilih** di bagian bawah halaman.
+    1. Pilih **Berikutnya** lalu pilih **Simpan**, lalu akhirnya pilih **Selesai**.
 
 1. Tetap buka tab browser ini.
 
 ### Demo Bagian 2
 
-Dalam bagian ini, Anda sebagai Administrator eDiscovery (admin MOD adalah administrator eDiscovery) akan membuat kasus untuk mulai menggunakan eDiscovery (Standar).
+Di bagian ini Anda akan membuat kasus untuk mulai menggunakan eDiscovery (Standar).
 
-1. Anda harus tetap berada di laman peran portal kepatuhan. Dari panel navigasi sebelah kiri, di bagian Solusi, pilih **eDiscovery** lalu pilih **Standar**.
+1. Dari panel navigasi kiri, pilih **Solusi**, pilih **eDiscovery** lalu pilih **Kasus** standar.
 
 1. Dari bagian atas laman eDiscovery (Standar), pilih **+ Buat kasus**.
 
@@ -83,7 +79,7 @@ Setelah memasukkan penangguhan, Anda akan membuat kueri pencarian.  Setelah penc
 
 1. Di bidang Nama, masukkan **Penangguhan Pengujian – Pencarian Penjualan**, lalu pilih **Berikutnya** dari bagian bawah laman.
 
-1. Di laman Pilih lokasi, pilih **lokasi yang ditangguhkan** dan batalkan pilihan **Tambahkan Konten Aplikasi untuk pengguna Lokal**, karena lingkungan lab Anda tidak memiliki pengguna lokal, maka pilih **Berikutnya **.
+1. Di halaman Pilih lokasi, pilih **lokasi yang ditangguhkan** dan batal pilih **Tambahkan Konten Aplikasi untuk pengguna** Lokal, karena lingkungan lab Anda tidak memiliki pengguna lokal, lalu pilih **Berikutnya**.
 
 1. Laman Syarat kueri memungkinkan Anda membuat penangguhan, berdasarkan Kata Kunci atau Syarat tertentu yang dipenuhi. Pada bidang kata kunci, masukkan **Penjualan**, pilih **Berikutnya**.
 

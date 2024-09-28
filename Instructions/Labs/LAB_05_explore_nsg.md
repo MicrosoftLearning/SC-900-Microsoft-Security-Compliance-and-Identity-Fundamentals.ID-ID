@@ -64,7 +64,7 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan, menetapkan antarmuka 
     1. Lalu pilih **Kaitkan**.
     2. Di bidang kaitkan antarmuka jaringan, pilih **panah bawah**, pilih **sc900-winvmXXX **, lalu pilih **OK** di bagian bawah jendela. Setelah antarmuka dikaitkan dengan NSG, antarmuka akan muncul dalam daftar.  NSG kini ditetapkan ke antarmuka jaringan VM Anda.
 
-1. Beralih kembali ke tab **SC900-WinWM - Microsoft Azure** di browser.  Refresh halaman. Di samping tempat yang bertuliskan Kelompok keamanan jaringan, Anda kini akan melihat nama NSG yang baru saja Anda buat.  Jika Anda masih tidak melihatnya, tunggu beberapa menit, lalu refresh kembali halaman tersebut.
+1. Beralih kembali ke tab **SC900-WinVM - Microsoft Azure** di browser.  Refresh halaman. Di samping tempat yang bertuliskan Kelompok keamanan jaringan, Anda kini akan melihat nama NSG yang baru saja Anda buat.  Jika Anda masih tidak melihatnya, tunggu beberapa menit, lalu refresh kembali halaman tersebut.
 
 1. Dari panel navigasi kiri, pilih **Sambungkan**. Dari jendela utama, pilih **Periksa akses** di samping tempat Anda melihat nomor port 3389. Fungsi periksa akses mengirim sinyal (lalu lintas) ke port RDP default (3389) VM untuk memeriksa apakah port tersebut dapat diakses. Proses ini mungkin memerlukan waktu sekitar satu menit, tetapi Anda akan melihat status Tidak dapat diakses.  Ini merupakan hal yang normal karena aturan NSG DenyAllInBound menolak semua lalu lintas masuk ke VM.
 

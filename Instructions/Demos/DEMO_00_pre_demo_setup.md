@@ -14,9 +14,9 @@ Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh seb
 
 ## Penyiapan Pra-Demo Penyewa Microsoft 365
 
-### Mengaktifkan log audit Microsoft 365
+### Mengaktifkan log audit Microsoft 365 dan pemantauan file
 
-Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microsoft 365.  Meskipun dokumentasi menunjukkan bahwa log audit diaktifkan secara default, sebagian besar penyewa lab tidak mengaktifkan fitur ini, dan perlu waktu beberapa jam untuk menerapkannya.  Mengaktifkan fitur ini bermanfaat, karena Microsoft 365 menggunakan log audit untuk wawasan pengguna dan aktivitas yang diidentifikasi dalam kebijakan dan wawasan analitik.
+Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan Log audit dan pemantauan file di Microsoft 365.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **https://admin.microsoft.com**.
 
@@ -24,31 +24,33 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan log Audit di Microso
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
-1. Di Pusat admin, pilih **Kepatuhan**.  Laman browser baru membuka laman selamat datang di portal kepatuhan Microsoft Purview.  
+1. Di Pusat admin, pilih **Keamanan**.  Halaman browser baru terbuka ke halaman selamat datang Pertahanan Microsoft.  
 
 1. Dari panel navigasi sebelah kiri portal kepatuhan Microsoft Purview, pilih **Tampilkan semua**.
 
-1. Dari panel navigasi kiri, di bagian solusi, pilih **Audit**.  Catatan: fungsionalitas audit juga dapat diakses melalui beranda Microsoft 365 Defender.
+1. Di panel navigasi kiri, gulir ke bawah dan perluas **Sistem**.  Dari daftar yang diperluas, pilih **Audit**.  Catatan: fungsionalitas audit juga dapat diakses melalui portal Microsoft Purview.
 
-1. Pastikan tab **Pencarian** dipilih (digarisbawahi).
+1. Setelah Anda masuk ke halaman Audit, tunggu 1-2 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas laman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Mulai merekam aktivitas pengguna dan admin**.  Setelah audit diaktifkan, bilah biru menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.
 
-1. Setelah Anda masuk ke laman Audit, tunggu 2-3 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas laman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Mulai merekam aktivitas pengguna dan admin**.  Setelah audit diaktifkan, bilah biru menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.
+1. Dari panel navigasi kiri, di bawah Sistem, pilih **Pengaturan**.
 
-1. Kembali ke beranda portal kepatuhan Microsoft Purview dengan memilih **Beranda** dari panel navigasi sebelah kiri.
+1. Dari halaman pengaturan, pilih **Aplikasi cloud**.   Gulir ke bawah, lalu di bawah Perlindungan Informasi pilih **File**.
 
-### Pemantauan file di Microsoft Defender untuk Cloud Apps
+1. Jika belum diaktifkan, pilih kotak di samping tempatnya berbunyi **Aktifkan pemantauan** file lalu pilih **Simpan**.  
 
-Dalam penyiapan tugas ini, Anda akan mengaktifkan pemantauan file di Microsoft Defender untuk Cloud Apps.
+### Mengonfigurasi peran administrator Kepatuhan
 
-1. Buka tab browser untuk pusat admin Microsoft 365.  Jika sebelumnya Anda menutupnya, buka tab browser baru dan di bilah alamat, masukkan **https://admin.microsoft.com** dan dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
+Dalam tugas penyiapan ini, Anda akan menambahkan diri Anda sendiri, sebagai administrator MOD, ke grup peran Administrator kepatuhan.
 
-1. Di Pusat admin, pilih **Keamanan**.  Laman browser baru membuka laman selamat datang di portal Microsoft 365 Defender.  
-
-1. Dari panel navigasi kiri, pilih **File**, yang tercantum di Cloud apps
-
-1. Jika belum diaktifkan, Anda harus memilih **Aktifkan pemantauan file** dan pilih kotak di samping tempat yang bertuliskan **Aktifkan pemantauan file**, lalu pilih **Simpan**.  
-
-1. Dari panel navigasi kiri, di aplikasi cloud, pilih **Cloud File** untuk kembali ke laman file.  Jika berhasil mengaktifkan pemantauan file, Anda akan melihat opsi filter di bagian atas laman.  Mungkin perlu beberapa waktu untuk menampilkan file dari penyewa lab yang telah dikonfigurasi.
+1. Buka tab browser Microsoft Edge baru. Di bilah alamat, masukkan **https://purview.microsoft.com**. Untuk mengakses portal Microsoft Purview baru, pilih kotak di samping tempat yang tertulis, **saya menyetujui ketentuan pengungkapan aliran data dan Pernyataan** Privasi, lalu pilih **Mulai**.  
+1. Dari panel navigasi kiri, pilih **Pengaturan**.
+1. Dari panel navigasi yang terbuka, pilih **Peran dan cakupan** untuk memperluas opsi, lalu pilih **Grup** peran.
+1. Di kotak pencarian di sisi kanan layar, cari pada istilah **Kepatuhan**.  Pilih **Administrator** Kepatuhan.
+    1. Pilih **Edit**.
+    1. Pilih **Pilih pengguna**.
+    1. Cari Administrator MOD, pilih kotak di samping **Administrator** MOD lalu pilih tombol **Pilih** di bagian bawah halaman.
+    1. Pilih **Berikutnya** lalu pilih **Simpan**, lalu akhirnya pilih **Selesai**.
+1. Ini menyimpulkan penyiapan untuk penyewa Microsoft 365, Anda dapat menutup tab browser.
 
 ## Penyiapan Pra-Demo Langganan Azure Cloud Slice
 
@@ -66,6 +68,7 @@ Periksa apakah VM telah dibuat. Jika belum, siapkan sekarang. Anda akan mengguna
     1. Grup sumber daya: pilih **Buat baru** dan masukkan **LabsSC900**, lalu pilih **OK**.
     1. Nama mesin virtual: masukkan **SC900-WinVM**.
     1. Opsi ketersediaan: Dari menu menurun, pilih **Tidak diperlukan redundansi infrastruktur**.
+    1. Jenis keamanan: dari menu drop-down, pilih **Standar**.
     1. Gambar: Dari menu menurun, pilih **Windows 11 Pro, versi 22H2 - x64 Gen2** (atau gambar Windows 10 atau Window 11 yang tercantum).
     1. Ukuran: pilih **Lihat semua ukuran** dan pilih **Standard_B1s**, lalu pilih **Pilih** di bagian bawah laman.
     1. Nama pengguna: masukkan **SC900-VM-User**
@@ -115,7 +118,7 @@ Tujuannya di sini hanyalah mengakses Microsoft Defender untuk Cloud untuk pertam
 
 ### Microsoft Sentinel
 
-Periksa apakah instans Microsoft Sentinel telah dibuat. Jika belum, siapkan sekarang karena Anda akan membutuhkannya sebagai bagian dari demo panduan di Microsoft Sentinel.
+Periksa untuk memastikan bahwa instans Microsoft Azure Sentinel telah dibuat. Jika belum, siapkan sekarang karena Anda akan membutuhkannya sebagai bagian dari demo panduan di Microsoft Sentinel.
 
 1. Buka tab Beranda - Microsoft Azure di browser Anda.
 

@@ -20,7 +20,7 @@ Dalam demo ini, Anda akan menelusuri berbagai opsi yang tersedia untuk kebijakan
 
 1. Dari panel navigasi kiri, bentangkan **Perlindungan**, lalu pilih **Akses Bersyarat**.
 
-1. Laman ikhtisar Akses bersyar ditampilkan.  Di sini, Anda akan melihat petak yang memperlihatkan ringkasan Kebijakan dan pemberitahuan umum.  Dari panel navigasi kiri, pilih **Kebijakan**.
+1. Laman ikhtisar Akses bersyar ditampilkan.  Di sini Anda akan melihat informasi tentang Ringkasan kebijakan, Apa yang baru, dan pemberitahuan umum.  Dari panel navigasi kiri jendela Akses Bersyar, pilih **Kebijakan**.
 
 1. Laman ikhtisar Akses bersyar ditampilkan. Kebijakan Akses Bersyarat yang ada tercantum di sini. Untuk menampilkan pengaturan yang terkait dengan akses bersyarkat, pilih **+ kebijakan** baru.
 
@@ -32,9 +32,11 @@ Dalam demo ini, Anda akan menelusuri berbagai opsi yang tersedia untuk kebijakan
         1. Pilih **Aplikasi cloud**, lalu di bagian tab Sertakan, pilih opsi **Pilih aplikasi**, lalu di bawah tempat tulisan **Pilih**, pilih **Tidak Ada**, jendela akan terbuka untuk memilih satu atau beberapa aplikasi yang kebijakannya akan diterapkan.
         1. Tutup jendela Pilih aplikasi cloud dengan memilih **X** di pojok kanan atas jendela.
         1. Saat waktu memungkinkan, Anda dapat memilih melalui opsi lain (tindakan pengguna dan konteks autentikasi) untuk melihat opsi konfigurasi untuk masing-masing opsi.
+    1. **Jaringan** - arahkan mouse Anda ke ikon informasi di samping di mana dikatakan "Jaringan".  Panggil bahwa lokasi jaringan ditentukan oleh rentang alamat IP atau koordinat GPS tempat pengguna masuk.  Pilih **Tidak dikonfigurasi** untuk membuat vew opsi yang tersedia.
     1. **Syarat** - arahkan mouse ke ikon informasi di sebelah ikon yang bertuliskan “Syarat” dan sebutkan bahwa hal ini menetapkan syarat mana yang mendefinisikan kapan kebijakan akan berlaku. Misalnya, ‘lokasi. Pilih **0 syarat dipilih**. Sampaikan berbagai "sinyal" yang tercantum.   Pilih beberapa opsi dengan terlebih dahulu memilih ikon informasi untuk menentukan apa itu, kemudian memilih **Tidak dikonfigurasi** pada item tertentu untuk menampilkan berbagai opsi.
         1. **Risiko pengguna** - Risiko pengguna menunjukkan peluang identitas atau akun tertentu disusupi. Risiko ini dapat dihitung offline menggunakan sumber inteligensi ancaman internal dan eksternal Microsoft.
         1. **Risiko masuk** - Risiko masuk menunjukkan peluang bahwa permintaan autentikasi yang diberikan tidak diotorisasi oleh pemilik identitas. Contohnya mungkin meliputi perincian masuk yang berasal dari alamat IP anonim atau perjalanan tidak biasa, dll.
+        1. **Risiko** insider - Risiko insider, dikonfigurasi dalam Perlindungan Adaptif, menilai risiko berdasarkan aktivitas terkait data berisiko pengguna.
         1. **Platform Perangkat** - Platform tempat pengguna masuk. Misalnya, 'iOS’.
         1. **Lokasi** - Lokasi (ditentukan menggunakan rentang alamat IP) tempat pengguna masuk
         1. **Aplikasi klien** - Perangkat lunak yang digunakan pengguna untuk mengakses aplikasi cloud. Misalnya, 'Browser'
