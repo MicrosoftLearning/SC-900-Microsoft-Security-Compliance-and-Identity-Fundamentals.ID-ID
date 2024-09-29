@@ -16,7 +16,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan menjelajahi portal Pertahanan Microsoft 365 dengan menjelajahi konten yang ditampilkan di laman arahan. Anda juga akan mempelajari opsi pada panel navigasi yang menyediakan akses cepat ke fungsionalitas yang merupakan bagian dari solusi Extended Detection and Response (XDR) Microsoft: Pertahanan Microsoft untuk Titik Akhir dan Pertahanan Microsoft untuk Office 365 (email dan kolaborasi).  Terakhir, Anda juga akan menjelajahi bagaimana Microsoft Secure Score dapat membantu organisasi meningkatkan kondisi keamanannya.
 
-**Perkiraan Waktu**: 10-15 menit
+**Perkiraan Waktu:**: 30 menit
 
 ### Tugas 1
 

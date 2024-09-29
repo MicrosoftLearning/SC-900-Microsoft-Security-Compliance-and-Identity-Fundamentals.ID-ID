@@ -16,7 +16,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan mempelajari kemampuan Microsoft Defender untuk Cloud Apps.  Anda akan mempelajari informasi yang tersedia di dasbor Cloud Discovery, katalog aplikasi Cloud, kemampuan yang tersedia untuk menyelidiki temuan, dan cara mengontrol dampak terhadap organisasi Anda melalui kebijakan. Catatan: Organisasi harus memiliki lisensi untuk menggunakan Microsoft Defender untuk Cloud Apps yang merupakan layanan langganan berbasis pengguna.
 
-**Perkiraan Waktu**: 15-20 menit
+**Perkiraan Waktu:**: 30 menit
 
 ### Tugas 1 - Menjelajahi Cloud discovery
 

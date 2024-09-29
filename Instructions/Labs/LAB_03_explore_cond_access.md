@@ -69,6 +69,8 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 1. Pilih **Portal** Admin Microsoft, lalu tekan **Pilih** di bagian bawah halaman.  Perhatikan peringatannya.  
 
+1. Di bawah Jaringan, pilih **Jaringan atau lokasi** apa pun.  Tinjau opsi tetapi jangan pilih opsi apa pun.
+
 1. Di bagian Kondisi, pilih **0 kondisi yang dipilih**.  Perhatikan berbagai opsi yang dapat Anda konfigurasi.  Melalui kebijakan, Anda dapat mengontrol akses pengguna berdasarkan sinyal dari kondisi termasuk: risiko pengguna, risiko masuk, platform perangkat, lokasi, aplikasi klien, atau filter untuk perangkat.  Jelajahi opsi yang dapat dikonfigurasi ini, tetapi jangan atur kondisi apa pun.
 
 1. Sekarang Anda akan mengatur kontrol akses.  Di bagian Izinkan, pilih **0 kontrol yang dipilih**.
@@ -97,11 +99,18 @@ Dalam tugas ini, Anda akan melihat dampak dari kebijakan akses bersyarat, dari s
 
 1. Di jendela Jaga keamanan akun Anda, Anda memiliki opsi untuk memilih metode yang akan digunakan untuk MFA.  Microsoft Authenticator adalah salah satu opsi. Untuk kelayakan dalam latihan lab ini, Anda akan memilih metode yang berbeda.  Pilih **Saya ingin menyiapkan metode lain**  Dari jendela pop-up Pilih metode lain, pilih **panah menurun** dan pilih **Telepon**, lalu pilih **Konfirmasi**.
 
-1. Di jendela yang terbuka, pastikan negara Anda dipilih lalu masukkan nomor ponsel yang ingin digunakan.  Pastikan bahwa **Kirimi saya kode** dipilih, lalu tekan **Berikutnya**.  Anda akan menerima pesan teks di ponsel dengan kode yang harus dimasukkan di tempat yang bertuliskan masukkan kode.  Masukkan kode yang Anda terima, lalu tekan **Berikutnya**.  Setelah dikonfirmasi, layar akan menampilkan, "SMS diverifikasi. Ponsel Anda berhasil didaftarkan".  Pilih **Selanjutnya**. lalu pilih **Selesai**.  ini menyelesaikan proses pendaftaran satu kali.
+1. Jendela yang muncul dan langkah-langkah berikut adalah untuk metode aplikasi Microsoft Authenticator. .
+    1. Jika Anda sudah menginstal aplikasi Microsoft Authenticator di perangkat seluler, pilih **Berikutnya**. Jika tidak, pilih **Unduh sekarang** dan ikuti langkah-langkahnya.
+    1. Anda akan mulai menyiapkan akun Anda.  Pilih **Selanjutnya**.
+    1. Menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda, pilih **+** untuk menambahkan akun dan pilih **Akun** kantor atau sekolah.
+    1. Pilih opsi untuk **Memindai kode** QR, lalu menggunakan perangkat seluler Anda, pindai kode QR di layar PC Anda.
+    1. Menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda, pindai kode QR.
+    1. Ikuti langkah-langkah di PC dan perangkat seluler Anda, lalu pilih **Berikutnya**.
+    1. Setelah menyiapkan info keamanan, Anda akan melihat jendela Berhasil.  Pilih **Selesai**.
 
 1. Anda akan dapat mengakses portal Azure.  Portal Azure adalah portal Microsoft Admin dan oleh karena itu memerlukan autentikasi multifaktor, sesuai kebijakan akses bersyarat yang dibuat.  
     1. Jika Anda mendapatkan pesan yang menunjukkan bahwa waktu masuk Anda habis, masukkan kata sandi dan pilih **Masuk**.
-    1. Anda akan melihat jendela yang mengharuskan memverifikasi identitas.  Pilih tempat yang bertuliskan Teks =X XXXXXXX untuk menerima kode di ponsel Anda, masukkan kode dan pilih **Verifikasi**.
+    1. Anda akan melihat jendela yang mengharuskan Anda menyetujui permintaan masuk.  Perhatikan nomor di PC Anda dan ikuti instruksi di aplikasi Microsoft Authenticator.
     1. Jika Anda diminta untuk tetap masuk, pilih **Tidak**.
 
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih keluar. Kemudian tutup semua jendela browser.

@@ -16,7 +16,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan mempelajari fungsi grup keamanan jaringan di Azure.  Anda akan melakukannya dengan membuat grup keamanan jaringan (NSG) dan menetapkan NSG ke antarmuka mesin virtual (VM) yang sudah ada sebelumnya.  Setelah dikonfigurasi, Anda akan mengamati aturan masuk dan keluar default, membuat aturan baru, dan menguji aturan tersebut.  Di lab ini, VM yang akan Anda gunakan dengan NSG dibuat untuk Anda, jadi Anda akan melihat beberapa informasi yang terkait dengan VM tersebut terlebih dahulu.
   
-**Perkiraan Waktu**: 30-45 menit
+**Perkiraan Waktu**: 45 menit
 
 ### Tugas 1
 

@@ -16,7 +16,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan mempelajari beberapa fungsi dasar Privileged Identity Management (PIM). PIM memang memerlukan lisensi Microsoft Entra ID P2.  Di lab ini, Anda, sebagai admin, akan mengonfigurasi salah satu pengguna Anda, Diego Siciliani, dengan peran administrator pengguna Microsoft Entra, melalui privileged ID management (PIM).   Dengan hak istimewa admin pengguna, Diego akan dapat membuat pengguna dan grup mengelola lisensi, dan banyak lagi.  Baik admin maupun pengguna, Diego, harus dikonfigurasi untuk lisensi Microsoft Entra ID P2.
 
-**Perkiraan Waktu**: 45-60 menit
+**Perkiraan Waktu**: 60 menit
 
 ### Tugas 1
 
@@ -49,7 +49,7 @@ Dalam tugas ini, Anda, sebagai admin, akan menetapkan peran ID Microsoft Entra d
 
 1. Dari panel navigasi sebelah kiri, di bagian “Identitas”, bentangkan **Tata Kelola Identitas**, lalu pilih **Privileged Identity Management**.
 
-1. Sekarang, Anda berada di laman mulai cepat Privileged Identity Management. Tinjau informasi di laman Memulai. Pilih **Kelola**.
+1. Sekarang, Anda berada di laman mulai cepat Privileged Identity Management. Tinjau informasi di laman Memulai. Di jendela utama, di mana tertulis Kelola akses, pilih **Kelola**.
 
 1. Sekarang, Anda berada di laman Peran Contoso.  Di bilah pencarian, di bagian atas laman, masukkan **pengguna**.  Dari hasil pencarian, pilih **Administrator Pengguna**.
 
@@ -83,7 +83,7 @@ Dalam tugas ini, Anda, sebagai admin, akan menetapkan peran ID Microsoft Entra d
 
 ### Tugas 3
 
-Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsoft Entra, untuk mengakses kemampuan Privileged Identity Management di Microsoft Entra guna mengaktifkan tugas Anda sebagai Administrator pengguna.  Setelah diaktifkan, Anda akan membuat beberapa perubahan konfigurasi pada pengguna yang sudah ada. Catatan: Untuk tugas ini, Anda memerlukan akses ke perangkat seluler yang dapat diakses langsung dan dapat menerima pesan teks.
+Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsoft Entra, untuk mengakses kemampuan Privileged Identity Management di Microsoft Entra guna mengaktifkan tugas Anda sebagai Administrator pengguna.  Setelah diaktifkan, Anda akan membuat beberapa perubahan konfigurasi pada pengguna yang sudah ada. Catatan: Untuk tugas ini, Anda memerlukan akses ke perangkat seluler untuk digunakan dengan aplikasi Microsoft Authenticator.
 
 1. Buka Microsoft Edge.  Di bilah alamat browser, masukkan **Entra.microsoft.com/**.
 
@@ -98,28 +98,30 @@ Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsof
 1. Dari panel navigasi kiri, pilih **Peran yang saya**.  Sekarang, Anda melihat informasi untuk penugasan yang memenuhi syarat.  Anda akan melihat bahwa Anda, Diego, diberi peran sebagai Administrator pengguna.  
 1. Di kolom terakhir tabel, tindakan berlabel, pilih **Aktifkan**.
 1. Anda akan melihat ikon peringatan yang menunjukkan Diperlukan verifikasi tambahan.  Pilih **Klik untuk melanjutkan**.  Perlu diperhatikan bahwa pengaturan PIM untuk peran Administrator pengguna memerlukan autentikasi multifaktor.  Selain itu, karena informasi kontak Diego yang digunakan dengan MFA (metode autentikasi) sebelumnya tidak dikonfigurasi, ia harus mendaftarkan informasinya, untuk dapat menggunakan MFA.  Meskipun dia harus melakukan MFA kapan saja dia masuk sebagai admin pengguna, dalam periode penugasan, proses pendaftaran MFA hanya diperlukan sekali.
-1. Anda diberi tahu bahwa informasi selengkapnya diperlukan, pilih **Berikutnya**.
-1. Masukkan kata sandi Anda.
-1. Dari kiri bawah jendela Microsoft Authenticator, pilih **Saya ingin menyiapkan metode lain**.
-1. Anda diminta Memilih metode yang berbeda.  Di samping tempat bertuliskan aplikasi Authenticator, pilih tombol panah bawah.   Pilih **Ponsel**, lalu pilih **Konfirmasi**.
-1. Anda diminta untuk memasukkan nomor telepon yang ingin digunakan. Pastikan negara sudah benar, untuk kode negara nomor telepon Anda.  Masukkan nomor telepon Anda, pastikan bahwa **Kirimi saya kode** dipilih, lalu tekan **Berikutnya**.
-1. Masukkan kode 6 angka yang Anda terima di ponsel dan pilih **Berikutnya**.
-1. Anda akan melihat pemberitahuan bahwa ponsel Anda telah berhasil didaftarkan. Pilih **Berikutnya**, lalu pilih **Selesai**.
-1. Anda ditanya apakah ingin tetap masuk.  Pilih **Ya**.
+1. Jendela yang muncul dan langkah-langkah berikut adalah untuk metode aplikasi Microsoft Authenticator. .
+    1. Jika Anda sudah menginstal aplikasi Microsoft Authenticator di perangkat seluler, pilih **Berikutnya**. Jika tidak, pilih **Unduh sekarang** dan ikuti langkah-langkahnya.
+    1. Anda akan mulai menyiapkan akun Anda.  Pilih **Selanjutnya**.
+    1. Menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda, pilih **+** untuk menambahkan akun dan pilih **Akun** kantor atau sekolah.
+    1. Pilih opsi untuk **Memindai kode** QR, lalu menggunakan perangkat seluler Anda, pindai kode QR di layar PC Anda.
+    1. Menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda, pindai kode QR.
+    1. Ikuti langkah-langkah di PC dan perangkat seluler Anda, lalu pilih **Berikutnya**.
+    1. Setelah menyiapkan info keamanan, Anda akan melihat jendela Berhasil.  Pilih **Selesai**.
+
+1. Setelah Anda menyelesaikan proses pendaftaran MFA, Anda dikembalikan ke halaman Administrator Pengguna Aktif PIM.
 1. Jendela Aktifkan Administrator Pengguna muncul.  Anda harus memasukkan alasan aktivasi.  Dalam kotak yang muncul, masukkan alasan apa pun yang Anda inginkan (maksimal 500 karakter), lalu pilih **Aktifkan**.
 1. Anda akan melihat status (3 tahap progres), saat aktivasi diproses.
 1. Setelah aktivasi selesai, Anda dikembalikan ke Peran saya | Halaman peran ID Microsoft Entra, tempat Anda akan melihat pemberitahuan yang menyatakan bahwa Anda telah mengaktifkan peran.  Pilih **Klik di sini** untuk melihat peran aktif Anda.  Jika Anda melihat waktu akhir berbeda dari yang awalnya dikonfigurasi, pilih tombol refresh di bagian atas laman (mungkin perlu beberapa menit untuk melakukan penyegaran).
 1. Kembali ke beranda portal kepatuhan Microsoft Purview dengan memilih **Beranda** dari panel navigasi sebelah kiri. 
-1. Sebagai administrator pengguna ID Microsoft Entra, Anda dapat membuat pengguna dan grup, mengelola lisensi, dan banyak lagi. Dari panel navigasi sebelah kiri, bentangkan **Identitas**, pilih **Pengguna**, lalu pilih **Semua pengguna**.
+1. Sebagai administrator pengguna ID Microsoft Entra, Anda dapat membuat pengguna dan grup, mengelola lisensi, dan banyak lagi. Dari panel navigasi kiri, perluas **Identitas**, pilih **Pengguna**.
 1. Dari daftar pengguna, pilih **Bianca Pisani**.
-1. Dari panel navigasi kiri, pilih **Lisensi**.
-1. Perhatikan bahwa Bianca tidak memiliki lisensi yang ditetapkan.  Dari bagian atas laman, pilih **+ Penugasan**.
-1. Dari daftar pilih lisensi, pilih **Microsoft Power Apps untuk Pengembang** dan **Microsoft Power Automate Gratis**.
-1. Di bagian bawah laman, pilih **Simpan**.  Anda akan melihat pemberitahuan singkat di kanan atas laman yang menunjukkan bahwa lisensi berhasil ditetapkan.
-1. Tutup laman penugasan lisensi terbaru dengan memilih **X** di pojok kanan atas laman.
+1. Dari panel navigasi kiri, pilih **Grup**.
+1. Perhatikan grup tempat Bianca sudah ditetapkan. Dari bagian atas halaman, pilih **+ Keanggotaan**.
+1. Dari daftar grup, pilih **Mark 8 Project Team**.
+1. Dari bagian bawah halaman, pilih **Pilih**.
+1. Pada halaman Grup, perhatikan bahwa grup Tim Proyek Mark 8 telah ditambahkan ke daftar (jika Anda tidak segera melihatnya tercantum, pilih tombol **Refresh** ).
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih **Keluar**. Kemudian tutup semua jendela browser..
 1. Durasi peran Administrator Pengguna terbatas pada waktu yang dikonfigurasi.
 
 ### Tinjauan
 
-Di lab ini; Anda telah menjelajahi PIM.  Sebagai admin, Anda telah mengonfigurasi Diego dengan hak istimewa admin pengguna selama jumlah waktu yang ditentukan.  Kemudian Anda, sebagai Diego, mempelajari proses mengaktifkan hak istimewa admin pengguna dan mengonfigurasi pengaturan pengguna.  Ingat bahwa PIM memerlukan lisensi Microsoft Entra ID Premium P2.
+Di lab ini; Anda telah menjelajahi PIM.  Sebagai admin, Anda telah mengonfigurasi Diego dengan hak istimewa admin pengguna selama jumlah waktu yang ditentukan.  Kemudian Anda, sebagai Diego, berjalan melalui proses mengaktifkan hak istimewa admin pengguna dan pengguna ke grup.  Ingat bahwa PIM memerlukan lisensi Microsoft Entra ID Premium P2.
