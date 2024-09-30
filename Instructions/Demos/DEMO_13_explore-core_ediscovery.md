@@ -1,10 +1,10 @@
 <!---
 ---
-Demo: Judul: 'Jelajahi alur kerja eDiscovery' Jalur Pembelajaran/Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview; Modul 3: Menjelaskan solusi kepatuhan data Microsoft Purview; Unit 2: Menjelaskan eDiscovery'
+Demo: Judul: 'Jelajahi Jalur Pembelajaran/Modul/Unit eDiscovery': 'Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview; Modul 3: Menjelaskan solusi kepatuhan data Microsoft Purview; Unit 2: Menjelaskan eDiscovery'
 ---
 --->
 
-# Demo: Menjelajahi alur kerja eDiscovery (Standar)
+# Demo: Jelajahi eDiscovery (Standar)
 
 Demo ini memetakan ke konten Learn berikut:
 

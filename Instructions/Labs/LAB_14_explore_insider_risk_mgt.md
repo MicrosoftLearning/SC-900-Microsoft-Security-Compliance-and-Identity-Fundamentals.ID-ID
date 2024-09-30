@@ -1,16 +1,16 @@
 ---
 lab:
   title: Menjelajahi manajemen risiko dari dalam di Microsoft Purview
-  module: Describe the insider risk capabilities in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
 ---
 
 # Lab: Menjelajahi manajemen risiko dari dalam di Microsoft Purview
 
 Lab ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan kemampuan risiko dari dalam di Microsoft Purview
-- Unit: Menjelaskan Manajemen Risiko Dari Dalam
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
+- Modul: Menjelaskan solusi keamanan data Microsoft Purview
+- Unit: Menjelaskan manajemen risiko orang dalam di Microsoft Purview
 
 ## Skenario lab
 
