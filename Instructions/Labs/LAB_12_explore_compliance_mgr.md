@@ -1,16 +1,16 @@
 ---
 lab:
-  title: Menjelajahi portal kepatuhan Microsoft Purview & Manajer Kepatuhan
-  module: Describe the compliance management capabilities in Microsoft Purview
+  title: Menjelajahi portal dan Manajer Kepatuhan Microsoft Purview
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Lab: Menjelajahi portal kepatuhan Microsoft Purview & Pengelola Kepatuhan
+# Lab: Menjelajahi portal Microsoft Purview dan Manajer Kepatuhan
 
 Lab ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan kemampuan manajemen kepatuhan di Microsoft Purview
-- Unit: Menjelaskan portal kepatuhan Microsoft Purview
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
+- Modul: Menjelaskan kemampuan solusi kepatuhan Microsoft Purview
+- Unit: Menjelaskan Manajer Kepatuhan
 
 ## Skenario lab
 
@@ -26,6 +26,7 @@ Pelajari halaman beranda portal kepatuhan Microsoft Purview dan pelajari cara me
 1. Masuk menggunakan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang diberikan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**. Ini akan membawa Anda ke laman pusat admin Microsoft 365.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.

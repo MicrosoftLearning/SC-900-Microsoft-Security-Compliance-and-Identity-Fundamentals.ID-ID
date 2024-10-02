@@ -25,6 +25,7 @@ Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Entra ID (sebe
 1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **[admin.microsoft.com](https://admin.microsoft.com)** dan masuk dengan kredensial Microsoft 365 yang disediakan oleh host lab resmi (ALH).
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Karena ini adalah pertama kalinya Anda masuk, Anda mungkin diminta untuk menyiapkan MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Di Pusat admin, pilih **Identitas** (Anda mungkin perlu memilih **Tampilkan semua** dan menggulir ke bawah).  Laman browser baru membuka laman ikhtisar di pusat admin Microsoft Entra.
@@ -102,18 +103,20 @@ Dalam tugas ini, Anda akan masuk sebagai Sara Perez, untuk pertama kalinya.
 
 1. Buka Microsoft Edge.
 
-2. Di bilah alamat, masukkan **https://login.microsoft.com**.
+1. Di bilah alamat, masukkan **https://login.microsoft.com**.
 
-3. Masuk sebagai **sara@WWLxZZZZZ.onmicrosoft.com**, (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda).
-4. Masukkan kata sandi sementara yang Anda catat dari tugas sebelumnya.
+1. Masuk sebagai **sara@WWLxZZZZZ.onmicrosoft.com**, (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda).
+1. Masukkan kata sandi sementara yang Anda catat dari tugas sebelumnya.
 
-5. Sekarang Anda diminta Memperbarui kata sandi. Di bidang Kata sandi saat ini, masukkan kata sandi sementara dari tugas sebelumnya.
+1. Sekarang Anda diminta Memperbarui kata sandi. Di bidang Kata sandi saat ini, masukkan kata sandi sementara dari tugas sebelumnya.
 
-6. Di bidang Kata sandi baru, masukkan kata sandi baru, konfirmasi kata sandi, lalu pilih **Masuk**.  Catat kata sandi baru karena Anda akan membutuhkannya untuk latihan lab berikutnya di SSPR.
+1. Di bidang Kata sandi baru, masukkan kata sandi baru, konfirmasi kata sandi, lalu pilih **Masuk**.  Catat kata sandi baru karena Anda akan membutuhkannya untuk latihan lab berikutnya di SSPR.
 
-7. Anda sekarang harus berhasil masuk ke akun Microsoft Sara.  Perhatikan bahwa lisensi Sara yang Anda tetapkan dalam tugas sebelumnya hanya terbatas pada Power Automate Free dan Power Apps for Developer dan tidak menyertakan lisensi E5.
+1. Karena ini adalah pertama kalinya Anda masuk sebagai Sara Perez, Anda mungkin diminta untuk mengatur MFA. Ikuti perintah di layar untuk menyiapkan MFA.
 
-8. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf SP (di sebelah ikon tanda tanya), lalu pilih **Keluar**, lalu tutup browser.
+1. Anda sekarang harus berhasil masuk ke akun Microsoft Sara.  Perhatikan bahwa lisensi Sara yang Anda tetapkan dalam tugas sebelumnya hanya terbatas pada Power Automate Free dan Power Apps for Developer dan tidak menyertakan lisensi E5.
+
+1. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf SP (di sebelah ikon tanda tanya), lalu pilih **Keluar**, lalu tutup browser.
 
 ### Tinjauan
 

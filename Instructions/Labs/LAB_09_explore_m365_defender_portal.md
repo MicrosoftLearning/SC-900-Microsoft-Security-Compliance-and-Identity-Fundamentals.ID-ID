@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Menjelajahi portal Pertahanan Microsoft
+  title: Menjelajahi portal Microsoft Defender
   module: Describe the threat protection capabilities of Microsoft XDR
 ---
 
@@ -26,8 +26,8 @@ Jelajahi halaman arahan Pertahanan Microsoft.
 
 1. Masuk menggunakan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab) lalu pilih **Berikutnya**.
-
     1. Masukkan kata sandi admin yang disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**. Ini akan membawa Anda ke laman pusat admin Microsoft 365.
 
 1. Dari panel navigasi kiri pusat pusat admin administrator Microsoft 365, pilih **Keamanan**.  Jika Anda tidak melihat Keamanan tercantum, pilih **Tampilkan semua**, lalu pilih **Keamanan**.  Halaman browser baru terbuka ke halaman selamat datang portal Pertahanan Microsoft.  

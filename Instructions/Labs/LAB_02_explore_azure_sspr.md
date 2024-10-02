@@ -31,6 +31,7 @@ Dalam tugas ini, Anda, sebagai admin, akan menelusuri beberapa pengaturan konfig
 1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **https://entra.microsoft.com** dan masuk dengan admin kredensial Microsoft 365 yang disediakan oleh host lab resmi (ALH).
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Dari panel navigasi kiri, bentangkan opsi untuk **Perlindungan**, lalu pilih **Atur ulang kata sandi**.  
@@ -81,7 +82,7 @@ Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani pendaftaran p
 
 1. Buka Microsoft Edge dan di bilah alamat, masukkan **https://login.microsoft.com**.
 
-1. Masuk sebagai Sara Perez.
+1. Masuk sebagai Sara Perez. Proses masuk mungkin memerlukan MFA.
 
 1. Pop-up yang ditampilkan menunjukkan bahwa Informasi lebih lanjut diperlukan.  Ini karena sebagai anggota grup SSPRSecurityGroupUsers, konfigurasi mengharuskan anggotanya untuk mendaftar saat mereka masuk.  Pilih tombol **Berikutnya**.  Catatan: Alternatif untuk meminta pengguna melakukan pendaftaran, sendiri, adalah agar admin dapat langsung mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 

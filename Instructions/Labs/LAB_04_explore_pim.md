@@ -27,6 +27,7 @@ Dalam tugas ini Anda, sebagai admin, akan mengatur ulang kata sandi untuk penggu
 1. Masuk dengan kredensial admin Microsoft 365 yang disediakan oleh ALH Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda mungkin diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Dari panel navigasi sebelah kiri, bentangkan **Identitas**, bentangkan **Pengguna**, lalu pilih **Semua pengguna**.
@@ -91,6 +92,7 @@ Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsof
     1. Di jendela Masuk, masukkan **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi sementara yang Anda catat dari tugas sebelumnya dan pilih **Masuk**.  Pilih **Masuk**.
     1. Karena kata sandi yang Anda masukkan hanyalah kata sandi sementara, Anda harus memperbaruinya sekarang. Masukkan kata sandi saat ini, lalu masukkan kata sandi baru, lalu konfirmasi kata sandi baru.  Catat kata sandi baru karena Anda akan membutuhkannya untuk menyelesaikan tugas.
+    1. Karena ini adalah pertama kalinya Anda masuk sebagai Diego, Anda mungkin diminta untuk mengatur MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Anda berhasil masuk ke pusat admin Microsoft Entra.

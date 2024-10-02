@@ -27,6 +27,7 @@ Dalam tugas ini, Anda akan melihat beberapa parameter yang terkait dengan VM yan
 1. Masuk menggunakan kredensial admin Anda.
     1. Di jendela Masuk, masukkan nama pengguna yang diberikan oleh penyedia host lab Anda, lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika sebelumnya Anda telah masuk, Anda mungkin diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Di bagian atas laman, di bawah tulisan Layanan Azure, pilih **Mesin Virtual**.  Jika Anda tidak melihatnya dalam daftar, maka di kotak pencarian, di bilah warna biru di bagian atas laman di sebelah tulisan Microsoft Azure, masukkan **Mesin Virtual**, lalu pilih **Mesin Virtual** dari hasil pencarian.
@@ -35,7 +36,7 @@ Dalam tugas ini, Anda akan melihat beberapa parameter yang terkait dengan VM yan
 
 1. Sekarang, Anda berada di halaman SC900-WinVM.  Perhatikan beberapa informasi dasar tentang VM.
 
-1. Dari panel navigasi kiri, pilih **Pengaturan Jaringan**.  Bagian penting dari jendela utama menampilkan antarmuka jaringan untuk VM.  Perhatikan bahwa tidak ada yang tercantum di samping Kelompok keamanan jaringan karena tidak ada NSG yang ditetapkan ke antarmuka.
+1. Dari panel navigasi kiri, perluas **Jaringan** lalu pilih **Pengaturan** Jaringan.  Bagian penting dari jendela utama menampilkan antarmuka jaringan untuk VM.  Perhatikan bahwa tidak ada yang tercantum di samping Kelompok keamanan jaringan karena tidak ada NSG yang ditetapkan ke antarmuka.
 
 1. Tetap buka tab ini.
 
@@ -60,7 +61,7 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan, menetapkan antarmuka 
 
 1. Anda akan berada di halaman gambaran umum untuk NSG yang baru saja dibuat.  Jika Anda berada di halaman lain, pilih **Gambaran Umum** dari panel navigasi kiri. Di bagian atas laman di bawah yang bertuliskan Essentials, Anda akan melihat beberapa informasi dasar tentang NSG yang Anda buat.  Dua hal yang perlu diperhatikan adalah bahwa tidak ada aturan Keamanan Kustom dan tidak ada subnet atau antarmuka jaringan yang terkait dengan NSG ini.  Meskipun tidak ada aturan keamanan khusus, ada aturan masuk dan keluar default yang disertakan dengan setiap NSG, seperti yang ditampilkan di laman.  Tinjau aturan masuk dan keluar. Aturan masuk default menolak semua lalu lintas masuk yang bukan dari jaringan virtual atau load balancer Azure.  Aturan keluar menolak semua lalu lintas keluar, kecuali lalu lintas antara jaringan virtual dan lalu lintas keluar ke internet.
 
-1. Dari panel navigasi kiri di laman NSG-SC900, di bagian Pengaturan, pilih **Antarmuka jaringan**.
+1. Dari panel navigasi kiri pada halaman NSG-SC900, perluas **Pengaturan** lalu pilih **Antarmuka jaringan**.
     1. Lalu pilih **Kaitkan**.
     2. Di bidang kaitkan antarmuka jaringan, pilih **panah bawah**, pilih **sc900-winvmXXX **, lalu pilih **OK** di bagian bawah jendela. Setelah antarmuka dikaitkan dengan NSG, antarmuka akan muncul dalam daftar.  NSG kini ditetapkan ke antarmuka jaringan VM Anda.
 
@@ -95,7 +96,7 @@ Dalam tugas ini, Anda akan menguji aturan NSG masuk yang baru dibuat untuk mengo
 
 1. Pilih **Hubungkan** dari panel navigasi kiri.
 
-1. Pilih **periksa akses** (pastikan port diatur ke 3389).  Status harus ditampilkan sebagai "Dapat Diakses".
+1. Pilih **periksa akses** (pastikan port diatur ke 3389).  Status harus ditampilkan sebagai "Dapat Diakses".  Jika Anda masih melihat "Tidak dapat diakses", refresh halaman dan coba lagi, mungkin perlu beberapa menit agar aturan masuk baru terlihat oleh opsi centang akses.
 
 1. Sekarang sambungkan langsung ke VM dengan mengklik **Pilih** di kotak yang berbunyi RDP Asal.
    
@@ -108,7 +109,10 @@ Dalam tugas ini, Anda akan menguji aturan NSG masuk yang baru dibuat untuk mengo
 1. Sekarang, Anda terhubung ke VM. Dalam hal ini, Anda dapat terhubung ke VM karena aturan lalu lintas masuk yang Anda buat memungkinkan lalu lintas masuk ke VM melalui RDP.  Setelah beberapa detik di layar Selamat Datang, Anda akan melihat jendela Pilih pengaturan privasi untuk perangkat Anda, pilih **Terima**.  Jika jendela Jaringan muncul, pilih **Tidak**.
 
 1. Dengan VM di sesi RDP yang aktif dan berjalan, uji konektivitas keluar ke Internet dari VM.
-    1. Dari VM yang terbuka, pilih **Microsoft Edge** untuk membuka browser.  Karena ini adalah pertama kalinya Anda membuka Microsoft Edge, Anda akan melihat jendela pop-up, pilih **Mulai tanpa data Anda**, lalu pilih **Lanjutkan tanpa data ini**, lalu pilih **Konfirmasi dan mulai menjelajah**.
+    1. Dari VM yang terbuka, pilih **Microsoft Edge** untuk membuka browser. Karena ini adalah pertama kalinya Anda membuka VM dan broswer, Anda mungkin diminta untuk beberapa pengaturan dasar.  
+    1. Anda mungkin diminta untuk memilih setelan privasi untuk perangkat Anda. Biarkan default dan pilih **Terima**.  
+    1. Panel samping untuk Jaringan, dapat ditampilkan.  Pilih **Tidak**.
+    1. Jendela mungkin muncul yang berbunyi "Telusuri web dengan browser berkinerja terbaik di Windows," pilih Lanjutkan **, pilih **Mulai tanpa data** Anda, pilih **Konfirmasi dan lanjutkan**, pilih **Lanjutkan tanpa data** ini, lalu akhirnya pilih **Konfirmasi dan mulai telusuri**.**
     1. Masukkan **www.bing.com** di bilah alamat browser dan konfirmasi bahwa Anda dapat terhubung ke mesin pencarian.
     1. Setelah mengonfirmasi bahwa Anda dapat mengakses www.bing.com, tutup jendela browser di VM, tetapi biarkan VM aktif.
 

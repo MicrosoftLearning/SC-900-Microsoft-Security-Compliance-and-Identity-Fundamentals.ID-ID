@@ -1,16 +1,16 @@
 ---
 lab:
-  title: Menjelajahi alur kerja eDiscovery (Standar)
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: Menjelajahi eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Lab: Menjelajahi alur kerja eDiscovery (Standar)
+# Lab: Jelajahi eDiscovery
 
 Lab ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan eDiscovery dan kemampuan audit Microsoft Purview
-- Unit: Menjelaskan solusi eDiscovery di Microsoft Purview
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
+- Modul: Menjelaskan kemampuan solusi kepatuhan Microsoft Purview
+- Unit: Menjelaskan eDiscovery
 
 ## Skenario lab
 
@@ -22,7 +22,9 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan e
 
 Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus eDiscovery, pengguna harus diberi izin yang sesuai. Dalam tugas ini, Anda sebagai admin global, akan menambahkan pengguna tertentu sebagai anggota grup peran Manajer eDiscovery.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Halaman browser baru terbuka ke halaman selamat datang portal Microsoft Purview.  
+1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
+
+1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Halaman browser baru terbuka ke halaman selamat datang portal Microsoft Purview.  
 
 1. Dari panel navigasi kiri, pilih **Pengaturan**, perluas **Peran dan cakupan**, lalu pilih **Grup peran**.
 

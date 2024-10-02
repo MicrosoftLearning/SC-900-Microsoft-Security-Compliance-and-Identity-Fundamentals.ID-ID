@@ -9,7 +9,7 @@ lab:
 Lab ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Entra
-- Modul: Menjelaskan kemampuan manajemen akses Microsoft Entra
+- Modul: Menjelaskan kemampuan manajemen akses Microsoft Entra ID
 - Unit: Menjelaskan Akses Bersyarat
 
 ## Skenario lab
@@ -25,6 +25,7 @@ Dalam tugas ini Anda, sebagai admin, akan mengatur ulang kata sandi untuk penggu
 1. Buka Microsoft Edge.  Di bilah alamat, masukkan **https://entra.microsoft.com** dan masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda mungkin diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Dari panel navigasi sebelah kiri, di bagian “Identitas”, bentangkan **Identitas**, bentangkan **Pengguna**, lalu pilih **Semua pengguna**.
@@ -53,7 +54,7 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 1. Dari panel navigasi kiri, pilih **Kebijakan**. Kebijakan Akses Bersyarat yang ada tercantum di sini. Pilih **+ Kebijakan baru**.
 
-1. Di bidang Nama, masukkan **Kebijakan Pengujian MFA**.
+1. Di bidang Nama, masukkan **Blokir portal** admin.
 
 1. Di bagian Pengguna, pilih **0 pengguna dan grup dipilih**.
 
@@ -75,7 +76,7 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 1. Sekarang Anda akan mengatur kontrol akses.  Di bagian Izinkan, pilih **0 kontrol yang dipilih**.
 
-1. Jendela Izinkan terbuka.  Pastikan **Izinkan akses** dipilih, lalu pilih **Memerlukan autentikasi multifaktor**. Gulir ke bawah sedikit di jendela kanan dan di bawah bagian Untuk beberapa kontrol, biarkan default **Memerlukan semua kontrol yang dipilih**.  Tekan **Berikutnya** di bagian bawah laman.
+1. Jendela Izinkan terbuka.  Pilih **Blokir akses**. Tekan **Berikutnya** di bagian bawah laman.
 
 1. Di bawah laman, Di bagian Aktifkan kebijakan, pilih **Aktif**, lalu pilih **Buat**.
 
@@ -85,36 +86,19 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 ### Tugas 3
 
-Dalam tugas ini, Anda akan melihat dampak dari kebijakan akses bersyarat, dari sudut pandang pengguna, Debra Berger. Pertama, Anda akan masuk ke aplikasi yang tidak disertakan dalam kebijakan akses bersyarat (portal Microsoft 365 di https://login.microsoftonline.com).  Kemudian Anda akan mengulangi proses di atas untuk aplikasi yang disertakan dalam kebijakan akses bersyarat (portal Microsoft Azure di https://portal.azure.com).  Ingat bahwa kebijakan mengharuskan pengguna untuk melalui MFA saat mengakses salah satu Portal Admin Microsoft, termasuk portal Azure.  Untuk menggunakan MFA, pengguna harus terlebih dahulu mendaftarkan metode autentikasi yang akan digunakan untuk MFA, misalnya kode yang dikirim ke perangkat seluler atau aplikasi pengautentikasi.
+Dalam tugas ini, Anda akan melihat dampak dari kebijakan akses bersyarat, dari sudut pandang pengguna, Debra Berger. Pertama, Anda akan masuk ke aplikasi yang tidak disertakan dalam kebijakan akses bersyarat (portal Microsoft 365 di https://login.microsoftonline.com).  Kemudian Anda akan mengulangi proses di atas untuk aplikasi yang disertakan dalam kebijakan akses bersyarat (portal Microsoft Azure di https://portal.azure.com).  Ingat bahwa kebijakan memblokir akses ke salah satu Portal Admin Microsoft, termasuk portal Azure.  CATATAN: Untuk alasan keamanan, semua akun pengguna yang mengakses portal apa pun diperlukan untuk menggunakan MFA.  Persyaratan MFA tidak bergantung pada latihan lab ini.
 
 1. Buka Microsoft Edge.  Di bilah alamat, masukkan **https://login.microsoftonline.com**.
     1. Masuk sebagai **DebraB@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia hosting lab) lalu pilih **Berikutnya**.
     1. Masukkan kata sandi yang Anda catat dari tugas sebelumnya. Pilih **Masuk**.
-    1. Karena kata sandi yang diberikan saat Anda, sebagai admin, mengatur ulang kata sandi bersifat sementara, Anda perlu memperbarui kata sandi (ini bukan bagian dari kebijakan MFA). Masukkan kata sandi saat ini, lalu masukkan kata sandi baru, lalu konfirmasi kata sandi baru.  Catat kata sandi baru karena Anda akan membutuhkannya untuk menyelesaikan tugas.
-    1. Jika diminta untuk tetap masuk, pilih **Ya**.  Anda berhasil masuk ke akun Microsoft 365. MFA tidak diperlukan untuk aplikasi ini karena bukan bagian dari kebijakan.
+    1. Karena kata sandi yang disediakan saat Anda, sebagai admin, atur ulang kata sandi bersifat sementara, Anda perlu memperbarui kata sandi Anda. Masukkan kata sandi saat ini, lalu masukkan kata sandi baru, lalu konfirmasi kata sandi baru.  Catat kata sandi baru karena Anda akan membutuhkannya untuk menyelesaikan tugas.
+    1. Karena ini adalah pertama kalinya Anda masuk sebagai Debra Berger, Anda mungkin diminta untuk mengatur MFA. Ikuti perintah di layar untuk menyiapkan MFA.
+    1. Jika diminta untuk tetap masuk, pilih **Ya**.  Anda berhasil masuk ke akun Microsoft 365.
 
-1. Sekarang Anda akan mencoba masuk ke aplikasi yang memenuhi kriteria untuk MFA. Buka tab browser baru masukkan **https://portal.azure.com**.
-
-1. Anda akan melihat jendela yang menunjukkan, Informasi lebih lanjut diperlukan.  Pilih **Selanjutnya**.  Perlu diperhatikan, tindakan ini akan memulai proses pendaftaran MFA, karena ini pertama kalinya Anda mengakses aplikasi cloud yang diidentifikasi dalam kebijakan akses bersyarat.  Proses pendaftaran ini hanya diperlukan sekali.   Alternatif untuk meminta pengguna melalui proses pendaftaran adalah meminta admin mengonfigurasi metode autentikasi untuk digunakan.
-
-1. Di jendela Jaga keamanan akun Anda, Anda memiliki opsi untuk memilih metode yang akan digunakan untuk MFA.  Microsoft Authenticator adalah salah satu opsi. Untuk kelayakan dalam latihan lab ini, Anda akan memilih metode yang berbeda.  Pilih **Saya ingin menyiapkan metode lain**  Dari jendela pop-up Pilih metode lain, pilih **panah menurun** dan pilih **Telepon**, lalu pilih **Konfirmasi**.
-
-1. Jendela yang muncul dan langkah-langkah berikut adalah untuk metode aplikasi Microsoft Authenticator. .
-    1. Jika Anda sudah menginstal aplikasi Microsoft Authenticator di perangkat seluler, pilih **Berikutnya**. Jika tidak, pilih **Unduh sekarang** dan ikuti langkah-langkahnya.
-    1. Anda akan mulai menyiapkan akun Anda.  Pilih **Selanjutnya**.
-    1. Menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda, pilih **+** untuk menambahkan akun dan pilih **Akun** kantor atau sekolah.
-    1. Pilih opsi untuk **Memindai kode** QR, lalu menggunakan perangkat seluler Anda, pindai kode QR di layar PC Anda.
-    1. Menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda, pindai kode QR.
-    1. Ikuti langkah-langkah di PC dan perangkat seluler Anda, lalu pilih **Berikutnya**.
-    1. Setelah menyiapkan info keamanan, Anda akan melihat jendela Berhasil.  Pilih **Selesai**.
-
-1. Anda akan dapat mengakses portal Azure.  Portal Azure adalah portal Microsoft Admin dan oleh karena itu memerlukan autentikasi multifaktor, sesuai kebijakan akses bersyarat yang dibuat.  
-    1. Jika Anda mendapatkan pesan yang menunjukkan bahwa waktu masuk Anda habis, masukkan kata sandi dan pilih **Masuk**.
-    1. Anda akan melihat jendela yang mengharuskan Anda menyetujui permintaan masuk.  Perhatikan nomor di PC Anda dan ikuti instruksi di aplikasi Microsoft Authenticator.
-    1. Jika Anda diminta untuk tetap masuk, pilih **Tidak**.
+1. Sekarang Anda akan mencoba masuk ke aplikasi yang memenuhi kriteria kebijakan Akses Bersyarat. Buka tab browser baru dan masukkan **https://portal.azure.com**, yang merupakan portal admin untuk Azure.  Jendela pop-up muncul yang menunjukkan "Anda tidak memiliki akses ke ini."  Ini adalah hasil dari kebijakan akses bersyarah yang memblokir akses Anda ke semua portal admin Microsoft.
 
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih keluar. Kemudian tutup semua jendela browser.
 
 ### Tinjauan
 
-Di lab ini, Anda telah mempelajari proses penyiapan kebijakan akses bersyarat yang mengharuskan pengguna melakukan MFA saat mengakses Portal Microsoft Admin.  Kemudian, sebagai pengguna, Anda telah mempelajari proses pendaftaran untuk MFA dan melihat dampak kebijakan akses bersyarat yang mengharuskan Anda menggunakan MFA saat mengakses portal Azure.
+Di lab ini, Anda melalui proses pengaturan kebijakan akses bersyarkat yang memblokir akses ke portal admin Microsoft untuk semua pengguna yang disertakan dalam kebijakan.  Kemudian, sebagai pengguna, Anda mengalami dampak kebijakan akses bersyarah saat mengakses portal Azure.
