@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Judul: 'Service Trust Portal’ Jalur Pembelajaran /Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 1: Menjelaskan Service Trust Portal dan kemampuan privasi di Microsoft; Unit 2: Menjelajahi Service Trust Portal'
+Demo: Judul: 'Portal Kepercayaan Layanan' Jalur Pembelajaran/Modul/Unit: 'Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview; Modul 1: Menjelaskan portal Service Trust microsoft dan kemampuan privasi; Unit 2: Jelajahi Portal Kepercayaan Layanan'
 ---
 --->
 

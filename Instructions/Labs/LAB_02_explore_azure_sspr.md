@@ -22,7 +22,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda, sebagai admin, akan menelusuri proses penambahan pengguna ke grup keamanan SSPR, yang sudah disiapkan di penyewa Microsoft 365 Anda. Dengan mengaktifkan SSPR, Anda akan mengambil peran sebagai pengguna dan menjalani proses pendaftaran SSPR dan juga mengatur ulang kata sandi.  Terakhir, Anda sebagai admin, akan dapat melihat log audit dan data penggunaan & wawasan untuk SSPR.
 
-**Perkiraan Waktu**: 15-20 menit
+**Perkiraan Waktu:**: 30 menit
 
 ### Tugas 1
 
@@ -31,6 +31,7 @@ Dalam tugas ini, Anda, sebagai admin, akan menelusuri beberapa pengaturan konfig
 1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **https://entra.microsoft.com** dan masuk dengan admin kredensial Microsoft 365 yang disediakan oleh host lab resmi (ALH).
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Dari panel navigasi kiri, bentangkan opsi untuk **Perlindungan**, lalu pilih **Atur ulang kata sandi**.  
@@ -77,18 +78,21 @@ Dalam tugas ini, Anda, sebagai admin, akan menambahkan pengguna yang Anda buat d
 
 ### Tugas 3
 
-Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani pendaftaran proses pengaturan ulang kata sandi ulang   Tugas ini mengharuskan Anda memiliki akses ke perangkat seluler tempat Anda dapat menerima pesan teks.
+Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani pendaftaran proses pengaturan ulang kata sandi ulang 
 
 1. Buka Microsoft Edge dan di bilah alamat, masukkan **https://login.microsoft.com**.
 
-1. Masuk sebagai Sara Perez.
+1. Masuk sebagai Sara Perez. Proses masuk mungkin memerlukan MFA.
 
 1. Pop-up yang ditampilkan menunjukkan bahwa Informasi lebih lanjut diperlukan.  Ini karena sebagai anggota grup SSPRSecurityGroupUsers, konfigurasi mengharuskan anggotanya untuk mendaftar saat mereka masuk.  Pilih tombol **Berikutnya**.  Catatan: Alternatif untuk meminta pengguna melakukan pendaftaran, sendiri, adalah agar admin dapat langsung mengonfigurasi metode autentikasi saat mereka menambahkan pengguna. Hal ini mengharuskan administrator untuk mengetahui dan mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan pengaturan ulang kata sandi mandiri, dan mengatur ulang kata sandi pengguna.
 
-1. Laman "Jaga keamanan akun Anda” akan terbuka.  Jendela yang muncul adalah untuk metode Telepon.
-    1. Anda diminta memasukkan nomor telepon. Pastikan opsi **Terima kode** diaktifkan.   Masukkan nomor telepon tempat Anda bisa menerima kode dan pilih **Berikutnya**.  
-    1. Jendela baru yang terbuka menunjukkan kode telah dikirim ke ponsel yang Anda masukkan.  Masukkan kode yang Anda terima dan pilih **Berikutnya**. Jendela terbuka yang menunjukkan ponsel Anda terdaftar. Pilih **Berikutnya** lalu pilih **Selesai**.  
-    1. Jika Anda ingin menggunakan email, pilih **Saya ingin menyiapkan metode** lain dan ikuti langkah-langkahnya. 
+1. Laman "Jaga keamanan akun Anda” akan terbuka.  Jendela yang muncul dan langkah-langkah berikut adalah untuk metode aplikasi Microsoft Authenticator. Jika Anda ingin menggunakan email, pilih **Saya ingin menyiapkan metode** lain dan ikuti langkah-langkahnya.
+    1. Jika Anda sudah menginstal aplikasi Microsoft Authenticator di perangkat seluler, pilih **Berikutnya**. Jika tidak, pilih **Unduh sekarang** dan ikuti langkah-langkahnya.
+    1. Anda akan mulai menyiapkan akun Anda.  Pilih **Selanjutnya**.
+    1. Menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda, pilih **+** untuk menambahkan akun dan pilih **Akun** kantor atau sekolah.
+    1. Pilih opsi untuk **Memindai kode** QR, lalu menggunakan perangkat seluler Anda, pindai kode QR di layar PC Anda.
+    1. Ikuti langkah-langkah di PC dan perangkat seluler Anda, lalu pilih **Berikutnya**.
+    1. Setelah menyiapkan info keamanan, Anda akan melihat jendela Berhasil.  Pilih **Selesai**.
 
 1. Sekarang Anda dapat menyelesaikan proses masuk. Jika Anda melihat bahwa waktu masuk telah kedaluwarsa, cukup masukkan kembali kata sandi.
 
@@ -100,7 +104,7 @@ Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani proses pengat
 
 1. Buka Microsoft Edge.
 
-1. Di bilah alamat, masukkan **https://login.microsoftonline.com**.
+1. Di bilah alamat, masukkan **https://login.microsoft.com**.
 
 1. Masuk sebagai Sara Perez, dengan memasukkan email Anda **sara@WWLxZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik yang disediakan oleh penyedia host lab Anda) dan pilih tombol **Berikutnya**. Sebagai gantinya, Anda dapat melihat jendela Pilih akun yang terbuka. Jika demikian, pilih akun untuk Sara Perez.
 
@@ -110,9 +114,9 @@ Dalam tugas ini, Anda, sebagai pengguna Sara Perez, akan menjalani proses pengat
 
 1. Dalam kotak kosong, masukkan karakter yang ditampilkan dalam gambar atau kata-kata dari audio. Setelah Anda memasukkannya, pilih **Berikutnya**.
 
-1. Layar menunjukkan Kembali ke akun Anda dan menampilkan Langkah verifikasi 1 > memilih kata sandi baru. Biarkan pengaturan default **SMS ke ponsel saya**.  Anda diminta untuk memasukkan nomor ponsel.  Setelah Anda memasukkannya, pilih tombol **Teks**. 
+1. Layar menunjukkan Kembali ke akun Anda dan menampilkan Langkah verifikasi 1 > memilih kata sandi baru. Pilih opsi **Setujui pemberitahuan di aplikasi** pengautentikasi saya, lalu pilih **Kirim Pemberitahuan**.
 
-1. Masukkan kode verifikasi, lalu tekan **Berikutnya**.
+1. Perhatikan nomor di PC Anda dan ikuti instruksi untuk menyetujui masuk menggunakan aplikasi Microsoft Authenticator di perangkat seluler Anda.
 
 1. Di layar berikutnya, Anda diminta memasukkan kata sandi baru dan mengonfirmasi kata sandi baru.  Masukkan sekarang dan pilih tombol **Selesai**.
 

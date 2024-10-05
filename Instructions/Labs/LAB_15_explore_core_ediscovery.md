@@ -1,39 +1,39 @@
 ---
 lab:
-  title: Menjelajahi alur kerja eDiscovery (Standar)
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: Menjelajahi eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Lab: Menjelajahi alur kerja eDiscovery (Standar)
+# Lab: Jelajahi eDiscovery
 
 Lab ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan eDiscovery dan kemampuan audit Microsoft Purview
-- Unit: Menjelaskan solusi eDiscovery di Microsoft Purview
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
+- Modul: Menjelaskan kemampuan solusi kepatuhan Microsoft Purview
+- Unit: Menjelaskan eDiscovery
 
 ## Skenario lab
 
 Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan eDiscovery, termasuk menyiapkan izin peran, membuat kasus eDiscovery, membuat penangguhan eDiscovery, dan membuat kueri pencarian.  Catatan: Lisensi untuk eDiscovery (Standar) memerlukan langganan organisasi yang sesuai dan lisensi per pengguna. Jika Anda tidak yakin lisensi mana yang mendukung eDiscovery (Standar), kunjungi [Memulai eDiscovery (Standar) di Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Perkiraan Waktu**: 25-30 menit
+**Perkiraan Waktu**: 45 menit
 
 ### Tugas 1
 
 Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus eDiscovery, pengguna harus diberi izin yang sesuai. Dalam tugas ini, Anda sebagai admin global, akan menambahkan pengguna tertentu sebagai anggota grup peran Manajer eDiscovery.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Laman browser baru membuka laman selamat datang di portal kepatuhan Microsoft Purview.  
+1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
 
+1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Halaman browser baru terbuka ke halaman selamat datang portal Microsoft Purview.  
 
-1. Dari panel navigasi kiri, bentangkan (pilih panah bawah) **Peran & Cakupan**, lalu pilih **Izin**.
+1. Dari panel navigasi kiri, pilih **Pengaturan**, perluas **Peran dan cakupan**, lalu pilih **Grup peran**.
 
-1. Pada solusi Microsoft Purview, pilih **Peran**.
+1. Di bidang pencarian, di bagian atas, kanan halaman, masukkan **eDiscovery** lalu tekan Enter di keyboard Anda.  Pilih **Manajer eDiscovery**.
 
-1. Di bidang pencarian, masukkan **eDiscovery**, lalu tekan Enter di keyboard Anda.  Pilih **Manajer eDiscovery**.
-
-1. Pilih **Edit**.  Perhatikan bahwa ada dua subgrup, eDiscovery Manager dan eDiscovery Administrator.  
-    1. Laman "Kelola Manajer eDiscovery" memungkinkan Anda menambahkan pengguna ke peran manajer eDiscovery. Untuk lab ini, kita akan menambahkan anggota ke subgrup eDiscovery Administrator, jadi pilih **Berikutnya**.
-    1. Pada laman "Kelola Administrator eDiscovery", pilih **Pilih pengguna** . Cari dan pilih **Administrator MOD** dan **Megan Bowen**, lalu tekan **Pilih** di bagian bawah laman, lalu pilih **Berikutnya** dan **Simpan**.
+1. Pilih **Edit**. Untuk tujuan lab ini, Anda akan menetapkan diri Anda sebagai administrator MOD sebagai Manajer eDiscovery dan administrator.  Dalam praktiknya, Anda akan menunjuk pengguna tertentu untuk peran tertentu.
+    1. Laman "Kelola Manajer eDiscovery" memungkinkan Anda menambahkan pengguna ke peran manajer eDiscovery.
+    1. Pilih **Pilih pengguna**. Cari dan pilih **Administrator** MOD lalu tekan **Pilih** di bagian bawah halaman, lalu pilih **Berikutnya**.
+    1. Pada laman "Kelola Administrator eDiscovery", pilih **Pilih pengguna** . Cari dan pilih **Administrator** MOD lalu tekan **Pilih** di bagian bawah halaman, lalu pilih **Berikutnya** lalu **Simpan**.
     1. Pada laman "Anda berhasil memperbarui grup peran", pilih **Selesai**.
 
 1. Biarkan tab browser ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
@@ -42,9 +42,9 @@ Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus
 
 Dalam tugas ini, Anda sebagai Administrator eDiscovery (admin MOD adalah administrator eDiscovery) akan membuat kasus untuk mulai menggunakan eDiscovery (Standar).
 
-1. Anda harus tetap berada di laman peran portal kepatuhan. Jika Anda menutup tab browser dari tugas sebelumnya, buka tab browser baru dan masukkan **compliance.microsoft.com**
+1. Anda harus tetap berada di laman peran portal kepatuhan. Jika Anda menutup tab browser dari tugas sebelumnya, buka tab browser baru dan masukkan **compliance.microsoft.com** untuk masuk ke portal Microsoft Purview.
 
-1. Dari panel navigasi sebelah kiri, di bagian Solusi, bentangkan **eDiscovery**, lalu pilih **Standar**.
+1. Dari panel navigasi kiri, di bawah Solusi, perluas **eDiscovery** lalu pilih **Kasus** Standar.
 
 1. Dari bagian atas laman eDiscovery (Standar), pilih **+ Buat kasus**.
 

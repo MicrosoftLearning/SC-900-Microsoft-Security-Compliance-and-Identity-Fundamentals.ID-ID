@@ -22,7 +22,7 @@ Di lab ini, Anda akan menjelajahi Microsoft Defender untuk Cloud.  CATATAN: lang
 
 Dalam tugas ini, Anda akan melakukan penelusuran tingkat tinggi dari beberapa kemampuan Microsoft Defender untuk Cloud
 
-1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda.
+1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda. Jika sebelumnya Anda telah mencatat, Anda mungkin diminta untuk bentuk autentikasi sekunder, sebagai par dari MFA.  Jika sebelumnya Anda belum masuk, Anda mungkin diminta untuk menyiapkan MFA.  Ikuti perintah di layar untuk menyiapkan MFA.
 
 1. Di bilah pencarian berwarna biru, masukkan **Microsoft Defender untuk Cloud**, lalu dari daftar hasil, pilih **Microsoft Defender untuk Cloud**.
 

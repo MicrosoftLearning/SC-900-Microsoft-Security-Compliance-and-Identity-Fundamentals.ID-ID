@@ -1,15 +1,15 @@
 ---
 lab:
   title: Menjelajahi Portal Kepercayaan Layanan
-  module: Describe the compliance management capabilities at Microsoft
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
 ---
 
 # Lab: Menjelajahi Service Trust Portal
 
 Lab ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan kemampuan manajemen kepatuhan di Microsoft
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
+- Modul: Menjelaskan Service Trust Portal Microsoft dan kemampuan privasi
 - Unit: Menjelajahi Service Trust Portal
 
 ## Skenario lab

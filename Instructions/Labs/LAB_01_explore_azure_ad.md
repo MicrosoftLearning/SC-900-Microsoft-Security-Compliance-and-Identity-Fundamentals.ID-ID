@@ -16,7 +16,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan mengakses Microsoft Entra ID (sebelumnya disebut sebagai Azure Active Directory).  Selain itu, Anda akan membuat pengguna dan mengonfigurasi pengaturan yang berbeda, termasuk menambahkan lisensi.  
 
-**Perkiraan Waktu**: 10-15 menit
+**Perkiraan Waktu:**: 30 menit
 
 ### Tugas 1
 
@@ -25,9 +25,10 @@ Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Entra ID (sebe
 1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **[admin.microsoft.com](https://admin.microsoft.com)** dan masuk dengan kredensial Microsoft 365 yang disediakan oleh host lab resmi (ALH).
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
+    1. Karena ini adalah pertama kalinya Anda masuk, Anda mungkin diminta untuk menyiapkan MFA. Ikuti perintah di layar untuk menyiapkan MFA.
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
-1. Di Pusat admin, pilih **Identitas** (Anda mungkin perlu memilih **Tampilkan semua** dan menggulir ke bawah).  Laman browser baru membuka laman ikhtisar di pusat admin Microsoft Entra. Di sini, Anda akan melihat informasi dasar tentang penyewa Contoso Anda. Jika Anda menggulir ke bawah jendela utama, Anda juga akan melihat informasi tentang pemberitahuan, umpan saya, sorotan fitur, dan banyak lagi.
+1. Di Pusat admin, pilih **Identitas** (Anda mungkin perlu memilih **Tampilkan semua** dan menggulir ke bawah).  Laman browser baru membuka laman ikhtisar di pusat admin Microsoft Entra.
 
 1. Dari panel navigasi kiri, bentangkan **Pengguna**, lalu pilih **Semua pengguna**. Perhatikan bahwa penyewa Anda sudah dikonfigurasi dengan beberapa pengguna.
 
@@ -66,7 +67,7 @@ Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Entra ID (sebe
 
     1. Perhatikan daftar grup yang tersedia.  Dari daftar, pilih **Operaso**.  Di bagian bawah laman, pilih tombol **Pilih**.  Mungkin perlu beberapa detik, tetapi Anda akan melihat grup operasi muncul di laman penugasan.
 
-    1. Dari bagian atas laman, pilih **Tambahkan peran**.  Jendela yang terbuka menampilkan semua peran direktori yang tersedia.  Lihat opsi yang tersedia, tetapi jangan tambahkan peran baru apa pun.  Tutup laman ini dengan memilih **X** di pojok kanan atas laman peran direktori.
+    1. Dari bagian atas halaman, pilih **+ Tambahkan peran**.  Jendela yang terbuka menampilkan semua peran direktori yang tersedia.  Lihat opsi yang tersedia, tetapi jangan tambahkan peran baru apa pun.  Tutup laman ini dengan memilih **X** di pojok kanan atas laman peran direktori.
     1. Di bagian bawah panel, pilih **Tinjau + buat**. Ringkasan pengaturan akan ditampilkan.  Di bagian bawah laman, pilih **Buat**.
 
 1. Anda akan dikembalikan ke laman pengguna.  Setelah beberapa detik, Sara Perez akan terdaftar.  Anda mungkin perlu memilih ikon **refresh** di bagian atas laman.
@@ -75,40 +76,47 @@ Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Entra ID (sebe
 
 1. Panel navigasi kiri memperlihatkan berbagai opsi yang dapat dikonfigurasi untuk pengguna. Lihat opsi yang tersedia.
 
-1. Dari panel navigasi kiri, pilih **Lisensi**.  Perhatikan bahwa tidak ada penetapan lisensi yang ditemukan untuk pengguna ini.  CATATAN: Lisensi hanya dapat ditetapkan jika lokasi penggunaan dikonfigurasi. Jika Anda tidak mengatur lokasi penggunaan, kembali ke langkah tersebut di tugas sebelumnya.
+1. Dari panel navigasi kiri, pilih **Lisensi**.  Perhatikan bahwa tidak ada penetapan lisensi yang ditemukan untuk pengguna ini, perhatikan juga ikon peringatan yang mengatakan, "Menambahkan, menghapus, dan memproses ulang penetapan lisensi hanya tersedia dalam Pusat Admin M365."  Anda akan melakukannya di tugas berikutnya.  CATATAN: Lisensi hanya dapat ditetapkan jika lokasi penggunaan dikonfigurasi. Jika Anda tidak mengatur lokasi penggunaan, kembali ke langkah tersebut sekarang.
 
-    1. Untuk menambahkan lisensi pilih **+ Penugasan** dari bagian atas jendela utama.
+### Tugas 2
 
-    1. Di bawah Pilih lisensi, pilih **Microsoft Power Apps untuk Pengembang** dan **Microsoft Power Automate Gratis** lalu pilih tombol **Simpan** di bagian bawah layar. Pemberitahuan di sudut kanan atas layar akan menunjukkan bahwa penetapan lisensi berhasil.
+Dalam tugas ini, Anda akan menetapkan lisensi kepada pengguna yang baru saja Anda buat, menggunakan pusat admin Microsoft 365.
 
-    1. Pilih **X** di kanan atas layar untuk menutup laman Penugasan lisensi.
+1. Buka tab **Browser Beranda - pusat admin Microsoft 365**.
 
-    1. Pilih **ikon Refresh** di bagian atas laman untuk mengonfirmasi penetapan lisensi.
+1. Dari panel navigasi kiri, di bawah pengguna, pilih **Pengguna** aktif.  Dari daftar pengguna, pilih **Sara Perez**.  Jendela terbuka memperlihatkan informasi tentang pengguna.  
+
+    1. Pilih tab **Lisensi dan aplikasi** .
+    1. Untuk setiap lisensi yang tercantum, Anda akan melihat jumlah lisensi yang tersedia.  Karena tidak ada lisensi Microsoft 365 E5 yang tersedia (telah ditetapkan untuk pengguna lain), tetapkan **Microsoft Power Apps Developer** dan **lisensi Microsoft Power Automate Free** dengan memilih kotak centang di sampingnya.
+    1. Pilih **Simpan perubahan**. Pemberitahuan di sudut kanan atas layar akan menunjukkan bahwa penetapan lisensi berhasil.
+    1. Tutup halaman dengan memilih **X** di sudut kanan atas halaman.
 
 1. Kembali ke pusat admin Microsoft Entra dengan memilih **Beranda** dari panel navigasi kiri atau dari kiri atas layar (bilah), di atas tulisan Sara Perez | Lisensi.
 
-1. Anda telah berhasil membuat dan mengonfigurasi pengguna di Microsoft Entra ID.
+1. Anda berhasil menetapkan lisensi kepada pengguna.
 
 1. Keluar dari semua tab browser yang terbuka. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih **keluar.**. Kemudian tutup semua jendela browser.
 
-### Tugas 2
+### Tugas 3
 
 Dalam tugas ini, Anda akan masuk sebagai Sara Perez, untuk pertama kalinya.
 
 1. Buka Microsoft Edge.
 
-2. Di bilah alamat, masukkan **https://login.microsoft.com**.
+1. Di bilah alamat, masukkan **https://login.microsoft.com**.
 
-3. Masuk sebagai **sara@WWLxZZZZZ.onmicrosoft.com**, (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda).
-4. Masukkan kata sandi sementara yang Anda catat dari tugas sebelumnya.
+1. Masuk sebagai **sara@WWLxZZZZZ.onmicrosoft.com**, (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda).
+1. Masukkan kata sandi sementara yang Anda catat dari tugas sebelumnya.
 
-5. Sekarang Anda diminta Memperbarui kata sandi. Di bidang Kata sandi saat ini, masukkan kata sandi sementara dari tugas sebelumnya.
+1. Sekarang Anda diminta Memperbarui kata sandi. Di bidang Kata sandi saat ini, masukkan kata sandi sementara dari tugas sebelumnya.
 
-6. Di bidang Kata sandi baru, masukkan kata sandi baru, konfirmasi kata sandi, lalu pilih **Masuk**.  Catat kata sandi baru karena Anda akan membutuhkannya untuk latihan lab berikutnya di SSPR.
+1. Di bidang Kata sandi baru, masukkan kata sandi baru, konfirmasi kata sandi, lalu pilih **Masuk**.  Catat kata sandi baru karena Anda akan membutuhkannya untuk latihan lab berikutnya di SSPR.
 
-7. Anda sekarang harus berhasil masuk ke akun Microsoft Sara.  Perhatikan bahwa lisensi Sara yang Anda tetapkan dalam tugas sebelumnya hanya terbatas pada Power Automate Free dan Power Apps for Developer dan tidak menyertakan lisensi E5.
+1. Karena ini adalah pertama kalinya Anda masuk sebagai Sara Perez, Anda mungkin diminta untuk mengatur MFA. Ikuti perintah di layar untuk menyiapkan MFA.
 
-8. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf SP (di sebelah ikon tanda tanya), lalu pilih **Keluar**, lalu tutup browser.
+1. Anda sekarang harus berhasil masuk ke akun Microsoft Sara.  Perhatikan bahwa lisensi Sara yang Anda tetapkan dalam tugas sebelumnya hanya terbatas pada Power Automate Free dan Power Apps for Developer dan tidak menyertakan lisensi E5.
+
+1. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf SP (di sebelah ikon tanda tanya), lalu pilih **Keluar**, lalu tutup browser.
 
 ### Tinjauan
 

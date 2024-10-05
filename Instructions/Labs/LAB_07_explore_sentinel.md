@@ -16,13 +16,13 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan menelusuri proses pembuatan instans Microsoft Sentinel.  Anda juga akan menyiapkan izin untuk memastikan akses ke sumber daya yang akan disebarkan untuk mendukung Microsoft Sentinel.  Setelah penyiapan dasar ini selesai, Anda akan menjalani langkah-langkah untuk menghubungkan Microsoft Sentinel ke sumber data, menyiapkan buku kerja, dan melakukan penelusuran singkat beberapa kemampuan utama yang tersedia di Microsoft Sentinel.
 
-**Perkiraan Waktu**: 45-60 menit
+**Perkiraan Waktu**: 60 menit
 
 ### Tugas 1
 
 Buat instans Microsoft Sentinel
 
-1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda.
+1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda. Jika sebelumnya Anda telah mencatat, Anda mungkin diminta untuk bentuk autentikasi sekunder, sebagai par dari MFA.  Jika sebelumnya Anda belum masuk, Anda mungkin diminta untuk menyiapkan MFA.  Ikuti perintah di layar untuk menyiapkan MFA.
 
 1. Di kotak pencarian warna biru di bagian atas laman, masukkan **Microsoft Sentinel** lalu pilih **Microsoft Sentinel** dari hasil pencarian.
 
@@ -82,7 +82,7 @@ Tujuan dari tugas ini untuk memandu Anda menelusuri langkah-langkah yang terliba
 
 1. Perhatikan instruksi konfigurasi  Pilih kotak di samping nama langganan, lalu pilih **Koneksi**.  Jendela pop-op mungkin muncul yang menunjukkan bahwa hanya langganan tempat Anda memiliki izin Pembaca Keamanan yang akan memulai streaming pemberitahuan Microsoft Defender untuk Cloud.  Pilih **OK**.  Status akan berpindah ke tersambung.  Sekarang, konektor diaktifkan, meskipun mungkin perlu beberapa waktu agar konektor muncul di laman konektor data.  
 
-1. Sekarang lihat informasi tentang aturan analitik.  Dari bagian atas laman (di bilah), pilih **Microsoft Defender untuk Cloud**. Batalkan pilih kotak di samping tempat yang tertulis Microsoft Defender untuk Cloud, karena Anda telah mengonfigurasi konektor (mungkin perlu beberapa waktu agar ikon peringatan menghilang). Pilih kotak di samping tulisan **Deteksi Aktivitas Penghapusan CoreBackUp dari pemberitahuan keamanan terkait**.  Ini memunculkan halaman Aturan Analitik.  Sekali lagi, pilih **Deteksi Aktivitas Penghapusan CoreBackUp dari aturan** pemberitahuan keamanan terkait. Jendela yang terbuka di sebelah kanan, yang menyediakan informasi tentang aturan dan apa yang dilakukannya.  Pilih **Buat aturan**.  
+1. Sekarang lihat informasi tentang aturan analitik.  Dari bagian atas laman (di bilah), pilih **Microsoft Defender untuk Cloud**. Batalkan pilih kotak di samping tempat yang tertulis Microsoft Defender untuk Cloud, karena Anda telah mengonfigurasi konektor (mungkin perlu beberapa waktu agar ikon peringatan menghilang). Pilih kotak di samping tulisan **Deteksi Aktivitas Penghapusan CoreBackUp dari pemberitahuan keamanan terkait**.  Ini memunculkan halaman Aturan Analitik.  Sekali lagi, pilih **Deteksi Aktivitas Penghapusan CoreBackUp dari aturan pemberitahuan keamanan terkait**. Jendela yang terbuka di sebelah kanan, yang menyediakan informasi tentang aturan dan apa yang dilakukannya.  Pilih **Buat aturan**.  
     1. Meskipun detail logika aturan berada di luar lingkup dasar-dasar, buka setiap tab dalam pembuatan aturan untuk melihat jenis informasi yang dapat dikonfigurasi
     1. Saat Anda mencapai tab Tinjau + buat, pilih **Simpan**.
 

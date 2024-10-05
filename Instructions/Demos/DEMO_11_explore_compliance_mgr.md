@@ -4,7 +4,7 @@ Demo: Judul: 'Jelajahi portal Microsoft Purview & Manajer Kepatuhan' Jalur Pembe
 ---
 --->
 
-# Demo: Menjelajahi portal kepatuhan Microsoft Purview & Pengelola Kepatuhan
+# Demo: Menjelajahi portal Microsoft Purview & Manajer Kepatuhan
 
 Demo ini memetakan ke konten Learn berikut:
 
