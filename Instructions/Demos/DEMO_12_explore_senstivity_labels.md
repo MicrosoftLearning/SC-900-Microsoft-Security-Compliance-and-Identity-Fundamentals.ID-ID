@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Judul: 'Label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Pelajaran: 'Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft; Modul 3: Menjelaskan kemampuan perlindungan informasi, manajemen siklus hidup data, dan tata kelola data di Microsoft Purview; Unit 4: Menjelaskan label sensitivitas'
+Demo: Judul: 'Label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/Unit: 'Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview; Modul 2:Menjelaskan solusi keamanan data Microsoft Purview; Unit 4: Menjelaskan label dan kebijakan sensitivitas dalam Perlindungan Informasi Microsoft Purview'
 ---
 --->
 
@@ -8,9 +8,9 @@ Demo: Judul: 'Label sensitivitas di Microsoft Purview' Jalur Pembelajaran/Modul/
 
 Demo ini memetakan ke konten Learn berikut:
 
-- Jalur Pembelajaran: Menjelaskan kemampuan kepatuhan Microsoft
-- Modul: Menjelaskan kemampuan perlindungan informasi, manajemen siklus hidup data, dan tata kelola data di Microsoft Purview
-- Unit: Menjelaskan label sensitivitas
+- Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
+- Modul: Menjelaskan solusi keamanan data Microsoft Purview
+- Unit: Menjelaskan label dan kebijakan sensitivitas dalam Perlindungan Informasi Microsoft Purview
 
 ## Skenario demo
 
@@ -20,12 +20,11 @@ Dalam demo ini, Anda akan menunjukkan kemampuan label sensitivitas.  Anda akan m
 
 Dalam demo ini, Anda menunjukkan pengaturan untuk label sensitivitas yang ada dan kebijakan terkait untuk menerbitkan label.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Laman browser baru membuka laman selamat datang di portal kepatuhan Microsoft Purview.  
+1. Buka tab browser Microsoft Edge baru. Di bilah alamat, masukkan **https://purview.microsoft.com**. Untuk mengakses portal Microsoft Purview baru, pilih kotak di samping tempat yang tertulis, **saya menyetujui ketentuan pengungkapan aliran data dan Pernyataan** Privasi, lalu pilih **Mulai**.  
 
-1. Dari panel navigasi sebelah kiri, di bagian Solusi, bentangkan **Perlindungan informasi**, lalu pilih **Ikhtisar**.  Laman ikhtisar mencakup informasi tentang label sensitivitas teratas yang diterapkan ke konten, aktivitas teratas yang terdeteksi, lokasi label sensitivitas diterapkan, dan banyak lagi.  
-    1. Di laman ikhtisar, perhatikan bahwa kotak informasi berwarna kuning menunjukkan bahwa organisasi Anda belum mengaktifkan kemampuan untuk memproses konten di file Office online yang menerapkan label sensitivitas terenkripsi dan disimpan di OneDrive dan SharePoint.  Pilih **Aktifkan sekarang**.  Setelah melakukan ini, mungkin ada penundaan untuk menyebarkan pengaturan dalam sistem.
+1. Dari halaman arahan portal Microsoft Purview baru, pilih **petak Peta Tampilkan semua solusi** , lalu pilih **petak Peta Manajer** Informasi. Atau, Anda memilih **Solusi** dari panel navigasi kiri, lalu pilih **Perlindungan** Informasi.
 
-1. Dari panel navigasi kiri, pilih **Label**.
+1. Anda akan masuk ke halaman gambaran umum. Dari panel navigasi kiri, pilih **Label** sensitivitas.
 
 1. Beberapa label telah dikonfigurasi sebelumnya di penyewa lab Microsoft 365 Anda, untuk memudahkan Anda. Pilih label bernama **Confidential-Finance**.  Jendela terbuka yang menyediakan informasi tentang label ini.  Perhatikan pengaturan untuk label ini.  Pilih **Edit label** (mungkin juga ditampilkan sebagai ikon pensil) di bagian atas halaman untuk melihat beberapa pengaturan konfigurasi dasar. Jika Anda tidak melihat opsi ini, pilih elipsis.
     1. Konfigurasi dimulai dengan memberikan nama dan deskripsi untuk label Anda.  Jangan mengubah apa pun.  Pilih **Berikutnya** di bagian bawah laman.
@@ -36,7 +35,7 @@ Dalam demo ini, Anda menunjukkan pengaturan untuk label sensitivitas yang ada da
     1. Jendela ini menentukan pengaturan perlindungan untuk tim, grup, dan situs yang menerapkan label ini. Ini tidak diaktifkan, pilih **Berikutnya** di bagian bawah laman.
     1. Jendela ini adalah fitur pratinjau untuk menerapkan label ini secara otomatis ke aset data skema di Microsoft Purview Data Map (seperti SQL, Synapse, dan lainnya) yang berisi jenis info sensitif yang Anda pilih.  Fitur ini tidak diaktifkan. Pilih **Batal** di bagian bawah laman untuk keluar dari wizard konfigurasi label dan kembali ke laman Perlindungan Informasi.
 
-1. Dari panel navigasi kiri, pilih **Label kebijakan**.  Label sensitivitas dapat diterbitkan melalui kebijakan label.  Penyewa Microsoft 365 telah dikonfigurasi dengan beberapa kebijakan label, demi kemudahan Anda.
+1. Dari panel navigasi kiri, pilih **Kebijakan** lalu pilih **Kebijakan** penerbitan.  Label sensitivitas dapat diterbitkan melalui kebijakan label.  Penyewa Microsoft 365 telah dikonfigurasi dengan beberapa kebijakan label, demi kemudahan Anda.
 
 1. Pilih **Kebijakan Confidential-Finance**.  Jendela yang terbuka menyediakan informasi tentang pembuatan kebijakan. Pilih **Edit kebijakan** dari bagian atas laman.  Di sini, Anda akan membahas pengaturan tanpa mengubah apa pun.
     1. Tinjau deskripsi untuk "Pilih label sensitivitas untuk diterbitkan".  Perhatikan label yang tercantum.  Jangan ubah pengaturan apa pun.  Pilih **Berikutnya** di bagian bawah laman.
@@ -52,7 +51,7 @@ Dalam demo ini, Anda menunjukkan pengaturan untuk label sensitivitas yang ada da
 
 1. Dari panel navigasi kiri, di bawah Perlindungan informasi, pilih Pelabelan otomatis. Tinjau deskripsi. Perhatikan bahwa Anda membuat kebijakan pelabelan otomatis untuk menerapkan label sensitivitas secara otomatis ke pesan email atau file OneDrive dan SharePoint yang berisi info sensitif. Jika ada kebijakan pelabelan otomatis yang dikonfigurasi, pilih salah satu dan tinjau informasi kebijakan di panel detail.  Jika tidak ada kebijakan yang tercantum, Anda dapat memilih untuk menelusuri langkah-langkah untuk membuatnya, jika waktu memungkinkan.
 
-1. Dari panel navigasi sebelah kiri, pilih Beranda untuk kembali ke portal kepatuhan Microsoft Purview.
+1. Dari panel navigasi kiri, pilih Beranda untuk kembali ke portal Microsoft Purview.
 
 1. Tetap buka tab browser ini.
 
@@ -60,7 +59,7 @@ Dalam demo ini, Anda menunjukkan pengaturan untuk label sensitivitas yang ada da
 
 Pada langkah ini, Anda akan menunjukkan proses penerapan label dari sudut pandang pengguna (dalam hal ini, pengguna adalah admin).  Untuk melihat dampak penerapan label, Anda akan memilih label Rahasia - Keuangan karena label ini menerapkan tanda air.
 
-1. Dari laman beranda portal kepatuhan Microsoft Purview, pilih **ikon peluncur aplikasi**, di samping Contoso Electronics. Pilih **ikon Word**.  
+1. Dari beranda portal kepatuhan Microsoft Purview, pilih **ikon** peluncur aplikasi, di samping tempat bertuliskan Microsoft Purview (di atas ikon beranda). Pilih **ikon Word**.  
 
 1. Pilih **Dokumen** kosong, lalu masukkan beberapa teks di laman tersebut.  Pada bilah wartna biru di bagian atas laman, pilih panah arah bawah, di sebelah tulisan Dokumen - Tersimpan, dan di kotak Nama File masukkan, **Label-uji** lalu tekan tombol **Enter** pada keyboard Anda.
 
