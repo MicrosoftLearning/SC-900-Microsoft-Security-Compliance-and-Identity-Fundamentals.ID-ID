@@ -23,15 +23,13 @@ Lab penyiapan ini terdiri dari mengaktifkan Log Audit Microsoft dan kemampuan pe
 
 Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan Log audit dan pemantauan file di Microsoft 365.  
 
-1. Buka Microsoft Edge. Di bilah alamat, masukkan **https://admin.microsoft.com**.
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **`https://admin.microsoft.com`**.
 
 1. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh hoster lab resmi (ALH) Anda.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
-1. Di Pusat admin, pilih **Keamanan**.  Halaman browser baru terbuka ke halaman selamat datang Pertahanan Microsoft.  
-
-1. Dari panel navigasi sebelah kiri portal kepatuhan Microsoft Purview, pilih **Tampilkan semua**.
+1. Di Pusat admin, pilih **Keamanan**.  Halaman browser baru terbuka ke halaman selamat datang Pertahanan Microsoft.
 
 1. Di panel navigasi kiri, gulir ke bawah dan perluas **Sistem**.  Dari daftar yang diperluas, pilih **Audit**.  Catatan: fungsionalitas audit juga dapat diakses melalui portal Microsoft Purview.
 
@@ -39,7 +37,7 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan Log audit dan pemant
 
 1. Dari panel navigasi kiri, di bawah Sistem, pilih **Pengaturan**.
 
-1. Dari halaman pengaturan, pilih **Aplikasi cloud**.   Gulir ke bawah, lalu di bawah Perlindungan Informasi pilih **File**.
+1. Dari halaman pengaturan, pilih **Aplikasi cloud**.   Gulir ke bawah, lalu di bawah **Perlindungan** Informasi pilih **File**.
 
 1. Jika belum diaktifkan, pilih kotak di samping tempatnya berbunyi **Aktifkan pemantauan** file lalu pilih **Simpan**.  
 

@@ -20,13 +20,13 @@ Di lab ini, Anda akan mengakses Microsoft Entra ID (sebelumnya disebut sebagai A
 
 ### Tugas 1
 
-Sebagai pelanggan Microsoft 365, Anda sudah menggunakan Microsoft Entra ID (sebelumnya disebut sebagai Microsoft Azure AD).  Dalam tugas ini, Anda akan mempelajari cara membuat pengguna baru di Microsoft Entra ID dan menjelajahi beberapa layanan yang dapat dikelola di tingkat pengguna.
+Sebagai pelanggan Microsoft 365, Anda sudah menggunakan ID Microsoft Entra.  Dalam tugas ini, Anda akan mempelajari cara membuat pengguna baru di Microsoft Entra ID dan menjelajahi beberapa layanan yang dapat dikelola di tingkat pengguna.
 
-1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **[admin.microsoft.com](https://admin.microsoft.com)** dan masuk dengan kredensial Microsoft 365 yang disediakan oleh host lab resmi (ALH).
+1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **`https://admin.microsoft.com`** dan masuk dengan kredensial Microsoft 365 yang disediakan oleh hoster lab resmi (ALH) Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
-    1. Karena ini adalah pertama kalinya Anda masuk, Anda mungkin diminta untuk menyiapkan MFA. Ikuti perintah di layar untuk menyiapkan MFA.
-    1. Jika diminta untuk tetap masuk, pilih **Ya**.
+    1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
+    1. Setelah masuk, Anda akan dibawa ke halaman pusat admin Microsoft 365.
 
 1. Di Pusat admin, pilih **Identitas** (Anda mungkin perlu memilih **Tampilkan semua** dan menggulir ke bawah).  Laman browser baru membuka laman ikhtisar di pusat admin Microsoft Entra.
 

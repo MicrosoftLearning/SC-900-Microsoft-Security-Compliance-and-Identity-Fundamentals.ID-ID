@@ -48,8 +48,6 @@ Dalam demo ini, Anda akan mengakses Microsoft Entra ID dan menelusuri berbagai p
     1. Ini berbeda dari tab peran yang ditetapkan yang ditunjukkan sebelumnya, di tab sebelumnya untuk kontrol akses berbasis peran di Microsoft Entra.
     1. Meskipun tidak ada yang tercantum di sini, ini tab tempat Anda akan dapat melihat penetapan peran, yang ditetapkan ke Adele, untuk sumber daya Azure. Misalnya, jika Anda membuat Grup Sumber Daya Azure dan menetapkan peran tertentu kepada Adele, seperti pemilik atau kontributor untuk grup sumber daya, Anda akan melihat peran tersebut tercantum di sini. Apa itu Kontrol Akses Berbasis Peran Azure (Azure RBAC). Penetapan peran tersebut ditambahkan dan dikelola sebagai bagian dari sumber daya tersebut.
 
-1. Dari panel navigasi kiri, pilih **Metode autentikasi**.  Sebutkan deskripsi yang bertuliskan, “Di sini, Anda dapat mengatur nomor telepon dan alamat email yang digunakan pengguna untuk melakukan autentikasi multifaktor dan pengaturan ulang kata sandi mandiri serta pengaturan ulang kata sandi pengguna. Jika pengguna dikonfigurasi untuk SSPR atau diharuskan menggunakan MFA, dan Anda, sebagai admin, mengisi ini, maka pengguna sudah terdaftar dan tidak perlu melalui langkah-langkah pendaftaran untuk SSPR atau MFA.  Biasanya pengguna akan mendaftar sendiri, bukan admin yang harus melakukan ini.
-
 1. Pilih **X** di pojok kanan atas laman. Ini mengembalikan Anda ke daftar pengguna.
 
 1. Pilih **X** di pojok kanan atas laman. Ini mengembalikan Anda ke laman utama untuk pusat admin Microsoft Entra.

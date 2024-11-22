@@ -22,7 +22,7 @@ Di lab ini, Anda akan mempelajari proses penyiapan kebijakan risiko dari dalam, 
 
 Dalam tugas ini, Anda sebagai administrator global akan mengaktifkan izin untuk Manajemen Risiko Dari Dalam.  Khususnya, Anda akan menambahkan pengguna ke grup peran Manajemen Risiko Dari Dalam untuk memastikan bahwa pengguna yang ditunjuk dapat mengakses dan mengelola fitur manajemen risiko dari dalam.  Mungkin perlu waktu hingga 30 menit agar izin grup peran berlaku untuk pengguna di seluruh organisasi.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
+1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. 
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Halaman browser baru terbuka ke halaman selamat datang portal Microsoft Purview.  
 
@@ -75,7 +75,7 @@ Dalam tugas ini, Anda akan mempelajari pengaturan untuk membuat kebijakan.  Tuju
 
 1. Sebagai admin, Anda dapat segera mulai menetapkan skor risiko kepada pengguna berdasarkan aktivitas yang terdeteksi oleh kebijakan yang Anda pilih. Hal ini melewati persyaratan bahwa peristiwa pemicu (seperti kecocokan kebijakan DLP) terdeteksi terlebih dahulu.  Admin akan melakukannya dengan memilih kotak kosong di samping nama kebijakan untuk memilih kebijakan, lalu pilih **Mulai aktivitas penilaian untuk pengguna**, yang ditampilkan di atas tabel kebijakan.  Jendela baru terbuka yang mengharuskan admin mengisi bidang yang tersedia. Kosongkan bidang karena Anda tidak akan mengonfigurasi opsi ini, tetapi untuk informasi selengkapnya tentang mengapa admin ingin melakukan ini, pilih **Mengapa saya melakukan ini??**.  Keluar dari jendela dengan memilih **X** di kanan atas jendela.
 
-1. Dari panel navigasi sebelah kiri, pilih **Beranda** untuk kembali ke laman Beranda portal kepatuhan Microsoft Purview.
+1. Dari panel navigasi kiri, pilih **Beranda** untuk kembali ke halaman arahan portal Microsoft Purview.
 
 1. Tetap buka tab browser.
 

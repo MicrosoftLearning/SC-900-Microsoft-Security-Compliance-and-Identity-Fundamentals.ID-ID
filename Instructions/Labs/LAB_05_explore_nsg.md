@@ -27,8 +27,7 @@ Dalam tugas ini, Anda akan melihat beberapa parameter yang terkait dengan VM yan
 1. Masuk menggunakan kredensial admin Anda.
     1. Di jendela Masuk, masukkan nama pengguna yang diberikan oleh penyedia host lab Anda, lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
-    1. Jika sebelumnya Anda telah masuk, Anda mungkin diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
-    1. Jika diminta untuk tetap masuk, pilih **Ya**.
+    1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
 
 1. Di bagian atas laman, di bawah tulisan Layanan Azure, pilih **Mesin Virtual**.  Jika Anda tidak melihatnya dalam daftar, maka di kotak pencarian, di bilah warna biru di bagian atas laman di sebelah tulisan Microsoft Azure, masukkan **Mesin Virtual**, lalu pilih **Mesin Virtual** dari hasil pencarian.
 
@@ -126,7 +125,7 @@ Di tugas sebelumnya, Anda telah mengonfirmasi bahwa Anda dapat membuat koneksi R
 
 1. Anda harus berada di laman SC900-WinVM \| Koneksi. Dari panel navigasi kiri, pilih **Jaringan**. Jika sebelumnya Anda menutup tab browser, pilih bilah pencarian warna biru di bagian atas laman dan pilih Mesin virtual, lalu pilih VM, **SC900-WinVM**, lalu pilih **Jaringan**.
 
-1. Pilih tab **Aturan port keluar**. Anda akan melihat aturan keluar default.  Perhatikan aturan default "AllowInternetOutBound". Aturan ini memungkinkan semua lalu lintas Internet keluar. Anda tidak bisa menghapus aturan default, tetapi Anda bisa menimpanya dengan membuat aturan yang memiliki prioritas lebih tinggi. Dari sisi kanan laman, pilih **Tambahkan aturan port keluar**.
+1. Pilih tab **Aturan port keluar**. Anda akan melihat aturan keluar default.  Perhatikan aturan default "AllowInternetOutBound". Aturan ini memungkinkan semua lalu lintas Internet keluar. Anda tidak bisa menghapus aturan default, tetapi Anda bisa menimpanya dengan membuat aturan yang memiliki prioritas lebih tinggi. Dari sisi kanan halaman, pilih **+Aturan** port Crate lalu dari daftar drop-down, pilih **Aturan** port keluar.
 
 1. Di laman Tambah aturan keamanan keluar, tentukan pengaturan berikut:
     1. Sumber: **Semua**

@@ -25,8 +25,8 @@ Dalam tugas ini Anda, sebagai admin, akan mengatur ulang kata sandi untuk penggu
 1. Buka Microsoft Edge.  Di bilah alamat, masukkan **https://entra.microsoft.com** dan masuk dengan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
-    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda mungkin diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
-    1. Jika diminta untuk tetap masuk, pilih **Ya**.
+    1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
+    1. Setelah masuk, Anda akan dibawa ke halaman pusat admin Microsoft 365.
 
 1. Dari panel navigasi sebelah kiri, di bagian “Identitas”, bentangkan **Identitas**, bentangkan **Pengguna**, lalu pilih **Semua pengguna**.
 
@@ -46,11 +46,11 @@ Dalam tugas ini Anda, sebagai admin, akan mengatur ulang kata sandi untuk penggu
 
 Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat di Microsoft Entra ID.
 
-1. Buka tab browser untuk beranda pusat admin Microsoft Entra.   Jika sebelumnya Anda menutup tab browser ini, buka Microsoft Edge dan di bilah alamat, masukkan **https://entra.microsoft.com** dan masuk dengan kredensial admin Anda disediakan oleh host ALH.
+1. Buka tab browser untuk beranda pusat admin Microsoft Entra.   Jika sebelumnya Anda menutup tab browser ini, buka Microsoft Edge dan di bilah alamat, masukkan **`https://entra.microsoft.com`** dan masuk dengan kredensial admin Anda disediakan oleh host ALH.
 
 1. Dari panel navigasi kiri, bentangkan **Perlindungan**, lalu pilih **Akses Bersyarat**.
 
-1. Laman ikhtisar Akses bersyar ditampilkan.  Di sini, Anda akan melihat petak yang memperlihatkan ringkasan Kebijakan dan pemberitahuan umum.  Dari panel navigasi kiri, pilih **Kebijakan**.
+1. Laman ikhtisar Akses bersyar ditampilkan. Saat Anda masuk ke halaman gambaran umum, tab **Memulai** dipilih (digarisbawahi). Pilih tab **Gambaran Umum** . Di sini Anda akan melihat petak peta memperlihatkan ringkasan Kebijakan dan pemberitahuan umum.  Dari panel navigasi kiri, pilih **Kebijakan**.
 
 1. Dari panel navigasi kiri, pilih **Kebijakan**. Kebijakan Akses Bersyarat yang ada tercantum di sini. Pilih **+ Kebijakan baru**.
 
@@ -80,7 +80,7 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 1. Di bawah laman, Di bagian Aktifkan kebijakan, pilih **Aktif**, lalu pilih **Buat**.
 
-1. Dari panel navigasi kiri, pilih **Kebijakan**. Kebijakan MFA Pilot akan muncul dalam daftar kebijakan akses bersyarat (jika diperlukan, pilih **ikon Refresh** di bilah perintah di bagian atas laman).
+1. Dari panel navigasi kiri, pilih **Kebijakan**. Kebijakan **Blokir portal admin yang baru saja Anda buat akan muncul dalam daftar kebijakan akses bersyarah** (jika diperlukan, pilih **ikon** Refresh di bilah perintah di bagian atas halaman).
 
 1. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih **Keluar**. Kemudian tutup semua jendela browser.
 

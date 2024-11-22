@@ -22,7 +22,7 @@ Di lab ini, Anda akan menjelajahi Microsoft Defender untuk Cloud.  CATATAN: lang
 
 Dalam tugas ini, Anda akan melakukan penelusuran tingkat tinggi dari beberapa kemampuan Microsoft Defender untuk Cloud
 
-1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda. Jika sebelumnya Anda telah mencatat, Anda mungkin diminta untuk bentuk autentikasi sekunder, sebagai par dari MFA.  Jika sebelumnya Anda belum masuk, Anda mungkin diminta untuk menyiapkan MFA.  Ikuti perintah di layar untuk menyiapkan MFA.
+1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda.
 
 1. Di bilah pencarian berwarna biru, masukkan **Microsoft Defender untuk Cloud**, lalu dari daftar hasil, pilih **Microsoft Defender untuk Cloud**.
 
@@ -40,7 +40,7 @@ Dalam tugas ini, Anda akan melakukan penelusuran tingkat tinggi dari beberapa ke
     1. Pastikan tab **Semua rekomendasi** dipilih (digarisbawahi).  Perhatikan tampilan dasbor yang menunjukkan Rekomendasi aktif berdasarkan tingkat keparahan, Kesehatan sumber daya, dan banyak lagi.
     1. Dari daftar, pilih salah satu.  Di laman yang terbuka, Anda akan melihat deskripsi dan informasi tambahan yang dapat mencakup langkah remediasi, sumber daya yang terpengaruh, dan banyak lagi. Keluar dari laman ini dengan memilih **X** di pojok kanan atas layar,
 
-1. Dari panel navigasi kiri utama, pilih **Kepatuhan peraturan**.  **CATATAN**: Jika Anda melihat tidak ada langganan untuk menghitung kepatuhan, itu karena mungkin ada penundaan hingga 24 jam agar informasi itu muncul. Beralih ke Tugas 2.  Jika Anda melihat informasi, lanjutkan dengan langkah-langkah berikut.
+1. Dari panel navigasi kiri utama, perluas **Cloud Security** lalu pilih **Kepatuhan terhadap peraturan**.  **CATATAN**: Jika Anda melihat tidak ada langganan untuk menghitung kepatuhan, itu karena mungkin ada penundaan hingga 24 jam agar informasi itu muncul. Beralih ke Tugas 2.  Jika Anda melihat informasi, lanjutkan dengan langkah-langkah berikut.
     1. Laman kepatuhan peraturan menyediakan daftar kontrol kepatuhan berdasarkan tolok ukur keamanan cloud Microsoft (pastikan tab tolok ukur keamanan cloud Microsoft dipilih/digarisbawahi). Pada setiap domain kontrol terdapat subset kontrol dan untuk setiap kontrol, ada satu atau banyak penilaian. Setiap penilaian memberikan informasi termasuk deskripsi, remediasi, dan sumber daya yang terpengaruh.
     1. Mari jelajahi salah satu area domain kontrol. Pilih (bentangkan) **NS. Keamanan Jaringan**. Daftar kontrol yang terkait dengan keamanan jaringan ditampilkan.
     1. Pilih **NS-10. Memastikan keamanan Sistem Nama Domain (DNS)**. Perhatikan daftar penilaian otomatis (yang mencakup penilaian otomatis untuk AWS) dan bagaimana setiap item baris penilaian memberikan informasi termasuk jenis sumber daya, sumber daya yang gagal, dan stasiun kepatuhan. Pilih penilaian yang tercantum.  Di sini, Anda melihat informasi termasuk deskripsi, langkah-langkah Remediasi, dan Sumber daya yang terpengaruh.

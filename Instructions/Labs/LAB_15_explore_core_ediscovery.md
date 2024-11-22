@@ -22,7 +22,7 @@ Di lab ini, Anda akan melalui langkah-langkah yang diperlukan untuk menyiapkan e
 
 Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus eDiscovery, pengguna harus diberi izin yang sesuai. Dalam tugas ini, Anda sebagai admin global, akan menambahkan pengguna tertentu sebagai anggota grup peran Manajer eDiscovery.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
+1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Halaman browser baru terbuka ke halaman selamat datang portal Microsoft Purview.  
 
@@ -74,7 +74,7 @@ Sekarang, setelah Anda membuat kasus eDiscovery (Standar), Anda dapat mulai beke
 
 1. Pada halaman Pilih Lokasi, pilih **Berikutnya**.  Untuk kecocokan dengan lab, tidak ada lokasi lain yang akan disertakan dalam penangguhan ini.
 
-1. Laman Syarat kueri memungkinkan Anda membuat penangguhan, berdasarkan Kata Kunci atau Ketentuan tertentu yang dipenuhi, pilih **+ Tambahkan syarat** untuk melihat opsi yang tersedia.  Pilih **Selanjutnya**. Tanpa syarat apa pun, penangguhan akan mempertahankan semua konten di lokasi yang ditentukan.
+1. Halaman Kondisi kueri memungkinkan Anda membuat penangguhan untuk item berdasarkan kueri yang bisa Anda buat.  Anda bisa memilih untuk menggunakan penyusun Kueri untuk membuat kueri atau untuk pengguna tingkat lanjut lainnya, Anda bisa menggunakan editor KQL. Untuk latihan ini, Anda ingin penangguhkan mempertahankan semua konten di lokasi yang ditentukan untuk pengguna yang ditentukan, sehingga Anda tidak akan membuat kueri.
 
 1. Tinjau pengaturan Anda dan pilih **Kirim**, mungkin perlu waktu satu menit, lalu pilih **Selesai**.  Penangguhan pengujian akan muncul dalam daftar.  Jika Anda tidak segera melihatnya, pilih **Refresh**
 
@@ -82,7 +82,7 @@ Sekarang, setelah Anda membuat kasus eDiscovery (Standar), Anda dapat mulai beke
 
 ### Tugas 4
 
-Setelah memasukkan penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian Anda selesai, eDiscovery mendukung tindakan, seperti mengekspor dan mengunduh hasil untuk penyelidikan di masa mendatang.   Catatan: Pencarian yang terkait dengan kasus eDiscovery (Standar) tidak terdaftar di laman pencarian konten di portal kepatuhan Microsoft Purview. Pencarian ini hanya terdaftar di laman Pencarian dari kasus eDiscovery (Standar) terkait.
+Setelah memasukkan penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian Anda selesai, eDiscovery mendukung tindakan, seperti mengekspor dan mengunduh hasil untuk penyelidikan di masa mendatang.   Catatan: Pencarian yang terkait dengan kasus eDiscovery (Standar) tidak tercantum di halaman Pencarian konten di portal Microsoft Purview. Pencarian ini hanya terdaftar di laman Pencarian dari kasus eDiscovery (Standar) terkait.
 
 1. Buka tab Kasus Uji SC900 di browser Anda.
 
