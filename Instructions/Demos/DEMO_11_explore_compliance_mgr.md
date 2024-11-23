@@ -9,7 +9,7 @@ Demo: Judul: 'Jelajahi portal Microsoft Purview & Manajer Kepatuhan' Jalur Pembe
 Demo ini memetakan ke konten Learn berikut:
 
 - Jalur Pembelajaran: Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview
-- Modul: Menjelaskan solusi kepatuhan data Microsoft Purview
+- Modul: Menjelaskan kemampuan solusi kepatuhan Microsoft Purview
 - Unit: Menjelaskan Manajer Kepatuhan
 
 ## Skenario demo

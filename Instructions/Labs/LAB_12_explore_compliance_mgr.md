@@ -20,14 +20,14 @@ Di lab ini, Anda akan menjelajahi beranda portal Microsoft Purview dan cara di m
 
 ### Tugas 1
 
-Pelajari halaman beranda portal kepatuhan Microsoft Purview dan pelajari cara menyesuaikan tampilan kartu dan panel navigasi.
+Jelajahi beranda portal Microsoft Purview.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
 1. Masuk menggunakan kredensial admin Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang diberikan oleh penyedia host lab Anda), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
-    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
-    1. Jika diminta untuk tetap masuk, pilih **Ya**. Ini akan membawa Anda ke laman pusat admin Microsoft 365.
+    1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
+    1. Setelah masuk, Anda akan dibawa ke halaman pusat admin Microsoft 365.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
@@ -73,4 +73,4 @@ Pelajari tentang postur kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
 ### Tinjauan
 
-Di lab ini, Anda telah menjelajahi laman beranda portal kepatuhan Microsoft Purview dan berbagai kemampuan Pengelola Kepatuhan yang dapat membantu organisasi meningkatkan postur kepatuhan mereka.
+Di lab ini, Anda menjelajahi halaman beranda portal Microsoft Purview dan cara di mana kemampuan Manajer Kepatuhan dapat membantu organisasi meningkatkan postur kepatuhan mereka.

@@ -22,13 +22,14 @@ Di lab ini, Anda telah mempelajari kemampuan label sensitivitas.  Anda akan memb
 
 Dalam tugas ini, Anda akan mendapatkan pemahaman tentang apa yang dapat dilakukan label sensitivitas dengan melalui proses pembuatan label baru dan membuat kebijakan untuk menerbitkan label.
 
-1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **https://admin.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
+1. Buka tab browser untuk membuka beranda Microsoft Purview.  Jika sebelumnya Anda menutupnya, buka tab browser dan masukkan **`https://admin.microsoft.com`**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**, lalu pilih **Kepatuhan**.  Halaman browser baru terbuka ke halaman selamat datang portal Microsoft Purview.
 
 1. Di panel navigasi kiri, pilih **Solusi** lalu pilih **Perlindungan** informasi.  Anda berada di halaman gambaran umum. Gulir ke bawah untuk melihat informasi yang tersedia.
 
 1. Dari panel navigasi kiri, pilih **Label** sensitivitas.
+1. Anda akan melihat banner kuning yang menunjukkan bahwa organisasi Anda belum mengaktifkan kemampuan untuk memproses konten dalam file online Office yang menerapkan label sensitivitas terenkripsi dan disimpan di OneDrive dan SharePoint.  Pilih **Aktifkan sekarang**.
 
 1. Beberapa label telah dikonfigurasi sebelumnya di penyewa lab Microsoft 365 Anda, untuk memudahkan Anda. Pilih label bernama **Confidential-Finance**.  Jendela terbuka yang menyediakan informasi tentang label ini.  Perhatikan pengaturan untuk label ini.  Pilih **Edit label** Jika Anda tidak melihat opsi ini, pilih elipsis.
     1. Konfigurasi dimulai dengan memberikan detail dasar untuk label.  Jangan mengubah apa pun.  Pilih **Berikutnya** di bagian bawah laman.
@@ -65,7 +66,7 @@ Dalam tugas ini, Anda akan mendapatkan pemahaman tentang apa yang dapat dilakuka
     1. Anda dapat memutuskan untuk menguji kebijakan sekarang atau nanti.  Pilih **Biarkan kebijakan dinonaktifkan**, lalu pilih **Berikutnya**.
     1. Tinjau pengaturan dan pilih **Buat kebijakan**, lalu pilih **Selesai**.
 
-1. Dari panel navigasi sebelah kiri, pilih **Beranda** untuk kembali ke portal kepatuhan Microsoft Purview.
+1. Dari panel navigasi kiri, pilih **Beranda** untuk kembali ke portal Microsoft Purview.
 
 1. Biarkan laman ini tetap terbuka, Anda akan menggunakannya di tugas berikutnya.
 
@@ -73,9 +74,10 @@ Dalam tugas ini, Anda akan mendapatkan pemahaman tentang apa yang dapat dilakuka
 
 Dalam tugas ini, Anda akan melalui proses penerapan label sensitivitas ke dokumen Microsoft Word, lalu menampilkan penandaan konten (marka air) yang dihasilkan oleh label. CATATAN: Saat menggunakan Microsoft Word online, Anda mungkin mengalami penundaan sebelum opsi untuk memilih Label sensitivitas muncul di pita atas.  Sebaiiknya Anda menyelesaikan semua lab yang tersisa, lalu kembali ke tugas ini.
 
-1. Dari laman beranda portal kepatuhan Microsoft Purview, pilih **ikon peluncur aplikasi**, di samping tulisan Contoso Electronics. Pilih **ikon Word**.  
+1. Anda masih harus berada di beranda untuk Portal Microsoft Purview. 
+1. Dari portal Microsoft Purview, pilih **ikon** peluncur aplikasi, di samping tempatnya tertulis Microsoft Purview. Pilih **ikon Word**.  
 
-1. Buat Pilih **Dokumen kosong**, lalu masukkan beberapa teks di laman tersebut.  Di bagian atas laman, pilih panah arah bawah, di sebelah tulisan Dokumen - Tersimpan, dan di kotak Nama File masukkan **Test-label**, lalu tekan **Enter** pada papan ketik.
+1. Buat Pilih **Dokumen kosong**, lalu masukkan beberapa teks di laman tersebut.  Di bagian atas halaman, di samping ikon Word, pilih di mana katanya **Dokumen** dan ganti nama file menjadi **Test-label** lalu tekan **Enter** di keyboard Anda.
 
 1. Di ujung kanan bilah menu atas (juga disebut sebagai pita) adalah panah bawah, pilih, lalu pilih **Pita Klasik**.  Ini akan mempermudah identitas ikon sensitivitas. Pilih **Sensitivitas**, yang terletak di samping ikon mikrofon. Dari menu drop-down, pilih **Confidential-Finance**.  
 

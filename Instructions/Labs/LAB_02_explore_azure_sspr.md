@@ -31,8 +31,8 @@ Dalam tugas ini, Anda, sebagai admin, akan menelusuri beberapa pengaturan konfig
 1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **https://entra.microsoft.com** dan masuk dengan admin kredensial Microsoft 365 yang disediakan oleh host lab resmi (ALH).
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
-    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
-    1. Jika diminta untuk tetap masuk, pilih **Ya**.
+    1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
+    1. Setelah masuk, Anda akan dibawa ke halaman pusat admin Microsoft 365.
 
 1. Dari panel navigasi kiri, bentangkan opsi untuk **Perlindungan**, lalu pilih **Atur ulang kata sandi**.  
 

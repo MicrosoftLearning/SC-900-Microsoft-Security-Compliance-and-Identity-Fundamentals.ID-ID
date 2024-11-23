@@ -22,25 +22,25 @@ Di lab ini, Anda akan mempelajari kemampuan Microsoft Defender untuk Cloud Apps.
 
 Menjelajahi Cloud Discovery.
 
-1. Buka Microsoft Edge. Di bilah alamat, masukkan **admin.microsoft.com**.
+1. Buka Microsoft Edge. Di bilah alamat, masukkan **`https://admin.microsoft.com`**.
 
 1. Masuk dengan kredensial admin Anda untuk penyewa Microsoft 365.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang diberikan oleh penyedia host lab Anda) lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
-    1. Jika sebelumnya Anda telah masuk sebagai admin, Anda akan diminta untuk menyelesaikan autentikasi sekunder, sebagai bagian dari MFA. JIKA sebelumnya Anda belum masuk sebagai admin, Anda akan diminta untuk menyelesaikan proses pendaftaran MFA. Ikuti perintah di layar untuk menyiapkan MFA.
-    1. Jika diminta untuk tetap masuk, pilih **Ya**. Ini akan membawa Anda ke laman pusat admin Microsoft 365.
+    1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
+    1. Setelah masuk, Anda akan dibawa ke halaman pusat admin Microsoft 365.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
 1. Di Pusat admin, pilih **Keamanan**.  Laman browser baru membuka laman selamat datang di portal Pertahanan Microsoft 365.  
 
-1. Jika ini pertama kalinya Anda mengunjungi portal Pertahanan Microsoft 365, Anda mungkin mendapatkan jendela pop-up untuk mengikuti tur cepat.  Tutup ini.
+1. Jika ini pertama kalinya Anda mengunjungi portal Pertahanan Microsoft 365, Anda mungkin mendapatkan jendela pop-up untuk mengikuti tur cepat.  Anda dapat memilih untuk mengikuti tur singkat atau menutup jendela.
 
 1. Dari panel navigasi kiri, pilih **Cloud apps** untuk meluaskan daftar, lalu pilih **Cloud Discovery**. Tindakan ini akan membawa Anda ke tampilan Dasbor.  Catat informasi yang tersedia di dasbor. Dari tampilan dasbor, Anda dapat memilih berbagai tab dari bagian atas halaman.  
 
 1. Pilih **Aplikasi yang ditemukan**. Jendela aplikasi yang ditemukan menyediakan tampilan aplikasi yang ditemukan lebih terperinci, termasuk skor risiko, lalu lintas, jumlah pengguna, dan banyak lagi.
     1. Dari item dalam daftar, pilih **elipsis** (...) di kolom tindakan tabel.  Perhatikan berbagai opsi yang tersedia, termasuk kemampuan untuk menandai aplikasi sebagai disetujui atau tidak disanksi.  Pilih **elipsis** (...), lagi, untuk menutup kotak tindakan.
-    1. Memilih item baris tertentu akan membuka laman detail untuk aplikasi tertentu.  Pilih item dari daftar dan tinjau informasi yang tersedia di laman ikhtisar.  Untuk item yang dipilih, pilih tab **Penggunaan aplikasi cloud** untuk melihat informasi selengkapnya, termasuk **Penggunaan**, **Pengguna, IP**, **Alamat**, dan **Peringatan**. Setelah selesai menjelajahi laman detail, kembali ke laman aplikasi yang ditemukan, dengan memilih **Cloud Discovery** dari bilah di bagian atas laman.  Jika memilih Cloud discovery dari panel navigasi kiri, Anda akan dibawa kembali ke tampilan dasbor.
+    1. Memilih item baris tertentu akan membuka laman detail untuk aplikasi tertentu.  Pilih item dari daftar dan tinjau informasi yang tersedia di laman ikhtisar.  Untuk item yang dipilih, pilih **tab Penggunaan** aplikasi Cloud untuk melihat informasi lebih rinci, termasuk  **Penggunaan**, Pengguna, **IP**, **Alamat**, dan **Insiden**. Setelah selesai menjelajahi laman detail, kembali ke laman aplikasi yang ditemukan, dengan memilih **Cloud Discovery** dari bilah di bagian atas laman.  Jika memilih Cloud discovery dari panel navigasi kiri, Anda akan dibawa kembali ke tampilan dasbor.
     1. Dari bagian atas halaman, pilih tab **Alamat IP**. Di sini, Anda akan menemukan data termasuk jumlah transaksi, jumlah lalu lintas, dan jumlah unggahan berdasarkan alamat IP.  Perhatikan bahwa Anda juga dapat memfilter menurut alamat IP tertentu atau mengekspor data untuk analisis lebih lanjut.
     1. Dari bagian atas halaman, pilih **Pengguna**.  Ini adalah jenis informasi yang sama yang diberikan saat Anda memilih alamat IP, tetapi terdaftar untuk masing-masing pengguna.  Di sini juga, Anda memfilter menurut pengguna tertentu dan mengekspor data untuk analisis lebih lanjut.
 

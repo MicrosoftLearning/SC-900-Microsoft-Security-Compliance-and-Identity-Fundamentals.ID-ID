@@ -22,7 +22,7 @@ Di lab ini, Anda akan menelusuri proses pembuatan instans Microsoft Sentinel.  A
 
 Buat instans Microsoft Sentinel
 
-1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda. Jika sebelumnya Anda telah mencatat, Anda mungkin diminta untuk bentuk autentikasi sekunder, sebagai par dari MFA.  Jika sebelumnya Anda belum masuk, Anda mungkin diminta untuk menyiapkan MFA.  Ikuti perintah di layar untuk menyiapkan MFA.
+1. Anda berada di beranda layanan Azure.  Jika sebelumnya Anda menutup browser, buka Microsoft Edge. Di bilah alamat, masukkan **portal.azure.com**, dan masuk dengan kredensial admin Anda.
 
 1. Di kotak pencarian warna biru di bagian atas laman, masukkan **Microsoft Sentinel** lalu pilih **Microsoft Sentinel** dari hasil pencarian.
 
@@ -39,7 +39,7 @@ Buat instans Microsoft Sentinel
     1. Verifikasi informasi yang Anda masukkan, lalu pilih **Buat**.
     1. Mungkin perlu waktu satu atau dua menit agar ruang kerja ne terdaftar, jika Anda masih tidak melihatnya, pilih **Refresh**, lalu pilih **Tambahkan**.
 
-1. Setelah ruang kerja baru ditambahkan, laman Microsoft Sentinel | Berita & panduan akan ditampilkan, menunjukkan bahwa uji coba gratis Microsoft Sentinel telah diaktifkan.  Pilih **OK**.  Perhatikan tiga langkah yang tercantum di laman Memulai.
+1. Setelah ruang kerja baru ditambahkan, laman Microsoft Sentinel | Berita & panduan akan ditampilkan, menunjukkan bahwa uji coba gratis Microsoft Sentinel telah diaktifkan.  Pilih **OK**.
 
 1. Biarkan laman ini tetap terbuka, karena Anda akan menggunakannya di tugas berikutnya.
 
@@ -72,7 +72,7 @@ Tujuan dari tugas ini untuk memandu Anda menelusuri langkah-langkah yang terliba
 
 1. Dari beranda layanan Azure, pilih Microsoft Azure Sentinel, lalu pilih instans yang Anda buat, **SC900-LogAnalytics-workspace**.
 
-1. Dari panel navigasi kiri, pilih **Hub konten**.
+1. Dari panel navigasi kiri, perluas **Manajemen** Konten lalu pilih **Hub konten**.
 
 1. Luangkan waktu sejenak untuk menggulir ke bawah guna melihat daftar lengkap solusi yang tersedia dan opsi untuk memfilter daftar.  Untuk tugas ini, kita mencari **Microsoft Defender untuk Cloud**.  Pilihlah dari daftar.  Di jendela samping yang terbuka, baca deskripsi, lalu pilih **Instal**.  Setelah penginstalan selesai, kolom status di jendela utama akan ditampilkan sebagai terinstal.
 
@@ -95,21 +95,23 @@ Tujuan dari tugas ini untuk memandu Anda menelusuri langkah-langkah yang terliba
 
 Dalam tugas ini, Anda akan menelusuri beberapa opsi yang tersedia di Sentinel.
 
-1. Dari panel navigasi sebelah kiri, pilih **Hunting**.  Dari bagian atas laman, pilih tab **Kueri**. Baca deskripsi tentang apa itu kueri hunting. Kueri hunting dapat ditambahkan melalui Hub Konten. Setiap kueri yang sebelumnya diinstal akan dicantumkan di sini. Pilih **Buka hub konten**.  Hub konten mencantumkan konten yang menyertakan kueri baik sebagai bagian dari solusi atau sebagai kueri mandiri.  Gulir ke bawah untuk melihat opsi yang tersedia. Tutup Konten hub dengan memilih **X** di pojok kanan atas jendela.
+1. Dari panel navigasi kiri, perluas **Manajemen ancaman** dan jelajahi opsi yang tercantum dalam manajemen ancaman.
+    1. Pilih **Insiden**.  Meskipun tidak ada insiden yang ditemukan, tinjau **bagian Apa itu?**
+    1. Pilih **Berburu** lalu tinjau informasi yang disediakan di tab **Berburu (Pratinjau)** .
+    1. Pilih **Buku Catatan** dan tinjau **bagian Apa itu?**
+    1. Pilih **Inteligensi ancaman** dan tinjau informasi di halaman.
+    1. Pilih **MITRE ATT&CK**.  MITRE ATT&CK adalah pangkalan pengetahuan taktik dan teknik yang umum digunakan oleh penyerang. Dengan Microsoft Sentinel, Anda dapat melihat deteksi yang sudah aktif di ruang kerja Anda, dan yang tersedia bagi Anda untuk dikonfigurasi, untuk memahami cakupan keamanan organisasi Anda, berdasarkan taktik dan teknik dari kerangka kerja MITRE ATT&CK®.  Pilih sel apa pun dari matriks dan catat informasi yang tersedia di sisi kanan layar. **Catatan**: Anda mungkin perlu memilih "**<<**" di sisi kanan jauh jendela untuk melihat panel informasi.
 
-1. Dari panel navigasi sebelah kiri, pilih **MITRE ATT&CK**.  MITRE ATT&CK adalah pangkalan pengetahuan taktik dan teknik yang umum digunakan oleh penyerang. Dengan Microsoft Sentinel, Anda dapat melihat deteksi yang sudah aktif di ruang kerja Anda, dan yang tersedia bagi Anda untuk dikonfigurasi, untuk memahami cakupan keamanan organisasi Anda, berdasarkan taktik dan teknik dari kerangka kerja MITRE ATT&CK®.  Pilih sel apa pun dari matriks dan catat informasi yang tersedia di sisi kanan layar. **Catatan**: Anda mungkin perlu memilih "**<<**" di sisi kanan jauh jendela untuk melihat panel informasi.
+1. Dari panel navigasi kiri, perluas **Manajemen** Konten, lalu pilih **Komunitas**. Halaman komunitas mencakup wawasan dan pembaruan keamanan Cyber dari Microsoft Research, tautan ke daftar Blog Microsoft Azure Sentinel, tautan ke Forum Microsoft Sentinel, menautkan edisi terbaru ke Microsoft Sentinel Hub, dan banyak lagi. Jelajahi ini sesuka hati.
 
-1. Dari panel navigasi sebelah kiri, pilih **Komunitas**. Halaman komunitas mencakup wawasan dan pembaruan keamanan Cyber dari Microsoft Research, tautan ke daftar Blog Microsoft Azure Sentinel, tautan ke Forum Microsoft Sentinel, menautkan edisi terbaru ke Microsoft Sentinel Hub, dan banyak lagi. Jelajahi ini sesuka hati.
 
-1. Dari panel navigasi kiri, pilih **Analitik**.  Di sana, ada dua aturan aktif, satu yang tersedia secara default dan aturan yang Anda buat di tugas sebelumnya. Pilih aturan **Deteksi Serangan Multitahap Tingkat Lanjut**.  Perhatikan informasi terperinci.  Microsoft Sentinel menggunakan Fusion, mesin korelasi berdasarkan algoritme pembelajaran mesin yang dapat diskalakan, untuk secara otomatis mendeteksi serangan multitahap (dikenal juga sebagai ancaman persisten tingkat lanjut) dengan mengidentifikasi kombinasi perilaku anomali dan aktivitas mencurigakan yang diamati pada berbagai tahap rantai pematian. Atas dasar penemuan ini, Microsoft Sentinel menghasilkan insiden yang akan sulit ditangkap. **Catatan**: Anda mungkin perlu memilih "**<<**" di sisi kanan jauh jendela untuk melihat panel informasi.
-
-1. Dari panel navigasi kiri, pilih **Otomatisasi**.  Di sini, Anda dapat membuat aturan otomatisasi sederhana, mengintegrasikan dengan playbook yang ada, atau membuat playbook baru.  Pilih **+ Buat**, lalu pilih **Aturan otomatisasi**.  Perhatikan jendela yang terbuka di sisi kanan layar dan opsi yang tersedia untuk membuat syarat dan tindakan.  Pilih **Batal** dari bagian bawah halaman.
-
-1. Dari panel navigasi kiri, pilih **Buku kerja**. Baca deskripsi buku kerja Microsoft Azure Sentinel.  Buku kerja dapat ditambahkan melalui Hub Konten. Setiap buku kerja yang sebelumnya diinstal akan dicantumkan di sini. Pilih **Buka hub konten**.  Hub konten mencantumkan konten yang menyertakan buku kerja baik sebagai bagian dari solusi maupun sebagai buku kerja mandiri. Gulir ke bawah untuk melihat opsi yang tersedia.
+1. Dari panel navigasi kiri, perluas **Konfigurasi** dan jelajahi opsi yang tercantum:
+    1. pilih **Analitik**.  Di sana, ada dua aturan aktif, satu yang tersedia secara default dan aturan yang Anda buat di tugas sebelumnya. Pilih aturan **Deteksi Serangan Multitahap Tingkat Lanjut**.  Tinjau informasi terperinci. **Catatan**: Anda mungkin perlu memilih "**<<**" di sisi kanan jauh jendela untuk melihat panel informasi.
+    1. Dari panel navigasi kiri, pilih **Otomatisasi**.  Di sini, Anda dapat membuat aturan otomatisasi sederhana, mengintegrasikan dengan playbook yang ada, atau membuat playbook baru.  Pilih **+ Buat**, lalu pilih **Aturan otomatisasi**.  Perhatikan jendela yang terbuka di sisi kanan layar dan opsi yang tersedia untuk membuat syarat dan tindakan.  Pilih **Batal** dari bagian bawah halaman.
 
 1. Tutup jendela dengan memilih **X** di pojok kanan atas jendela.
 
-1. Dari sudut kiri atas jendela, tepat di bawah bilah biru, pilih **Beranda** untuk kembali ke laman beranda portal Azure.
+1. Dari sudut kiri atas jendela, di banner biru, pilih **Microsoft Azure** untuk kembali ke halaman beranda portal Azure.
 
 1. Keluar dan tutup semua tab browser yang terbuka.
 
