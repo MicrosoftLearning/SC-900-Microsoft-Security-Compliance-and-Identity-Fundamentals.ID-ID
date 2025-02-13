@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft
 
 Repositori ini mencakup skrip demo dan instruksi lab untuk **SC-900T00: Dasar-Dasar Keamanan, Kepatuhan, dan Identitas Microsoft**.  Skrip demo dan lab mengasumsikan akses ke penyewa SPE_E5 WWL M365 Enterprise 2019 yang telah dikonfigurasi sebelumnya, tersedia melalui host lab resmi (ALH) dan penggunaan langganan Azure yang disediakan oleh ALH. Beberapa skrip demo dan instruksi lab dapat dijalankan dari penyewa Microsoft 365 dan langganan Azure milik pengguna, tetapi tidak dijamin, karena beberapa fitur mungkin tidak dapat diaktifkan dengan langganan pribadi pengguna.
