@@ -30,7 +30,14 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan Log audit dan pemant
 
 1. Di panel navigasi kiri, gulir ke bawah dan perluas **Sistem**.  Dari daftar yang diperluas, pilih **Audit**.  Catatan: fungsionalitas audit juga dapat diakses melalui portal Microsoft Purview.
 
-1. Setelah Anda masuk ke halaman Audit, tunggu 1-2 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas laman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Mulai merekam aktivitas pengguna dan admin**.  Setelah audit diaktifkan, bilah biru menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.
+1. Setelah Anda masuk ke halaman Audit, tunggu 1-2 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas laman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Mulai merekam aktivitas pengguna dan admin**.  Setelah audit diaktifkan, bilah biru menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.  Jika Anda melihat pesan, "Maaf, kami mengalami masalah saat mencari tahu apakah aktivitas sedang direkam. Coba refresh halaman," dan tidak ada perubahan setelah me-refresh halaman, Anda harus mengaktifkan audit melalui PowerShell.
+    1. Pilih kanan ikon Windows PowerShell biru pada taskbar dan pilih **Jalankan sebagai administrator**.
+    1. Untuk mengonfirmasi bahwa modul Exchange Online PowerShell diinstal di komputer, masukkan **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**.  Anda akan melihat nama, versi, dan lokasi terinstal Exchange OnlineManagement.
+    1. Sekarang muat modul, dengan memasukkan **`Import-Module ExchangeOnlineManagement`**.
+    1. Untuk menyambungkan, masukkan **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  Untuk UPN, masukkan nama pengguna administrator yang ditemukan di tab sumber daya lab Anda.
+    1. Anda akan diminta untuk masuk.  Masukkan nama pengguna dan kata sandi administratif yang ditemukan di tab sumber daya lab Anda.
+    1. Untuk mengaktifkan Audit, masukkan **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**. Pesan ditampilkan yang mengatakan bahwa mungkin perlu waktu hingga 60 menit agar perubahan diterapkan.
+    1. Meskipun mungkin perlu waktu hingga 60 menit untuk diterapkan, Anda dapat memverifikasi bahwa perintah diterima dengan memasukkan **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`**.  Jika audit diaktifkan, properti UnifiedAuditLogIngestionEnabled akan menampilkan nilai true.
 
 1. Dari panel navigasi kiri, di bawah Sistem, pilih **Pengaturan**.
 
@@ -52,9 +59,9 @@ Dalam tugas penyiapan ini, Anda akan menambahkan diri Anda sendiri, sebagai admi
     1. Pilih **Berikutnya** lalu pilih **Simpan**, lalu akhirnya pilih **Selesai**.
 1. Ini menyimpulkan penyiapan untuk penyewa Microsoft 365, Anda dapat menutup tab browser.
 
-## Penyiapan Pra-Demo Langganan Azure Cloud Slice
+## Penyiapan Pra-Demo langganan Azure
 
-Untuk penyiapan ini, Anda menggunakan lingkungan Azure Cloud Slice yang terpisah dari penyewa Microsoft 365 yang disediakan. Keluar dari Penyewa Microsoft 365 dan masuk menggunakan kredensial Azure Cloud Slice.
+Untuk penyiapan ini, Anda menggunakan lingkungan Azure yang terpisah dari penyewa Microsoft 365 yang disediakan. Keluar dari Penyewa Microsoft 365 dan masuk menggunakan kredensial Azure.
 
 ### Mesin virtual Azure
 
@@ -141,4 +148,4 @@ Periksa untuk memastikan bahwa instans Microsoft Azure Sentinel telah dibuat. Ji
 
 ### Tinjauan
 
-Dalam penyiapan ini, Anda telah mengaktifkan kemampuan log audit di penyewa Microsoft 365 dan Anda juga membuat verifikasi bahwa VM telah dikonfigurasi sebelumnya di lingkungan Azure Cloud Slice. Anda juga telah menyiapkan lingkungan Defender untuk Cloud dan Microsoft Azure Sentinel.
+Dalam penyiapan ini, Anda mengaktifkan kemampuan log audit di penyewa Microsoft 365 dan Anda juga membuat verifikasi bahwa VM telah dikonfigurasi sebelumnya di lingkungan Azure Anda. Anda juga telah menyiapkan lingkungan Defender untuk Cloud dan Microsoft Azure Sentinel.

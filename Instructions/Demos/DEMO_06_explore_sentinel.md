@@ -49,7 +49,7 @@ Seperti semua sumber daya Azure, Anda ingin memastikan bahwa pengguna memiliki i
 
 1. Dari laman SC900-Sentinel-RG, pilih **Kontrol akses (IAM)** dari panel navigasi kiri.
 
-1. Dari laman Kontrol akses, pilih **Tampilkan akses saya**.  Jika Anda menggunakan langganan Skillable Cloud Slice, penetapan peran diatur ke Pemilik LOD, yang merupakan penetapan peran kustom yang dikonfigurasi untuk langganan Cloud Slice ini dan akan memberikan izin yang diperlukan. Namun, untuk demo, ada baiknya menunjukkan peran spesifik Sentinel.  Tutup jendela tugas dengan memilih **X** di pojok kanan atas jendela.
+1. Dari laman Kontrol akses, pilih **Tampilkan akses saya**.  Anda kemungkinan besar akan melihat penetapan peran kustom yang sudah dikonfigurasi untuk langganan ini dan itu akan memberi Anda izin yang diperlukan.  Peran kustom ini akan disiapkan oleh hoster lab resmi (ALH) yang menyediakan lingkungan lab. Namun, untuk demo, ada baiknya menunjukkan peran spesifik Sentinel.  Tutup jendela tugas dengan memilih **X** di pojok kanan atas jendela.
 
     1. Dari laman Kontrol akses, pilih **+Tambahkan**, lalu pilih **Tambah penetapan peran**.
 
