@@ -48,7 +48,7 @@ Dalam tugas ini, Anda, sebagai admin, akan menetapkan peran ID Microsoft Entra d
 
 1. Buka tab browser untuk beranda pusat admin Microsoft Entra.
 
-1. Dari panel navigasi sebelah kiri, di bagian “Identitas”, bentangkan **Tata Kelola Identitas**, lalu pilih **Privileged Identity Management**.
+1. Dari panel navigasi kiri, perluas **IF Governance**, lalu pilih **Privileged Identity Management**.
 
 1. Sekarang, Anda berada di laman mulai cepat Privileged Identity Management. Tinjau informasi di laman Memulai. Di jendela utama, di mana tertulis Kelola akses, pilih **Kelola**.
 
@@ -96,7 +96,7 @@ Dalam tugas ini, Anda sebagai Diego Siciliani akan masuk ke pusat admin Microsof
     1. Jika diminta untuk tetap masuk, pilih **Ya**.
 
 1. Anda berhasil masuk ke pusat admin Microsoft Entra.
-1. Dari panel navigasi sebelah kiri,bentangkan **Tata Kelola Identitas**, lalu pilih **Privileged Identity Management**.
+1. Dari panel navigasi kiri, perluas **Tata Kelola** ID lalu pilih **Privileged Identity Management**.
 1. Dari panel navigasi kiri, pilih **Peran yang saya**.  Sekarang, Anda melihat informasi untuk penugasan yang memenuhi syarat.  Anda akan melihat bahwa Anda, Diego, diberi peran sebagai Administrator pengguna.  
 1. Di kolom terakhir tabel, tindakan berlabel, pilih **Aktifkan**.
 1. Anda akan melihat ikon peringatan yang menunjukkan Diperlukan verifikasi tambahan.  Pilih **Klik untuk melanjutkan**.  Perlu diperhatikan bahwa pengaturan PIM untuk peran Administrator pengguna memerlukan autentikasi multifaktor.  Selain itu, karena informasi kontak Diego yang digunakan dengan MFA (metode autentikasi) sebelumnya tidak dikonfigurasi, ia harus mendaftarkan informasinya, untuk dapat menggunakan MFA.  Meskipun dia harus melakukan MFA kapan saja dia masuk sebagai admin pengguna, dalam periode penugasan, proses pendaftaran MFA hanya diperlukan sekali.

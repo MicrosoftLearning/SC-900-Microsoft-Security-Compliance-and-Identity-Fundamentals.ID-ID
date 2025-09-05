@@ -16,7 +16,7 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan mempelajari MFA akses bersyarat, dari sudut pandang admin dan pengguna.  Sebagai admin, Anda akan membuat kebijakan yang mengharuskan pengguna melalui autentikasi multifaktor saat mengakses portal Microsoft Admin.  Dari perspektif pengguna, Anda akan melihat dampak kebijakan akses bersyarat, termasuk proses pendaftaran MFA.
 
-**Perkiraan Waktu:**: 30 menit
+**Perkiraan Waktu**: 45 menit
 
 ### Tugas 1
 
@@ -48,11 +48,11 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 1. Buka tab browser untuk beranda pusat admin Microsoft Entra.   Jika sebelumnya Anda menutup tab browser ini, buka Microsoft Edge dan di bilah alamat, masukkan **`https://entra.microsoft.com`** dan masuk dengan kredensial admin Anda disediakan oleh host ALH.
 
-1. Dari panel navigasi kiri, bentangkan **Perlindungan**, lalu pilih **Akses Bersyarat**.
+1. Dari panel navigasi kiri, pastikan **ID** Entra diperluas, gulir ke bawah dan pilih **Akses** Bersyar.
 
-1. Laman ikhtisar Akses bersyar ditampilkan. Saat Anda masuk ke halaman gambaran umum, tab **Memulai** dipilih (digarisbawahi). Pilih tab **Gambaran Umum** . Di sini Anda akan melihat petak peta memperlihatkan ringkasan Kebijakan dan pemberitahuan umum.  Dari panel navigasi kiri, pilih **Kebijakan**.
+1. Laman ikhtisar Akses bersyar ditampilkan. Saat Anda masuk ke halaman gambaran umum, tab **Memulai** dipilih (digarisbawahi). Pilih tab **Gambaran Umum** . Di sini Anda akan melihat petak peta memperlihatkan ringkasan Kebijakan dan pemberitahuan umum.
 
-1. Dari panel navigasi kiri, pilih **Kebijakan**. Kebijakan Akses Bersyarat yang ada tercantum di sini. Pilih **+ Kebijakan baru**.
+1. Dari panel navigasi kiri, pilih **Kebijakan**, lalu pilih **+ Kebijakan** baru.
 
 1. Di bidang Nama, masukkan **Blokir portal** admin.
 
@@ -62,11 +62,11 @@ Dalam tugas ini, Anda akan menjalani proses pembuatan kebijakan akses bersyarat 
 
 1. Pilih opsi untuk **Pilih pengguna dan grup** dan pilih **Pengguna dan grup**.  Jendela Pilih Pengguna atau Grup akan terbuka.  
 
-1. Di bilah pencarian, masukkan **Debra**.  Pilih **Debra Berger** dari bawah bilah pencarian, lalu tekan tombol **Pilih** di bagian bawah laman.  Perhatikan, praktik umumnya adalah menetapkan kebijakan kepada pengguna dalam grup.  Demi kepentingan lab ini, kami akan menetapkan kebijakan ke pengguna tertentu.
+1. Di bilah pencarian, masukkan **Debra**.  Pilih **Debra Berger** dari bawah bilah pencarian, lalu tekan tombol **Pilih** di bagian bawah laman.  Perhatikan, praktik umumnya adalah menetapkan kebijakan kepada pengguna dalam grup.  Untuk tujuan kedaluwarsa dengan lab ini, kami akan menetapkan kebijakan ke pengguna tertentu.
 
 1. Di bagian Sumber daya target, pilih **Tidak ada sumber daya target yang dipilih**.
 
-1. Di bidang di bawah tulisan **Pilih apa kebijakan ini berlaku**, pilih panah bawah dan catat opsi yang tersedia.  Biarkan pengaturan default, **Cloud apps**.  Pastikan tab **Sertakan** digarisbawahi.  Pilih **Pilih aplikasi**, lalu di bawah tulisan **Pilih**, pilih **Tidak Ada**.  Jendela Pilih Aplikasi cloud akan terbuka.
+1. Di bidang di bawah tulisan **Pilih apa kebijakan ini berlaku**, pilih panah bawah dan catat opsi yang tersedia.  Pertahankan pengaturan default, **Sumber Daya (sebelumnya aplikasi Cloud)**.  Pastikan tab **Sertakan** digarisbawahi.  Pilih **Pilih sumber daya**, lalu di bawah tempatnya tertulis **Pilih**, pilih **Tidak Ada**.  Jendela Pilih Aplikasi cloud akan terbuka.
 
 1. Pilih **Portal** Admin Microsoft, lalu tekan **Pilih** di bagian bawah halaman.  Perhatikan peringatannya.  
 

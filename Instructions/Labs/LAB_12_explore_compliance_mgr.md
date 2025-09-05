@@ -31,7 +31,7 @@ Jelajahi beranda portal Microsoft Purview.
 
 1. Dari panel navigasi kiri pusat admin Microsoft 365, pilih **Tampilkan semua**.
 
-1. Di Pusat admin, pilih **Kepatuhan**.  Halaman browser baru terbuka dengan jendela pop-up yang menyambut Anda ke portal Microsoft Purview baru. Di bagian bawah halaman, pilih kotak di samping **Saya menyetujui ketentuan pengungkapan aliran data dan Pernyataan** privasi, lalu pilih **Mulai**.
+1. Di bawah Pusat admin, pilih **Microsoft Purview**.  Halaman browser baru terbuka dengan jendela pop-up yang menyambut Anda ke portal Microsoft Purview baru. Di bagian bawah halaman, pilih **Mulai**.
 
 1. Bagian kartu di halaman beranda menunjukkan kepada Anda, sekilas, bagaimana kinerja organisasi Anda dengan postur kepatuhan Anda, solusi apa yang tersedia untuk organisasi Anda, uji coba dan rekomendasi yang tersedia, dan banyak lagi.
 
@@ -59,13 +59,13 @@ Pelajari tentang postur kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
 1. Dari panel navigasi kiri, pilih **Penilaian**. Di laman ini, Anda akan melihat Acuan Dasar Perlindungan Data untuk Microsoft 365.  Ini adalah penilaian acuan dasar default yang disediakan Microsoft di Pengelola Kepatuhan untuk Microsoft 365.  Penilaian acuan dasar ini memiliki serangkaian kontrol peraturan dan standar utama untuk perlindungan data dan tata kelola data umum. Pengelola Kepatuhan akan makin berguna saat Anda menambahkan penilaian sendiri untuk memenuhi kebutuhan khusus organisasi Anda.  Perhatikan bahwa Anda dapat menambahkan penilaian Anda sendiri.
 
-1. Pilih **Acuan Dasar Perlindungan Data**.  Perhatikan informasi yang tersedia di tab progres. Anda juga dapat melihat informasi tentang Kontrol, tindakan peningkatan Anda, dan tindakan Microsoft.  
+1. Pilih **Garis Besar Perlindungan Data untuk Microsoft 365**.  Perhatikan informasi yang tersedia di tab progres. Anda juga dapat melihat informasi tentang Kontrol, tindakan peningkatan Anda, dan tindakan Microsoft.  
 
 1. Dari panel navigasi kiri, pilih **Peraturan**.  Laman ini mencantumkan peraturan yang tersedia untuk organisasi Anda. Anda akan melihat informasi spesifik tentang peraturan tersebut termasuk kontrol, tindakan peningkatan Anda, dan tindakan Microsoft. Dari halaman ini, di sudut kanan atas halaman, Anda memiliki opsi untuk membuat penilaian berdasarkan templat.
 
 1. 1. Dari panel navigasi kiri, pilih **Kebijakan**. Di sinilah Anda akan melihat daftar kebijakan untuk membantu Anda memantau dan mendapatkan pemberitahuan tentang peristiwa di Manajer Kepatuhan yang penting bagi Anda. Anda dapat membuat atau mengubah kebijakan, mengubah status aktivasinya, dan mengontrol frekuensi dan tingkat keparahan pemberitahuan. **Pilih Kebijakan** Pemberitahuan Default Manajer Kepatuhan untuk melihat detail tentang kebijakan.  Pilih **Tindakan untuk melihat opsi yang** tersedia (jelajahi kapan saja).
 
-1. Dari panel navigasi kiri, pilih **Pemberitahuan**.   Di sini, Anda dapat melihat dan mengelola pemberitahuan untuk peristiwa yang dapat memengaruhi skor kepatuhan organisasi Anda. 
+1. Dari panel navigasi kiri, pilih **Pemberitahuan**.   Di sini, Anda dapat melihat dan mengelola pemberitahuan untuk peristiwa yang dapat memengaruhi skor kepatuhan organisasi Anda.
 
 1. Dari panel navigasi kiri, pilih **Beranda** untuk kembali ke halaman arahan portal Microsoft Purview.
 
