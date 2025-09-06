@@ -34,15 +34,15 @@ Dalam tugas ini, Anda, sebagai admin, akan menelusuri beberapa pengaturan konfig
     1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
     1. Setelah masuk, Anda akan dibawa ke halaman pusat admin Microsoft 365.
 
-1. Dari panel navigasi kiri, bentangkan opsi untuk **Perlindungan**, lalu pilih **Atur ulang kata sandi**.  
+1. Dari panel navigasi kiri, pastikan **ID** Entra diperluas, lalu gulir ke bawah dan pilih **Reset kata sandi**.  
 
 1. Properti untuk pengaturan ulang kata sandi mandiri ditampilkan. Pilih ikon informasi di samping tulisan **Pengaturan ulang kata sandi mandiri diaktifkan** untuk melihat deskripsinya. Pastikan bahwa **Dipilih** disorot dengan warna biru. Arahkan kursor Anda di atas ikon informasi di sebelah yang bertuliskan **Pilih grup** dan perhatikan bahwa tertulis, "Menentukan grup pengguna yang diizinkan untuk mengatur ulang kata sandi sendiri." Anda harus menyertakan pengguna dalam grup, Anda tidak dapat memilih pengguna satu per satu. Perhatikan bahwa ada grup yang sudah tercantum - SSPRSecurityGroupUsers (grup ini telah dikonfigurasi sebelumnya sebagai bagian dari penyewa Microsoft 365 Anda). Terakhir, perhatikan kotak informasi biru, "Pengaturan ini hanya berlaku untuk pengguna akhir di organisasi Anda. Admin selalu diaktifkan untuk pengaturan ulang kata sandi mandiri dan diperlukan untuk menggunakan dua metode autentikasi guna mengatur ulang kata sandi mereka.”
 
 1. Dari panel navigasi kiri Pengaturan ulang kata sandi, pilih **Metode Autentikasi**.
 
-1. Dalam Jumlah metode yang diperlukan untuk beristirahat, pilih **1**. Catat informasi yang kotak di layar.
-
-1. Perhatikan berbagai metode yang tersedia untuk pengguna.  **Email** dan **Ponsel** harus sudah diperiksa; jika tidak, pilih.
+1. Dalam Jumlah metode yang diperlukan untuk mengatur ulang, pilih **1**. Hanya ada satu metode yang tercantum, Pertanyaan keamanan, tetapi di bawah opsi tersebut adalah opsi untuk **Menggunakan kebijakan metode autentikasi untuk mengelola metode** autentikasi lainnya.  
+    1. Pilih **kebijakan** metode autentikasi untuk melihat kebijakan metode autentikasi yang tersedia
+    1. Pilih **X** di kanan atas halaman untuk kembali ke halaman sebelumnya.
 
 1. Dari panel navigasi kiri Pengaturan ulang kata sandi, pilih **Pendaftaran**.  
 

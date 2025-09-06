@@ -16,21 +16,23 @@ Lab ini memetakan ke konten Learn berikut:
 
 Di lab ini, Anda akan mengakses Microsoft Entra ID (sebelumnya disebut sebagai Azure Active Directory).  Selain itu, Anda akan membuat pengguna dan mengonfigurasi pengaturan yang berbeda, termasuk menambahkan lisensi.  
 
-**Perkiraan Waktu:**: 30 menit
+**Perkiraan Waktu**: 45 menit
 
 ### Tugas 1
 
 Sebagai pelanggan Microsoft 365, Anda sudah menggunakan ID Microsoft Entra.  Dalam tugas ini, Anda akan mempelajari cara membuat pengguna baru di Microsoft Entra ID dan menjelajahi beberapa layanan yang dapat dikelola di tingkat pengguna.
 
-1. Buka browser Microsoft Edge. Di bilah alamat, masukkan **`https://admin.microsoft.com`** dan masuk dengan kredensial Microsoft 365 yang disediakan oleh hoster lab resmi (ALH) Anda.
+1. Jika Anda membuka tab pusat admin Microsoft 365, dari latihan sebelumnya, lalu di bawah Pusat admin, pilih **Identitas**
+1. Jika pusat admin Microsoft 365 sudah terbuka di browser Anda, dari latihan sebelumnya, lewati ke langkah berikutnya, jika tidak, akses pusat admin Microsoft sebagai berikut:
+    1. Di bilah alamat, masukkan **`https://admin.microsoft.com`** dan masuk dengan kredensial Microsoft 365 yang disediakan oleh hoster lab resmi (ALH) Anda.
     1. Di jendela Masuk, masukkan **admin@WWLxZZZZZZ.onmicrosoft.com** (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab), lalu pilih **Berikutnya**.
     1. Masukkan kata sandi admin yang harus disediakan oleh penyedia host lab Anda. Pilih **Masuk**.
     1. Tergantung pada hoster lab Anda dan jika ini adalah pertama kalinya Anda masuk ke penyewa, Anda mungkin diminta untuk menyelesaikan proses pendaftaran MFA. Jika demikian, ikuti perintah di layar untuk menyiapkan MFA.
     1. Setelah masuk, Anda akan dibawa ke halaman pusat admin Microsoft 365.
 
-1. Di Pusat admin, pilih **Identitas** (Anda mungkin perlu memilih **Tampilkan semua** dan menggulir ke bawah).  Laman browser baru membuka laman ikhtisar di pusat admin Microsoft Entra.
+1. Di Pusat admin, pilih **Identitas** (Anda mungkin perlu memilih **Tampilkan semua** dan menggulir ke bawah).  Laman browser baru membuka laman ikhtisar di pusat admin Microsoft Entra.  Jika Anda diminta untuk menyiapkan MFA, ikuti langkah-langkah di layar.
 
-1. Dari panel navigasi kiri, bentangkan **Pengguna**, lalu pilih **Semua pengguna**. Perhatikan bahwa penyewa Anda sudah dikonfigurasi dengan beberapa pengguna.
+1. Dari panel navigasi kiri, pilih **Pengguna**.  Ini akan membawa Anda ke halaman pengguna. **Semua pengguna** harus sudah dipilih. Perhatikan bahwa penyewa Anda sudah dikonfigurasi dengan beberapa pengguna.
 
 1. Dari bagian atas laman, pilih **+ Pengguna baru**, lalu dari kotak menurun, pilih **Buat pengguna baru**.
 
@@ -87,13 +89,11 @@ Dalam tugas ini, Anda akan menetapkan lisensi kepada pengguna yang baru saja And
 1. Dari panel navigasi kiri, di bawah pengguna, pilih **Pengguna** aktif.  Dari daftar pengguna, pilih **Sara Perez**.  Jendela terbuka memperlihatkan informasi tentang pengguna.  
 
     1. Pilih tab **Lisensi dan aplikasi** .
-    1. Untuk setiap lisensi yang tercantum, Anda akan melihat jumlah lisensi yang tersedia.  Karena tidak ada lisensi Microsoft 365 E5 yang tersedia (telah ditetapkan untuk pengguna lain), tetapkan **Microsoft Power Apps Developer** dan **lisensi Microsoft Power Automate Free** dengan memilih kotak centang di sampingnya.
+    1. Untuk setiap lisensi yang tercantum, Anda akan melihat jumlah lisensi yang tersedia.  Karena tidak ada lisensi Microsoft 365 E5 yang tersedia (lisensi tersebut telah ditetapkan untuk pengguna lain), tetapkan **lisensi Pengembang** Microsoft Power Apps dengan memilih kotak centang di sampingnya.
     1. Pilih **Simpan perubahan**. Pemberitahuan di sudut kanan atas layar akan menunjukkan bahwa penetapan lisensi berhasil.
     1. Tutup halaman dengan memilih **X** di sudut kanan atas halaman.
 
-1. Kembali ke pusat admin Microsoft Entra dengan memilih **Beranda** dari panel navigasi kiri atau dari kiri atas layar (bilah), di atas tulisan Sara Perez | Lisensi.
-
-1. Anda berhasil menetapkan lisensi kepada pengguna.
+1. Anda telah berhasil menetapkan lisensi kepada pengguna.
 
 1. Keluar dari semua tab browser yang terbuka. Keluar dengan memilih ikon pengguna di sebelah alamat email di sudut kanan atas layar dan memilih **keluar.**. Kemudian tutup semua jendela browser.
 
@@ -103,7 +103,7 @@ Dalam tugas ini, Anda akan masuk sebagai Sara Perez, untuk pertama kalinya.
 
 1. Buka Microsoft Edge.
 
-1. Di bilah alamat, masukkan **https://login.microsoft.com**.
+1. Di bilah alamat, masukkan **`https://login.microsoft.com`**.
 
 1. Masuk sebagai **sara@WWLxZZZZZ.onmicrosoft.com**, (dengan ZZZZZZ adalah ID penyewa unik Anda yang disediakan oleh penyedia host lab Anda).
 1. Masukkan kata sandi sementara yang Anda catat dari tugas sebelumnya.
@@ -114,9 +114,9 @@ Dalam tugas ini, Anda akan masuk sebagai Sara Perez, untuk pertama kalinya.
 
 1. Karena ini adalah pertama kalinya Anda masuk sebagai Sara Perez, Anda mungkin diminta untuk mengatur MFA. Ikuti perintah di layar untuk menyiapkan MFA.
 
-1. Anda sekarang harus berhasil masuk ke akun Microsoft Sara.  Perhatikan bahwa lisensi Sara yang Anda tetapkan dalam tugas sebelumnya hanya terbatas pada Power Automate Free dan Power Apps for Developer dan tidak menyertakan lisensi E5.
+1. Anda sekarang harus berhasil masuk ke akun Microsoft Sara.  Perhatikan bahwa lisensi Sara yang Anda tetapkan dalam tugas sebelumnya hanya terbatas pada Power Apps for Developer dan tidak menyertakan lisensi E5.
 
-1. Keluar dengan memilih ikon di sudut kanan atas jendela Microsoft 365 yang ditampilkan sebagai lingkaran dengan huruf SP (di sebelah ikon tanda tanya), lalu pilih **Keluar**, lalu tutup browser.
+1. Untuk keluar, pilih email sara di bagian bawah panel navigasi kiri dan pilih **Keluar**, lalu tutup browser.
 
 ### Tinjauan
 
