@@ -14,32 +14,13 @@ Demo ini memetakan ke konten Learn berikut:
 
 ## Skenario demo
 
-Dalam demo ini Anda akan menampilkan kemampuan label sensitivitas.  Anda akan membahas pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan terkait untuk menerbitkan label.   Kemudian, Anda akan melihat cara menerapkan label dan dampak label tersebut, dari sudut pandang pengguna.
+Dalam demo ini, Anda akan menunjukkan kemampuan label sensitivitas.  Anda akan membahas pengaturan untuk label sensitivitas yang telah dibuat dan kebijakan terkait untuk menerbitkan label.   Kemudian, Anda akan melihat cara menerapkan label dan dampak label tersebut, dari sudut pandang pengguna.  **CATATAN**: Pertama kali Anda menggunakan Word online dengan penyewa Microsoft 365, diperlukan waktu 15 menit agar opsi Sensitivitas muncul pada pita.  Penyaji harus menjalankan demo bagian 2 sebelum kelas untuk memastikan waktu yang diperlukan hingga opsi muncul.
 
-**CATATAN**: Pertama kali Anda menggunakan Word online dengan penyewa Microsoft 365 Anda, diperlukan waktu hingga 15 menit agar ikon Sensitivitas muncul di pita. Disarankan agar penyaji membuka Word online (seperti yang ditunjukkan dalam demo bagian 3) sebelum memulai demo penuh untuk memastikan waktu yang memadai agar opsi muncul.
-
-### Demo bagian 1 (opsional)
-
-Jika ini adalah instans pertama tempat Anda mendemosikan solusi Microsoft Purview, disarankan agar Anda menghabiskan beberapa menit untuk memperkenalkan portal Microsoft Purview, sebelum masuk ke label Sensitivitas.
-
-1. Buka Microsoft Edge dan di bilah alamat, masukkan **https://purview.microsoft.com**, masuk dengan kredensial yang disediakan oleh hoster lab resmi, lalu pilih **Mulai.**  
-
-1. Sebelum masuk ke label Sensitivitas, luangkan beberapa saat untuk menjelajahi portal Microsoft Purview.
-
-1. Pilih petak peta **Lihat semua solusi** untuk melihat pengelompokan untuk solusi Microsoft Purview.
-
-1. Dari panel navigasi kiri, Anda akan melihat opsi untuk Solusi, Pelajari, Pengaturan, dan solusi yang baru dipilih.
-    1. **Solusi**. Ini membuka panel baru dengan semua solusi dan portal terkait.
-    1. **Pelajari** cara melihat tautan ke dokumen, video, dan blog.
-    1. **Pengguna.** Jelajahi opsi ini sesering akan. Dari sini Anda dapat mengonfigurasi peran dan cakupan, konektor data, dan semua pengaturan solusi.
-
-1. Kembali ke halaman beranda dengan memilih **Beranda** dari panel navigasi kiri.
-
-### Demo Bagian 2
+### Demo Bagian 1
 
 Dalam demo ini, Anda menunjukkan pengaturan untuk label sensitivitas yang ada dan kebijakan terkait untuk menerbitkan label.
 
-1. Anda harus berada di halaman arahan portal Microsoft Purview.  Jika tidak, buka tab browser di Microsoft Edge dan masukkan, **`https://puriview.microsoft.com`** dan masuk dengan kredensial yang disediakan oleh hoster lab resmi.
+1. Anda masih harus berada di halaman beranda portal Microsoft Purview. Jika tidak, buka tab browser Microsoft Edge baru. Di bilah alamat, masukkan **https://purview.microsoft.com** lalu pilih **Mulai.**  
 
 1. Dari halaman arahan portal Microsoft Purview baru, pilih **petak Peta Tampilkan semua solusi** , lalu pilih **petak Perlindungan** Informasi. Atau, Anda memilih **Solusi** dari panel navigasi kiri, lalu pilih **Perlindungan** Informasi.
 
@@ -73,7 +54,7 @@ Dalam demo ini, Anda menunjukkan pengaturan untuk label sensitivitas yang ada da
 
 1. Tetap buka tab browser ini.
 
-### Demo Bagian 3
+### Demo Bagian 2
 
 Dalam langkah ini, Anda akan melalui proses penerapan label sensitivitas ke dokumen Microsoft Word lalu menampilkan penandaan konten (footer) yang dihasilkan oleh label. CATATAN: Saat menggunakan Microsoft Word online, Anda mungkin mengalami penundaan sebelum opsi untuk memilih Label sensitivitas muncul di pita atas.  Sebaiiknya Anda menyelesaikan semua lab yang tersisa, lalu kembali ke tugas ini.
 

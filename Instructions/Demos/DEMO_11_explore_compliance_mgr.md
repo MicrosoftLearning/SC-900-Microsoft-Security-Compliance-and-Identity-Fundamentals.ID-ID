@@ -1,10 +1,10 @@
 <!---
 ---
-Demo: Judul: 'Jelajahi Microsoft Purview Compliance Manager' Jalur Pembelajaran/Modul/Unit: 'Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview; Modul 2: Menjelaskan solusi kepatuhan data Microsoft Purview; Unit 4: Menjelaskan Manajer Kepatuhan'
+Demo: Judul: 'Jelajahi portal Microsoft Purview & Manajer Kepatuhan' Jalur Pembelajaran/Modul/Unit: 'Menjelaskan kemampuan Microsoft Priva dan Microsoft Purview; Modul 2: Menjelaskan solusi kepatuhan data Microsoft Purview; Unit 4: Menjelaskan Manajer Kepatuhan'
 ---
 --->
 
-# Demo: Menjelajahi Microsoft Purview Compliance Manager
+# Demo: Menjelajahi portal Microsoft Purview & Manajer Kepatuhan
 
 Demo ini memetakan ke konten Learn berikut:
 
@@ -22,7 +22,7 @@ Tampilkan beranda portal Microsoft Purview.
 
 1. Buka Microsoft Edge. Di bilah alamat, masukkan **https://purview.microsoft.com**. Masuk dengan kredensial admin untuk penyewa Microsoft 365 yang disediakan oleh host lab resmi (ALH) Anda.
 
-Halaman browser terbuka ke halaman selamat datang portal Microsoft Purview, pilih **Mulai**.  
+Halaman browser baru terbuka ke halaman selamat datang portal Microsoft Purview.  Untuk mengakses portal Microsoft Purview baru, pilih kotak di samping tempat yang tertulis, **saya menyetujui ketentuan pengungkapan aliran data dan Pernyataan** Privasi, lalu pilih **Mulai**.  
 
 1. Sebelum pindah ke Manajer Kepatuhan, luangkan waktu beberapa saat untuk menjelajahi portal baru.
 
