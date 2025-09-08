@@ -61,11 +61,11 @@ Pelajari tentang postur kepatuhan organisasi Anda melalui Pengelola Kepatuhan.
 
 1. Pilih **Garis Besar Perlindungan Data untuk Microsoft 365**.  Perhatikan informasi yang tersedia di tab progres. Anda juga dapat melihat informasi tentang Kontrol, tindakan peningkatan Anda, dan tindakan Microsoft.  
 
-1. Dari panel navigasi kiri, pilih **Peraturan**.  Laman ini mencantumkan peraturan yang tersedia untuk organisasi Anda. Anda akan melihat informasi spesifik tentang peraturan tersebut termasuk kontrol, tindakan peningkatan Anda, dan tindakan Microsoft. Dari halaman ini, di sudut kanan atas halaman, Anda memiliki opsi untuk membuat penilaian berdasarkan templat.
+1. Dari panel navigasi kiri, pilih **Peraturan**.  Laman ini mencantumkan peraturan yang tersedia untuk organisasi Anda. Pilih peraturan apa pun yang tercantum. Anda akan melihat informasi spesifik tentang peraturan tersebut termasuk kontrol, tindakan peningkatan Anda, dan tindakan Microsoft.
 
 1. 1. Dari panel navigasi kiri, pilih **Kebijakan**. Di sinilah Anda akan melihat daftar kebijakan untuk membantu Anda memantau dan mendapatkan pemberitahuan tentang peristiwa di Manajer Kepatuhan yang penting bagi Anda. Anda dapat membuat atau mengubah kebijakan, mengubah status aktivasinya, dan mengontrol frekuensi dan tingkat keparahan pemberitahuan. **Pilih Kebijakan** Pemberitahuan Default Manajer Kepatuhan untuk melihat detail tentang kebijakan.  Pilih **Tindakan untuk melihat opsi yang** tersedia (jelajahi kapan saja).
 
-1. Dari panel navigasi kiri, pilih **Pemberitahuan**.   Di sini, Anda dapat melihat dan mengelola pemberitahuan untuk peristiwa yang dapat memengaruhi skor kepatuhan organisasi Anda.
+1. Dari panel navigasi kiri, pilih **Pemberitahuan**.   Di sini, Anda dapat melihat dan mengelola pemberitahuan untuk peristiwa yang dapat memengaruhi skor kepatuhan organisasi Anda. Karena ini adalah penyewa lab yang baru dibuat, Anda seharusnya tidak melihat pemberitahuan apa pun.
 
 1. Dari panel navigasi kiri, pilih **Beranda** untuk kembali ke halaman arahan portal Microsoft Purview.
 

@@ -33,14 +33,7 @@ Dalam tugas penyiapan ini, Anda akan mengaktifkan kemampuan Log audit dan pemant
 
 1. Di panel navigasi kiri, gulir ke bawah dan perluas **Sistem**.  Dari daftar yang diperluas, pilih **Audit**.  Catatan: fungsionalitas audit juga dapat diakses melalui portal Microsoft Purview.
 
-1. Setelah Anda masuk ke halaman Audit, tunggu 1-2 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas laman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Mulai merekam aktivitas pengguna dan admin**.  Setelah audit diaktifkan, bilah biru menghilang.  Jika bilah berwarna biru tidak ada, maka audit sudah diaktifkan, dan tidak diperlukan tindakan lebih lanjut.  Jika Anda melihat pesan, "Maaf, kami mengalami masalah saat mencari tahu apakah aktivitas sedang direkam. Coba refresh halaman." Jika tidak ada perubahan setelah me-refresh halaman, Anda harus mengaktifkan audit melalui PowerShell.
-    1. Pilih kanan ikon Windows PowerShell biru pada taskbar dan pilih **Jalankan sebagai administrator**.
-    1. Instal modul Exchange Online PowerShell dengan memasukkan **`Install-Module -Name ExchangeOnlineManagement`**.  Ketika diminta dengan, "Apakah Anda yakin ingin menginstal modul dari 'PSGallery'", pilih **`[A]` Ya untuk Semua**
-    1. Sekarang muat modul, dengan memasukkan **`Import-Module ExchangeOnlineManagement`**.
-    1. Untuk menyambungkan, masukkan **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  Untuk UPN, masukkan nama pengguna administrator yang ditemukan di tab sumber daya lab Anda.
-    1. Anda akan diminta untuk masuk.  Masukkan nama pengguna dan kata sandi administratif yang ditemukan di tab sumber daya lab Anda.
-    1. Untuk mengaktifkan Audit, masukkan **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**. Pesan ditampilkan yang mengatakan bahwa mungkin perlu waktu hingga 60 menit agar perubahan diterapkan.
-    1. Meskipun mungkin perlu waktu hingga 60 menit untuk diterapkan, Anda dapat memverifikasi bahwa perintah diterima dengan memasukkan **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`**.  Jika audit diaktifkan, properti UnifiedAuditLogIngestionEnabled akan menampilkan nilai true.
+1. Setelah Anda masuk ke halaman Audit, tunggu 1-2 menit.  Jika Audit TIDAK diaktifkan, Anda akan melihat bilah warna biru di bagian atas laman yang menyatakan mulai merekam aktivitas pengguna dan admin.  Pilih **Mulai merekam aktivitas pengguna dan admin**.  Setelah audit diaktifkan, bilah biru menghilang.
 
 1. Dari panel navigasi kiri, di bawah Sistem, pilih **Pengaturan**.
 
