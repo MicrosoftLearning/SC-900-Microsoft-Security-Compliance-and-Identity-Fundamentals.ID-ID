@@ -18,9 +18,9 @@ Di Demo ini, Anda akan mempelajari langkah-langkah yang diperlukan untuk menyiap
 
 ### Demo Bagian 1
 
-Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus eDiscovery, pengguna harus diberi izin yang sesuai. Di bagian demo ini, Anda sebagai admin global, akan mempelajari proses penambahan pengguna tertentu sebagai anggota grup peran Manajer eDiscovery.
+Untuk mengakses eDiscovery atau ditambahkan sebagai anggota kasus eDiscovery, pengguna harus diberi izin yang sesuai. Di bagian demo ini, Anda sebagai admin global, akan mempelajari proses penambahan pengguna tertentu sebagai anggota grup peran Manajer eDiscovery.
 
-1. Buka tab browser untuk **Microsoft Purview**. Jika sebelumnya Anda menutupnya, buka tab browser dan di bilah alamat, masukkan **https://purview.microsoft.com**. Untuk mengakses portal Microsoft Purview baru, pilih kotak di samping tempat yang tertulis, **saya menyetujui ketentuan pengungkapan aliran data dan Pernyataan** Privasi, lalu pilih **Mulai**.  
+1. Buka tab browser untuk **Microsoft Purview**. Jika sebelumnya Anda menutupnya, buka tab browser dan di bilah alamat, masukkan **https://purview.microsoft.com** lalu pilih **Mulai.**  
 1. Dari panel navigasi kiri, pilih **Pengaturan**.
 1. Dari panel navigasi yang terbuka, pilih **Peran dan cakupan** untuk memperluas opsi, lalu pilih **Grup** peran.
 1. Di kotak pencarian di sisi kanan layar, cari pada istilah **eDiscovery**.  Pilih **Manajer eDiscovery**.
@@ -33,64 +33,42 @@ Untuk mengakses eDiscovery (Standar) atau agar ditambahkan sebagai anggota kasus
 
 ### Demo Bagian 2
 
-Di bagian ini Anda akan membuat kasus untuk mulai menggunakan eDiscovery (Standar).
+Di bagian ini Anda, sebagai Administrator eDiscovery (admin MOD adalah administrator eDiscovery), akan membuat kasus untuk mulai menggunakan eDiscovery.
 
-1. Dari panel navigasi kiri, pilih **Solusi**, pilih **eDiscovery** lalu pilih **Kasus** standar.
+1. Anda harus berada di beranda portal Microsoft Purview.
 
-1. Dari bagian atas laman eDiscovery (Standar), pilih **+ Buat kasus**.
+1. Dari panel navigasi kiri, di bawah Solusi, perluas **eDiscovery** lalu pilih Kasus.****
 
-1. Di jendela Kasus baru, masukkan Nama kasus, **SC900 Test Case**, lalu pilih **Simpan** di bagian bawah laman.
+1. Dari halaman Kasus, pilih **Buat kasus**.
+
+1. Di jendela Kasus baru, masukkan Nama kasus, **SC900 Test Case** lalu pilih Buat****.
 
 1. Sekarang, kasus akan muncul dalam daftar.
 
 1. Sebagai pembuat kasus dan karena Anda memiliki hak istimewa Administrator eDiscovery, Anda dapat mulai bekerja dengannya.  
 
-1. Tetap buka tab browser ini.
+1. Biarkan tab browser ini tetap terbuka, karena Anda akan menggunakannya dalam tugas berikutnya.
 
 ### Demo Bagian 3
 
-Sekarang, setelah Anda membuat kasus eDiscovery (Standar), Anda dapat mulai bekerja dengan kasus tersebut.  Dalam bagian ini, Anda akan membuat penangguhan eDiscovery untuk kasus yang Anda buat.  Khususnya, Anda akan membuat penangguhan untuk kotak surat exchange milik Adele Vance.
+Dengan kasus yang dibuat, Anda dapat mulai bekerja dengan kasus tersebut. Ini termasuk membuat kueri pencarian untuk menemukan data dan konten yang relevan dengan kasus Anda, menerapkan kebijakan penangguhan, membuat kumpulan tinjauan, dan mengekspor data. Dalam tugas ini Anda akan menjelajahi beberapa opsi ini. CATATAN: Disarankan agar Anda melalui pembuatan pencarian dan tinjauan yang ditetapkan sebelum pengiriman sehingga hasil set pencarian dan tinjauan tersedia selama demo, karena tindakan ini dapat memakan waktu beberapa menit untuk diselesaikan.  
 
-1. Dari laman eDiscovery (Standar), pilih kasus yang Anda buat - **Kasus Pengujian SC900**.
+1. Buka tab Kasus Uji SC900 di browser Anda.
 
-1. Dari laman Beranda kasus, pilih tab **Penangguhan**, lalu pilih **+Buat**.
+1. Dari halaman Kasus Pengujian SC900, pilih  **Buat pencarian**.
 
-1. Di kolom nama, masukkan **Penangguhan pengujian**, lalu pilih **Berikutnya**.
+1. Di bidang nama, masukkan **pencarian** kasus SC900 lalu pilih **Buat**.
 
-1. Di laman Pilih lokasi, pilih tombol pengalih di samping **kotak surat Exchange** untuk mengatur status ke **Aktif**.  
+1. Pilih **Tambahkan sumber**. Perhatikan opsi filter dan pengaturan default. Dalam kotak pencarian, masukkan **`Pradeep`** lalu pilih **Cari.** Dari hasil pencarian pilih **Pradeep Gupta**, lalu pilih **Simpan dan tutup**. Penyusun Kondisi memungkinkan Anda membuat kueri pencarian berdasarkan Kata Kunci atau Kondisi tertentu yang terpenuhi, Dalam kotak kata kunci, masukkan **Penjualan**. Dari sini Anda bisa memilih untuk **Menjalankan kueri**, Dari jendela Pilih hasil pencarian. Untuk penyewa lab, hanya tampilan statistik hasil pencarian yang tersedia. Perhatikan opsi untuk mengatur menurut indikator atas. Pilih **Jalankan kueri**.  Proses ini mungkin memerlukan waktu beberapa menit.
 
-1. Sekarang pilih **Pilih pengguna, grup, atau tim**.  Di Kotak pencarian, masukkan **Adele**, lalu tekan Enter di keyboard Anda. Dari hasil pencarian, pilih **Adele Vance**, lalu pilih **Selesai**.
+1. Dengan hasil kueri yang dikembalikan dalam bentuk statistik, Anda dapat mengekspor hasil.  Dari kanan atas layar (di samping tempat tertulis Tambahkan untuk meninjau set), pilih **Ekspor** ke opsi vew yang tersedia lalu pilih **Batal**.
 
-1. Dari laman Pilih Lokasi, pilih **Berikutnya**.  Untuk kecocokan dengan Demo, tidak ada lokasi lain yang akan disertakan dalam penangguhan ini.
+1. Anda dapat menambahkan ke kumpulan ulasan untuk pemrosesan lebih lanjut.  Pilih **Tambahkan untuk meninjau set**. Masukkan nama untuk kumpulan tinjauan baru, **`SC900-review-set`**, biarkan pengaturan default, lalu pilih **Tambahkan untuk meninjau set.** Proses ini bisa memerlukan waktu beberapa menit. Setelah hasil kumpulan ulasan disajikan, Anda dapat menjelajahi berbagai opsi, yang mencakup Analitik, Kueri, Tindakan, File tag, dan Kelola.
 
-1. Laman Syarat kueri memungkinkan Anda membuat penangguhan, berdasarkan Kata Kunci atau Ketentuan tertentu yang dipenuhi, pilih **+ Tambahkan syarat** untuk melihat opsi yang tersedia.  Pilih **Selanjutnya**. Tanpa syarat apa pun, penangguhan akan mempertahankan semua konten di lokasi yang ditentukan.
+1. Anda juga dapat membuat kebijakan penahanan untuk mempertahankan konten yang relevan dengan kasus Anda. Dari jendela Tinjau set, pilih tab Tangguhkan****.  Ini akan membawa Anda ke jendela Kebijakan penangguhkan. Pilih **Kebijakan baru**.  Masukkan Nama kebijakan, **`SC900-hold`**, dan pilih **Buat.**  Seperti dalam pencarian, Anda perlu menambahkan sumber data untuk penangguhkan dan Anda dapat menambahkan kata kunci dan kondisi yang akan digunakan dalam kebijakan penahanan, lalu Anda dapat memilih **Terapkan penangguhan**.  Tindakan yang dapat Anda ambil pada kebijakan penangguhan termasuk mencoba kembali, menonaktifkan kebijakan, dan menghapus kebijakan penangguhan.
 
-1. Tinjau pengaturan Anda dan pilih **Kirim**, mungkin perlu waktu satu menit, lalu pilih **Selesai**.  Penangguhan pengujian akan muncul dalam daftar.  Jika Anda tidak segera melihatnya, pilih **Refresh**
-
-1. Tetap buka tab browser ini.
-
-### Demo Bagian 4
-
-Setelah memasukkan penangguhan, Anda akan membuat kueri pencarian.  Setelah pencarian Anda selesai, eDiscovery mendukung tindakan, seperti mengekspor dan mengunduh hasil untuk penyelidikan di masa mendatang.   Catatan: Pencarian yang terkait dengan kasus eDiscovery (Standar) tidak terdaftar di laman pencarian konten di portal kepatuhan Microsoft Purview. Pencarian ini hanya terdaftar di laman Pencarian dari kasus eDiscovery (Standar) terkait.
-
-1. Dari laman Kasus Uji SC900, pilih **Pencarian**.
-
-1. Dari halaman Pencarian, pilih **+ Pencarian Baru**.
-
-1. Di bidang Nama, masukkan **Penangguhan Pengujian – Pencarian Penjualan**, lalu pilih **Berikutnya** dari bagian bawah laman.
-
-1. Di halaman Pilih lokasi, pilih **lokasi yang ditangguhkan** dan batal pilih **Tambahkan Konten Aplikasi untuk pengguna** Lokal, karena lingkungan lab Anda tidak memiliki pengguna lokal, lalu pilih **Berikutnya**.
-
-1. Laman Syarat kueri memungkinkan Anda membuat penangguhan, berdasarkan Kata Kunci atau Syarat tertentu yang dipenuhi. Pada bidang kata kunci, masukkan **Penjualan**, pilih **Berikutnya**.
-
-1. Tinjau pengaturan Anda dan pilih **Kirim**, mungkin perlu waktu satu menit, lalu pilih **Selesai**.  Pencarian akan muncul dalam daftar.  Jika Anda tidak segera melihatnya, pilih **Refresh**
-
-1. Dari jendela Pencarian, pilih pencarian yang Anda buat, **Penangguhan pengujian - Pencarian Penjualan**.  Jendela akan terbuka dengan tab Ringkasan yang dipilih.  Setelah pencarian selesai, status akan menunjukkan bahwa pencarian selesai.  Anda akan melihat tab Statistik pencarian (jika Anda tidak melihat tab Statistik pencarian, pencarian mungkin masih berjalan dan mungkin perlu waktu beberapa menit hingga selesai).  Pilih tab **Statistik pencarian** dan pilih panah menurun di samping Cari konten.  Anda juga dapat melihat informasi selengkapnya untuk Laporan syarat dan Lokasi teratas.  
-
-1. Di bagian bawah laman, pilih **Tindakan**.  Perhatikan opsi yang tersedia yang menyertakan opsi ekspor. Pilih **Tutup.**
-
-1. Tutup semua tab browser yang terbuka.
+1. Keluar dan tutup semua jendela browser yang terbuka.
 
 ### Tinjauan
 
-Di demo ini, Anda telah mempelajari langkah-langkah yang diperlukan untuk memulai eDiscovery (Standar), termasuk menyiapkan izin peran untuk eDiscovery dan membuat kasus eDiscovery.  Dari kasus yang dibuat, Anda telah mempelajari elemen alur kerja eDiscovery (Standar) dengan membuat penangguhan eDiscovery dan membuat kueri pencarian.
+Dalam demo ini, Anda melalui langkah-langkah yang diperlukan untuk mulai menggunakan eDiscovery, termasuk menyiapkan izin peran untuk eDiscovery dan membuat kasus eDiscovery.  Dengan kasus ini, membuat Anda menjelajahi pengaturan untuk membuat pencarian dan mengekspor hasil, menambahkan ke kumpulan tinjauan, dan membuat penangguhan.

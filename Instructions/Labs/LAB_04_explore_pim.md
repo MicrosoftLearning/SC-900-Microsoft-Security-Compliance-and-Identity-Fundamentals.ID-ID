@@ -48,7 +48,7 @@ Dalam tugas ini, Anda, sebagai admin, akan menetapkan peran ID Microsoft Entra d
 
 1. Buka tab browser untuk beranda pusat admin Microsoft Entra.
 
-1. Dari panel navigasi kiri, perluas **IF Governance**, lalu pilih **Privileged Identity Management**.
+1. Dari panel navigasi kiri, perluas **Tata Kelola** ID, lalu pilih **Privileged Identity Management**.
 
 1. Sekarang, Anda berada di laman mulai cepat Privileged Identity Management. Tinjau informasi di laman Memulai. Di jendela utama, di mana tertulis Kelola akses, pilih **Kelola**.
 
