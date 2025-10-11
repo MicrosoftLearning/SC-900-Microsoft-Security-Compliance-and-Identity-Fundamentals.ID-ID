@@ -118,26 +118,25 @@ Tujuannya di sini hanyalah mengakses Microsoft Defender untuk Cloud untuk pertam
 
 ### Microsoft Sentinel
 
-Periksa untuk memastikan bahwa instans Microsoft Azure Sentinel telah dibuat. Jika belum, siapkan sekarang karena Anda akan membutuhkannya sebagai bagian dari demo panduan di Microsoft Sentinel.
+Siapkan ruang kerja Analitik Log dan setelah dibuat, buat instans Microsoft Sentinel dan tambahkan ruang kerja Analitik Log ke dalamnya.
 
 1. Buka tab Beranda - Microsoft Azure di browser Anda.
 
-1. Di kotak pencarian, pada bilah berwarna biru di bagian atas laman di samping bagian yang tertulis Microsoft Azure, masukkan **Microsoft Sentinel**, lalu pilih **Microsoft Sentinel** dari hasil pencarian.
-
-1. Dari laman Microsoft Sentinel, pilih **Buat Microsoft Sentinel**.
-
-1. Dari laman Tambahkan Microsoft Sentinel ke ruang kerja, pilih **Buat ruang kerja baru**.
-
+1. Di kotak pencarian biru di bagian atas halaman, masukkan **Analitik** Log dan pilih dari hasil pencarian.
+1. Pilih **+ Buat.**
 1. Dari tab Dasar di Buat ruang kerja Analitik Log, masukkan berikut ini:
-    1. Langganan: Biarkan diatur ke default.
-    1. Grup sumber daya: pilih **Buat Baru**, lalu masukkan nama **SC900-Sentinel-RG**, lalu pilih **OK**.
-    1. Nama: **SC900-LogAnalytics-workspace**.
+    1. Langganan: biarkan default, ini adalah langganan Azure yang disediakan oleh Authorized Lab Hoster (ALH).
+    1. Grup sumber daya: pilih **SC900-Sentinel-RG**. Jika grup sumber daya ini tidak tercantum, buat dengan memilih Buat baru **, masukkan **SC900-Sentinel-RG**, lalu pilih **OK**.**
+    1. Nama: **SC900-Sentinel-workspace**.
     1. Wilayah: **AS Timur** (Ada wilayah default lain yang mungkin dipilih sesuai lokasi Anda).
     1. Pilih **Tinjau + Buat** (tidak ada tag yang akan dikonfigurasi).
     1. Verifikasi informasi yang Anda masukkan, lalu pilih **Buat**.
-    1. Mungkin perlu waktu satu atau dua menit agar ruang kerja ne terdaftar, jika Anda masih tidak melihatnya, pilih **Refresh**, lalu pilih **Tambahkan**.
-
-1. Setelah ruang kerja baru ditambahkan, laman Microsoft Sentinel | Berita & panduan akan ditampilkan, menunjukkan bahwa uji coba gratis Microsoft Sentinel telah diaktifkan.  Pilih **OK**.
+    1. Mungkin perlu waktu satu atau dua menit agar ruang kerja baru dibuat.
+    1. Setelah dibuat, pilih **Buka sumber daya** untuk melihat informasi tentang ruang kerja.
+1. Pada titik ini, instans Microsoft Sentinel belum dibuat. Untuk membuat instans Sentinel, Anda harus membuka halaman Microsoft Azure Sentinel. Gunakan bilah pencarian biru di bagian atas halaman, untuk **mencari Microsoft Azure Sentinel** dan memilihnya dari hasil pencarian.
+1. Untuk menambahkan ruang kerja ke Microsoft Azure Sentinel, Anda harus masuk ke halaman Microsoft Azure Sentinel. Gunakan bilah pencarian biru di bagian atas halaman, untuk **mencari Microsoft Azure Sentinel**
+    1. Dari halaman Microsoft Azure Sentinel, pilih **+ Buat**.
+    1. Sekarang Anda dapat menambahkan ruang kerja yang baru saja Anda buat. Pilih **SC900-Sentinel-workspace**, lalu pilih **Tambahkan**.  Ini mungkin memakan waktu beberapa menit, karena uji coba gratis Microsoft Sentinel diaktifkan.  Setelah diaktifkan, Anda memilih **Ok**.
 
 ### Tinjauan
 
